@@ -1,0 +1,46 @@
+{
+    "name": "Extract Audio from Video⁺ - Convert MOV/MP4 to Audio",
+    "short_name": "Extract Audio⁺",
+    "description": "Transform videos into high-quality audio instantly! Extract music, lectures, and memorable moments with ease. iOS app for converting MOV and MP4 to audio.",
+    "start_url": "/",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#667eea",
+    "background_color": "#667eea",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "categories": ["utilities", "productivity", "music"],
+    "lang": "en",
+    "dir": "ltr",
+    "prefer_related_applications": false,
+    "related_applications": [
+        {
+            "platform": "ios",
+            "url": "https://apps.apple.com/app/extract-audio-from-video/id6744582065",
+            "id": "6744582065"
+        }
+    ]
+}

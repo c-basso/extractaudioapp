@@ -4,12 +4,4 @@
     <loc>https://extractaudioapp.com/</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://extractaudioapp.com/privacy.html</loc>
-    <priority>0.0</priority>
-  </url>
-  <url>
-    <loc>https://extractaudioapp.com/terms.html</loc>
-    <priority>0.0</priority>
-  </url>
 </urlset> 
