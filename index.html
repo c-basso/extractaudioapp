@@ -3,553 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extract Audio from Video⁺ - Convert MOV/MP4 to Audio | iOS App</title>
-    <meta name="description" content="Transform videos into high-quality audio instantly! Extract music, lectures, and memorable moments with ease. iOS app for converting MOV and MP4 to audio.">
-    <meta name="keywords" content="extract audio from video, video to audio converter, MP4 to audio, MOV to audio, audio extraction, video converter, iOS app, audio converter">
+    <title>Extract Audio from Video on iPhone | Extract Sound from Video – iOS App</title>
+    <meta name="description" content="Extract audio from video on iPhone in seconds. The easiest way to extract sound from video (MP4/MOV) with high quality. Fast, simple, and private.">
+    <meta name="keywords" content="extract audio from video, extract sound from video iPhone, video to audio converter, MP4 to audio, MOV to audio, audio extraction, iOS app, iPhone">
     <meta name="author" content="Vladimir Ivakhnenko">
     <meta name="robots" content="index, follow">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://extractaudioapp.com/">
-    <meta property="og:title" content="Extract Audio from Video⁺ - Convert MOV/MP4 to Audio">
-    <meta property="og:description" content="Transform videos into high-quality audio instantly! Extract music, lectures, and memorable moments with ease.">
+    <meta property="og:title" content="Extract Audio from Video on iPhone – Fast & Simple">
+    <meta property="og:description" content="Extract sound from video on iPhone instantly. Convert MP4/MOV to high‑quality audio.">
     <meta property="og:image" content="https://extractaudioapp.com/logo.webp">
-    
+
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://extractaudioapp.com/">
-    <meta property="twitter:title" content="Extract Audio from Video⁺ - Convert MOV/MP4 to Audio">
-    <meta property="twitter:description" content="Transform videos into high-quality audio instantly! Extract music, lectures, and memorable moments with ease.">
+    <meta property="twitter:title" content="Extract Audio from Video on iPhone">
+    <meta property="twitter:description" content="The easiest way to extract sound from video on iPhone.">
     <meta property="twitter:image" content="https://extractaudioapp.com/logo.webp">
-    
+
     <!-- App Store Meta -->
     <meta name="apple-itunes-app" content="app-id=6744582065">
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://extractaudioapp.com/">
-    
-    <!-- Web App Manifest -->
-    <link rel="manifest" href="site.webmanifest">
-    
-    <!-- Favicons and Icons -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
 
-    <link rel="preload" as="image" href="bg.webp" fetchpriority="high">
-    <link rel="preload" as="image" href="logo.webp" fetchpriority="high">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <link rel="alternate" hreflang="ru" href="https://extractaudioapp.com/ru/" />
+    <link rel="alternate" hreflang="en" href="https://extractaudioapp.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://extractaudioapp.com/" />
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-            min-height: 100vh;
-            position: relative;
-            overflow-x: hidden;
-        }
+    <link rel="manifest" href="/site.webmanifest">
 
-        /* Animated background elements */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: 
-                radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
-                radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
-            animation: float 20s ease-in-out infinite;
-            z-index: -1;
-        }
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            33% { transform: translateY(-20px) rotate(1deg); }
-            66% { transform: translateY(10px) rotate(-1deg); }
-        }
+    <link rel="preload" as="image" href="/bg.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="/logo.webp" fetchpriority="high">
 
-
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Hero Section */
-        .hero {
-            text-align: center;
-            padding: 80px 0;
-            color: white;
-            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('bg.webp');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            position: relative;
-        }
-
-        .logo {
-            margin-bottom: 20px;
-        }
-
-        .logo img {
-            height: 120px;
-            width: auto;
-            border-radius: 20px;
-            filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
-        }
-
-        .hero h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 8px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .hero h2 {
-            font-size: 1.4rem;
-            font-weight: 600;
-            margin-bottom: 30px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .hero .subheadline {
-            font-size: 1.2rem;
-            margin-bottom: 40px;
-            color: rgba(255, 255, 255, 0.9);
-            font-style: italic;
-        }
-
-        .app-store-btn {
-            display: inline-block;
-            margin-bottom: 40px;
-            transition: transform 0.3s ease;
-        }
-
-        .app-store-btn:hover {
-            transform: translateY(-3px) scale(1.05);
-            filter: brightness(1.1);
-        }
-
-        .app-store-btn img {
-            height: 50px;
-            width: auto;
-        }
-
-        /* Mobile App Store Button */
-        @media (max-width: 768px) {
-            .app-store-btn img {
-                height: 60px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .app-store-btn img {
-                height: 70px;
-            }
-        }
-
-        .phone-mockup {
-            width: 300px;
-            height: 600px;
-            background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
-            border-radius: 30px;
-            margin: 0 auto;
-            position: relative;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-            border: 8px solid #333;
-            display: none;
-        }
-
-        .phone-screen {
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-            border-radius: 22px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.2rem;
-            text-align: center;
-            padding: 20px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .phone-screen::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: 
-                radial-gradient(circle at 30% 70%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
-            animation: phone-glow 8s ease-in-out infinite;
-        }
-
-        @keyframes phone-glow {
-            0%, 100% { opacity: 0.3; }
-            50% { opacity: 0.8; }
-        }
-
-        /* Features Section */
-        .features {
-            background: white;
-            padding: 80px 0;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 60px;
-            color: #333;
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            margin-top: 40px;
-        }
-
-        .feature-card {
-            text-align: center;
-            padding: 30px;
-            border-radius: 15px;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: all 0.3s ease;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-        }
-
-        .feature-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-            background: rgba(255, 255, 255, 1);
-        }
-
-        .feature-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-
-        .feature-card h3 {
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            color: #333;
-        }
-
-        .feature-card p {
-            color: #666;
-            line-height: 1.6;
-        }
-
-        /* Demo Section */
-        .demo {
-            background: #f8f9fa;
-            padding: 80px 0;
-            text-align: center;
-            display: none;
-        }
-
-        .demo-video {
-            width: 100%;
-            max-width: 600px;
-            height: 400px;
-            background: #ddd;
-            border-radius: 15px;
-            margin: 40px auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.2rem;
-            color: #666;
-        }
-
-        /* Testimonials */
-        .testimonials {
-            background: white;
-            padding: 80px 0;
-        }
-
-        .rating {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .stars {
-            font-size: 2rem;
-            margin-bottom: 10px;
-            letter-spacing: 10px;
-        }
-
-        .rating-text {
-            font-size: 1.2rem;
-            color: #666;
-        }
-
-        .testimonial-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-
-        .testimonial-card {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-        }
-
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-        }
-
-        .testimonial-text {
-            font-style: italic;
-            margin-bottom: 20px;
-            color: #555;
-        }
-
-        .testimonial-author {
-            font-weight: 600;
-            color: #333;
-        }
-
-        /* FAQ Section */
-        .faq {
-            background: #f8f9fa;
-            padding: 80px 0;
-        }
-
-        .faq-item {
-            background: white;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .faq-question {
-            padding: 20px;
-            background: white;
-            cursor: pointer;
-            font-weight: 600;
-            border-bottom: 1px solid #eee;
-        }
-
-        .faq-answer {
-            padding: 20px;
-            background: #f8f9fa;
-            display: none;
-        }
-
-        .faq-answer.active {
-            display: block;
-        }
-
-        /* Footer */
-        .footer {
-            background: #333;
-            color: white;
-            padding: 40px 0;
-            text-align: center;
-        }
-
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .footer-links a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            opacity: 0.8;
-            transition: opacity 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            opacity: 1;
-        }
-
-        .footer-cta {
-            display: inline-block;
-            background: #007AFF;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
-        }
-
-        .footer-cta:hover {
-            background: #0056CC;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0, 122, 255, 0.4);
-        }
-
-        /* Floating CTA */
-        .floating-cta {
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #007AFF;
-            color: white;
-            padding: 15px 25px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            box-shadow: 0 8px 25px rgba(0, 122, 255, 0.4);
-            z-index: 1000;
-            transition: all 0.3s ease;
-            opacity: 0;
-            visibility: hidden;
-        }
-
-        .floating-cta:hover {
-            background: #0056CC;
-            transform: translateX(-50%) translateY(-2px);
-            box-shadow: 0 10px 30px rgba(0, 122, 255, 0.5);
-        }
-
-        .floating-cta.show {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        @media (max-width: 768px) {
-            .floating-cta {
-                bottom: 15px;
-                padding: 15px 25px;
-                font-size: 1rem;
-                white-space: nowrap;
-                max-width: 90vw;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .floating-cta {
-                bottom: 10px;
-                padding: 12px 20px;
-                font-size: 0.95rem;
-                white-space: nowrap;
-                max-width: 95vw;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-                line-height: 1.2;
-            }
-
-            .hero h2 {
-                font-size: 1.2rem;
-                line-height: 1.3;
-            }
-
-            .hero .subheadline {
-                font-size: 1.1rem;
-                line-height: 1.4;
-            }
-
-            .phone-mockup {
-                width: 250px;
-                height: 500px;
-            }
-
-            .features-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .footer-content {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .footer-cta {
-                font-size: 1rem;
-                padding: 15px 25px;
-                white-space: normal;
-                text-align: center;
-                min-width: 250px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 1.8rem;
-            }
-
-            .hero h2 {
-                font-size: 1.1rem;
-            }
-
-            .hero .subheadline {
-                font-size: 1rem;
-            }
-
-            .footer-cta {
-                font-size: 0.95rem;
-                padding: 12px 20px;
-            }
-        }
-    </style>
-
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <div class="logo">
-                <img src="logo.webp" alt="Extract Audio from Video⁺ Logo">
-            </div>
-            <h1>Extract Audio from Video</h1>
-            <h2>Best Video to Audio Converter for iPhone</h2>
-            <p class="subheadline">Transform videos into high-quality audio instantly!<br>iOS app for extracting music, lectures, and memorable moments.</p>
-            <a href="https://apps.apple.com/app/id6744582065" class="app-store-btn" rel="nofollow">
-                <img src="download.svg" alt="Download on the App Store">
+            <a href="https://apps.apple.com/app/id6744582065" rel="nofollow">
+                <div class="logo">
+                    <img src="/logo.webp" alt="Extract Audio from Video⁺ Logo">
+                </div>
             </a>
-            <div class="phone-mockup">
+            <h1>Extract Audio from Video on iPhone</h1>
+            <h2>Extract sound from video in seconds</h2>
+            <p class="subheadline">Convert MP4/MOV to high‑quality audio. Fast, private, and easy to use on iPhone.</p>
+            <a href="https://apps.apple.com/app/id6744582065" class="app-store-btn" rel="nofollow">
+                <img src="/download.svg" alt="Download on the App Store">
+            </a>
+            <div class="phone-mockup" style="display: none;">
                 <div class="phone-screen">
                     Tap to convert video to audio
                 </div>
@@ -596,11 +108,38 @@
         </div>
     </section>
 
-    <!-- Demo Section -->
-    <section class="demo">
+    <!-- SEO Chapter -->
+    <section class="seo-chapter">
         <div class="container">
-            <h2 class="section-title">How to Extract Audio from Video</h2>
-            <p style="font-size: 1.2rem; color: #666; margin-bottom: 40px;">Simple steps to convert your videos to high-quality audio</p>
+            <h2 class="section-title">Extract Audio from Video on iPhone</h2>
+            <p class="subheadline">The easiest way to extract sound from video on iPhone</p>
+            <p>Need to extract audio from video? With Extract Audio from Video⁺, you can quickly turn any MP4 or MOV into a high‑quality audio file right on your iPhone—perfect for music, lectures, voiceovers, and more.</p>
+            <div class="seo-sections">
+                <div class="seo-section">
+                    <h3>How to extract audio from video</h3>
+                    <p>Open the app, select your video, adjust the start and end if needed, and tap Save as Audio. You can also use the Share button in Photos or Files and choose Extract Audio from Video⁺ to convert instantly.</p>
+                </div>
+                <div class="seo-section">
+                    <h3>Why choose Extract Audio from Video⁺</h3>
+                    <p>It’s fast, private, and designed for iPhone. Enjoy clean trimming tools, excellent output quality, and seamless sharing to your favorite apps.</p>
+                </div>
+            </div>
+            <h3>Popular ways people use it</h3>
+            <ul>
+                <li>Save a song or soundtrack from a video</li>
+                <li>Capture lectures and meetings as audio</li>
+                <li>Create podcast clips or voice notes</li>
+                <li>Extract sound from video on iPhone for remixing</li>
+            </ul>
+            <p>Ready to extract audio from video on iPhone? Download the app and convert your first clip in seconds.</p>
+        </div>
+    </section>
+
+    <!-- Demo Section (hidden) -->
+    <section class="demo" style="display:none;">
+        <div class="container">
+            <h2 class="section-title">How to Extract Audio from Video on iPhone</h2>
+            <p style="font-size: 1.2rem; color: #666; margin-bottom: 40px;">Simple steps to extract sound from video with high quality</p>
             <div class="demo-video">
                 <div>
                     <p>📱 Demo Video Coming Soon</p>
@@ -637,18 +176,18 @@
     <!-- FAQ Section -->
     <section class="faq">
         <div class="container">
-            <h2 class="section-title">Video to Audio Converter FAQ</h2>
+            <h2 class="section-title">Extract Audio from Video – FAQ</h2>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">How do I extract sound from a video on iPhone?</div>
+                <div class="faq-answer">Open Extract Audio from Video⁺, choose a video, trim if needed, then save as audio. You can also use the Share button in Photos or Files and pick the app to extract audio instantly.</div>
+            </div>
             <div class="faq-item">
                 <div class="faq-question" onclick="toggleFAQ(this)">What video formats can I convert to audio?</div>
-                <div class="faq-answer">Extract Audio from Video⁺ supports all video formats that your iOS device can play. If your video works on your iPhone or iPad, you can extract audio from it with this app.</div>
+                <div class="faq-answer">If your video plays on your iPhone (MP4, MOV, HEVC, and more), you can extract audio from it with the app.</div>
             </div>
             <div class="faq-item">
-                <div class="faq-question" onclick="toggleFAQ(this)">How does the built-in shortcut support work?</div>
-                <div class="faq-answer">Use the Share button in your Photos or Files app to send a video directly to Extract Audio from Video⁺. The app opens and creates a new project instantly, so you can extract audio without any extra steps.</div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFAQ(this)">What can I use this video to audio converter for?</div>
-                <div class="faq-answer">Perfect for saving music from videos, capturing audio from lectures or meetings, creating voice clips or podcast snippets, and converting video memories into audio keepsakes.</div>
+                <div class="faq-question" onclick="toggleFAQ(this)">Is the audio quality good?</div>
+                <div class="faq-answer">Yes. The app produces clear, high‑quality audio and lets you trim precisely so you only keep what you need.</div>
             </div>
         </div>
     </section>
@@ -679,121 +218,30 @@
         📱 Download Video to Audio Converter
     </a>
 
-    <!-- Structured Data for App -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "Extract Audio from Video⁺",
-        "description": "Transform videos into high-quality audio instantly! Extract music, lectures, and memorable moments with ease.",
-        "applicationCategory": "MusicApplication",
-        "operatingSystem": "iOS",
-        "operatingSystemVersion": "16.7",
-        "offers": {
-            "@type": "Offer",
-            "availability": "https://schema.org/InStock"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4",
-            "ratingCount": "1000",
-            "bestRating": "5",
-            "worstRating": "1"
-        },
-        "author": {
-            "@type": "Person",
-            "name": "Vladimir Ivakhnenko"
-        },
-        "downloadUrl": "https://apps.apple.com/app/id6744582065",
-        "screenshot": "logo.webp",
-        "featureList": [
-            "Fast Video-to-Audio Conversion",
-            "Smart Trimming Tools", 
-            "Automatic Saving",
-            "Easy Sharing",
-            "Intuitive and Clean Interface",
-            "Exceptional Audio Output"
-        ]
-    }
-    </script>
-
     <script>
         function toggleFAQ(element) {
             const answer = element.nextElementSibling;
             const isActive = answer.classList.contains('active');
-            
-            // Close all FAQ answers
-            document.querySelectorAll('.faq-answer').forEach(item => {
-                item.classList.remove('active');
-            });
-            
-            // Open clicked answer if it wasn't active
-            if (!isActive) {
-                answer.classList.add('active');
-            }
+            document.querySelectorAll('.faq-answer').forEach(item => { item.classList.remove('active'); });
+            if (!isActive) { answer.classList.add('active'); }
         }
 
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
-        // Floating CTA functionality
         const floatingCta = document.querySelector('.floating-cta');
         const appStoreBtn = document.querySelector('.app-store-btn');
         const footerCta = document.querySelector('.footer-cta');
-        
         function checkScroll() {
             if (appStoreBtn) {
                 const appStoreRect = appStoreBtn.getBoundingClientRect();
                 const footerRect = footerCta ? footerCta.getBoundingClientRect() : null;
-                
                 const appStoreVisible = appStoreRect.top < window.innerHeight && appStoreRect.bottom > 0;
                 const footerVisible = footerRect ? (footerRect.top < window.innerHeight && footerRect.bottom > 0) : false;
-                
-                // Show floating CTA only when both App Store button and footer CTA are not visible
-                if (!appStoreVisible && !footerVisible) {
-                    floatingCta.classList.add('show');
-                } else {
-                    floatingCta.classList.remove('show');
-                }
+                if (!appStoreVisible && !footerVisible) { floatingCta.classList.add('show'); } else { floatingCta.classList.remove('show'); }
             }
         }
-        
-        // Check scroll position on scroll and resize
         window.addEventListener('scroll', checkScroll);
         window.addEventListener('resize', checkScroll);
-        
-        // Initial check
         checkScroll();
     </script>
-
-
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-    m[i].l=1*new Date();
-    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
- 
-    ym(103201708, "init", {
-         clickmap:true,
-         trackLinks:true,
-         accurateTrackBounce:true
-    });
- </script>
- <noscript><div><img src="https://mc.yandex.ru/watch/103201708" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
- <!-- /Yandex.Metrika counter -->
-
 </body>
 </html>
+
