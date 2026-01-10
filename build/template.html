@@ -43,7 +43,7 @@
     <link rel="preload" as="image" href="/bg.webp" fetchpriority="high">
     <link rel="preload" as="image" href="/logo.webp" fetchpriority="high">
 
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css?v={{meta.version}}">
 </head>
 <body>
 
@@ -58,9 +58,13 @@
             <h1>{{hero.title}}</h1>
             <h2>{{hero.subtitle}}</h2>
             <p class="subheadline">{{hero.subheadline}}</p>
-            <a href="{{hero.cta_url}}" class="app-store-btn" rel="nofollow">
+            <a href="{{hero.cta_url}}" class="app-store-btn app-store-btn-mobile" rel="nofollow">
                 <img src="/download.svg" alt="{{hero.download_alt}}">
             </a>
+            <div class="app-store-btn-desktop">
+                <img src="/qr.gif" alt="{{hero.qr_alt}}" class="qr-code">
+                <p class="qr-text">{{hero.qr_text}}</p>
+            </div>
             <div class="phone-mockup" style="display: none;">
                 <div class="phone-screen">
                     {{hero.phone_text}}
@@ -227,20 +231,36 @@
         }
 
         const floatingCta = document.querySelector('.floating-cta');
-        const appStoreBtn = document.querySelector('.app-store-btn');
+        const heroSection = document.querySelector('.hero');
         const footerCta = document.querySelector('.footer-cta');
         function checkScroll() {
-            if (appStoreBtn) {
-                const appStoreRect = appStoreBtn.getBoundingClientRect();
+            if (heroSection) {
+                const heroRect = heroSection.getBoundingClientRect();
                 const footerRect = footerCta ? footerCta.getBoundingClientRect() : null;
-                const appStoreVisible = appStoreRect.top < window.innerHeight && appStoreRect.bottom > 0;
+                const heroVisible = heroRect.top < window.innerHeight && heroRect.bottom > 0;
                 const footerVisible = footerRect ? (footerRect.top < window.innerHeight && footerRect.bottom > 0) : false;
-                if (!appStoreVisible && !footerVisible) { floatingCta.classList.add('show'); } else { floatingCta.classList.remove('show'); }
+                if (!heroVisible && !footerVisible) { floatingCta.classList.add('show'); } else { floatingCta.classList.remove('show'); }
             }
         }
         window.addEventListener('scroll', checkScroll);
         window.addEventListener('resize', checkScroll);
         checkScroll();
+
+        // Make hero section clickable
+        if (heroSection) {
+            const ctaLink = heroSection.querySelector('a[href]');
+            if (ctaLink) {
+                const ctaUrl = ctaLink.getAttribute('href');
+                heroSection.style.cursor = 'pointer';
+                heroSection.addEventListener('click', function(e) {
+                    // Don't trigger if clicking on a link or button
+                    if (e.target.closest('a') || e.target.closest('button')) {
+                        return;
+                    }
+                    window.open(ctaUrl, '_blank');
+                });
+            }
+        }
     </script>
 
 

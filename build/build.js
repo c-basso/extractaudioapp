@@ -20,6 +20,13 @@ const languages = ['en', 'ru'];
             const template = fs.readFileSync(templatePath, 'utf8');
             const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
             
+            // Add build timestamp for cache busting
+            const buildTimestamp = Date.now();
+            if (!data.meta) {
+                data.meta = {};
+            }
+            data.meta.version = buildTimestamp;
+            
             // Function to replace variables in template
             function replaceVariables(template, data) {
                 return template.replace(/\{\{([^}]+)\}\}/g, (match, key) => {

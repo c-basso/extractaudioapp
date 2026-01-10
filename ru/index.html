@@ -43,7 +43,7 @@
     <link rel="preload" as="image" href="/bg.webp" fetchpriority="high">
     <link rel="preload" as="image" href="/logo.webp" fetchpriority="high">
 
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css?v=1768067655110">
 </head>
 <body>
 
@@ -55,12 +55,16 @@
                     <img src="/logo.webp" alt="Логотип Извлечь аудио из видео⁺">
                 </div>
             </a>
-            <h1>Извлечь аудио из видео на iPhone</h1>
-            <h2>Извлечь звук из видео за секунды</h2>
+            <h1>Как на айфоне извлечь аудио из видео</h1>
+            <h2>Извлечь аудио из видео бесплатно</h2>
             <p class="subheadline">Преобразуйте MP4/MOV в высококачественное аудио. Быстро, приватно и удобно на iPhone.</p>
-            <a href="https://apps.apple.com/app/id6744582065" class="app-store-btn" rel="nofollow">
+            <a href="https://apps.apple.com/app/id6744582065" class="app-store-btn app-store-btn-mobile" rel="nofollow">
                 <img src="/download.svg" alt="Загрузить в App Store">
             </a>
+            <div class="app-store-btn-desktop">
+                <img src="/qr.gif" alt="QR-код для скачивания приложения" class="qr-code">
+                <p class="qr-text">Отсканируйте телефоном, чтобы скачать</p>
+            </div>
             <div class="phone-mockup" style="display: none;">
                 <div class="phone-screen">
                     Нажмите, чтобы конвертировать видео в аудио
@@ -227,20 +231,36 @@
         }
 
         const floatingCta = document.querySelector('.floating-cta');
-        const appStoreBtn = document.querySelector('.app-store-btn');
+        const heroSection = document.querySelector('.hero');
         const footerCta = document.querySelector('.footer-cta');
         function checkScroll() {
-            if (appStoreBtn) {
-                const appStoreRect = appStoreBtn.getBoundingClientRect();
+            if (heroSection) {
+                const heroRect = heroSection.getBoundingClientRect();
                 const footerRect = footerCta ? footerCta.getBoundingClientRect() : null;
-                const appStoreVisible = appStoreRect.top < window.innerHeight && appStoreRect.bottom > 0;
+                const heroVisible = heroRect.top < window.innerHeight && heroRect.bottom > 0;
                 const footerVisible = footerRect ? (footerRect.top < window.innerHeight && footerRect.bottom > 0) : false;
-                if (!appStoreVisible && !footerVisible) { floatingCta.classList.add('show'); } else { floatingCta.classList.remove('show'); }
+                if (!heroVisible && !footerVisible) { floatingCta.classList.add('show'); } else { floatingCta.classList.remove('show'); }
             }
         }
         window.addEventListener('scroll', checkScroll);
         window.addEventListener('resize', checkScroll);
         checkScroll();
+
+        // Make hero section clickable
+        if (heroSection) {
+            const ctaLink = heroSection.querySelector('a[href]');
+            if (ctaLink) {
+                const ctaUrl = ctaLink.getAttribute('href');
+                heroSection.style.cursor = 'pointer';
+                heroSection.addEventListener('click', function(e) {
+                    // Don't trigger if clicking on a link or button
+                    if (e.target.closest('a') || e.target.closest('button')) {
+                        return;
+                    }
+                    window.open(ctaUrl, '_blank');
+                });
+            }
+        }
     </script>
 
 

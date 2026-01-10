@@ -104,10 +104,52 @@ body::before {
     width: auto;
 }
 
+/* Desktop QR Code */
+.app-store-btn-desktop {
+    display: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.app-store-btn-desktop .qr-code {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.app-store-btn-desktop .qr-text {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1rem;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
 /* Mobile App Store Button */
 @media (max-width: 768px) {
+    .app-store-btn-mobile {
+        display: inline-block;
+    }
+    
+    .app-store-btn-desktop {
+        display: none !important;
+    }
+    
     .app-store-btn img {
         height: 60px;
+    }
+}
+
+@media (min-width: 769px) {
+    .app-store-btn-mobile {
+        display: none !important;
+    }
+    
+    .app-store-btn-desktop {
+        display: block;
     }
 }
 
