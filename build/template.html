@@ -251,7 +251,6 @@
             const ctaLink = heroSection.querySelector('a[href]');
             if (ctaLink) {
                 const ctaUrl = ctaLink.getAttribute('href');
-                heroSection.style.cursor = 'pointer';
                 heroSection.addEventListener('click', function(e) {
                     // Don't trigger if clicking on a link or button
                     if (e.target.closest('a') || e.target.closest('button')) {

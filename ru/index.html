@@ -43,7 +43,7 @@
     <link rel="preload" as="image" href="/bg.webp" fetchpriority="high">
     <link rel="preload" as="image" href="/logo.webp" fetchpriority="high">
 
-    <link rel="stylesheet" href="/style.css?v=1768067655110">
+    <link rel="stylesheet" href="/style.css?v=1768068012567">
 </head>
 <body>
 
@@ -251,7 +251,6 @@
             const ctaLink = heroSection.querySelector('a[href]');
             if (ctaLink) {
                 const ctaUrl = ctaLink.getAttribute('href');
-                heroSection.style.cursor = 'pointer';
                 heroSection.addEventListener('click', function(e) {
                     // Don't trigger if clicking on a link or button
                     if (e.target.closest('a') || e.target.closest('button')) {
