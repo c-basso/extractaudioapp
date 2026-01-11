@@ -35,6 +35,12 @@ const languages = [
             }
             data.meta.version = buildTimestamp;
             
+            // Replace {year} placeholder in footer.copyright with current year
+            const currentYear = new Date().getFullYear();
+            if (data.footer && data.footer.copyright) {
+                data.footer.copyright = data.footer.copyright.replace(/\{year\}/g, currentYear.toString());
+            }
+            
             // Function to replace variables in template
             function replaceVariables(template, data) {
                 return template.replace(/\{\{([^}]+)\}\}/g, (match, key) => {
