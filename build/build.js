@@ -1,7 +1,15 @@
 const fs = require('fs');
 const path = require('path');
 
-const languages = ['en', 'ru'];
+const languages = [
+    'en',
+    'ru',
+    'es',
+    'fr',
+    'de',
+    'it',
+    'pt'
+];
 
 (function() {
     for (const lang of languages) {
