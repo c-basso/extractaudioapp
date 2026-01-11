@@ -1,6 +1,6 @@
 {
     "name": "Extract Audio from Video⁺ - Convert MOV/MP4 to Audio",
-    "short_name": "Extract Audio⁺",
+    "short_name": "Audio Extractor",
     "description": "Transform videos into high-quality audio instantly! Extract music, lectures, and memorable moments with ease. iOS app for converting MOV and MP4 to audio.",
     "start_url": "/",
     "scope": "/",
@@ -39,7 +39,7 @@
     "related_applications": [
         {
             "platform": "ios",
-            "url": "https://apps.apple.com/app/extract-audio-from-video/id6744582065",
+            "url": "https://apps.apple.com/app/id6744582065",
             "id": "6744582065"
         }
     ]
