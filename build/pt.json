@@ -15,13 +15,6 @@
     "twitter_image": "https://extractaudioapp.com/extractaudioapp.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/pt/",
-    "alternate_en": "https://extractaudioapp.com/",
-    "alternate_ru": "https://extractaudioapp.com/ru/",
-    "alternate_es": "https://extractaudioapp.com/es/",
-    "alternate_fr": "https://extractaudioapp.com/fr/",
-    "alternate_de": "https://extractaudioapp.com/de/",
-    "alternate_it": "https://extractaudioapp.com/it/",
-    "alternate_pt": "https://extractaudioapp.com/pt/",
     "alternate_default": "https://extractaudioapp.com/",
     "alternate_languages": [
       { "lang": "en", "url": "https://extractaudioapp.com/" },
@@ -116,9 +109,7 @@
       "Extrair áudio de vídeo para criar clipes de podcast ou notas de voz - criadores de conteúdo extraem som de vídeo diariamente",
       "Extrair som de vídeo no iPhone para remixar e editar - músicos e produtores extraem áudio de vídeo para projetos criativos"
     ],
-    "conclusion": "Agora você sabe exatamente como extrair áudio de vídeo no iPhone! Extrair Áudio de Vídeo⁺ é o melhor app gratuito iPhone para extrair áudio de vídeo instantaneamente. Se você precisa extrair som de vídeo, converter vídeo para MP3, ou extrair áudio de vídeo no iPhone por qualquer motivo, baixe o app e extraia áudio de vídeo em segundos. Comece a extrair áudio de vídeo hoje - é completamente grátis!",
-    "cta_text": "Baixar App Gratuito para Extrair Áudio de Vídeo",
-    "cta_url": "https://apps.apple.com/app/id6744582065"
+    "conclusion": "Agora você sabe exatamente como extrair áudio de vídeo no iPhone! Extrair Áudio de Vídeo⁺ é o melhor app gratuito iPhone para extrair áudio de vídeo instantaneamente. Se você precisa extrair som de vídeo, converter vídeo para MP3, ou extrair áudio de vídeo no iPhone por qualquer motivo, baixe o app e extraia áudio de vídeo em segundos. Comece a extrair áudio de vídeo hoje - é completamente grátis!"
   },
   "app_info": {
     "name": "Extract Audio from Video⁺",

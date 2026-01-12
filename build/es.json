@@ -15,13 +15,6 @@
     "twitter_image": "https://extractaudioapp.com/extractaudioapp.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/es/",
-    "alternate_en": "https://extractaudioapp.com/",
-    "alternate_ru": "https://extractaudioapp.com/ru/",
-    "alternate_es": "https://extractaudioapp.com/es/",
-    "alternate_fr": "https://extractaudioapp.com/fr/",
-    "alternate_de": "https://extractaudioapp.com/de/",
-    "alternate_it": "https://extractaudioapp.com/it/",
-    "alternate_pt": "https://extractaudioapp.com/pt/",
     "alternate_default": "https://extractaudioapp.com/",
     "alternate_languages": [
       { "lang": "en", "url": "https://extractaudioapp.com/" },
@@ -116,9 +109,7 @@
       "Extraer audio de video para crear clips de podcast o notas de voz - los creadores de contenido extraen sonido de video diariamente",
       "Extraer sonido de video en iPhone para remezclar y editar - músicos y productores extraen audio de video para proyectos creativos"
     ],
-    "conclusion": "¡Ahora sabes exactamente cómo extraer audio de video en iPhone! Extraer Audio de Video⁺ es la mejor aplicación gratuita iPhone para extraer audio de video al instante. Ya sea que necesites extraer sonido de video, convertir video a MP3, o extraer audio de video en iPhone por cualquier razón, descarga la aplicación y extrae audio de video en segundos. ¡Comienza a extraer audio de video hoy - es completamente gratis!",
-    "cta_text": "Descargar Aplicación Gratis para Extraer Audio de Video",
-    "cta_url": "https://apps.apple.com/app/id6744582065"
+    "conclusion": "¡Ahora sabes exactamente cómo extraer audio de video en iPhone! Extraer Audio de Video⁺ es la mejor aplicación gratuita iPhone para extraer audio de video al instante. Ya sea que necesites extraer sonido de video, convertir video a MP3, o extraer audio de video en iPhone por cualquier razón, descarga la aplicación y extrae audio de video en segundos. ¡Comienza a extraer audio de video hoy - es completamente gratis!"
   },
   "app_info": {
     "name": "Extract Audio from Video⁺",

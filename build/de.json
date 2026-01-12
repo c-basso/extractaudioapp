@@ -15,13 +15,6 @@
     "twitter_image": "https://extractaudioapp.com/extractaudioapp.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/de/",
-    "alternate_en": "https://extractaudioapp.com/",
-    "alternate_ru": "https://extractaudioapp.com/ru/",
-    "alternate_es": "https://extractaudioapp.com/es/",
-    "alternate_fr": "https://extractaudioapp.com/fr/",
-    "alternate_de": "https://extractaudioapp.com/de/",
-    "alternate_it": "https://extractaudioapp.com/it/",
-    "alternate_pt": "https://extractaudioapp.com/pt/",
     "alternate_default": "https://extractaudioapp.com/",
     "alternate_languages": [
       { "lang": "en", "url": "https://extractaudioapp.com/" },
@@ -116,9 +109,7 @@
       "Audio aus Video extrahieren, um Podcast-Clips oder Sprachnotizen zu erstellen - Content-Ersteller extrahieren täglich Ton aus Video",
       "Ton aus Video auf iPhone extrahieren zum Remixen und Bearbeiten - Musiker und Produzenten extrahieren Audio aus Video für kreative Projekte"
     ],
-    "conclusion": "Jetzt wissen Sie genau, wie Sie Audio aus Video auf iPhone extrahieren! Audio aus Video⁺ extrahieren ist die beste kostenlose iPhone App zum sofortigen Extrahieren von Audio aus Video. Ob Sie Ton aus Video extrahieren, Video in MP3 konvertieren oder Audio aus Video auf iPhone aus irgendeinem Grund extrahieren müssen, laden Sie die App herunter und extrahieren Sie Audio aus Video in Sekunden. Beginnen Sie noch heute mit dem Extrahieren von Audio aus Video - es ist völlig kostenlos!",
-    "cta_text": "Kostenlose App zum Extrahieren von Audio aus Video herunterladen",
-    "cta_url": "https://apps.apple.com/app/id6744582065"
+    "conclusion": "Jetzt wissen Sie genau, wie Sie Audio aus Video auf iPhone extrahieren! Audio aus Video⁺ extrahieren ist die beste kostenlose iPhone App zum sofortigen Extrahieren von Audio aus Video. Ob Sie Ton aus Video extrahieren, Video in MP3 konvertieren oder Audio aus Video auf iPhone aus irgendeinem Grund extrahieren müssen, laden Sie die App herunter und extrahieren Sie Audio aus Video in Sekunden. Beginnen Sie noch heute mit dem Extrahieren von Audio aus Video - es ist völlig kostenlos!"
   },
   "app_info": {
     "name": "Extract Audio from Video⁺",

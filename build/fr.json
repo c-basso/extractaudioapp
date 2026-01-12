@@ -15,13 +15,6 @@
     "twitter_image": "https://extractaudioapp.com/extractaudioapp.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/fr/",
-    "alternate_en": "https://extractaudioapp.com/",
-    "alternate_ru": "https://extractaudioapp.com/ru/",
-    "alternate_es": "https://extractaudioapp.com/es/",
-    "alternate_fr": "https://extractaudioapp.com/fr/",
-    "alternate_de": "https://extractaudioapp.com/de/",
-    "alternate_it": "https://extractaudioapp.com/it/",
-    "alternate_pt": "https://extractaudioapp.com/pt/",
     "alternate_default": "https://extractaudioapp.com/",
     "alternate_languages": [
       { "lang": "en", "url": "https://extractaudioapp.com/" },
@@ -116,9 +109,7 @@
       "Extraire l'audio d'une vidéo pour créer des clips de podcast ou notes vocales - les créateurs de contenu extraient le son d'une vidéo quotidiennement",
       "Extraire le son d'une vidéo sur iPhone pour remixer et éditer - les musiciens et producteurs extraient l'audio d'une vidéo pour des projets créatifs"
     ],
-    "conclusion": "Maintenant vous savez exactement comment extraire l'audio d'une vidéo sur iPhone ! Extraire l'Audio d'une Vidéo⁺ est la meilleure application gratuite iPhone pour extraire l'audio d'une vidéo instantanément. Que vous ayez besoin d'extraire le son d'une vidéo, de convertir une vidéo en MP3, ou d'extraire l'audio d'une vidéo sur iPhone pour n'importe quelle raison, téléchargez l'application et extrayez l'audio d'une vidéo en quelques secondes. Commencez à extraire l'audio d'une vidéo aujourd'hui - c'est complètement gratuit !",
-    "cta_text": "Télécharger l'Application Gratuite pour Extraire l'Audio d'une Vidéo",
-    "cta_url": "https://apps.apple.com/app/id6744582065"
+    "conclusion": "Maintenant vous savez exactement comment extraire l'audio d'une vidéo sur iPhone ! Extraire l'Audio d'une Vidéo⁺ est la meilleure application gratuite iPhone pour extraire l'audio d'une vidéo instantanément. Que vous ayez besoin d'extraire le son d'une vidéo, de convertir une vidéo en MP3, ou d'extraire l'audio d'une vidéo sur iPhone pour n'importe quelle raison, téléchargez l'application et extrayez l'audio d'une vidéo en quelques secondes. Commencez à extraire l'audio d'une vidéo aujourd'hui - c'est complètement gratuit !"
   },
   "app_info": {
     "name": "Extract Audio from Video⁺",

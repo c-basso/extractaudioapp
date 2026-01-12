@@ -15,13 +15,6 @@
     "twitter_image": "https://extractaudioapp.com/extractaudioapp.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/ru/",
-    "alternate_en": "https://extractaudioapp.com/",
-    "alternate_ru": "https://extractaudioapp.com/ru/",
-    "alternate_es": "https://extractaudioapp.com/es/",
-    "alternate_fr": "https://extractaudioapp.com/fr/",
-    "alternate_de": "https://extractaudioapp.com/de/",
-    "alternate_it": "https://extractaudioapp.com/it/",
-    "alternate_pt": "https://extractaudioapp.com/pt/",
     "alternate_default": "https://extractaudioapp.com/",
     "alternate_languages": [
       { "lang": "en", "url": "https://extractaudioapp.com/" },
@@ -116,9 +109,7 @@
       "Создавать подкаст‑клипы или голосовые заметки",
       "Извлечь звук из видео на iPhone для ремиксов"
     ],
-    "conclusion": "Готовы извлечь аудио из видео на iPhone? Скачайте приложение и конвертируйте первый клип за секунды.",
-    "cta_text": "Скачать, чтобы извлечь звук из видео",
-    "cta_url": "https://apps.apple.com/app/id6744582065"
+    "conclusion": "Готовы извлечь аудио из видео на iPhone? Скачайте приложение и конвертируйте первый клип за секунды."
   },
   "app_info": {
     "name": "Extract Audio from Video⁺",
