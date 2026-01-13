@@ -3,6 +3,7 @@
   "scripts": {
     "build": "node build/build.js",
     "start": "npx http-server",
-    "index:list": "npx indexnow-submit sitemap-fetch https://yoomoney.ru/sitemap_0.xml --output urls.txt"
+    "index:list": "cat urls.txt",
+    "index:now": "npx indexnow-submit submit-urls urls.txt --host extractaudioapp.com --engine https://yandex.com/indexnow --key-file 310407653a608d4d.txt --key 310407653a608d4d"
   }
 }
