@@ -2,9 +2,7 @@
   "name": "extractaudioapp",
   "scripts": {
     "build": "node build/build.js",
-    "start": "npx http-server"
-  },
-  "dependencies": {
-    "openai": "^5.10.1"
+    "start": "npx http-server",
+    "index:list": "npx indexnow-submit sitemap-fetch https://yoomoney.ru/sitemap_0.xml --output urls.txt"
   }
 }
