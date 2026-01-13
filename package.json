@@ -4,6 +4,8 @@
     "build": "node build/build.js",
     "start": "npx http-server",
     "index:list": "cat urls.txt",
-    "index:now": "npx indexnow-submit submit-urls urls.txt --host extractaudioapp.com --engine yandex.com --key-file 310407653a608d4d.txt --key 310407653a608d4d"
+    "index:ya": "npx indexnow-submit submit-urls urls.txt --host extractaudioapp.com --engine yandex.com --key 310407653a608d4d",
+    "index:bing": "npx indexnow-submit submit-urls urls.txt --host extractaudioapp.com --engine bing.com --key 310407653a608d4d",
+    "index:now": "npm run index:ya && npm run index:bing"
   }
 }

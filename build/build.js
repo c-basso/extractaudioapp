@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const siteUrl = "https://extractaudioapp.com/"
+
 const languages = [
     'en',
     'ru',
@@ -12,6 +14,20 @@ const languages = [
 ];
 
 (function() {
+    const urlsPath = path.join(__dirname, '..', 'urls.txt');
+
+    const urls = [
+        siteUrl
+    ].concat(
+        languages.map((lang) => `${siteUrl}${lang}/`)
+    ).join('\n');
+
+    fs.writeFileSync(urlsPath, urls, 'utf8');
+    console.log(`✅ Successfully built urls.txt file`);
+    console.log(`📁 Output saved to: ${urlsPath}`);
+    console.log()
+
+
     for (const lang of languages) {
         try {
             const htmlDir = path.join(__dirname, lang === 'en' ? '..' : `../${lang}/`);
