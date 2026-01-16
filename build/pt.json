@@ -15,16 +15,6 @@
     "twitter_image": "https://extractaudioapp.com/extractaudioapp.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/pt/",
-    "alternate_default": "https://extractaudioapp.com/",
-    "alternate_languages": [
-      { "lang": "en", "url": "https://extractaudioapp.com/" },
-      { "lang": "ru", "url": "https://extractaudioapp.com/ru/" },
-      { "lang": "es", "url": "https://extractaudioapp.com/es/" },
-      { "lang": "fr", "url": "https://extractaudioapp.com/fr/" },
-      { "lang": "de", "url": "https://extractaudioapp.com/de/" },
-      { "lang": "it", "url": "https://extractaudioapp.com/it/" },
-      { "lang": "pt", "url": "https://extractaudioapp.com/pt/" }
-    ],
     "geo_region": "PT",
     "geo_placename": "Portugal"
   },
