@@ -155,6 +155,16 @@
         }
     }
     </script>
+    
+    <!-- WebSite Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{app_info.name}}",
+        "url": "{{meta.canonical}}"
+    }
+    </script>
 
     <link rel="preload" as="image" href="/bg.webp" fetchpriority="high">
     <link rel="preload" as="image" href="/logo.webp" fetchpriority="high">
