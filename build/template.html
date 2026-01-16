@@ -165,6 +165,60 @@
         "url": "{{meta.canonical}}"
     }
     </script>
+    
+    <!-- Organization Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "{{app_info.publisher}}",
+        "url": "{{meta.canonical}}",
+        "logo": "{{meta.og_image}}",
+        "sameAs": [
+            "{{hero.cta_url}}"
+        ]
+    }
+    </script>
+    
+    <!-- HowTo Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "{{demo.title}}",
+        "description": "{{demo.subtitle}}",
+        "image": "{{meta.og_image}}",
+        "totalTime": "PT2M",
+        "estimatedCost": {
+            "@type": "MonetaryAmount",
+            "currency": "{{app_info.price_currency}}",
+            "value": "0"
+        },
+        "tool": [
+            {
+                "@type": "SoftwareApplication",
+                "name": "{{app_info.name}}",
+                "operatingSystem": "iOS",
+                "applicationCategory": "{{app_info.application_category}}",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "{{app_info.price_currency}}"
+                }
+            }
+        ],
+        "step": [
+            {{#each howto_steps.items as |step|}}
+            {
+                "@type": "HowToStep",
+                "name": "{{step.name}}",
+                "text": "{{step.text}}",
+                "image": "{{meta.og_image}}"
+            },
+            {{/each}}
+        ]
+    }
+    </script>
 
     <link rel="preload" as="image" href="/bg.webp" fetchpriority="high">
     <link rel="preload" as="image" href="/logo.webp" fetchpriority="high">

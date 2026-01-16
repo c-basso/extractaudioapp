@@ -46,6 +46,26 @@
     "placeholder_line1": "📱 Demo-Video kommt bald",
     "placeholder_line2": "Schritt 1: App tippen > Schritt 2: Video auswählen > Schritt 3: Bei Bedarf zuschneiden > Schritt 4: Audio extrahieren und als MP3 speichern"
   },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "App öffnen",
+        "text": "Öffnen Sie die App {{app_info.name}} auf Ihrem iPhone. Die App kann kostenlos aus dem App Store heruntergeladen werden."
+      },
+      {
+        "name": "Video auswählen",
+        "text": "Wählen Sie ein Video aus Ihrer iPhone-Bibliothek aus. Sie können Videos in den Formaten MP4, MOV oder anderen gängigen Formaten auswählen."
+      },
+      {
+        "name": "Bei Bedarf zuschneiden",
+        "text": "Verwenden Sie die Zuschnitt-Tools, um den genauen Teil des Videos auszuwählen, aus dem Sie Audio extrahieren möchten. Dieser Schritt ist optional."
+      },
+      {
+        "name": "Audio extrahieren und speichern",
+        "text": "Tippen Sie auf Als Audio speichern, um Audio aus dem Video zu extrahieren und als MP3-Datei zu speichern. Das Audio wird auf Ihrem iPhone gespeichert."
+      }
+    ]
+  },
   "testimonials": {
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4.8 Bewertung - Beste App um Video in MP3 umwandeln iPhone",

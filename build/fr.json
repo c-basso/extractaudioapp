@@ -46,6 +46,26 @@
     "placeholder_line1": "📱 Vidéo Démo Bientôt",
     "placeholder_line2": "Étape 1: Appuyez sur app > Étape 2: Sélectionnez vidéo > Étape 3: Découpez si nécessaire > Étape 4: Extrayez l'audio et enregistrez en MP3"
   },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Ouvrez l'Application",
+        "text": "Ouvrez l'application {{app_info.name}} sur votre iPhone. L'application est gratuite à télécharger depuis l'App Store."
+      },
+      {
+        "name": "Sélectionnez votre Vidéo",
+        "text": "Choisissez une vidéo de votre bibliothèque iPhone. Vous pouvez sélectionner des vidéos aux formats MP4, MOV ou autres formats courants."
+      },
+      {
+        "name": "Découpez si Nécessaire",
+        "text": "Utilisez les outils de découpe pour sélectionner la portion exacte de la vidéo dont vous voulez extraire l'audio. Cette étape est optionnelle."
+      },
+      {
+        "name": "Extrayez et Enregistrez l'Audio",
+        "text": "Appuyez sur Enregistrer comme Audio pour extraire l'audio de la vidéo et l'enregistrer comme un fichier MP3. L'audio sera enregistré sur votre iPhone."
+      }
+    ]
+  },
   "testimonials": {
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "Note 4.8 - Meilleure App pour Extraire le Son d'une Vidéo iPhone",

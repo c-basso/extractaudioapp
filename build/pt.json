@@ -46,6 +46,26 @@
     "placeholder_line1": "📱 Vídeo Demo Em Breve",
     "placeholder_line2": "Passo 1: Toque no app > Passo 2: Selecione vídeo > Passo 3: Corte se necessário > Passo 4: Extraia áudio e salve como MP3"
   },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Abra o Aplicativo",
+        "text": "Abra o aplicativo {{app_info.name}} no seu iPhone. O aplicativo é gratuito para baixar na App Store."
+      },
+      {
+        "name": "Selecione seu Vídeo",
+        "text": "Escolha um vídeo da sua biblioteca do iPhone. Você pode selecionar vídeos nos formatos MP4, MOV ou outros formatos comuns."
+      },
+      {
+        "name": "Corte se Necessário",
+        "text": "Use as ferramentas de corte para selecionar a porção exata do vídeo da qual deseja extrair o áudio. Esta etapa é opcional."
+      },
+      {
+        "name": "Extraia e Salve o Áudio",
+        "text": "Toque em Salvar como Áudio para extrair o áudio do vídeo e salvá-lo como um arquivo MP3. O áudio será salvo no seu iPhone."
+      }
+    ]
+  },
   "testimonials": {
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "Avaliação 4.8 - Melhor App para Extrair Áudio de Vídeo iPhone",
