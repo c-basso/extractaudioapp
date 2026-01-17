@@ -3,6 +3,7 @@
   "scripts": {
     "build": "node build/build.js",
     "validate": "node build/validate.js",
+    "sitemap": "node build/sitemap.js",
     "start": "npx http-server",
     "index:ya": "npx indexnow-submit submit-urls urls.txt --host extractaudioapp.com --engine yandex.com --key 310407653a608d4d",
     "index:bing": "npx indexnow-submit submit-urls urls.txt --host extractaudioapp.com --engine bing.com --key 310407653a608d4d",
