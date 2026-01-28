@@ -54,6 +54,9 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="mask-icon" href="/logo.webp" color="#667eea">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Fraunces:wght@500;700&display=swap" rel="stylesheet">
     
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -292,24 +295,30 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <a href="{{hero.cta_url}}" rel="nofollow">
-                <div class="logo">
-                    <img src="/logo.webp" alt="{{hero.logo_alt}}">
+            <div class="hero-layout">
+                <div class="hero-main">
+                    <a href="{{hero.cta_url}}" rel="nofollow" class="logo-link">
+                        <div class="logo">
+                            <img src="/logo.webp" alt="{{hero.logo_alt}}">
+                        </div>
+                    </a>
+                    <h1>{{hero.title}}</h1>
+                    <h2>{{hero.subtitle}}</h2>
+                    <p class="subheadline">{{hero.subheadline}}</p>
+                    <a href="{{hero.cta_url}}" class="app-store-btn app-store-btn-mobile" rel="nofollow">
+                        <img src="/download.svg" alt="{{hero.download_alt}}">
+                    </a>
                 </div>
-            </a>
-            <h1>{{hero.title}}</h1>
-            <h2>{{hero.subtitle}}</h2>
-            <p class="subheadline">{{hero.subheadline}}</p>
-            <a href="{{hero.cta_url}}" class="app-store-btn app-store-btn-mobile" rel="nofollow">
-                <img src="/download.svg" alt="{{hero.download_alt}}">
-            </a>
-            <div class="app-store-btn-desktop">
-                <img src="/qr.gif" alt="{{hero.qr_alt}}" class="qr-code">
-                <p class="qr-text">{{hero.qr_text}}</p>
-            </div>
-            <div class="phone-mockup" style="display: none;">
-                <div class="phone-screen">
-                    {{hero.phone_text}}
+                <div class="hero-side">
+                    <div class="app-store-btn-desktop">
+                        <img src="/qr.gif" alt="{{hero.qr_alt}}" class="qr-code">
+                        <p class="qr-text">{{hero.qr_text}}</p>
+                    </div>
+                    <div class="phone-mockup" style="display: none;">
+                        <div class="phone-screen">
+                            {{hero.phone_text}}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -470,7 +479,12 @@
             const answer = element.nextElementSibling;
             const isActive = answer.classList.contains('active');
             document.querySelectorAll('.faq-answer').forEach(item => { item.classList.remove('active'); });
-            if (!isActive) { answer.classList.add('active'); }
+            document.querySelectorAll('.faq-item').forEach(item => { item.classList.remove('open'); });
+            if (!isActive) {
+                answer.classList.add('active');
+                const parentItem = element.closest('.faq-item');
+                if (parentItem) parentItem.classList.add('open');
+            }
         }
 
         const floatingCta = document.querySelector('.floating-cta');
