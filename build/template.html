@@ -306,6 +306,7 @@
                     <h2>{{hero.subtitle}}</h2>
                     <p class="entity-definition">{{hero.entity_definition}}</p>
                     <p class="subheadline">{{hero.subheadline}}</p>
+                    <p class="last-updated-hero">{{last_updated.text}}</p>
                     <a href="{{hero.cta_url}}" class="app-store-btn app-store-btn-mobile" rel="nofollow">
                         <img src="/download.svg" alt="{{hero.download_alt}}">
                     </a>
@@ -368,13 +369,29 @@
     <section class="by-the-numbers">
         <div class="container">
             <h2 class="section-title">{{by_the_numbers.title}}</h2>
-            <ul class="numbers-list">
-                <li>{{by_the_numbers.items.0}}</li>
-                <li>{{by_the_numbers.items.1}}</li>
-                <li>{{by_the_numbers.items.2}}</li>
-                <li>{{by_the_numbers.items.3}}</li>
-                <li>{{by_the_numbers.items.4}}</li>
-            </ul>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">{{by_the_numbers.stats.0.number}}</div>
+                    <div class="stat-label">{{by_the_numbers.stats.0.label}}</div>
+                    <div class="stat-detail">{{by_the_numbers.stats.0.detail}}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">{{by_the_numbers.stats.1.number}}</div>
+                    <div class="stat-label">{{by_the_numbers.stats.1.label}}</div>
+                    <div class="stat-detail">{{by_the_numbers.stats.1.detail}}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">{{by_the_numbers.stats.2.number}}</div>
+                    <div class="stat-label">{{by_the_numbers.stats.2.label}}</div>
+                    <div class="stat-detail">{{by_the_numbers.stats.2.detail}}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">{{by_the_numbers.stats.3.number}}</div>
+                    <div class="stat-label">{{by_the_numbers.stats.3.label}}</div>
+                    <div class="stat-detail">{{by_the_numbers.stats.3.detail}}</div>
+                </div>
+            </div>
+            <p class="last-updated">{{last_updated.text}}</p>
         </div>
     </section>
 
@@ -513,7 +530,6 @@
                 <div class="faq-answer">{{faq.items.6.answer}}</div>
             </div>
         </div>
-        <p class="last-updated">{{last_updated.text}}</p>
     </section>
     </main>
 

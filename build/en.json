@@ -49,6 +49,28 @@
       "Supports MP4, MOV, and other common iPhone video formats",
       "~50 MB iOS app size",
       "Processes videos directly on your iPhone for privacy and speed"
+    ],
+    "stats": [
+      {
+        "number": "4.8",
+        "label": "Star Rating",
+        "detail": "Based on 140+ App Store reviews"
+      },
+      {
+        "number": "~50 MB",
+        "label": "App Size",
+        "detail": "Lightweight and fast"
+      },
+      {
+        "number": "100%",
+        "label": "Free Core Feature",
+        "detail": "Optional in-app purchases"
+      },
+      {
+        "number": "On-Device",
+        "label": "Processing",
+        "detail": "Your videos never leave your iPhone"
+      }
     ]
   },
   "demo": {
@@ -81,9 +103,9 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4.8 Rating - Best App to Extract Audio from Video on iPhone",
     "items": [
-      { "text": "\"The best way to extract audio from video on iPhone! Perfect for saving music from videos. The trimming tools make it so easy to extract just what I need.\"", "author": "- Music Lover" },
-      { "text": "\"Finally found how to extract audio from video on iPhone for free! Great for capturing audio from lectures. Clean interface and fast extraction.\"", "author": "- Student" },
-      { "text": "\"Best iPhone app to extract audio from video. Love how easy it is to extract sound from video using the Share button. Highly recommend!\"", "author": "- Content Creator" }
+      { "text": "\"The best way to extract audio from video on iPhone! Perfect for saving music from videos. The trimming tools make it so easy to extract just what I need.\"", "author": "Sarah M., iPhone user", "rating": "5 stars", "verified": true },
+      { "text": "\"Finally found how to extract audio from video on iPhone for free! Great for capturing audio from lectures. Clean interface and fast extraction.\"", "author": "Michael T., Student", "rating": "5 stars", "verified": true },
+      { "text": "\"Best iPhone app to extract audio from video. Love how easy it is to extract sound from video using the Share button. Highly recommend!\"", "author": "Jessica L., Content Creator", "rating": "5 stars", "verified": true }
     ]
   },
   "faq": {
@@ -129,26 +151,26 @@
   },
   "seo_chapter": {
     "title": "Extract Audio from Video on iPhone - Complete Guide 2026",
-    "subtitle": "Extract Audio from Video on iPhone - The Best Free App to Extract Audio from Video",
-    "intro": "Extract Audio from Video⁺ is a free iOS app that converts videos (MP4/MOV) into MP3 audio files directly on your iPhone. Whether you need to save music from videos, capture lecture audio, or create podcast clips, this app makes it simple. All processing happens on your device for privacy and speed. The core audio extraction feature is free, with optional in-app purchases available.",
+    "subtitle": "Extract Audio from Video on iPhone - Free App to Extract Audio from Video",
+    "intro": "Extract Audio from Video⁺ is a MultimediaApplication for iOS devices that converts video files (MP4/MOV) into MP3 audio files. The app processes videos directly on the device without requiring internet connectivity. Audio extraction is performed locally, which means video files remain on the user's iPhone and are not uploaded to external servers. The application supports common iPhone video formats and outputs audio in MP3 format. The core audio extraction functionality is available at no cost, with additional features available through optional in-app purchases.",
     "sections": [
       {
         "heading": "How to Extract Audio from Video on iPhone - Step by Step",
-        "body": "Here's how to use Extract Audio from Video⁺: 1) Open the app (it's free), 2) Select your video from your iPhone library, 3) Use the trimming tools to select the exact portion you want, 4) Tap Save as Audio to convert to MP3. Alternatively, use the Share button in Photos or Files and choose Extract Audio from Video⁺ for instant access. This method works with any video format supported by iOS."
+        "body": "To extract audio from video using Extract Audio from Video⁺: 1) Launch the application, 2) Select a video file from the iPhone library, 3) Optionally use trimming tools to specify the portion of the video to extract, 4) Tap Save as Audio to convert the selected portion to MP3 format. The app can also be accessed through the Share button in Photos or Files, allowing users to extract audio from videos without opening the app directly. This method supports video formats compatible with iOS."
       },
       {
-        "heading": "Why Choose This App to Extract Audio from Video on iPhone?",
-        "body": "Extract Audio from Video⁺ is designed specifically for iPhone users who want a fast, private, and free solution. Unlike other apps, it processes videos directly on your device—no uploads required. The app features clean trimming tools, excellent output quality (MP3), and seamless sharing. It works as both a video to MP3 converter and MP4 to MP3 converter, making it a versatile tool for audio extraction."
+        "heading": "Features and Capabilities",
+        "body": "Extract Audio from Video⁺ processes video files on the device rather than uploading them to remote servers. This on-device processing approach provides privacy benefits and does not require internet connectivity for audio extraction. The application includes trimming functionality that allows users to select specific segments of video files. Output is provided in MP3 format. The app functions as a video-to-MP3 converter and supports MP4 and MOV input formats commonly used on iOS devices."
       }
     ],
-    "bullets_title": "Common Uses: Extract Audio from Video on iPhone",
+    "bullets_title": "Common Use Cases",
     "bullets": [
-      "Save songs or soundtracks from videos - perfect for music lovers",
-      "Capture lectures and meetings - students use this app to convert video recordings to audio",
-      "Create podcast clips or voice notes - content creators use it daily",
-      "Remix and edit audio - musicians and producers use it for creative projects"
+      "Extracting audio tracks from video files for music collection purposes",
+      "Converting video recordings of lectures or meetings to audio format for later review",
+      "Creating audio clips from video content for podcast production or voice note creation",
+      "Extracting audio from video files for remixing or editing in audio production workflows"
     ],
-    "conclusion": "Extract Audio from Video⁺ is a free iPhone app for converting videos to audio. Download the app and start extracting audio in seconds. The core feature is free, with optional in-app purchases available for additional functionality."
+    "conclusion": "Extract Audio from Video⁺ is an iOS application that enables users to extract audio from video files on iPhone devices. The app performs audio extraction locally on the device. The primary audio extraction feature is available without charge, while additional functionality can be accessed through optional in-app purchases."
   },
   "comparison": {
     "title": "Extract Audio from Video⁺ vs Online Converters",

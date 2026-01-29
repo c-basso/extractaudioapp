@@ -82,6 +82,35 @@ const {
                 });
             }
             
+            // Function to process #if blocks
+            function processIfBlocks(template, data) {
+                // Pattern to match {{#if path}}...{{/if}}
+                const ifPattern = /\{\{#if\s+([^\s}]+)\}\}([\s\S]*?)\{\{\/if\}\}/g;
+                let result = template;
+                let match;
+                
+                // Process all #if blocks
+                while ((match = ifPattern.exec(result)) !== null) {
+                    const fullMatch = match[0];
+                    const path = match[1].trim();
+                    const blockContent = match[2];
+                    
+                    // Get the value from data
+                    const value = getValue(data, path);
+                    
+                    // Check if value is truthy
+                    const shouldInclude = value !== undefined && value !== null && value !== false && value !== '';
+                    
+                    // Replace with content if truthy, or empty string if falsy
+                    result = result.replace(fullMatch, shouldInclude ? blockContent : '');
+                    
+                    // Reset regex lastIndex to start from beginning for next iteration
+                    ifPattern.lastIndex = 0;
+                }
+                
+                return result;
+            }
+            
             // Function to process #each blocks (handles nested blocks recursively)
             function processEachBlocks(template, data) {
                 // Pattern to match {{#each path as |varName|}}...{{/each}}
@@ -113,7 +142,8 @@ const {
                         
                         // Recursively process nested #each blocks first
                         let processedContent = processEachBlocks(blockContent, mergedContext);
-                        
+                        // Process #if blocks
+                        processedContent = processIfBlocks(processedContent, mergedContext);
                         // Then process variables in the block content
                         processedContent = replaceVariables(processedContent, mergedContext);
                         
@@ -133,8 +163,9 @@ const {
                 return result;
             }
             
-            // First process #each blocks, then replace remaining variables
+            // First process #each blocks, then #if blocks, then replace remaining variables
             let result = processEachBlocks(template, data);
+            result = processIfBlocks(result, data);
             result = replaceVariables(result, data);
             
             // Final cleanup: remove any trailing commas before closing brackets in JSON-LD
