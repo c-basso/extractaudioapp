@@ -22,22 +22,47 @@
     "logo_alt": "Audio aus Video⁺ Logo",
     "title": "Video in MP3 umwandeln iPhone",
     "subtitle": "MP4 in MP3 umwandeln - Kostenlose iPhone App",
-    "subheadline": "Video in MP3 umwandeln iPhone mit der besten kostenlosen App. MP4 in MP3 umwandeln, Video in Audio umwandeln - schnell und kostenlos. Die einfachste Art Video in MP3 umwandeln auf dem iPhone - schnell, privat und einfach zu verwenden.",
+    "subheadline": "Musik aus Videos speichern, Vorlesungsaudio aufnehmen oder Podcast-Clips erstellen. Schnell, privat und kostenlos mit optionalen In-App-Käufen.",
     "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Im App Store herunterladen",
     "phone_text": "Tippen Sie, um Video in Audio zu konvertieren",
     "qr_alt": "QR-Code zum Herunterladen der App",
-    "qr_text": "Scannen Sie mit Ihrem Telefon zum Herunterladen"
+    "qr_text": "Scannen Sie mit Ihrem Telefon zum Herunterladen",
+    "entity_definition": "Audio aus Video⁺ ist eine iOS-App, die Videos (MP4/MOV) auf Ihrem iPhone direkt auf Ihrem Gerät in hochwertige MP3-Audiodateien umwandelt."
   },
   "features": {
     "title": "Video in MP3 umwandeln iPhone - Beste kostenlose App um MP4 in MP3 umwandeln",
     "items": [
-      { "title": "Video in MP3 umwandeln kostenlos", "description": "Video in MP3 umwandeln iPhone sofort und völlig kostenlos. MP4 in MP3 umwandeln mit nur einem Tippen - keine Abonnements, keine versteckten Gebühren. Die beste kostenlose App um Video in MP3 umwandeln.", "icon": "⚡" },
-      { "title": "MP4 in MP3 umwandeln", "description": "MP4 in MP3 umwandeln schnell mit unserem MP3 Converter. Video in Audio umwandeln in MP4, MOV Formaten und konvertieren Sie in MP3 Audio in Sekunden mit hochwertiger Ausgabe.", "icon": "🎵" },
-      { "title": "Video in MP3 umwandeln online", "description": "Video in MP3 umwandeln mit präzisem Zuschnitt. Wählen Sie nur den Abschnitt aus den Sie benötigen wenn Sie Video in Audio umwandeln auf dem iPhone. Video in MP3 umwandeln online direkt auf dem iPhone.", "icon": "✂️" },
-      { "title": "Video in MP3 umwandeln iPhone", "description": "Verwenden Sie die Teilen-Schaltfläche in Fotos oder Dateien um Video in MP3 umwandeln sofort. Der einfachste Weg Video in MP3 umwandeln iPhone - ohne komplizierte Schritte.", "icon": "🔗" },
-      { "title": "App um Video in MP3 umwandeln", "description": "Einfache Benutzeroberfläche erstellt für iPhone-Benutzer die Video in MP3 umwandeln möchten. Die beste App um Video in MP3 umwandeln - intuitiv und einfach zu verwenden.", "icon": "🎨" },
-      { "title": "Video in Audio umwandeln", "description": "Video in Audio umwandeln auf dem iPhone mit außergewöhnlicher Qualität. Video in MP3 umwandeln und genießen Sie kristallklaren Klang jedes Mal. Perfekt für Musik, Podcasts und Sprachaufnahmen.", "icon": "🎵" }
+      {
+        "title": "Video in MP3 umwandeln kostenlos",
+        "description": "Kostenlos zum Herunterladen und Verwenden. Die Hauptfunktion zur Audioextraktion ist kostenlos mit optionalen In-App-Käufen verfügbar. Konvertieren Sie Videos in Audio mit nur einem Tippen.",
+        "icon": "⚡"
+      },
+      {
+        "title": "MP4 in MP3 umwandeln",
+        "description": "MP4 in MP3 umwandeln schnell mit unserem MP3 Converter. Video in Audio umwandeln in MP4, MOV Formaten und konvertieren Sie in MP3 Audio in Sekunden mit hochwertiger Ausgabe.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Video in MP3 umwandeln online",
+        "description": "Video in MP3 umwandeln mit präzisem Zuschnitt. Wählen Sie nur den Abschnitt aus den Sie benötigen wenn Sie Video in Audio umwandeln auf dem iPhone. Video in MP3 umwandeln online direkt auf dem iPhone.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Video in MP3 umwandeln iPhone",
+        "description": "Verwenden Sie die Teilen-Schaltfläche in Fotos oder Dateien um Video in MP3 umwandeln sofort. Der einfachste Weg Video in MP3 umwandeln iPhone - ohne komplizierte Schritte.",
+        "icon": "🔗"
+      },
+      {
+        "title": "App um Video in MP3 umwandeln",
+        "description": "Einfache Benutzeroberfläche erstellt für iPhone-Benutzer die Video in MP3 umwandeln möchten. Die beste App um Video in MP3 umwandeln - intuitiv und einfach zu verwenden.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Video in Audio umwandeln",
+        "description": "Video in Audio umwandeln auf dem iPhone mit außergewöhnlicher Qualität. Video in MP3 umwandeln und genießen Sie kristallklaren Klang jedes Mal. Perfekt für Musik, Podcasts und Sprachaufnahmen.",
+        "icon": "🎵"
+      }
     ]
   },
   "demo": {
@@ -70,19 +95,51 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4.8 Bewertung - Beste App um Video in MP3 umwandeln iPhone",
     "items": [
-      { "text": "\"Der beste Weg, Audio aus Video auf iPhone zu extrahieren! Perfekt zum Speichern von Musik aus Videos. Die Zuschnitt-Tools machen es so einfach, genau das zu extrahieren, was ich brauche.\"", "author": "- Musikliebhaber" },
-      { "text": "\"Endlich gefunden, wie man Audio aus Video auf iPhone kostenlos extrahiert! Großartig zum Aufnehmen von Audio aus Vorlesungen. Saubere Benutzeroberfläche und schnelle Extraktion.\"", "author": "- Student" },
-      { "text": "\"Beste iPhone App zum Extrahieren von Audio aus Video. Liebe, wie einfach es ist, Ton aus Video mit der Teilen-Schaltfläche zu extrahieren. Sehr empfehlenswert!\"", "author": "- Content-Ersteller" }
+      {
+        "text": "\"Der beste Weg, Audio aus Video auf iPhone zu extrahieren! Perfekt zum Speichern von Musik aus Videos. Die Zuschnitt-Tools machen es so einfach, genau das zu extrahieren, was ich brauche.\"",
+        "author": "- Musikliebhaber"
+      },
+      {
+        "text": "\"Endlich gefunden, wie man Audio aus Video auf iPhone kostenlos extrahiert! Großartig zum Aufnehmen von Audio aus Vorlesungen. Saubere Benutzeroberfläche und schnelle Extraktion.\"",
+        "author": "- Student"
+      },
+      {
+        "text": "\"Beste iPhone App zum Extrahieren von Audio aus Video. Liebe, wie einfach es ist, Ton aus Video mit der Teilen-Schaltfläche zu extrahieren. Sehr empfehlenswert!\"",
+        "author": "- Content-Ersteller"
+      }
     ]
   },
   "faq": {
     "title": "Video in MP3 umwandeln iPhone – FAQ",
     "items": [
-      { "question": "Wie wandle ich Video in MP3 um auf iPhone?", "answer": "Um Video in MP3 umwandeln auf iPhone, öffnen Sie die App Audio aus Video⁺ extrahieren, wählen Sie ein Video aus Ihrer Bibliothek, schneiden Sie bei Bedarf zu, und speichern Sie dann als Audio (MP3). Sie können auch die Teilen-Schaltfläche in Fotos oder Dateien verwenden und die App auswählen um Video in MP3 umwandeln sofort. Dies ist der einfachste Weg Video in MP3 umwandeln auf iPhone." },
-      { "question": "Gibt es eine kostenlose App um Video in MP3 umwandeln auf iPhone?", "answer": "Ja! Audio aus Video⁺ extrahieren ist völlig kostenlos um Video in MP3 umwandeln auf iPhone. Keine Abonnements oder versteckten Gebühren - einfach herunterladen und beginnen Video in MP3 umwandeln. Es ist die beste kostenlose App um Video in MP3 umwandeln verfügbar für iPhone." },
-      { "question": "Wie wandle ich MP4 in MP3 um auf iPhone?", "answer": "Um MP4 in MP3 umwandeln auf iPhone: 1) Öffnen Sie die App, 2) Wählen Sie Ihr Video aus, 3) Schneiden Sie den gewünschten Abschnitt zu, 4) Tippen Sie auf Speichern um Audio zu extrahieren. Sie können auch Video in MP3 umwandeln direkt mit der Teilen-Schaltfläche in Fotos. Diese App macht es einfach MP4 in MP3 umwandeln auf iPhone." },
-      { "question": "Kann ich Video in Audio umwandeln auf iPhone?", "answer": "Ja! Sie können Video in Audio umwandeln auf iPhone mit Audio aus Video⁺ extrahieren. Diese App lässt Sie Video in MP3 umwandeln und konvertieren MP4, MOV und andere Videoformate in MP3 Audio schnell. Es ist die beste App um Video in MP3 umwandeln für iPhone." },
-      { "question": "Wie wandle ich Video in MP3 um kostenlos?", "answer": "Um Video in MP3 umwandeln kostenlos, laden Sie Audio aus Video⁺ extrahieren aus dem App Store herunter. Diese kostenlose App lässt Sie Video in MP3 umwandeln auf iPhone sofort ohne Kosten. Video in Audio umwandeln, konvertieren Video in MP3, und speichern Audio-Dateien - alles völlig kostenlos." }
+      {
+        "question": "Wie wandle ich Video in MP3 um auf iPhone?",
+        "answer": "Um Video in MP3 umwandeln auf iPhone, öffnen Sie die App Audio aus Video⁺ extrahieren, wählen Sie ein Video aus Ihrer Bibliothek, schneiden Sie bei Bedarf zu, und speichern Sie dann als Audio (MP3). Sie können auch die Teilen-Schaltfläche in Fotos oder Dateien verwenden und die App auswählen um Video in MP3 umwandeln sofort. Dies ist der einfachste Weg Video in MP3 umwandeln auf iPhone."
+      },
+      {
+        "question": "Gibt es eine kostenlose App um Video in MP3 umwandeln auf iPhone?",
+        "answer": "Ja! Audio aus Video⁺ extrahieren ist völlig kostenlos um Video in MP3 umwandeln auf iPhone. Keine Abonnements oder versteckten Gebühren - einfach herunterladen und beginnen Video in MP3 umwandeln. Es ist die beste kostenlose App um Video in MP3 umwandeln verfügbar für iPhone."
+      },
+      {
+        "question": "Wie wandle ich MP4 in MP3 um auf iPhone?",
+        "answer": "Um MP4 in MP3 umwandeln auf iPhone: 1) Öffnen Sie die App, 2) Wählen Sie Ihr Video aus, 3) Schneiden Sie den gewünschten Abschnitt zu, 4) Tippen Sie auf Speichern um Audio zu extrahieren. Sie können auch Video in MP3 umwandeln direkt mit der Teilen-Schaltfläche in Fotos. Diese App macht es einfach MP4 in MP3 umwandeln auf iPhone."
+      },
+      {
+        "question": "Kann ich Video in Audio umwandeln auf iPhone?",
+        "answer": "Ja! Sie können Video in Audio umwandeln auf iPhone mit Audio aus Video⁺ extrahieren. Diese App lässt Sie Video in MP3 umwandeln und konvertieren MP4, MOV und andere Videoformate in MP3 Audio schnell. Es ist die beste App um Video in MP3 umwandeln für iPhone."
+      },
+      {
+        "question": "Wie wandle ich Video in MP3 um kostenlos?",
+        "answer": "Um Video in MP3 umwandeln kostenlos, laden Sie Audio aus Video⁺ extrahieren aus dem App Store herunter. Diese kostenlose App lässt Sie Video in MP3 umwandeln auf iPhone sofort ohne Kosten. Video in Audio umwandeln, konvertieren Video in MP3, und speichern Audio-Dateien - alles völlig kostenlos."
+      },
+      {
+        "question": "Ist Audio aus Video⁺ besser als Online-Audio-Extraktoren?",
+        "answer": "Ja, für iPhone-Benutzer. Audio aus Video⁺ verarbeitet Videos direkt auf Ihrem Gerät, sodass Ihre Dateien Ihr iPhone nie verlassen. Online-Konverter erfordern das Hochladen von Videos auf Server, was langsamer und weniger privat sein kann. Die App ist kostenlos zum Herunterladen und Verwenden, mit optionalen In-App-Käufen verfügbar."
+      },
+      {
+        "question": "Ist es sicher, Audio aus Video⁺ im Vergleich zu Online-Konvertern zu verwenden?",
+        "answer": "Ja, es ist sicherer. Audio aus Video⁺ verarbeitet Videos vollständig auf Ihrem iPhone, ohne Uploads zu externen Servern. Das bedeutet, dass Ihre Videos privat und sicher auf Ihrem Gerät bleiben. Online-Konverter erfordern das Hochladen von Dateien, was Datenschutzrisiken darstellen kann."
+      }
     ]
   },
   "footer": {
@@ -94,7 +151,8 @@
     "terms_text": "Nutzungsbedingungen",
     "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Support",
-    "copyright": "© {year} c-basso. Alle Rechte vorbehalten."
+    "copyright": "© {year} c-basso. Alle Rechte vorbehalten.",
+    "developer_info": "Entwickelt von Vladimir Ivakhnenko (c-basso)"
   },
   "floating_cta": {
     "url": "https://apps.apple.com/app/id6744582065",
@@ -136,5 +194,49 @@
     "application_category": "MultimediaApplication",
     "application_sub_category": "Audio",
     "price_currency": "USD"
+  },
+  "by_the_numbers": {
+    "title": "Audio aus Video⁺ in Zahlen",
+    "items": [
+      "4.8 von 5 Sternen basierend auf 140+ App Store Bewertungen",
+      "Kostenlos zum Herunterladen und Verwenden – optionale In-App-Käufe verfügbar",
+      "Unterstützt MP4, MOV und andere gängige iPhone-Videoformate",
+      "~50 MB iOS-App-Größe",
+      "Verarbeitet Videos direkt auf Ihrem iPhone für Privatsphäre und Geschwindigkeit"
+    ]
+  },
+  "comparison": {
+    "title": "Audio aus Video⁺ vs Online-Konverter",
+    "intro": "So vergleicht sich Audio aus Video⁺ mit Online-Video-zu-Audio-Konvertern:",
+    "table": {
+      "feature": "Funktion",
+      "online_converters": "Online-Konverter",
+      "this_app": "Audio aus Video⁺",
+      "rows": [
+        {
+          "feature": "Datenschutz",
+          "online": "Videos werden auf Server hochgeladen",
+          "app": "Verarbeitung erfolgt auf Ihrem iPhone"
+        },
+        {
+          "feature": "Benutzerfreundlichkeit",
+          "online": "Erfordert Hochladen von Dateien und Warten",
+          "app": "Verwenden Sie die Teilen-Schaltfläche oder öffnen Sie die App direkt"
+        },
+        {
+          "feature": "Kosten",
+          "online": "Erfordert oft ein Abonnement oder hat Limits",
+          "app": "Kostenlos zu verwenden, optionale In-App-Käufe"
+        },
+        {
+          "feature": "Geschwindigkeit",
+          "online": "Hängt von Upload/Download-Geschwindigkeit ab",
+          "app": "Sofortige Verarbeitung auf dem Gerät"
+        }
+      ]
+    }
+  },
+  "last_updated": {
+    "text": "Zuletzt aktualisiert: Januar 2026"
   }
 }

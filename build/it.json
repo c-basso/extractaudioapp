@@ -22,22 +22,47 @@
     "logo_alt": "Logo Estrarre Audio da Video⁺",
     "title": "Come Estrarre Audio da Video iPhone",
     "subtitle": "Estrarre Audio da Video Istantaneamente - App Gratuita iPhone",
-    "subheadline": "Come estrarre audio da video iPhone con la migliore app gratuita. Estrai audio da video (MP4/MOV) e converti in MP3 istantaneamente. Il modo più semplice per estrarre audio da video - veloce, privato e completamente gratis.",
+    "subheadline": "Salva musica da video, cattura audio di lezioni o crea clip di podcast. Veloce, privato e gratuito con acquisti in-app opzionali.",
     "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Scarica su App Store",
     "phone_text": "Tocca per convertire video in audio",
     "qr_alt": "Codice QR per scaricare l'app",
-    "qr_text": "Scansiona con il tuo telefono per scaricare"
+    "qr_text": "Scansiona con il tuo telefono per scaricare",
+    "entity_definition": "Estrarre Audio da Video⁺ è un'app iOS che converte video (MP4/MOV) sul tuo iPhone in file audio MP3 di alta qualità direttamente sul dispositivo."
   },
   "features": {
     "title": "Come Estrarre Audio da Video iPhone - Migliore App Gratuita per Estrarre Audio da Video",
     "items": [
-      { "title": "Estrarre Audio da Video Gratis", "description": "Estrarre audio da video iPhone istantaneamente e completamente gratis. Estrai audio da video con un solo tocco - nessun abbonamento, nessun costo nascosto. La migliore app gratuita per estrarre audio da video.", "icon": "⚡" },
-      { "title": "Estrarre Audio da Video Online", "description": "Estrarre audio da video online gratis rapidamente con il nostro convertitore. Estrai audio da video in formati MP4, MOV e converti in audio MP3 in secondi con output di alta qualità.", "icon": "🎵" },
-      { "title": "Estrarre Audio da MP4", "description": "Estrarre audio da MP4 con taglio preciso. Scegli solo la sezione di cui hai bisogno quando estrai audio da un video su iPhone. Estrarre audio da video online gratis direttamente su iPhone.", "icon": "✂️" },
-      { "title": "Estrarre Audio da Video iPhone", "description": "Usa il pulsante Condividi in Foto o File per estrarre audio da video istantaneamente. Il modo più semplice per estrarre audio da video iPhone - senza passaggi complicati.", "icon": "🔗" },
-      { "title": "App per Estrarre Audio da Video", "description": "Interfaccia semplice progettata per utenti iPhone che vogliono estrarre audio da video rapidamente. La migliore app per estrarre audio da video - intuitiva e facile da usare.", "icon": "🎨" },
-      { "title": "Estrai Audio da Video", "description": "Estrai audio da video su iPhone con qualità eccezionale. Estrarre audio da video e goditi un suono cristallino ogni volta. Perfetto per musica, podcast e registrazioni vocali.", "icon": "🎵" }
+      {
+        "title": "Estrarre Audio da Video Gratis",
+        "description": "Gratuito da scaricare e usare. La funzione principale di estrazione audio è gratuita con acquisti in-app opzionali disponibili. Converti video in audio con un solo tocco.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Estrarre Audio da Video Online",
+        "description": "Estrarre audio da video online gratis rapidamente con il nostro convertitore. Estrai audio da video in formati MP4, MOV e converti in audio MP3 in secondi con output di alta qualità.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Estrarre Audio da MP4",
+        "description": "Estrarre audio da MP4 con taglio preciso. Scegli solo la sezione di cui hai bisogno quando estrai audio da un video su iPhone. Estrarre audio da video online gratis direttamente su iPhone.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Estrarre Audio da Video iPhone",
+        "description": "Usa il pulsante Condividi in Foto o File per estrarre audio da video istantaneamente. Il modo più semplice per estrarre audio da video iPhone - senza passaggi complicati.",
+        "icon": "🔗"
+      },
+      {
+        "title": "App per Estrarre Audio da Video",
+        "description": "Interfaccia semplice progettata per utenti iPhone che vogliono estrarre audio da video rapidamente. La migliore app per estrarre audio da video - intuitiva e facile da usare.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Estrai Audio da Video",
+        "description": "Estrai audio da video su iPhone con qualità eccezionale. Estrarre audio da video e goditi un suono cristallino ogni volta. Perfetto per musica, podcast e registrazioni vocali.",
+        "icon": "🎵"
+      }
     ]
   },
   "demo": {
@@ -70,19 +95,51 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "Valutazione 4.8 - Migliore App per Estrarre Audio da Video iPhone",
     "items": [
-      { "text": "\"Il modo migliore per estrarre audio da video su iPhone! Perfetto per salvare musica da video. Gli strumenti di taglio rendono così facile estrarre esattamente ciò di cui ho bisogno.\"", "author": "- Amante della Musica" },
-      { "text": "\"Finalmente trovato come estrarre audio da video su iPhone gratis! Ottimo per catturare audio da lezioni. Interfaccia pulita ed estrazione veloce.\"", "author": "- Studente" },
-      { "text": "\"Migliore app iPhone per estrarre audio da video. Adoro quanto sia facile estrarre audio da video usando il pulsante Condividi. Altamente raccomandato!\"", "author": "- Creatore di Contenuti" }
+      {
+        "text": "\"Il modo migliore per estrarre audio da video su iPhone! Perfetto per salvare musica da video. Gli strumenti di taglio rendono così facile estrarre esattamente ciò di cui ho bisogno.\"",
+        "author": "- Amante della Musica"
+      },
+      {
+        "text": "\"Finalmente trovato come estrarre audio da video su iPhone gratis! Ottimo per catturare audio da lezioni. Interfaccia pulita ed estrazione veloce.\"",
+        "author": "- Studente"
+      },
+      {
+        "text": "\"Migliore app iPhone per estrarre audio da video. Adoro quanto sia facile estrarre audio da video usando il pulsante Condividi. Altamente raccomandato!\"",
+        "author": "- Creatore di Contenuti"
+      }
     ]
   },
   "faq": {
     "title": "Come Estrarre Audio da Video iPhone – FAQ",
     "items": [
-      { "question": "Come estrarre audio da video su iPhone?", "answer": "Per estrarre audio da video su iPhone, apri l'app Estrarre Audio da Video⁺, scegli un video dalla tua libreria, taglia se necessario, poi salva come audio (MP3). Puoi anche usare il pulsante Condividi in Foto o File e scegliere l'app per estrarre audio da video istantaneamente. Questo è il modo più semplice per estrarre audio da video su iPhone." },
-      { "question": "C'è un'app gratuita per estrarre audio da video su iPhone?", "answer": "Sì! Estrarre Audio da Video⁺ è completamente gratis per estrarre audio da video su iPhone. Nessun abbonamento o costo nascosto - scarica semplicemente e inizia a estrarre audio da video. È la migliore app gratuita per estrarre audio da video disponibile per iPhone." },
-      { "question": "Come estrarre audio da video su iPhone?", "answer": "Per estrarre audio da video su iPhone: 1) Apri l'app, 2) Seleziona il tuo video, 3) Taglia la sezione che vuoi, 4) Tocca Salva per estrarre audio. Puoi anche estrarre audio da video direttamente usando il pulsante Condividi in Foto. Questa app rende semplice estrarre audio da video su iPhone." },
-      { "question": "Posso estrarre audio da un video su iPhone?", "answer": "Sì! Puoi estrarre audio da un video su iPhone usando Estrarre Audio da Video⁺. Questa app ti permette di estrarre audio da video e convertire MP4, MOV e altri formati video in audio MP3 rapidamente. È la migliore app per estrarre audio da un video per iPhone." },
-      { "question": "Come estrarre audio da video gratis?", "answer": "Per estrarre audio da video gratis, scarica Estrarre Audio da Video⁺ dall'App Store. Questa app gratuita ti permette di estrarre audio da video su iPhone istantaneamente senza alcun costo. Estrai audio da video, converti video in MP3, e salva file audio - tutto completamente gratis." }
+      {
+        "question": "Come estrarre audio da video su iPhone?",
+        "answer": "Per estrarre audio da video su iPhone, apri l'app Estrarre Audio da Video⁺, scegli un video dalla tua libreria, taglia se necessario, poi salva come audio (MP3). Puoi anche usare il pulsante Condividi in Foto o File e scegliere l'app per estrarre audio da video istantaneamente. Questo è il modo più semplice per estrarre audio da video su iPhone."
+      },
+      {
+        "question": "C'è un'app gratuita per estrarre audio da video su iPhone?",
+        "answer": "Sì! Estrarre Audio da Video⁺ è completamente gratis per estrarre audio da video su iPhone. Nessun abbonamento o costo nascosto - scarica semplicemente e inizia a estrarre audio da video. È la migliore app gratuita per estrarre audio da video disponibile per iPhone."
+      },
+      {
+        "question": "Come estrarre audio da video su iPhone?",
+        "answer": "Per estrarre audio da video su iPhone: 1) Apri l'app, 2) Seleziona il tuo video, 3) Taglia la sezione che vuoi, 4) Tocca Salva per estrarre audio. Puoi anche estrarre audio da video direttamente usando il pulsante Condividi in Foto. Questa app rende semplice estrarre audio da video su iPhone."
+      },
+      {
+        "question": "Posso estrarre audio da un video su iPhone?",
+        "answer": "Sì! Puoi estrarre audio da un video su iPhone usando Estrarre Audio da Video⁺. Questa app ti permette di estrarre audio da video e convertire MP4, MOV e altri formati video in audio MP3 rapidamente. È la migliore app per estrarre audio da un video per iPhone."
+      },
+      {
+        "question": "Come estrarre audio da video gratis?",
+        "answer": "Per estrarre audio da video gratis, scarica Estrarre Audio da Video⁺ dall'App Store. Questa app gratuita ti permette di estrarre audio da video su iPhone istantaneamente senza alcun costo. Estrai audio da video, converti video in MP3, e salva file audio - tutto completamente gratis."
+      },
+      {
+        "question": "Estrarre Audio da Video⁺ è migliore degli estrattori audio online?",
+        "answer": "Sì, per gli utenti iPhone. Estrarre Audio da Video⁺ elabora i video direttamente sul tuo dispositivo, quindi i tuoi file non lasciano mai il tuo iPhone. I convertitori online richiedono il caricamento di video sui server, il che può essere più lento e meno privato. L'app è gratuita da scaricare e usare, con acquisti in-app opzionali disponibili."
+      },
+      {
+        "question": "È sicuro usare Estrarre Audio da Video⁺ rispetto ai convertitori online?",
+        "answer": "Sì, è più sicuro. Estrarre Audio da Video⁺ elabora i video interamente sul tuo iPhone, senza caricamenti su server esterni. Ciò significa che i tuoi video rimangono privati e sicuri sul tuo dispositivo. I convertitori online richiedono il caricamento di file, il che può comportare rischi per la privacy."
+      }
     ]
   },
   "footer": {
@@ -94,7 +151,8 @@
     "terms_text": "Termini di Utilizzo",
     "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Supporto",
-    "copyright": "© {year} c-basso. Tutti i diritti riservati."
+    "copyright": "© {year} c-basso. Tutti i diritti riservati.",
+    "developer_info": "Sviluppato da Vladimir Ivakhnenko (c-basso)"
   },
   "floating_cta": {
     "url": "https://apps.apple.com/app/id6744582065",
@@ -136,5 +194,49 @@
     "application_category": "MultimediaApplication",
     "application_sub_category": "Audio",
     "price_currency": "USD"
+  },
+  "by_the_numbers": {
+    "title": "Estrarre Audio da Video⁺ in Numeri",
+    "items": [
+      "4.8 su 5 stelle basato su 140+ valutazioni App Store",
+      "Gratuito da scaricare e usare – acquisti in-app opzionali disponibili",
+      "Supporta MP4, MOV e altri formati video iPhone comuni",
+      "~50 MB dimensione app iOS",
+      "Elabora video direttamente sul tuo iPhone per privacy e velocità"
+    ]
+  },
+  "comparison": {
+    "title": "Estrarre Audio da Video⁺ vs Convertitori Online",
+    "intro": "Ecco come Estrarre Audio da Video⁺ si confronta con i convertitori video in audio online:",
+    "table": {
+      "feature": "Funzione",
+      "online_converters": "Convertitori Online",
+      "this_app": "Estrarre Audio da Video⁺",
+      "rows": [
+        {
+          "feature": "Privacy",
+          "online": "I video vengono caricati sui server",
+          "app": "L'elaborazione avviene sul tuo iPhone"
+        },
+        {
+          "feature": "Facilità d'Uso",
+          "online": "Richiede il caricamento di file e l'attesa",
+          "app": "Usa il pulsante Condividi o apri l'app direttamente"
+        },
+        {
+          "feature": "Costo",
+          "online": "Spesso richiede abbonamento o ha limiti",
+          "app": "Gratuito da usare, acquisti in-app opzionali"
+        },
+        {
+          "feature": "Velocità",
+          "online": "Dipende dalla velocità di upload/download",
+          "app": "Elaborazione istantanea sul dispositivo"
+        }
+      ]
+    }
+  },
+  "last_updated": {
+    "text": "Ultimo aggiornamento: gennaio 2026"
   }
 }

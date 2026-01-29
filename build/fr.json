@@ -22,22 +22,47 @@
     "logo_alt": "Logo Extraire l'Audio d'une Vidéo⁺",
     "title": "Extraire le Son d'une Vidéo iPhone",
     "subtitle": "Convertir Vidéo en MP3 - Application Gratuite iPhone",
-    "subheadline": "Extraire le son d'une vidéo iPhone avec la meilleure application gratuite. Convertir vidéo en MP3, transformer MP4 en MP3 - rapide et gratuit. Le moyen le plus simple d'extraire le son d'une vidéo sur iPhone - rapide, privé et facile à utiliser.",
+    "subheadline": "Enregistrez la musique de vidéos, capturez l'audio de conférences ou créez des clips de podcasts. Rapide, privé et gratuit avec achats intégrés optionnels.",
     "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Télécharger sur l'App Store",
     "phone_text": "Appuyez pour convertir la vidéo en audio",
     "qr_alt": "Code QR pour télécharger l'application",
-    "qr_text": "Scannez avec votre téléphone pour télécharger"
+    "qr_text": "Scannez avec votre téléphone pour télécharger",
+    "entity_definition": "Extraire l'Audio d'une Vidéo⁺ est une application iOS qui convertit des vidéos (MP4/MOV) sur votre iPhone en fichiers audio MP3 de haute qualité directement sur votre appareil."
   },
   "features": {
     "title": "Extraire le Son d'une Vidéo iPhone - Meilleure Application Gratuite pour Convertir Vidéo en MP3",
     "items": [
-      { "title": "Extraire le Son d'une Vidéo Gratuit", "description": "Extraire le son d'une vidéo iPhone instantanément et complètement gratuitement. Convertir vidéo en MP3 avec un seul appui - sans abonnements, sans frais cachés. La meilleure application gratuite pour extraire le son d'une vidéo.", "icon": "⚡" },
-      { "title": "Convertir Vidéo en MP3", "description": "Convertir vidéo en MP3 rapidement avec notre convertisseur. Extraire le son d'une vidéo en formats MP4, MOV et convertir en audio MP3 en quelques secondes avec sortie de haute qualité.", "icon": "🎵" },
-      { "title": "Transformer MP4 en MP3", "description": "Transformer MP4 en MP3 avec découpage précis. Choisissez uniquement la section dont vous avez besoin quand vous extrayez le son d'une vidéo sur iPhone. Convertir vidéo en MP3 en ligne directement sur iPhone.", "icon": "✂️" },
-      { "title": "Extraire le Son d'une Vidéo iPhone", "description": "Utilisez le bouton Partager dans Photos ou Fichiers pour extraire le son d'une vidéo instantanément. Le moyen le plus simple d'extraire le son d'une vidéo iPhone - sans étapes compliquées.", "icon": "🔗" },
-      { "title": "Convertisseur Vidéo en MP3", "description": "Interface simple conçue pour les utilisateurs iPhone qui veulent convertir vidéo en MP3 rapidement. Le meilleur convertisseur vidéo en MP3 - intuitif et facile à utiliser.", "icon": "🎨" },
-      { "title": "Convertir une Vidéo en MP3", "description": "Convertir une vidéo en MP3 sur iPhone avec qualité exceptionnelle. Extraire le son d'une vidéo et profitez d'un son cristallin à chaque fois. Parfait pour musique, podcasts et enregistrements vocaux.", "icon": "🎵" }
+      {
+        "title": "Extraire le Son d'une Vidéo Gratuit",
+        "description": "Gratuit à télécharger et utiliser. La fonction principale d'extraction audio est gratuite avec des achats intégrés optionnels disponibles. Convertissez des vidéos en audio avec un seul appui.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Convertir Vidéo en MP3",
+        "description": "Convertir vidéo en MP3 rapidement avec notre convertisseur. Extraire le son d'une vidéo en formats MP4, MOV et convertir en audio MP3 en quelques secondes avec sortie de haute qualité.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Transformer MP4 en MP3",
+        "description": "Transformer MP4 en MP3 avec découpage précis. Choisissez uniquement la section dont vous avez besoin quand vous extrayez le son d'une vidéo sur iPhone. Convertir vidéo en MP3 en ligne directement sur iPhone.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Extraire le Son d'une Vidéo iPhone",
+        "description": "Utilisez le bouton Partager dans Photos ou Fichiers pour extraire le son d'une vidéo instantanément. Le moyen le plus simple d'extraire le son d'une vidéo iPhone - sans étapes compliquées.",
+        "icon": "🔗"
+      },
+      {
+        "title": "Convertisseur Vidéo en MP3",
+        "description": "Interface simple conçue pour les utilisateurs iPhone qui veulent convertir vidéo en MP3 rapidement. Le meilleur convertisseur vidéo en MP3 - intuitif et facile à utiliser.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Convertir une Vidéo en MP3",
+        "description": "Convertir une vidéo en MP3 sur iPhone avec qualité exceptionnelle. Extraire le son d'une vidéo et profitez d'un son cristallin à chaque fois. Parfait pour musique, podcasts et enregistrements vocaux.",
+        "icon": "🎵"
+      }
     ]
   },
   "demo": {
@@ -70,19 +95,51 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "Note 4.8 - Meilleure App pour Extraire le Son d'une Vidéo iPhone",
     "items": [
-      { "text": "\"Le meilleur moyen d'extraire l'audio d'une vidéo sur iPhone ! Parfait pour sauvegarder de la musique depuis des vidéos. Les outils de découpage rendent si facile d'extraire exactement ce dont j'ai besoin.\"", "author": "- Amateur de Musique" },
-      { "text": "\"J'ai enfin trouvé comment extraire l'audio d'une vidéo sur iPhone gratuitement ! Excellent pour capturer l'audio de conférences. Interface épurée et extraction rapide.\"", "author": "- Étudiant" },
-      { "text": "\"Meilleure application iPhone pour extraire l'audio d'une vidéo. J'adore la facilité d'extraire le son d'une vidéo en utilisant le bouton Partager. Hautement recommandé !\"", "author": "- Créateur de Contenu" }
+      {
+        "text": "\"Le meilleur moyen d'extraire l'audio d'une vidéo sur iPhone ! Parfait pour sauvegarder de la musique depuis des vidéos. Les outils de découpage rendent si facile d'extraire exactement ce dont j'ai besoin.\"",
+        "author": "- Amateur de Musique"
+      },
+      {
+        "text": "\"J'ai enfin trouvé comment extraire l'audio d'une vidéo sur iPhone gratuitement ! Excellent pour capturer l'audio de conférences. Interface épurée et extraction rapide.\"",
+        "author": "- Étudiant"
+      },
+      {
+        "text": "\"Meilleure application iPhone pour extraire l'audio d'une vidéo. J'adore la facilité d'extraire le son d'une vidéo en utilisant le bouton Partager. Hautement recommandé !\"",
+        "author": "- Créateur de Contenu"
+      }
     ]
   },
   "faq": {
     "title": "Extraire le Son d'une Vidéo iPhone – FAQ",
     "items": [
-      { "question": "Comment extraire le son d'une vidéo sur iPhone ?", "answer": "Pour extraire le son d'une vidéo sur iPhone, ouvrez l'application Extraire l'Audio d'une Vidéo⁺, choisissez une vidéo de votre bibliothèque, découpez si nécessaire, puis enregistrez comme audio (MP3). Vous pouvez également utiliser le bouton Partager dans Photos ou Fichiers et choisir l'application pour extraire le son d'une vidéo instantanément. C'est le moyen le plus simple d'extraire le son d'une vidéo sur iPhone." },
-      { "question": "Y a-t-il une application gratuite pour extraire le son d'une vidéo sur iPhone ?", "answer": "Oui ! Extraire l'Audio d'une Vidéo⁺ est complètement gratuit pour extraire le son d'une vidéo sur iPhone. Sans abonnements ni frais cachés - téléchargez simplement et commencez à extraire le son d'une vidéo. C'est la meilleure application gratuite pour extraire le son d'une vidéo disponible pour iPhone." },
-      { "question": "Comment convertir vidéo en MP3 sur iPhone ?", "answer": "Pour convertir vidéo en MP3 sur iPhone : 1) Ouvrez l'application, 2) Sélectionnez votre vidéo, 3) Découpez la section que vous voulez, 4) Appuyez sur Enregistrer pour extraire l'audio. Vous pouvez également convertir vidéo en MP3 directement en utilisant le bouton Partager dans Photos. Cette application rend simple de convertir vidéo en MP3 sur iPhone." },
-      { "question": "Puis-je transformer MP4 en MP3 sur iPhone ?", "answer": "Oui ! Vous pouvez transformer MP4 en MP3 sur iPhone avec Extraire l'Audio d'une Vidéo⁺. Cette application vous permet de convertir vidéo en MP3 et transformer MP4, MOV et autres formats vidéo en audio MP3 rapidement. C'est la meilleure application pour transformer MP4 en MP3 pour iPhone." },
-      { "question": "Comment convertir vidéo en MP3 gratuitement ?", "answer": "Pour convertir vidéo en MP3 gratuitement, téléchargez Extraire l'Audio d'une Vidéo⁺ depuis l'App Store. Cette application gratuite vous permet de convertir vidéo en MP3 sur iPhone instantanément sans aucun coût. Extraire le son d'une vidéo, convertir vidéo en MP3, et enregistrer fichiers audio - tout complètement gratuit." }
+      {
+        "question": "Comment extraire le son d'une vidéo sur iPhone ?",
+        "answer": "Pour extraire le son d'une vidéo sur iPhone, ouvrez l'application Extraire l'Audio d'une Vidéo⁺, choisissez une vidéo de votre bibliothèque, découpez si nécessaire, puis enregistrez comme audio (MP3). Vous pouvez également utiliser le bouton Partager dans Photos ou Fichiers et choisir l'application pour extraire le son d'une vidéo instantanément. C'est le moyen le plus simple d'extraire le son d'une vidéo sur iPhone."
+      },
+      {
+        "question": "Y a-t-il une application gratuite pour extraire le son d'une vidéo sur iPhone ?",
+        "answer": "Oui ! Extraire l'Audio d'une Vidéo⁺ est complètement gratuit pour extraire le son d'une vidéo sur iPhone. Sans abonnements ni frais cachés - téléchargez simplement et commencez à extraire le son d'une vidéo. C'est la meilleure application gratuite pour extraire le son d'une vidéo disponible pour iPhone."
+      },
+      {
+        "question": "Comment convertir vidéo en MP3 sur iPhone ?",
+        "answer": "Pour convertir vidéo en MP3 sur iPhone : 1) Ouvrez l'application, 2) Sélectionnez votre vidéo, 3) Découpez la section que vous voulez, 4) Appuyez sur Enregistrer pour extraire l'audio. Vous pouvez également convertir vidéo en MP3 directement en utilisant le bouton Partager dans Photos. Cette application rend simple de convertir vidéo en MP3 sur iPhone."
+      },
+      {
+        "question": "Puis-je transformer MP4 en MP3 sur iPhone ?",
+        "answer": "Oui ! Vous pouvez transformer MP4 en MP3 sur iPhone avec Extraire l'Audio d'une Vidéo⁺. Cette application vous permet de convertir vidéo en MP3 et transformer MP4, MOV et autres formats vidéo en audio MP3 rapidement. C'est la meilleure application pour transformer MP4 en MP3 pour iPhone."
+      },
+      {
+        "question": "Comment convertir vidéo en MP3 gratuitement ?",
+        "answer": "Pour convertir vidéo en MP3 gratuitement, téléchargez Extraire l'Audio d'une Vidéo⁺ depuis l'App Store. Cette application gratuite vous permet de convertir vidéo en MP3 sur iPhone instantanément sans aucun coût. Extraire le son d'une vidéo, convertir vidéo en MP3, et enregistrer fichiers audio - tout complètement gratuit."
+      },
+      {
+        "question": "Extraire l'Audio d'une Vidéo⁺ est-il meilleur que les extracteurs d'audio en ligne ?",
+        "answer": "Oui, pour les utilisateurs iPhone. Extraire l'Audio d'une Vidéo⁺ traite les vidéos directement sur votre appareil, donc vos fichiers ne quittent jamais votre iPhone. Les convertisseurs en ligne nécessitent de télécharger des vidéos sur des serveurs, ce qui peut être plus lent et moins privé. L'application est gratuite à télécharger et utiliser, avec des achats intégrés optionnels disponibles."
+      },
+      {
+        "question": "Est-il sûr d'utiliser Extraire l'Audio d'une Vidéo⁺ par rapport aux convertisseurs en ligne ?",
+        "answer": "Oui, c'est plus sûr. Extraire l'Audio d'une Vidéo⁺ traite les vidéos entièrement sur votre iPhone, sans téléchargements vers des serveurs externes. Cela signifie que vos vidéos restent privées et sécurisées sur votre appareil. Les convertisseurs en ligne nécessitent de télécharger des fichiers, ce qui peut présenter des risques pour la confidentialité."
+      }
     ]
   },
   "footer": {
@@ -94,7 +151,8 @@
     "terms_text": "Conditions d'Utilisation",
     "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Support",
-    "copyright": "© {year} c-basso. Tous droits réservés."
+    "copyright": "© {year} c-basso. Tous droits réservés.",
+    "developer_info": "Développé par Vladimir Ivakhnenko (c-basso)"
   },
   "floating_cta": {
     "url": "https://apps.apple.com/app/id6744582065",
@@ -136,5 +194,49 @@
     "application_category": "MultimediaApplication",
     "application_sub_category": "Audio",
     "price_currency": "USD"
+  },
+  "by_the_numbers": {
+    "title": "Extraire l'Audio d'une Vidéo⁺ en Chiffres",
+    "items": [
+      "4.8 sur 5 étoiles basé sur 140+ évaluations App Store",
+      "Gratuit à télécharger et utiliser – achats intégrés optionnels disponibles",
+      "Prend en charge MP4, MOV et autres formats vidéo iPhone courants",
+      "~50 Mo taille de l'application iOS",
+      "Traite les vidéos directement sur votre iPhone pour la confidentialité et la vitesse"
+    ]
+  },
+  "comparison": {
+    "title": "Extraire l'Audio d'une Vidéo⁺ vs Convertisseurs en Ligne",
+    "intro": "Voici comment Extraire l'Audio d'une Vidéo⁺ se compare aux convertisseurs vidéo en audio en ligne :",
+    "table": {
+      "feature": "Fonction",
+      "online_converters": "Convertisseurs en Ligne",
+      "this_app": "Extraire l'Audio d'une Vidéo⁺",
+      "rows": [
+        {
+          "feature": "Confidentialité",
+          "online": "Les vidéos sont téléchargées sur des serveurs",
+          "app": "Le traitement se fait sur votre iPhone"
+        },
+        {
+          "feature": "Facilité d'Utilisation",
+          "online": "Nécessite de télécharger des fichiers et d'attendre",
+          "app": "Utilisez le bouton Partager ou ouvrez l'application directement"
+        },
+        {
+          "feature": "Coût",
+          "online": "Nécessite souvent un abonnement ou a des limites",
+          "app": "Gratuit à utiliser, achats intégrés optionnels"
+        },
+        {
+          "feature": "Vitesse",
+          "online": "Dépend de la vitesse de téléchargement/téléchargement",
+          "app": "Traitement instantané sur l'appareil"
+        }
+      ]
+    }
+  },
+  "last_updated": {
+    "text": "Dernière mise à jour : janvier 2026"
   }
 }
