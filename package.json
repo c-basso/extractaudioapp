@@ -2,7 +2,7 @@
   "name": "extractaudioapp",
   "scripts": {
     "build": "node build/build.js",
-    "validate": "node build/validate.js",
+    "validate": "node build/validate/index.js",
     "sitemap": "node build/sitemap.js",
     "start": "npx http-server",
     "site:preview": "node build/preview.js",
@@ -11,6 +11,7 @@
     "deploy": "npm run build && npm run validate && npm run sitemap && npm run push"
   },
   "devDependencies": {
+    "jsonld": "^9.0.0",
     "puppeteer": "^24.1.1"
   }
 }
