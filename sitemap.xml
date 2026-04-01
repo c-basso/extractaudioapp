@@ -16,6 +16,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://extractaudioapp.com/nl/" />
     <xhtml:link rel="alternate" hreflang="pl" href="https://extractaudioapp.com/pl/" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://extractaudioapp.com/ro/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://extractaudioapp.com/th/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://extractaudioapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://extractaudioapp.com/uk/" />
     <priority>1.0</priority>
   </url>
 
