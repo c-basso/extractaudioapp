@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "lang": "ja",
+    "title": "iPhoneで動画から音声を抽出｜MP4/MOVをMP3に変換する無料アプリ【2026】",
+    "description": "iPhoneで動画から音声を抽出・MP4やMOVを高音質MP3に変換。端末内処理ですばやく完了し、無料で使い始められる音声抽出アプリ。",
+    "keywords": "動画から音声を抽出, 動画 音声 抽出 iPhone, 動画から音を抜く, 動画をMP3に変換, 動画から音楽を取り出す, MP4 MP3 変換, MOV MP3 変換, 動画 音声だけ 保存, iPhone 動画 オーディオ 抽出, 音声抽出アプリ 無料, 動画 MP3 変換 アプリ, 共有 動画 音声, 端末内 変換, プライベート, iOS アプリ, App Store",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/ja/",
+    "og_title": "iPhoneで動画から音声を抽出｜高音質MP3・無料アプリ",
+    "og_description": "iPhoneで動画から音声を抽出。MP4やMOVを高音質MP3に変換できる無料アプリ。処理はすべて端末内で完結し、外部にアップロードしません。共有シートやフォトからすぐに音だけを保存でき、トリミング機能で必要な区間だけを選べます。",
+    "og_image": "https://extractaudioapp.com/ja/site_preview.png",
+    "site_name": "動画から音声を抽出⁺",
+    "og_locale": "ja_JP",
+    "twitter_url": "https://extractaudioapp.com/ja/",
+    "twitter_title": "iPhoneで動画から音声を抽出｜無料のMP3変換アプリ",
+    "twitter_description": "iPhoneで動画から音だけを抽出。MP4・MOVを高音質MP3に。端末内処理でプライバシー安心。フォトや共有からすぐ保存、基本機能は無料。",
+    "twitter_image": "https://extractaudioapp.com/ja/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/ja/",
+    "geo_region": "JP",
+    "geo_placename": "Japan"
+  },
+  "hero": {
+    "logo_alt": "動画から音声を抽出⁺ ロゴ",
+    "title": "iPhoneで動画から音声を抽出",
+    "subtitle": "すぐに音だけを保存できる無料のiPhoneアプリ",
+    "entity_definition": "動画から音声を抽出⁺は、iPhone上の動画（MP4／MOVなど）をその場で高音質MP3に変換するiOSアプリです。データは端末内で処理されます。",
+    "subheadline": "動画のBGMだけ残したい、講義の音声だけ聴きたい、ボイス用に切り出したい──共有メニューからでも使え、快適でプライバシーを守れる変換が可能です。基本利用は無料で、追加機能は任意の課金です。",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "App Storeでダウンロード",
+    "phone_text": "タップして動画を音声に変換",
+    "qr_alt": "アプリダウンロード用QRコード",
+    "qr_text": "スマホで読み取ってダウンロード"
+  },
+  "features": {
+    "title": "iPhoneで動画から音声を抽出するなら──高音質・簡単・基本無料",
+    "items": [
+      { "title": "動画から音声を抽出（基本無料）", "description": "ダウンロード・基本の音声抽出は無料。必要に応じてアプリ内課金で機能拡張。ワンタップ感覚で動画をMP3へ。", "icon": "⚡" },
+      { "title": "動画をMP3に変換（高音質）", "description": "MP4・MOVなどiPhoneでよく使う形式から、クリアなMP3へ変換。待ち時間を抑えた端末内エンコード。", "icon": "🎵" },
+      { "title": "トリミングで必要な区間だけ", "description": "前後をカットして、欲しい部分の音声だけを保存。講義動画やSNS用クリップの一部だけ抜き出すのに便利。", "icon": "✂️" },
+      { "title": "フォト／ファイルの共有から起動", "description": "「共有」からアプリを選べばスムーズ。面倒な手順なしで動画から音声を抽出できます。", "icon": "🔗" },
+      { "title": "直感的なUI", "description": "iPhone向けに整理された画面。初めてでも迷いにくい操作感です。", "icon": "🎨" },
+      { "title": "音質にこだわった出力", "description": "音声として聴きやすいクオリティを目指した出力。音楽・ボイス・収録映像の切り出しに。", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "動画から音声を抽出⁺の数字",
+    "items": [
+      "App Store評価 4.8／5（140件超のレビューに基づく）",
+      "基本機能は無料・アプリ内課金は任意",
+      "MP4・MOV など一般的なiPhone動画形式に対応",
+      "アプリサイズ目安 約50MB",
+      "処理はiPhone内で完結（アップロード不要）"
+    ],
+    "stats": [
+      {
+        "number": "4.8",
+        "label": "評価",
+        "detail": "140件超のレビュー"
+      },
+      {
+        "number": "約50MB",
+        "label": "アプリ容量",
+        "detail": "軽量で起動も速い"
+      },
+      {
+        "number": "100%",
+        "label": "基本機能",
+        "detail": "抽出の核は無料で利用可"
+      },
+      {
+        "number": "端末内",
+        "label": "処理方式",
+        "detail": "動画が外部サーバに送られない"
+      }
+    ]
+  },
+  "demo": {
+    "title": "iPhoneで動画から音声を抽出する手順",
+    "subtitle": "高品質なMP3を端末内で──シンプルな4ステップ",
+    "placeholder_line1": "📱 デモ動画は準備中です",
+    "placeholder_line2": "1 アプリを開く → 2 動画を選ぶ → 3 必要ならトリミング → 4 音声として保存（MP3）"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "アプリを開く",
+        "text": "iPhoneで{{app_info.name}}を起動します。App Storeから無料で入手できます。"
+      },
+      {
+        "name": "動画を選ぶ",
+        "text": "ライブラリから動画を選択。MP4、MOV など一般的な形式に対応しています。"
+      },
+      {
+        "name": "必要ならトリミング",
+        "text": "必要な区間だけを指定できます。全体をそのまま使う場合はこの手順を省略して構いません。"
+      },
+      {
+        "name": "音声として保存",
+        "text": "「音声として保存」などの操作でMP3を書き出し。ファイルはiPhoneに保存されます。"
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "評価4.8／動画から音声を抽出するのに便利なiPhoneアプリ",
+    "items": [
+      { "text": "「動画の曲だけ取り出したくて入れました。トリミングがシンプルで、待ち時間も短くて助かります。」", "author": "田中 M.／iPhoneユーザー", "rating": "5つ星", "verified": true },
+      { "text": "「講義動画から音だけ抜くのに重宝しています。端末内で完結するのが安心。」", "author": "佐藤 T.／学生", "rating": "5つ星", "verified": true },
+      { "text": "「共有から開けるのが楽。クリップ作りの素材集めに使っています。」", "author": "山本 L.／クリエイター", "rating": "5つ星", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "iPhoneで動画から音声を抽出──よくある質問",
+    "items": [
+      { "question": "iPhoneで動画から音声を抽出するには？", "answer": "動画から音声を抽出⁺を開き、ライブラリの動画を選び、必要ならトリミングしてから音声（MP3）として保存します。写真アプリやファイルの「共有」からアプリを選んですぐ送ることもできます。外出先でも端末内で処理できるのがポイントです。" },
+      { "question": "無料で動画から音を抜けるアプリはありますか？", "answer": "はい。本アプリはダウンロードと中核の音声抽出を無料で始められ、追加機能は任意の課金です。App Storeで「動画から音声を抽出⁺」を入手し、そのままお試しください。" },
+      { "question": "動画から音だけを保存する手順は？", "answer": "（1）アプリを開く（2）動画を選択（3）区間を調整（任意）（4）MP3として保存。共有シート経由なら、動画を開いたままアプリへ渡すだけでもスムーズです。" },
+      { "question": "iPhoneで動画を音声だけに変換できますか？", "answer": "できます。MP4やMOVなどの動画をMP3に変換し、音楽プレーヤーや別アプリでそのまま使えます。オフラインでも作業しやすいよう、変換は主に端末内で行われます。" },
+      { "question": "課金なしで動画から音声を取り出せますか？", "answer": "中核の抽出機能は無料で利用できます。より便利な追加オプションはアプリ内課金で解放できますが、まずは無料範囲で要件を試せます。" },
+      { "question": "オンラインツールよりこのアプリの利点は？", "answer": "動画を外部サーバにアップロードしなくてよい点です。回線状況に左右されにくく、プライバシーも守りやすいです。iPhoneユーザー向けの画面設計で、日常的な変換に向いています。" },
+      { "question": "オンライン変換より安全ですか？", "answer": "処理がiPhone内で完結するため、動画が第三者のサーバに送られない運用になります。機密性の高い映像や個人のライブラリを扱う場合に有利です。" }
+    ]
+  },
+  "last_updated": {
+    "text": "最終更新：2026年1月"
+  },
+  "app_info": {
+    "name": "Extract Audio from Video⁺",
+    "alternate_name": "動画から音声を抽出",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 無料ダウンロード──iPhoneで動画から音声を抽出",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "プライバシーポリシー",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "利用規約",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "サポート",
+    "developer_info": "開発：Vladimir Ivakhnenko（c-basso）",
+    "copyright": "© {year} c-basso. All rights reserved."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 iPhoneで動画から音声を抽出（無料）"
+  },
+  "seo_chapter": {
+    "title": "iPhoneで動画から音声を抽出する完全ガイド【2026】",
+    "subtitle": "MP4／MOVをMP3へ──無料で始められる音声抽出アプリ",
+    "intro": "動画から音声を抽出⁺は、iOS向けマルチメディアアプリとして、端末上の動画ファイル（MP4／MOV 等）をMP3オーディオに変換します。インターネット接続なしでも作業でき、映像は主にiPhone内で処理され外部へアップロードされません。一般的なiPhone動画形式を読み込み、出力はMP3。コア機能は無料で、拡張は任意の課金です。",
+    "sections": [
+      {
+        "heading": "手順：iPhoneで動画から音声を抽出する",
+        "body": "（1）アプリを起動（2）ライブラリから動画を選択（3）必要に応じてトリミングで区間を指定（4）音声として保存しMP3を書き出す。写真やファイルの「共有」からアプリを開くと、ホーム画面から辿らずに動画を渡せます。対応形式はiOSで扱える一般的な動画に準じます。"
+      },
+      {
+        "heading": "機能と特長",
+        "body": "遠隔サーバへの丸ごとアップロードに頼らず、端末内エンコードを基本とします。プライバシーとレスポンスのバランスに向いた設計です。前後を切り取るトリミングで、必要シーンだけの音を残せます。動画→MP3の変換、MP4・MOV入力といった一般的なユースケースをカバーします。"
+      }
+    ],
+    "bullets_title": "よくある用途",
+    "bullets": [
+      "動画に含まれる楽曲・効果音だけをオーディオとして保存したい",
+      "講義や会議の録画から音だけを取り出し、移動中に聴きたい",
+      "ポッドキャストやSNS用に、映像の一部からナレーションだけ抜きたい",
+      "別のDAWや編集アプリへ渡す前に、素材を軽いMP3にしておきたい"
+    ],
+    "conclusion": "動画から音声を抽出⁺は、iPhone上で動画ファイルから音声を取り出すためのアプリです。処理は端末を中心に行われ、主要な抽出機能は無料から利用できます。さらに使いこなしたい場合は、任意の課金で拡張できます。"
+  },
+  "comparison": {
+    "title": "動画から音声を抽出⁺とオンライン変換の違い",
+    "intro": "ブラウザ型の動画→音声サービスと比べたときのイメージです。",
+    "table": {
+      "feature": "項目",
+      "online_converters": "オンライン変換",
+      "this_app": "動画から音声を抽出⁺",
+      "rows": [
+        {
+          "feature": "プライバシー",
+          "online": "動画をサーバに送信することが多い",
+          "app": "iPhone内で処理（アップロード不要）"
+        },
+        {
+          "feature": "手軽さ",
+          "online": "アップロード・待機・ダウンロードが必要な場合がある",
+          "app": "共有またはアプリから直接"
+        },
+        {
+          "feature": "コスト",
+          "online": "回数制限・有料プランがあることが多い",
+          "app": "基本無料・課金は任意"
+        },
+        {
+          "feature": "速度",
+          "online": "回線とサーバ負荷に左右されやすい",
+          "app": "端末の性能に応じたローカル処理"
+        }
+      ]
+    }
+  }
+}
