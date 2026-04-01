@@ -10,7 +10,8 @@ const LANGUAGES = [
     'it',
     'pt',
     'ja',
-    'ko'
+    'ko',
+    'nl'
 ];
 
 const URLS = LANGUAGES.map((lang) => ({
