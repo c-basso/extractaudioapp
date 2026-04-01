@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "lang": "pl",
+    "title": "Audio z wideo na iPhone | MP4/MOV na MP3 – darmowa aplikacja 2026",
+    "description": "Wyciągnij dźwięk z wideo na iPhonie: MP4 i MOV w wysokiej jakości MP3. Szybko, lokalnie na urządzeniu; rdzeń za darmo, dodatki opcjonalnie w aplikacji.",
+    "keywords": "wyciągnąć audio z wideo, dźwięk z filmu iphone, mp4 na mp3, mov na mp3, konwerter wideo na mp3, audio z wideo aplikacja, ekstrakcja audio, wideo do mp3, darmowa aplikacja iphone, ios, app store, lokalna konwersja, prywatność",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/pl/",
+    "og_title": "Audio z wideo na iPhone | MP3 z MP4/MOV, start za darmo",
+    "og_description": "Audio z wideo na iPhone—MP4/MOV na MP3 w dobrej jakości, start gratis. Lokalnie, bez chmury. Udostępnianie z Zdjęć i przycinanie do wybranego fragmentu audio.",
+    "og_image": "https://extractaudioapp.com/pl/site_preview.png",
+    "site_name": "Audio z wideo⁺",
+    "og_locale": "pl_PL",
+    "twitter_url": "https://extractaudioapp.com/pl/",
+    "twitter_title": "Audio z wideo na iPhone | Darmowy konwerter MP3",
+    "twitter_description": "Wyciągnij audio z wideo na iPhonie. MP4/MOV, dobra jakość, obróbka lokalnie. Udostępnij z Zdjęć; funkcje podstawowe gratis, rozszerzenia opcjonalnie.",
+    "twitter_image": "https://extractaudioapp.com/pl/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/pl/",
+    "geo_region": "PL",
+    "geo_placename": "Poland"
+  },
+  "hero": {
+    "logo_alt": "Logo aplikacji Audio z wideo⁺",
+    "title": "Audio z wideo na iPhone",
+    "subtitle": "Wyciągnij dźwięk z wideo – darmowa aplikacja",
+    "entity_definition": "Audio z wideo⁺ to aplikacja iOS, która na iPhonie zamienia nagrania MP4/MOV na pliki MP3 w wysokiej jakości, bez wysyłania ich w obce chmury.",
+    "subheadline": "Zachowaj muzykę z klipów, wyciągnij audio z wykładów albo przygotuj krótkie nagrania głosowe. Szybko, prywatnie; podstawowe funkcje za darmo, zaawansowane opcje przez opcjonalne zakupy w aplikacji.",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "Pobierz w App Store",
+    "phone_text": "Dotknij, by zamienić wideo na audio",
+    "qr_alt": "Kod QR do pobrania aplikacji",
+    "qr_text": "Zeskanuj telefonem, aby pobrać"
+  },
+  "features": {
+    "title": "Audio z wideo na iPhone – najwygodniejszy darmowy start dla MP4/MOV do MP3",
+    "items": [
+      { "title": "Dźwięk z wideo bez opłat za rdzeń", "description": "Pobranie i podstawowa ekstrakcja są darmowe; rozszerzenia przez opcjonalne IAP. Konwersję zaczniesz kilkoma stuknięciami.", "icon": "⚡" },
+      { "title": "Konwerter wideo na MP3", "description": "MP4, MOV i inne popularne formaty z iPhone’a na wyraźny MP3. Przetwarzanie lokalnie, krótsze oczekiwanie niż przy uploadzie online.", "icon": "🎵" },
+      { "title": "Przytnij do właściwego fragmentu", "description": "Wybierz dokładnie ten odcinek, którego potrzebujesz – wykłady, spotkania, krótkie materiały na social media.", "icon": "✂️" },
+      { "title": "Start z Zdjęć lub Plików", "description": "Użyj Udostępnij w Zdjęciach lub Plikach, by od razu trafić do aplikacji—bez skomplikowanej ścieżki.", "icon": "🔗" },
+      { "title": "Aplikacja pod iPhone’a", "description": "Prosty interfejs dla osób, które chcą szybko wyeksportować ścieżkę dźwiękową.", "icon": "🎨" },
+      { "title": "Czytelna jakość dźwięku", "description": "Stabilna jakość pod muzykę, fragmenty podcastów i nagrania głosowe.", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "Audio z wideo⁺ w liczbach",
+    "items": [
+      "Średnia 4,8/5 gwiazdek na podstawie 140+ ocen w App Store",
+      "Darmowe pobranie i użycie rdzenia – opcjonalne zakupy w aplikacji",
+      "Obsługa MP4, MOV i innych typowych formatów wideo z iPhone’a",
+      "Rozmiar aplikacji ok. 50 MB na iOS",
+      "Obróbka na iPhonie: szybciej i bardziej prywatnie, bez wymuszonego uploadu"
+    ],
+    "stats": [
+      {
+        "number": "4,8",
+        "label": "Ocena",
+        "detail": "Na podstawie 140+ recenzji"
+      },
+      {
+        "number": "~50 MB",
+        "label": "Rozmiar",
+        "detail": "Lekka i szybka"
+      },
+      {
+        "number": "100%",
+        "label": "Rdzeń za darmo",
+        "detail": "Dodatki opcjonalnie"
+      },
+      {
+        "number": "Lokalnie",
+        "label": "Przetwarzanie",
+        "detail": "Wideo zostaje na iPhonie"
+      }
+    ]
+  },
+  "demo": {
+    "title": "Jak wyciągnąć audio z wideo na iPhone – krok po kroku",
+    "subtitle": "Przekonująca jakość MP3 wykonana na Twoim urządzeniu",
+    "placeholder_line1": "📱 Film demo wkrótce",
+    "placeholder_line2": "1 Otwórz aplikację > 2 Wybierz wideo > 3 Opcjonalnie przytnij > 4 Zapisz jako MP3"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Uruchom aplikację",
+        "text": "Otwórz {{app_info.name}} na iPhonie. Aplikację pobierzesz bezpłatnie z App Store."
+      },
+      {
+        "name": "Wybierz wideo",
+        "text": "Wskaż plik z biblioteki w formacie MP4, MOV lub innym popularnym formacie."
+      },
+      {
+        "name": "Opcjonalnie przytnij",
+        "text": "Użyj narzędzi przycinania, by wybrać dokładny fragment, z którego chcesz uzyskać audio. Ten krok możesz pominąć."
+      },
+      {
+        "name": "Zapisz audio",
+        "text": "Stuknij Zapisz jako audio, by wyciągnąć dźwięk i zapisać go jako MP3. Plik pozostaje na iPhonie."
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "4,8 – solidna aplikacja do audio z wideo na iPhone",
+    "items": [
+      { "text": "\"Super do wyciągania muzyki z filmów. Przycinanie działa intuicyjnie, wynik szybki.\"", "author": "Anna K., użytkowniczka iPhone", "rating": "5 gwiazdek", "verified": true },
+      { "text": "\"Na wykłady nagrywane wideo—wszystko lokalnie, czysty interfejs.\"", "author": "Piotr M., student", "rating": "5 gwiazdek", "verified": true },
+      { "text": "\"Udostępnianie z Zdjęć oszczędza czas. Polecam, jeśli często tniesz krótkie audio.\"", "author": "Katarzyna W., twórczyni", "rating": "5 gwiazdek", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "Audio z wideo na iPhone – FAQ",
+    "items": [
+      { "question": "Jak wyciągnąć audio z wideo na iPhonie?", "answer": "Otwórz Audio z wideo⁺, wybierz nagranie z biblioteki, opcjonalnie przytnij i zapisz jako MP3. Możesz też użyć Udostępnij w Zdjęciach lub Plikach i wybrać aplikację—bez konieczności wysyłania pliku do obcej chmury." },
+      { "question": "Czy jest darmowa aplikacja, by wyciągnąć dźwięk z wideo?", "answer": "Tak. Audio z wideo⁺ można pobrać za darmo; kluczowa ekstrakcja jest bezpłatna, a dodatkowe funkcje odblokujesz opcjonalnymi zakupami w aplikacji. Zainstaluj z App Store i przetestuj od razu." },
+      { "question": "Jak zostawić tylko dźwięk z nagrania?", "answer": "1) Uruchom aplikację. 2) Wskaż wideo. 3) Przytnij fragment (jeśli trzeba). 4) Zapisz MP3. To samo wygodnie zaczniesz z menu udostępniania w Zdjęciach." },
+      { "question": "Czy mogę zamienić wideo na samo audio na iPhone?", "answer": "Tak. Aplikacja konwertuje MP4, MOV i podobne formaty na MP3 do odtwarzacza lub innych programów. Przetwarzanie odbywa się głównie na urządzeniu." },
+      { "question": "Czy da się wyciągać audio z wideo za darmo?", "answer": "Rdzeń funkcji ekstrakcji jest darmowy. Więcej opcji—przez dobrowolne zakupy w aplikacji; nie musisz wykupywać subskrypcji, by zacząć od podstaw." },
+      { "question": "Czy to lepsze niż konwertery online?", "answer": "Dla wielu użytkowników iPhone’a tak: wideo obrabiane jest lokalnie i nie musi trafiać na serwer. Narzędzia online często wymagają uploadu i bywają wolniejsze lub mniej dyskretne." },
+      { "question": "Czy jest to bezpieczniejsze niż online?", "answer": "Zwykle tak, bo nagrania pozostają na iPhonie zamiast iść na zewnętrzny hosting. To ważne przy prywatnych materiałach." }
+    ]
+  },
+  "last_updated": {
+    "text": "Ostatnia aktualizacja: styczeń 2026"
+  },
+  "app_info": {
+    "name": "Extract Audio from Video⁺",
+    "alternate_name": "Wyciąganie audio z wideo",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 Pobierz za darmo – audio z wideo na iPhone",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "Polityka prywatności",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "Regulamin",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Wsparcie",
+    "developer_info": "Autor: Vladimir Ivakhnenko (c-basso)",
+    "copyright": "© {year} c-basso. Wszelkie prawa zastrzeżone."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 Audio z wideo na iPhone – za darmo"
+  },
+  "seo_chapter": {
+    "title": "Kompletny przewodnik: audio z wideo na iPhone (2026)",
+    "subtitle": "MP4/MOV do MP3 – darmowy start, prywatnie na urządzeniu",
+    "intro": "Audio z wideo⁺ to aplikacja multimedialna na iOS, która zamienia pliki wideo (MP4/MOV) na iPhonie na ścieżki MP3. Wiele operacji zrobisz offline: ekstrakcja jest lokalna, więc nagranie nie musi trafiać na zewnętrzny serwer. Obsługiwane są popularne formaty z iPhone’a; wyjście to MP3. Funkcje podstawowe są bezpłatne, a rozszerzenia—przez opcjonalne zakupy w aplikacji.",
+    "sections": [
+      {
+        "heading": "Krok po kroku: wyciągnij audio z wideo",
+        "body": "1) Uruchom aplikację. 2) Wybierz wideo z biblioteki. 3) Opcjonalnie przytnij fragment. 4) Zapisz wynik jako MP3. Udostępnij z Zdjęć lub Plików, by pominąć szukanie ikony na ekranie głównym. Formaty odpowiadają temu, co iOS standardowo obsługuje."
+      },
+      {
+        "heading": "Możliwości",
+        "body": "Zamiast wysyłać całe pliki do chmury, aplikacja stawia na obróbkę na iPhonie—korzystne dla prywatności i czasu bez transferu sieciowego samej konwersji. Przycinanie pomaga wyeksportować tylko potrzebne audio. To typowy konwerter wideo→MP3 z wejściem MP4/MOV."
+      }
+    ],
+    "bullets_title": "Popularne zastosowania",
+    "bullets": [
+      "Zachowanie ścieżki dźwiękowej z materiału wideo do własnej kolekcji",
+      "Nagrania wykładów lub spotkań tylko jako audio do słuchania w drodze",
+      "Krótkie klipy dźwiękowe na social media lub podcast",
+      "Lżejszy MP3 przed dalszą edycją w innych programach"
+    ],
+    "conclusion": "Audio z wideo⁺ ułatwia na iPhonie wydobycie dźwięku z plików wideo, lokalnie i z darmowym rdzeniem. Dodatkowe narzędzia są opcjonalne."
+  },
+  "comparison": {
+    "title": "Audio z wideo⁺ a konwertery online",
+    "intro": "Krótkie porównanie z usługami w przeglądarce:",
+    "table": {
+      "feature": "Cecha",
+      "online_converters": "Online",
+      "this_app": "Audio z wideo⁺",
+      "rows": [
+        {
+          "feature": "Prywatność",
+          "online": "Wideo często idzie na serwer",
+          "app": "Obróbka na iPhonie"
+        },
+        {
+          "feature": "Wygoda",
+          "online": "Upload i oczekiwanie",
+          "app": "Udostępnij lub bezpośrednio aplikacja"
+        },
+        {
+          "feature": "Koszt",
+          "online": "Limity lub abonament",
+          "app": "Rdzeń za darmo, dodatki opcjonalnie"
+        },
+        {
+          "feature": "Szybkość",
+          "online": "Zależna od łącza",
+          "app": "Natychmiast na urządzeniu"
+        }
+      ]
+    }
+  }
+}
