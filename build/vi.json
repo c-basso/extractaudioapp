@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "lang": "vi",
+    "title": "Tách âm thanh từ video trên iPhone | MP4/MOV sang MP3 – ứng dụng miễn phí 2026",
+    "description": "Trích xuất âm thanh từ video trên iPhone: chuyển MP4/MOV sang MP3 chất lượng. Xử lý nhanh trên thiết bị; lõi miễn phí, mở rộng tùy chọn qua mua trong ứng dụng.",
+    "keywords": "trích xuất âm thanh từ video, tách âm thanh khỏi video iphone, chuyển mp4 sang mp3, mov sang mp3, chuyển video sang mp3, ứng dụng miễn phí iphone, ios, app store, xử lý cục bộ, quyền riêng tư",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/vi/",
+    "og_title": "Tách âm thanh từ video iPhone | MP3 từ MP4/MOV miễn phí",
+    "og_description": "Tách âm thanh từ video trên iPhone: MP4/MOV sang MP3 rõ, miễn phí cơ bản. Xử lý cục bộ, không tải server. Chia sẻ từ Ảnh, cắt đoạn cần.",
+    "og_image": "https://extractaudioapp.com/vi/site_preview.png",
+    "site_name": "Âm thanh từ video⁺",
+    "og_locale": "vi_VN",
+    "twitter_url": "https://extractaudioapp.com/vi/",
+    "twitter_title": "Tách âm thanh từ video iPhone | Ứng dụng MP3 miễn phí",
+    "twitter_description": "Trích audio từ video trên iPhone. MP4/MOV, chất lượng tốt, xử lý trên máy. Chia sẻ từ Ảnh; lõi miễn phí, tính năng mở rộng tùy chọn.",
+    "twitter_image": "https://extractaudioapp.com/vi/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/vi/",
+    "geo_region": "VN",
+    "geo_placename": "Vietnam"
+  },
+  "hero": {
+    "logo_alt": "Logo Âm thanh từ video⁺",
+    "title": "Tách âm thanh từ video trên iPhone",
+    "subtitle": "Trích audio từ clip—bắt đầu miễn phí",
+    "entity_definition": "Âm thanh từ video⁺ là ứng dụng iOS chuyển video (MP4/MOV) trên iPhone của bạn thành tệp MP3 chất lượng, chủ yếu xử lý cục bộ trên máy.",
+    "subheadline": "Giữ nhạc từ clip, tách tiếng bài giảng hay cắt đoạn thoại ngắn. Nhanh và riêng tư: chức năng cốt lõi miễn phí; có thể mở rộng bằng giao dịch trong ứng dụng.",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "Tải trên App Store",
+    "phone_text": "Chạm để chuyển video thành âm thanh",
+    "qr_alt": "Mã QR tải ứng dụng",
+    "qr_text": "Quét bằng điện thoại để tải"
+  },
+  "features": {
+    "title": "Tách âm thanh từ video trên iPhone—rõ ràng, nhanh, lõi miễn phí",
+    "items": [
+      { "title": "Trích xuất cơ bản miễn phí", "description": "Tải và trích âm thanh lõi miễn phí; tính năng mở rộng mua thêm trong app. Vài chạm là có MP3.", "icon": "⚡" },
+      { "title": "Chuyển video sang MP3", "description": "MP4, MOV và định dạng thường gặp trên iPhone ra MP3 rõ. Mã hóa cục bộ, không chờ tải lên web.", "icon": "🎵" },
+      { "title": "Cắt đúng đoạn cần", "description": "Bài giảng, họp hay clip mạng xã hội—chỉ phần âm thanh bạn muốn.", "icon": "✂️" },
+      { "title": "Mở từ Ảnh hoặc Tệp", "description": "Dùng Chia sẻ trong Ảnh hoặc Tệp để vào app ngay—không rườm rà.", "icon": "🔗" },
+      { "title": "Giao diện dễ dùng", "description": "Thiết kế rõ ràng cho người muốn xuất nhanh track âm thanh.", "icon": "🎨" },
+      { "title": "Chất lượng nghe ổn", "description": "Kết quả ổn định cho nhạc, đoạn podcast và giọng nói.", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "Âm thanh từ video⁺ bằng con số",
+    "items": [
+      "4,8/5 sao dựa trên hơn 140 đánh giá App Store",
+      "Tải miễn phí và dùng lõi—mua trong ứng dụng tùy chọn",
+      "Hỗ trợ MP4, MOV và định dạng video phổ biến trên iPhone",
+      "Dung lượng app khoảng 50 MB",
+      "Xử lý trên iPhone: nhanh hơn, riêng tư hơn, không bắt buộc tải lên mạng"
+    ],
+    "stats": [
+      {
+        "number": "4,8",
+        "label": "Điểm",
+        "detail": "Hơn 140 đánh giá"
+      },
+      {
+        "number": "~50 MB",
+        "label": "Kích thước",
+        "detail": "Nhẹ, mở nhanh"
+      },
+      {
+        "number": "100%",
+        "label": "Lõi miễn phí",
+        "detail": "Mở rộng tùy chọn"
+      },
+      {
+        "number": "Cục bộ",
+        "label": "Xử lý",
+        "detail": "Video không rời iPhone"
+      }
+    ]
+  },
+  "demo": {
+    "title": "Cách tách âm thanh từ video trên iPhone—từng bước",
+    "subtitle": "MP3 chất lượng ngay trên thiết bị của bạn",
+    "placeholder_line1": "📱 Video demo sắp có",
+    "placeholder_line2": "1 Mở app > 2 Chọn video > 3 Cắt nếu cần > 4 Lưu MP3"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Mở ứng dụng",
+        "text": "Mở {{app_info.name}} trên iPhone. Tải miễn phí từ App Store."
+      },
+      {
+        "name": "Chọn video",
+        "text": "Chọn tệp trong thư viện—MP4, MOV hoặc định dạng thông dụng khác."
+      },
+      {
+        "name": "Cắt nếu cần",
+        "text": "Dùng công cụ cắt để chọn đúng đoạn cần trích âm thanh. Bước này tùy chọn."
+      },
+      {
+        "name": "Lưu âm thanh",
+        "text": "Chạm Lưu dưới dạng âm thanh để xuất MP3. Tệp lưu trên iPhone."
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "4,8—ứng dụng tiện để tách âm thanh từ video trên iPhone",
+    "items": [
+      { "text": "\"Hay dùng để lấy nhạc từ clip. Cắt đơn giản, chuyển nhanh.\"", "author": "Nguyễn M., người dùng iPhone", "rating": "5 sao", "verified": true },
+      { "text": "\"Bài giảng quay video—xử lý trên máy, giao diện gọn.\"", "author": "Trần T., sinh viên", "rating": "5 sao", "verified": true },
+      { "text": "\"Chia sẻ từ Ảnh rất nhanh. Phù hợp đoạn âm thanh ngắn.\"", "author": "Lê H., nhà sáng tạo nội dung", "rating": "5 sao", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "Tách âm thanh từ video trên iPhone—câu hỏi thường gặp",
+    "items": [
+      { "question": "Làm sao trích âm thanh từ video trên iPhone?", "answer": "Mở Âm thanh từ video⁺, chọn video trong thư viện, cắt nếu cần rồi lưu MP3. Bạn cũng có thể Chia sẻ từ Ảnh hoặc Tệp vào app—không bắt buộc tải video lên máy chủ bên ngoài." },
+      { "question": "Có app miễn phí để tách tiếng khỏi video không?", "answer": "Có. Ứng dụng tải miễn phí; trích âm thanh cốt lõi miễn phí, tính năng nâng cao mở qua mua trong app tùy chọn. Thử ngay trên App Store." },
+      { "question": "Muốn chỉ giữ âm thanh từ clip thì làm thế nào?", "answer": "1 Mở app 2 Chọn video 3 Cắt nếu cần 4 Lưu MP3. Cùng luồng có thể bắt đầu từ Chia sẻ trong Ảnh." },
+      { "question": "Có chuyển video chỉ còn file âm thanh trên iPhone được không?", "answer": "Được. App chuyển MP4, MOV và định dạng tương tự sang MP3 dùng với trình phát hoặc app khác. Chủ yếu xử lý trên thiết bị." },
+      { "question": "Trích âm thanh có cần trả phí không?", "answer": "Chức năng trích chính miễn phí. Muốn thêm tiện ích có thể mua trong app—không cần gói đăng ký để bắt đầu cơ bản." },
+      { "question": "Có hơn công cụ chuyển online không?", "answer": "Với nhiều người dùng iPhone là có: video xử lý cục bộ, không phải tải lên. Dịch vụ online thường cần upload và có thể chậm hoặc kém riêng tư hơn." },
+      { "question": "Có an toàn hơn chuyển online không?", "answer": "Thường là có vì tệp ở lại iPhone thay vì lên máy chủ bên thứ ba—hữu ích với clip cá nhân." }
+    ]
+  },
+  "last_updated": {
+    "text": "Cập nhật lần cuối: tháng 1 năm 2026"
+  },
+  "app_info": {
+    "name": "Extract Audio from Video⁺",
+    "alternate_name": "Trích xuất âm thanh từ video",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 Tải miễn phí—tách âm thanh từ video trên iPhone",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "Chính sách quyền riêng tư",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "Điều khoản sử dụng",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Hỗ trợ",
+    "developer_info": "Phát triển bởi Vladimir Ivakhnenko (c-basso)",
+    "copyright": "© {year} c-basso. Mọi quyền được bảo lưu."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 Tách âm thanh video iPhone—miễn phí"
+  },
+  "seo_chapter": {
+    "title": "Hướng dẫn đầy đủ: tách âm thanh từ video trên iPhone (2026)",
+    "subtitle": "MP4/MOV sang MP3—bắt đầu miễn phí, xử lý riêng tư trên máy",
+    "intro": "Âm thanh từ video⁺ là ứng dụng đa phương tiện iOS chuyển tệp video (MP4/MOV) trên iPhone thành âm thanh MP3. Nhiều thao tác làm ngoại tuyến được; trích xuất chạy cục bộ, không bắt buộc tải clip lên máy chủ ngoài. Hỗ trợ định dạng thường gặp trên iPhone; đầu ra là MP3. Chức năng cốt lõi miễn phí; mở rộng qua mua trong ứng dụng tùy chọn.",
+    "sections": [
+      {
+        "heading": "Các bước trích âm thanh",
+        "body": "1 Mở app 2 Chọn video trong thư viện 3 Cắt nếu cần 4 Lưu MP3. Chia sẻ từ Ảnh hoặc Tệp giúp gửi thẳng vào app mà không cần tìm biểu tượng màn hình chính. Định dạng phù hợp với những gì iOS thường hỗ trợ."
+      },
+      {
+        "heading": "Khả năng",
+        "body": "Thay vì đẩy cả tệp lên đám mây, app tập trung xử lý trên iPhone—thuận cho riêng tư và tốc độ khi không cần tải lên để đổi định dạng. Cắt giúp chỉ xuất đúng âm thanh cần. Có thể coi như bộ chuyển video→MP3 với đầu vào MP4/MOV."
+      }
+    ],
+    "bullets_title": "Tình huống dùng phổ biến",
+    "bullets": [
+      "Giữ track âm thanh từ video cho bộ sưu tập",
+      "Bài giảng hay họp quay video → chỉ file âm thanh để nghe khi di chuyển",
+      "Clip âm thanh ngắn cho mạng xã hội hoặc podcast",
+      "Tạo MP3 nhẹ trước khi chỉnh thêm ở app khác"
+    ],
+    "conclusion": "Âm thanh từ video⁺ giúp bạn trích âm thanh từ video trên iPhone theo hướng cục bộ và miễn phí ở phần lõi. Tính năng mở rộng là tùy chọn."
+  },
+  "comparison": {
+    "title": "Âm thanh từ video⁺ so với công cụ chuyển online",
+    "intro": "So sánh ngắn với dịch vụ trên trình duyệt:",
+    "table": {
+      "feature": "Mục",
+      "online_converters": "Online",
+      "this_app": "Âm thanh từ video⁺",
+      "rows": [
+        {
+          "feature": "Riêng tư",
+          "online": "Video thường phải tải lên máy chủ",
+          "app": "Xử lý trên iPhone"
+        },
+        {
+          "feature": "Tiện",
+          "online": "Upload và chờ",
+          "app": "Chia sẻ hoặc mở app trực tiếp"
+        },
+        {
+          "feature": "Chi phí",
+          "online": "Giới hạn hoặc gói thuê",
+          "app": "Lõi miễn phí, mở rộng tùy chọn"
+        },
+        {
+          "feature": "Tốc độ",
+          "online": "Phụ thuộc mạng",
+          "app": "Ngay trên máy"
+        }
+      ]
+    }
+  }
+}
