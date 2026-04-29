@@ -1,7 +1,7 @@
 {
   "meta": {
     "lang": "ja",
-    "title": "iPhoneで動画から音声を抽出｜MP4/MOVをMP3に変換する無料アプリ【2026】",
+    "title": "iPhoneで動画から音声を抽出｜無料のMP3変換アプリ（2026）",
     "description": "iPhoneで動画から音声を抽出・MP4やMOVを高音質MP3に変換。端末内処理ですばやく完了し、無料で使い始められる音声抽出アプリ。",
     "keywords": "動画から音声を抽出, 動画 音声 抽出 iPhone, 動画から音を抜く, 動画をMP3に変換, 動画から音楽を取り出す, MP4 MP3 変換, MOV MP3 変換, 動画 音声だけ 保存, iPhone 動画 オーディオ 抽出, 音声抽出アプリ 無料, 動画 MP3 変換 アプリ, 共有 動画 音声, 端末内 変換, プライベート, iOS アプリ, App Store",
     "author": "Vladimir Ivakhnenko",
@@ -33,7 +33,7 @@
     "qr_text": "スマホで読み取ってダウンロード"
   },
   "features": {
-    "title": "iPhoneで動画から音声を抽出するなら──高音質・簡単・基本無料",
+    "title": "iPhoneでよく選ばれる理由",
     "items": [
       { "title": "動画から音声を抽出（基本無料）", "description": "ダウンロード・基本の音声抽出は無料。必要に応じてアプリ内課金で機能拡張。ワンタップ感覚で動画をMP3へ。", "icon": "⚡" },
       { "title": "動画をMP3に変換（高音質）", "description": "MP4・MOVなどiPhoneでよく使う形式から、クリアなMP3へ変換。待ち時間を抑えた端末内エンコード。", "icon": "🎵" },
@@ -103,7 +103,7 @@
   },
   "testimonials": {
     "stars": "⭐️⭐️⭐️⭐️⭐️",
-    "rating_text": "評価4.8／動画から音声を抽出するのに便利なiPhoneアプリ",
+    "rating_text": "4.8—App Storeのレビューに基づく評価",
     "items": [
       { "text": "「動画の曲だけ取り出したくて入れました。トリミングがシンプルで、待ち時間も短くて助かります。」", "author": "田中 M.／iPhoneユーザー", "rating": "5つ星", "verified": true },
       { "text": "「講義動画から音だけ抜くのに重宝しています。端末内で完結するのが安心。」", "author": "佐藤 T.／学生", "rating": "5つ星", "verified": true },
@@ -134,7 +134,7 @@
   },
   "footer": {
     "cta_url": "https://apps.apple.com/app/id6744582065",
-    "cta_text": "📱 無料ダウンロード──iPhoneで動画から音声を抽出",
+    "cta_text": "📱 無料で入手—動画から音声を抽出",
     "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "プライバシーポリシー",
     "terms_url": "https://extractaudioapp.com/terms.html",
@@ -146,7 +146,7 @@
   },
   "floating_cta": {
     "url": "https://apps.apple.com/app/id6744582065",
-    "text": "📱 iPhoneで動画から音声を抽出（無料）"
+    "text": "📱 動画→MP3（無料）"
   },
   "seo_chapter": {
     "title": "iPhoneで動画から音声を抽出する完全ガイド【2026】",
@@ -154,8 +154,8 @@
     "intro": "動画から音声を抽出⁺は、iOS向けマルチメディアアプリとして、端末上の動画ファイル（MP4／MOV 等）をMP3オーディオに変換します。インターネット接続なしでも作業でき、映像は主にiPhone内で処理され外部へアップロードされません。一般的なiPhone動画形式を読み込み、出力はMP3。コア機能は無料で、拡張は任意の課金です。",
     "sections": [
       {
-        "heading": "手順：iPhoneで動画から音声を抽出する",
-        "body": "（1）アプリを起動（2）ライブラリから動画を選択（3）必要に応じてトリミングで区間を指定（4）音声として保存しMP3を書き出す。写真やファイルの「共有」からアプリを開くと、ホーム画面から辿らずに動画を渡せます。対応形式はiOSで扱える一般的な動画に準じます。"
+        "heading": "手順：動画から音声を取り出す",
+        "body": "1）アプリを起動 2）ライブラリで動画を選ぶ 3）必要ならトリミング 4）MP3として保存。写真やファイルの「共有」から開けば画面遷移が少なく済みます。MP4／MOVなど、iOSで扱える一般的な形式に対応します。"
       },
       {
         "heading": "機能と特長",

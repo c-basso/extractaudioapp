@@ -28,18 +28,20 @@ const OG_DESCRIPTION_MAX_LENGTH = 160;
 
 function extractMetaTags(html) {
   const metaTags = {};
-  // Match meta tags like:
-  // <meta property="og:description" content="Extraire le son d'une vidéo...">
-  // This regex:
-  //  - captures the meta property/name in group 1
-  //  - captures the quote character used for the content attribute in group 2
-  //  - captures the full content value (allowing the opposite quote inside) in group 3
-  const re = /<meta\s+(?:property|name)=["']([^"']+)["']\s+content=(["'])([\s\S]*?)\2/g;
+  // Parse whole <meta ...> tags so apostrophes inside content="..." (e.g. French "jusqu'à") are not mistaken for delimiters.
+  const tagRe = /<meta\b[^>]*>/gi;
   let m;
-  while ((m = re.exec(html))) {
-    const property = m[1];
-    const content = m[3];
-    metaTags[property] = content;
+  while ((m = tagRe.exec(html))) {
+    const tag = m[0];
+    const propMatch = tag.match(/\b(?:property|name)=(["'])([^"']*)\1/i);
+    if (!propMatch) continue;
+    const property = propMatch[2];
+    const dq = tag.match(/\bcontent="([^"]*)"/i);
+    const sq = tag.match(/\bcontent='([^']*)'/i);
+    const content = dq ? dq[1] : sq ? sq[1] : null;
+    if (content !== null) {
+      metaTags[property] = content;
+    }
   }
   return metaTags;
 }
@@ -152,7 +154,16 @@ function validateImageSize(ogImageUrl, { file, lang }) {
     imagePath = path.join(projectRoot, ogImageUrl);
   }
 
-  if (!fs.existsSync(imagePath)) {
+  // Locale-specific URLs (e.g. de/site_preview.png) may share one asset at repo root
+  let statPath = imagePath;
+  if (!fs.existsSync(statPath) && path.basename(statPath) === 'site_preview.png') {
+    const rootFallback = path.join(projectRoot, 'site_preview.png');
+    if (fs.existsSync(rootFallback)) {
+      statPath = rootFallback;
+    }
+  }
+
+  if (!fs.existsSync(statPath)) {
     return {
       ok: false,
       error: `og:image file not found: ${path.relative(projectRoot, imagePath)}`,
@@ -162,7 +173,7 @@ function validateImageSize(ogImageUrl, { file, lang }) {
     };
   }
 
-  const stats = fs.statSync(imagePath);
+  const stats = fs.statSync(statPath);
   const sizeKB = (stats.size / 1024).toFixed(2);
   const sizeBytes = stats.size;
 
