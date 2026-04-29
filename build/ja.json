@@ -122,9 +122,6 @@
       { "question": "オンライン変換より安全ですか？", "answer": "処理がiPhone内で完結するため、動画が第三者のサーバに送られない運用になります。機密性の高い映像や個人のライブラリを扱う場合に有利です。" }
     ]
   },
-  "last_updated": {
-    "text": "最終更新：2026年1月"
-  },
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "動画から音声を抽出",

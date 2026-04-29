@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
     <title>{{meta.title}}</title>
     <meta name="description" content="{{meta.description}}">
-    <meta name="keywords" content="{{meta.keywords}}">
     <meta name="author" content="{{meta.author}}">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="language" content="{{meta.lang}}">
@@ -103,7 +102,6 @@
         "softwareVersion": "{{app_info.version}}",
         "fileSize": "{{app_info.file_size}}",
         "installUrl": "{{hero.cta_url}}",
-        "keywords": "{{meta.keywords}}",
         "featureList": [
             "{{features.items.0.title}}",
             "{{features.items.1.title}}",
@@ -248,8 +246,7 @@
         "downloadUrl": "{{hero.cta_url}}",
         "softwareVersion": "{{app_info.version}}",
         "fileSize": "{{app_info.file_size}}",
-        "installUrl": "{{hero.cta_url}}",
-        "keywords": "{{meta.keywords}}"
+        "installUrl": "{{hero.cta_url}}"
     }
     </script>
     
@@ -299,7 +296,7 @@
         <div class="container">
             <div class="hero-layout">
                 <div class="hero-main">
-                    <a href="{{hero.cta_url}}" rel="nofollow" class="logo-link">
+                    <a href="{{hero.cta_url}}" class="logo-link">
                         <div class="logo">
                             <img src="/logo.webp" alt="{{hero.logo_alt}}">
                         </div>
@@ -309,7 +306,7 @@
                     <p class="entity-definition">{{hero.entity_definition}}</p>
                     <p class="subheadline">{{hero.subheadline}}</p>
                     <p class="last-updated-hero">{{last_updated.text}}</p>
-                    <a href="{{hero.cta_url}}" class="app-store-btn app-store-btn-mobile" rel="nofollow">
+                    <a href="{{hero.cta_url}}" class="app-store-btn app-store-btn-mobile">
                         <img src="/download.svg" alt="{{hero.download_alt}}">
                     </a>
                 </div>
@@ -540,14 +537,19 @@
         <div class="container">
             <div class="footer-content">
                 <div>
-                    <a href="{{footer.cta_url}}" class="footer-cta" rel="nofollow">
+                    <a href="{{footer.cta_url}}" class="footer-cta">
                         {{footer.cta_text}}
                     </a>
                 </div>
                 <div class="footer-links">
-                    <a href="{{footer.privacy_url}}" rel="nofollow">{{footer.privacy_text}}</a>
-                    <a href="{{footer.terms_url}}" rel="nofollow">{{footer.terms_text}}</a>
-                    <a href="{{footer.support_url}}" rel="nofollow">{{footer.support_text}}</a>
+                    <a href="{{footer.privacy_url}}">{{footer.privacy_text}}</a>
+                    <a href="{{footer.terms_url}}">{{footer.terms_text}}</a>
+                    <a href="{{footer.support_url}}">{{footer.support_text}}</a>
+                </div>
+                <div class="footer-links">
+                    {{#each meta.alternate_languages as |lang|}}
+                    <a href="{{lang.url}}" hreflang="{{lang.lang}}">{{lang.lang}}</a>
+                    {{/each}}
                 </div>
             </div>
             <div style="margin-top: 20px; opacity: 0.7;">
@@ -558,7 +560,7 @@
     </footer>
 
     <!-- Floating CTA -->
-    <a href="{{floating_cta.url}}" class="floating-cta" rel="nofollow">
+    <a href="{{floating_cta.url}}" class="floating-cta">
         {{floating_cta.text}}
     </a>
 

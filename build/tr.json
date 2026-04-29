@@ -122,9 +122,6 @@
       { "question": "Çevrimiçiye göre daha güvenli mi?", "answer": "Genelde öyledir; dosyalarınız iPhone’da kalır, üçüncü taraf sunuculara gitmek zorunda kalmazsınız. Kişisel kayıtlar için avantajlıdır." }
     ]
   },
-  "last_updated": {
-    "text": "Son güncelleme: Ocak 2026"
-  },
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Videodan ses çıkarma",

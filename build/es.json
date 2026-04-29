@@ -1,19 +1,19 @@
 {
   "meta": {
     "lang": "es",
-    "title": "Extraer Audio de Video en iPhone | Aplicación Gratuita 2026",
-    "description": "Extraer audio de video en iPhone al instante y gratis. Convierte MP4/MOV a MP3 de alta calidad directamente en tu dispositivo.",
+    "title": "Audio de vídeos en iPhone | App gratis para MP3 (2026)",
+    "description": "Obtén audio de tus vídeos en el iPhone en segundos. Convierte MP4 y MOV a MP3 con buena calidad, de forma rápida y privada en el dispositivo.",
     "keywords": "extraer audio video, extraer audio de video, extraer audio de un video, como extraer un audio de un video, como extraer audio de un video, descargar audio de video, extraer audio de video online, extraer el audio de un video, extraer audio de mp4, extraer audio de video mp4, descargar audio de un video, separar audio de video, extraer audio de video en iphone, como extraer audio de video en iphone, iphone extraer audio de video, extraer audio de video gratis, extraer sonido de video, convertidor de video a mp3, aplicación iOS, iPhone",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/es/",
-    "og_title": "Extraer Audio de Video en iPhone – Gratis y Rápido",
-    "og_description": "Extraer audio de video en iPhone al instante y gratis. Convierte video a MP3 de alta calidad con una app rápida y privada para iPhone.",
+    "og_title": "Audio de vídeo en iPhone — conversor gratis a MP3",
+    "og_description": "Extrae el sonido de tus vídeos en el iPhone en segundos. MP4 y MOV a MP3 con procesamiento en el dispositivo, sin subir archivos a servidores.",
     "og_image": "https://extractaudioapp.com/es/site_preview.png",
     "site_name": "Extraer Audio de Video⁺",
     "og_locale": "es_ES",
     "twitter_url": "https://extractaudioapp.com/es/",
     "twitter_title": "Extraer Audio de Video en iPhone - Aplicación Gratis",
-    "twitter_description": "Extraer audio de video en iPhone al instante. La mejor aplicación gratuita para extraer audio de video - convierte video a MP3 rápida y fácilmente.",
+    "twitter_description": "Vídeo a MP3 en el iPhone en pocos toques. Funciones principales gratis; extras opcionales con compras dentro de la app.",
     "twitter_image": "https://extractaudioapp.com/es/site_preview.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/es/",
@@ -23,7 +23,7 @@
   "hero": {
     "logo_alt": "Logo Extraer Audio de Video⁺",
     "title": "Extraer Audio de Video en iPhone",
-    "subtitle": "Extraer Audio de Video al Instante - Aplicación Gratuita iPhone",
+    "subtitle": "Vídeo a MP3 en segundos — app gratuita para iPhone",
     "entity_definition": "Extraer Audio de Video⁺ es una aplicación iOS que convierte videos (MP4/MOV) en tu iPhone en archivos de audio MP3 de alta calidad directamente en tu dispositivo.",
     "subheadline": "Guarda música de videos, captura audio de conferencias o crea clips de podcasts. Rápido, privado y gratuito con compras opcionales dentro de la aplicación.",
     "cta_url": "https://apps.apple.com/app/id6744582065",
@@ -33,14 +33,14 @@
     "qr_text": "Escanea con tu teléfono para descargar"
   },
   "features": {
-    "title": "Extraer Audio de Video en iPhone - Mejor Aplicación Gratis para Extraer Audio de Video",
+    "title": "Por qué esta app gusta en el iPhone",
     "items": [
-      { "title": "Extraer Audio de Video Gratis", "description": "Gratis para descargar y usar. La función principal de extracción de audio es gratuita con compras opcionales dentro de la aplicación disponibles. Convierte videos a audio con un solo toque.", "icon": "⚡" },
-      { "title": "Extraer Audio de Video MP4", "description": "Extraer audio de MP4 rápidamente con nuestro convertidor. Extrae audio de video en formatos MP4, MOV y convierte a audio MP3 en segundos con salida de alta calidad.", "icon": "🎵" },
-      { "title": "Extraer Audio de Video Online", "description": "Extraer audio de video con recorte preciso. Elige solo la sección que necesitas cuando extraes audio de un video en iPhone. Extraer audio de video online directamente en iPhone.", "icon": "✂️" },
-      { "title": "Extraer Audio de Video en iPhone", "description": "Usa el botón Compartir en Fotos o Archivos para extraer audio de video al instante. La forma más fácil de extraer audio de video en iPhone - sin pasos complicados.", "icon": "🔗" },
-      { "title": "Aplicación para Extraer Audio de Video", "description": "Interfaz simple diseñada para usuarios de iPhone que quieren extraer audio de video rápidamente. La mejor aplicación para extraer audio de video - intuitiva y fácil de usar.", "icon": "🎨" },
-      { "title": "Extraer Sonido de Video", "description": "Extraer sonido de video en iPhone con calidad excepcional. Extrae audio de video y disfruta de sonido cristalino cada vez. Perfecto para música, podcasts y grabaciones de voz.", "icon": "🎵" }
+      { "title": "Empieza gratis", "description": "Descarga y usa las funciones básicas de extracción sin coste. Las funciones extra son opcionales con compras dentro de la app.", "icon": "⚡" },
+      { "title": "Conversión rápida a MP3", "description": "MP4, MOV y otros formatos habituales se convierten a MP3 con buena calidad en poco tiempo.", "icon": "🎵" },
+      { "title": "Recorte preciso", "description": "Selecciona solo el fragmento que quieres antes de exportar el audio.", "icon": "✂️" },
+      { "title": "Desde Compartir", "description": "Abre la acción desde Fotos o Archivos con el botón Compartir, sin complicaciones.", "icon": "🔗" },
+      { "title": "Interfaz clara", "description": "Pensada para iPhone: pocos pasos y sin ruido visual.", "icon": "🎨" },
+      { "title": "Buena calidad de audio", "description": "Ideal para música, podcasts, clases y notas de voz.", "icon": "🎵" }
     ]
   },
   "by_the_numbers": {
@@ -103,31 +103,28 @@
   },
   "testimonials": {
     "stars": "⭐️⭐️⭐️⭐️⭐️",
-    "rating_text": "Calificación 4.8 - Mejor App para Extraer Audio de Video en iPhone",
+    "rating_text": "4,8 según usuarios en la App Store",
     "items": [
-      { "text": "\"¡La mejor forma de extraer audio de video en iPhone! Perfecto para guardar música de videos. Las herramientas de recorte hacen tan fácil extraer solo lo que necesito.\"", "author": "María G., usuaria de iPhone", "rating": "5 estrellas", "verified": true },
-      { "text": "\"¡Finalmente encontré cómo extraer audio de video en iPhone gratis! Genial para capturar audio de conferencias. Interfaz limpia y extracción rápida.\"", "author": "Carlos M., estudiante", "rating": "5 estrellas", "verified": true },
-      { "text": "\"Mejor aplicación iPhone para extraer audio de video. Me encanta lo fácil que es extraer sonido de video usando el botón Compartir. ¡Altamente recomendado!\"", "author": "Laura R., creadora de contenido", "rating": "5 estrellas", "verified": true }
+      { "text": "\"Recortar un trozo del vídeo y guardarlo como MP3 es muy directo. La herramienta de recorte se entiende al instante.\"", "author": "María G., usuaria de iPhone", "rating": "5 estrellas", "verified": true },
+      { "text": "\"Uso las grabaciones de clase: interfaz limpia y conversión rápida.\"", "author": "Carlos M., estudiante", "rating": "5 estrellas", "verified": true },
+      { "text": "\"Desde Compartir en Fotos tardo segundos en tener el audio que necesito.\"", "author": "Laura R., creadora de contenido", "rating": "5 estrellas", "verified": true }
     ]
   },
   "faq": {
-    "title": "Extraer Audio de Video en iPhone – Preguntas Frecuentes",
+    "title": "Preguntas frecuentes: vídeo a audio en iPhone",
     "items": [
-      { "question": "¿Cómo extraer audio de video en iPhone?", "answer": "Para extraer audio de video en iPhone, abre la aplicación Extraer Audio de Video⁺, elige un video de tu biblioteca, recorta si es necesario, luego guarda como audio (MP3). También puedes usar el botón Compartir en Fotos o Archivos y elegir la aplicación para extraer audio de video al instante. Esta es la forma más fácil de extraer audio de video en iPhone." },
-      { "question": "¿Hay una aplicación gratuita para extraer audio de video en iPhone?", "answer": "¡Sí! Extraer Audio de Video⁺ es gratis para descargar y usar. La función principal de extracción de audio es gratuita, con compras opcionales dentro de la aplicación disponibles para funciones adicionales. Solo descarga y comienza a extraer audio de video. Es una de las mejores aplicaciones gratuitas para extraer audio de video disponible para iPhone." },
-      { "question": "¿Cómo extraer sonido de video en iPhone?", "answer": "Para extraer sonido de video en iPhone: 1) Abre la aplicación, 2) Selecciona tu video, 3) Recorta la sección que quieres, 4) Toca Guardar para extraer audio. También puedes extraer sonido de video directamente usando el botón Compartir en Fotos. Esta aplicación hace simple extraer sonido de video en iPhone." },
-      { "question": "¿Puedo extraer audio de un video en iPhone?", "answer": "¡Sí! Puedes extraer audio de un video en iPhone usando Extraer Audio de Video⁺. Esta aplicación te permite extraer audio de video y convertir MP4, MOV y otros formatos de video a audio MP3 rápidamente. Es la mejor aplicación para extraer audio de un video para iPhone." },
-      { "question": "¿Cómo extraer audio de video gratis?", "answer": "Para extraer audio de video gratis, descarga Extraer Audio de Video⁺ desde la App Store. La función principal de extracción de audio es gratuita. Puedes extraer sonido de video, convertir video a MP3 y guardar archivos de audio sin pago requerido. Las compras opcionales dentro de la aplicación están disponibles para funciones adicionales." },
+      { "question": "¿Cómo saco el audio de un vídeo en el iPhone?", "answer": "Abre Extraer Audio de Video⁺, elige un clip de tu biblioteca, recorta si hace falta y pulsa Guardar como audio (MP3). También puedes iniciarlo desde Compartir en Fotos o Archivos." },
+      { "question": "¿Hay una app gratis para pasar vídeo a audio?", "answer": "Sí. Extraer Audio de Video⁺ se descarga gratis y incluye las funciones básicas de extracción sin coste. Las funciones adicionales son opcionales con compras dentro de la app." },
+      { "question": "¿Cómo hacerlo rápido?", "answer": "Abre la app → selecciona el vídeo → recorta el tramo → guarda como audio. Lo más rápido suele ser empezar desde Compartir en Fotos." },
+      { "question": "¿Funciona con MP4 y MOV?", "answer": "Sí. Los formatos habituales del iPhone, como MP4 y MOV, se pueden convertir a MP3 en pocos pasos." },
+      { "question": "¿Puedo usarla gratis?", "answer": "Sí. La extracción básica es gratuita. Si quieres más herramientas, están disponibles como extras de pago opcional." },
       { "question": "¿Es Extraer Audio de Video⁺ mejor que los extractores de audio en línea?", "answer": "Sí, para usuarios de iPhone. Extraer Audio de Video⁺ procesa videos directamente en tu dispositivo, por lo que tus archivos nunca salen de tu iPhone. Los convertidores en línea requieren subir videos a servidores, lo que puede ser más lento y menos privado. La aplicación es gratis para descargar y usar, con compras opcionales dentro de la aplicación disponibles." },
       { "question": "¿Es seguro usar Extraer Audio de Video⁺ en comparación con convertidores en línea?", "answer": "Sí, es más seguro. Extraer Audio de Video⁺ procesa videos completamente en tu iPhone, sin subidas a servidores externos. Esto significa que tus videos permanecen privados y seguros en tu dispositivo. Los convertidores en línea requieren subir archivos, lo que puede presentar riesgos de privacidad." }
     ]
   },
-  "last_updated": {
-    "text": "Última actualización: enero 2026"
-  },
   "footer": {
     "cta_url": "https://apps.apple.com/app/id6744582065",
-    "cta_text": "📱 Descargar Aplicación Gratis para Extraer Audio de Video en iPhone",
+    "cta_text": "📱 Descargar la app gratis para audio de vídeo",
     "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Política de Privacidad",
     "terms_url": "https://extractaudioapp.com/terms.html",
@@ -139,16 +136,16 @@
   },
   "floating_cta": {
     "url": "https://apps.apple.com/app/id6744582065",
-    "text": "📱 Extraer Audio de Video en iPhone - Gratis"
+    "text": "📱 Vídeo a MP3 en iPhone — gratis"
   },
   "seo_chapter": {
-    "title": "Extraer Audio de Video en iPhone - Guía Completa 2026",
-    "subtitle": "Extraer Audio de Video en iPhone - App Gratuita para Extraer Audio de Video",
+    "title": "Cómo convertir vídeo a MP3 en iPhone (2026)",
+    "subtitle": "Extracción de audio rápida y privada con una app gratuita",
     "intro": "Extraer Audio de Video⁺ es una aplicación multimedia para dispositivos iOS que convierte archivos de video (MP4/MOV) en archivos de audio MP3. La aplicación procesa videos directamente en el dispositivo sin requerir conectividad a internet. La extracción de audio se realiza localmente, lo que significa que los archivos de video permanecen en el iPhone del usuario y no se cargan a servidores externos. La aplicación admite formatos de video comunes de iPhone y produce audio en formato MP3. La funcionalidad principal de extracción de audio está disponible sin costo, con funciones adicionales disponibles a través de compras opcionales dentro de la aplicación.",
     "sections": [
       {
-        "heading": "Extraer Audio de Video en iPhone - Paso a Paso",
-        "body": "Para extraer audio de video usando Extraer Audio de Video⁺: 1) Inicie la aplicación, 2) Seleccione un archivo de video de la biblioteca de iPhone, 3) Opcionalmente use herramientas de recorte para especificar la porción del video a extraer, 4) Toque Guardar como Audio para convertir la porción seleccionada al formato MP3. La aplicación también puede ser accedida a través del botón Compartir en Fotos o Archivos, permitiendo a los usuarios extraer audio de videos sin abrir la aplicación directamente. Este método admite formatos de video compatibles con iOS."
+        "heading": "Paso a paso: audio desde vídeo en iPhone",
+        "body": "Con Extraer Audio de Video⁺: 1) abre la app, 2) elige un vídeo de tu biblioteca, 3) recorta el fragmento si lo necesitas, 4) pulsa Guardar como audio para exportar MP3. También puedes empezar desde Compartir en Fotos o Archivos sin abrir la app antes."
       },
       {
         "heading": "Características y Capacidades",

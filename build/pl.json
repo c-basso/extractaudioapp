@@ -122,9 +122,6 @@
       { "question": "Czy jest to bezpieczniejsze niż online?", "answer": "Zwykle tak, bo nagrania pozostają na iPhonie zamiast iść na zewnętrzny hosting. To ważne przy prywatnych materiałach." }
     ]
   },
-  "last_updated": {
-    "text": "Ostatnia aktualizacja: styczeń 2026"
-  },
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Wyciąganie audio z wideo",

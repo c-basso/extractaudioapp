@@ -42,6 +42,52 @@ const {
             data.meta.alternate_default = SITE_URL;
             data.meta.alternate_languages = URLS;
 
+            // Auto-refresh "last updated" copy on every build using language locale.
+            const localeByLang = {
+                en: 'en-US',
+                ru: 'ru-RU',
+                es: 'es-ES',
+                fr: 'fr-FR',
+                de: 'de-DE',
+                it: 'it-IT',
+                pt: 'pt-PT',
+                ja: 'ja-JP',
+                ko: 'ko-KR',
+                nl: 'nl-NL',
+                pl: 'pl-PL',
+                ro: 'ro-RO',
+                th: 'th-TH',
+                tr: 'tr-TR',
+                uk: 'uk-UA',
+                vi: 'vi-VN'
+            };
+            const monthYear = new Intl.DateTimeFormat(localeByLang[lang] || 'en-US', {
+                month: 'long',
+                year: 'numeric'
+            }).format(new Date());
+            const lastUpdatedPrefixByLang = {
+                en: 'Last updated:',
+                ru: 'Последнее обновление:',
+                es: 'Última actualización:',
+                fr: 'Dernière mise à jour :',
+                de: 'Zuletzt aktualisiert:',
+                it: 'Ultimo aggiornamento:',
+                pt: 'Última atualização:',
+                ja: '最終更新：',
+                ko: '최종 업데이트:',
+                nl: 'Laatst bijgewerkt:',
+                pl: 'Ostatnia aktualizacja:',
+                ro: 'Ultima actualizare:',
+                th: 'อัปเดตล่าสุด:',
+                tr: 'Son güncelleme:',
+                uk: 'Останнє оновлення:',
+                vi: 'Cập nhật lần cuối:'
+            };
+            const lastUpdatedPrefix = lastUpdatedPrefixByLang[lang] || lastUpdatedPrefixByLang.en;
+            data.last_updated = {
+                text: `${lastUpdatedPrefix} ${monthYear}`
+            };
+
             if (!data.meta.og_logo) {
                 data.meta.og_logo = `${SITE_URL}logo.webp`;
             }

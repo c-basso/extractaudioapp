@@ -122,9 +122,6 @@
       { "question": "온라인 변환보다 안전한가요?", "answer": "처리가 iPhone 안에서 이뤄져 영상이 제3자 서버로 보내지 않는 운용에 가깝습니다. 민감한 촬영물이나 개인 라이브러리를 다룰 때 유리합니다." }
     ]
   },
-  "last_updated": {
-    "text": "최종 업데이트: 2026년 1월"
-  },
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "동영상 음원 추출",

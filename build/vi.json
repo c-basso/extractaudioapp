@@ -122,9 +122,6 @@
       { "question": "Có an toàn hơn chuyển online không?", "answer": "Thường là có vì tệp ở lại iPhone thay vì lên máy chủ bên thứ ba—hữu ích với clip cá nhân." }
     ]
   },
-  "last_updated": {
-    "text": "Cập nhật lần cuối: tháng 1 năm 2026"
-  },
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Trích xuất âm thanh từ video",

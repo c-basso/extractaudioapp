@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { SITE_URL, URLS, DEFAULT_LANGUAGE } = require('./constants');
+const { SITE_URL, URLS } = require('./constants');
 
 (function main() {
   const sitemapPath = path.join(__dirname, '..', 'sitemap.xml');
@@ -13,14 +13,19 @@ const { SITE_URL, URLS, DEFAULT_LANGUAGE } = require('./constants');
   lines.push('  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"');
   lines.push('  xmlns:xhtml="http://www.w3.org/1999/xhtml">');
   lines.push('  ');
-  lines.push('  <url>');
-  lines.push(`    <loc>${SITE_URL}</loc>`);
-  for (const { lang, url } of URLS.filter(({lang}) => lang !== DEFAULT_LANGUAGE)) {
-    lines.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${url}" />`);
+  const lastmod = new Date().toISOString().split('T')[0];
+  for (const { url } of URLS) {
+    lines.push('  <url>');
+    lines.push(`    <loc>${url}</loc>`);
+    for (const { lang, url: alternateUrl } of URLS) {
+      lines.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${alternateUrl}" />`);
+    }
+    lines.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}" />`);
+    lines.push(`    <lastmod>${lastmod}</lastmod>`);
+    lines.push(url === SITE_URL ? '    <priority>1.0</priority>' : '    <priority>0.9</priority>');
+    lines.push('  </url>');
+    lines.push('');
   }
-  lines.push('    <priority>1.0</priority>');
-  lines.push('  </url>');
-  lines.push('');
   lines.push('</urlset>');
 
   fs.writeFileSync(sitemapPath, lines.join('\n') + '\n', 'utf8');
