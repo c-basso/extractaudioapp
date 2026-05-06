@@ -7,8 +7,19 @@ const {
     DEFAULT_LANGUAGE,
     LANGUAGES
 } = require('./constants');
+const { readImageDimensions } = require('./lib/imageDimensions');
 
-(function() {
+const PROJECT_ROOT = path.join(__dirname, '..');
+
+function resolveSiteImageUrlToLocalPath(imageUrl) {
+    if (imageUrl.startsWith(SITE_URL)) {
+        const relativePath = imageUrl.replace(SITE_URL, '');
+        return path.join(PROJECT_ROOT, relativePath);
+    }
+    return path.join(PROJECT_ROOT, imageUrl);
+}
+
+(async function main() {
     const urlsPath = path.join(__dirname, '..', 'urls.txt');
 
     fs.writeFileSync(urlsPath, URLS.map(({url}) => url).join('\n'), 'utf8');
@@ -91,6 +102,11 @@ const {
             if (!data.meta.og_logo) {
                 data.meta.og_logo = `${SITE_URL}logo.webp`;
             }
+
+            const ogImagePath = resolveSiteImageUrlToLocalPath(data.meta.og_image);
+            const { width, height } = await readImageDimensions(ogImagePath);
+            data.meta.og_image_width = String(width);
+            data.meta.og_image_height = String(height);
             
             // Replace {year} placeholder in footer.copyright with current year
             const currentYear = new Date().getFullYear();
@@ -230,4 +246,7 @@ const {
             process.exit(1);
         }
     }
-})();
+})().catch((err) => {
+    console.error('❌ Build failed:', err);
+    process.exit(1);
+});
