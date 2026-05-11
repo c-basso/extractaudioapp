@@ -26,7 +26,6 @@
     "subtitle": "소리만 빠르게 저장하는 무료 iPhone 앱",
     "entity_definition": "동영상에서 오디오 추출⁺는 iPhone의 동영상(MP4·MOV 등)을 기기 안에서 고음질 MP3로 바꾸는 iOS 앱입니다. 데이터는 주로 단말에서 처리됩니다.",
     "subheadline": "영상 속 음악만 남기고 싶다, 강의 음성만 듣고 싶다, 쇼츠용 보이스만 자르고 싶다면 공유 메뉴에서도 바로 실행할 수 있습니다. 기본 추출은 무료이며 추가 기능은 선택 과금입니다.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "App Store에서 다운로드",
     "phone_text": "탭하여 동영상을 오디오로 변환",
     "qr_alt": "앱 다운로드 QR 코드",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4.8—App Store 리뷰 기준",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "동영상 음원 추출",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 무료로 받기—동영상에서 음원 추출",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "개인정보 처리방침",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "이용약관",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "고객 지원",
     "developer_info": "개발: Vladimir Ivakhnenko(c-basso)",
     "copyright": "© {year} c-basso. All rights reserved."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 동영상→MP3(무료)"
   },
   "seo_chapter": {

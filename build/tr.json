@@ -26,7 +26,6 @@
     "subtitle": "Video MP3’e saniyeler içinde — ücretsiz başlangıç",
     "entity_definition": "Videodan Ses⁺, iPhone’unuzdaki videoları (MP4/MOV) cihaz üzerinde yüksek kaliteli MP3 dosyalarına dönüştüren bir iOS uygulamasıdır.",
     "subheadline": "Kliplerden müzik saklayın, ders kayıtlarından sadece sesi alın veya kısa sesler kesin. Hızlı ve gizlilik odaklı: temel işlevler ücretsiz; isteğe bağlı uygulama içi satın alımlarla genişletebilirsiniz.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "App Store’dan indir",
     "phone_text": "Videoyu sese çevirmek için dokunun",
     "qr_alt": "Uygulamayı indirmek için QR kod",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 — App Store değerlendirmelerine göre",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Videodan ses çıkarma",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Ücretsiz uygulama — videodan ses",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Gizlilik Politikası",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Kullanım Koşulları",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Destek",
     "developer_info": "Geliştirici: Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Tüm hakları saklıdır."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Video → MP3 iPhone—ücretsiz"
   },
   "seo_chapter": {

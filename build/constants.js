@@ -83,6 +83,62 @@ const INDEX_NOW_ENGINES = [
     'bing.com'
 ];
 
+/** Single App Store product URL for all locales (same app id). */
+const APP_STORE_APP_URL = 'https://apps.apple.com/app/id6744582065';
+
+const SITE_PRIVACY_URL = 'https://extractaudioapp.com/privacy.html';
+const SITE_TERMS_URL = 'https://extractaudioapp.com/terms.html';
+const SUPPORT_MAILTO_URL = 'mailto:c-basso@ya.ru';
+
+const APP_PUBLISHER = 'c-basso';
+const APP_VERSION = '1.2.16';
+const APP_FILE_SIZE = '50 MB';
+
+/**
+ * ISO 4217 for JSON-LD Offer.priceCurrency — primary market per locale page.
+ * Aligned with typical App Store storefronts for that language.
+ */
+const PRICE_CURRENCY_BY_LANG = {
+    en: 'USD',
+    ru: 'RUB',
+    es: 'EUR',
+    fr: 'EUR',
+    de: 'EUR',
+    it: 'EUR',
+    pt: 'EUR',
+    ja: 'JPY',
+    ko: 'KRW',
+    nl: 'EUR',
+    pl: 'PLN',
+    ro: 'RON',
+    th: 'THB',
+    tr: 'TRY',
+    uk: 'UAH',
+    vi: 'VND',
+    cs: 'CZK',
+    zh: 'CNY',
+    da: 'DKK',
+    el: 'EUR',
+    fi: 'EUR',
+    fil: 'PHP',
+    he: 'ILS',
+    hr: 'EUR',
+    hu: 'HUF',
+    id: 'IDR',
+    ms: 'MYR',
+    no: 'NOK',
+    sk: 'EUR',
+    sv: 'SEK',
+    bg: 'BGN',
+    sl: 'EUR',
+    ca: 'EUR',
+    hi: 'INR',
+    bn: 'INR',
+    ta: 'INR',
+    te: 'INR',
+    ml: 'INR'
+};
+
 module.exports = {
     SITE_URL,
     URLS,
@@ -91,5 +147,13 @@ module.exports = {
     EXPECTED_JSON_LD_TYPES,
     INDEX_NOW_KEY,
     INDEX_NOW_ENGINES,
-    ADDITIONAL_URLS
+    ADDITIONAL_URLS,
+    APP_STORE_APP_URL,
+    SITE_PRIVACY_URL,
+    SITE_TERMS_URL,
+    SUPPORT_MAILTO_URL,
+    APP_PUBLISHER,
+    APP_VERSION,
+    APP_FILE_SIZE,
+    PRICE_CURRENCY_BY_LANG
 };

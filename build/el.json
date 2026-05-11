@@ -26,7 +26,6 @@
     "subtitle": "Μετατρέψτε βίντεο σε MP3 σε δευτερόλεπτα – δωρεάν εφαρμογή για iPhone",
     "entity_definition": "Το Ήχος από βίντεο⁺ είναι εφαρμογή iOS που μετατρέπει βίντεο (MP4/MOV) στο iPhone σε αρχεία MP3 υψηλής ποιότητας απευθείας στη συσκευή.",
     "subheadline": "Αποθηκεύστε μουσική από κλιπ, ηχογραφήσεις διαλέξεων ή δημιουργήστε σύντομα αποσπάσματα για podcast. Γρήγορο και ιδιωτικό — δωρεάν βασικές λειτουργίες και προαιρετικές αγορές εντός εφαρμογής.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Λήψη από το App Store",
     "phone_text": "Πατήστε για μετατροπή βίντεο σε ήχο",
     "qr_alt": "Κωδικός QR για λήψη της εφαρμογής",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "Βαθμολογία 4,8 από χρήστες του App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Ήχος από βίντεο⁺",
     "alternate_name": "Εξαγωγή ήχου από βίντεο",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Λήψη δωρεάν εργαλείου εξαγωγής ήχου για iPhone",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Πολιτική απορρήτου",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Όροι χρήσης",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Υποστήριξη",
     "developer_info": "Ανάπτυξη από Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Με την επιφύλαξη παντός δικαιώματος."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Μετατροπή βίντεο σε MP3 στο iPhone – δωρεάν"
   },
   "seo_chapter": {

@@ -26,7 +26,6 @@
     "subtitle": "Wideo na MP3 w kilka sekund — start za darmo",
     "entity_definition": "Audio z wideo⁺ to aplikacja iOS, która na iPhonie zamienia nagrania MP4/MOV na pliki MP3 w wysokiej jakości, bez wysyłania ich w obce chmury.",
     "subheadline": "Zachowaj muzykę z klipów, wyciągnij audio z wykładów albo przygotuj krótkie nagrania głosowe. Szybko, prywatnie; podstawowe funkcje za darmo, zaawansowane opcje przez opcjonalne zakupy w aplikacji.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Pobierz w App Store",
     "phone_text": "Dotknij, by zamienić wideo na audio",
     "qr_alt": "Kod QR do pobrania aplikacji",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 — wg recenzji w App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Wyciąganie audio z wideo",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Darmowa aplikacja — audio z wideo",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Polityka prywatności",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Regulamin",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Wsparcie",
     "developer_info": "Autor: Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Wszelkie prawa zastrzeżone."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Wideo → MP3 na iPhone — za darmo"
   },
   "seo_chapter": {

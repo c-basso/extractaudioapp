@@ -26,7 +26,6 @@
     "subtitle": "कुछ सेकंड में वीडियो को MP3 में बदलें — मुफ़्त iPhone ऐप",
     "entity_definition": "वीडियो से ऑडियो⁺ एक iOS ऐप है जो आपके iPhone पर वीडियो (MP4/MOV) को सीधे डिवाइस पर उच्च गुणवत्ता वाले MP3 फ़ाइलों में बदलता है।",
     "subheadline": "वीडियो से संगीत सहेजें, लेक्चर का ऑडियो निकालें या पॉडकास्ट क्लिप बनाएं। तेज़ और निजी — बेसिक मुफ़्त; ऐप में वैकल्पिक खरीद उपलब्ध।",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "App Store से डाउनलोड करें",
     "phone_text": "वीडियो को ऑडियो में बदलने के लिए टैप करें",
     "qr_alt": "ऐप डाउनलोड के लिए QR कोड",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "App Store उपयोगकर्ताओं से 4.8 रेटिंग",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "वीडियो से ऑडियो⁺",
     "alternate_name": "वीडियो से ऑडियो निकालें",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 मुफ़्त iPhone ऑडियो एक्सट्रैक्टर डाउनलोड करें",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "गोपनीयता नीति",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "उपयोग की शर्तें",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "सहायता",
     "developer_info": "Vladimir Ivakhnenko (c-basso) द्वारा विकसित",
     "copyright": "© {year} c-basso. सर्वाधिकार सुरक्षित।"
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 iPhone पर वीडियो को MP3 में बदलें — मुफ़्त"
   },
   "seo_chapter": {

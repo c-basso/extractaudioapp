@@ -26,7 +26,6 @@
     "subtitle": "Video în MP3 în câteva secunde — început gratuit",
     "entity_definition": "Audio din video⁺ este o aplicație iOS care transformă clipurile MP4/MOV de pe iPhone în fișiere MP3 de înaltă calitate, cu prelucrare pe dispozitiv.",
     "subheadline": "Păstrează muzica din înregistrări, extrage cursuri audio sau fragmente pentru rețele. Rapid și privat: funcțiile esențiale sunt gratuite; poți extinde cu achiziții opționale în aplicație.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Descarcă din App Store",
     "phone_text": "Atinge pentru a converti video în audio",
     "qr_alt": "Cod QR pentru descărcarea aplicației",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 — conform recenziilor din App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Extragere audio din video",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Aplicație gratuită — audio din video",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Politica de confidențialitate",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Termeni de utilizare",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Asistență",
     "developer_info": "Dezvoltat de Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Toate drepturile rezervate."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Video → MP3 pe iPhone — gratuit"
   },
   "seo_chapter": {

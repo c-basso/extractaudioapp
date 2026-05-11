@@ -25,7 +25,6 @@
     "title": "Extraire le Son d'une Vidéo iPhone",
     "subtitle": "Vidéo en MP3 en quelques secondes — application gratuite pour iPhone",
     "subheadline": "Musique depuis des clips, extraits de cours ou courts podcasts audio. Rapide et privé : l'essentiel est gratuit, le reste en achats intégrés optionnels.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Télécharger sur l'App Store",
     "phone_text": "Appuyez pour convertir la vidéo en audio",
     "qr_alt": "Code QR pour télécharger l'application",
@@ -94,7 +93,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 selon les utilisateurs sur l'App Store",
     "items": [
       {
@@ -151,19 +149,14 @@
     ]
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Télécharger l'app gratuite audio depuis vidéo",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Politique de Confidentialité",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Conditions d'Utilisation",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Support",
     "copyright": "© {year} c-basso. Tous droits réservés.",
     "developer_info": "Développé par Vladimir Ivakhnenko (c-basso)"
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Vidéo vers MP3 sur iPhone — gratuit"
   },
   "seo_chapter": {
@@ -192,12 +185,8 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Extraire l'Audio d'une Vidéo",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "by_the_numbers": {
     "title": "Extraire l'Audio d'une Vidéo⁺ en Chiffres",

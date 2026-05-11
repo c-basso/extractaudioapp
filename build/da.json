@@ -26,7 +26,6 @@
     "subtitle": "Konverter video til MP3 på sekunder – gratis iPhone-app",
     "entity_definition": "Lyd fra video⁺ er en iOS-app, der konverterer video (MP4/MOV) på din iPhone til MP3-filer i høj kvalitet direkte på enheden.",
     "subheadline": "Gem musik fra klip, optag forelæsninger som lyd eller lav korte podklip. Hurtigt og privat med gratis kernfunktioner og valgfrie køb i appen til ekstra værktøjer.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Download i App Store",
     "phone_text": "Tryk for at konvertere video til lyd",
     "qr_alt": "QR-kode til download af appen",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 i bedømmelse fra App Store-brugere",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Lyd fra video⁺",
     "alternate_name": "Udtræk lyd fra video",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Download den gratis iPhone-lydudtrækker",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Privatlivspolitik",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Vilkår for brug",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Support",
     "developer_info": "Udviklet af Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Alle rettigheder forbeholdes."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Konverter video til MP3 på iPhone – gratis"
   },
   "seo_chapter": {

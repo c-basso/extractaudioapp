@@ -26,7 +26,6 @@
     "subtitle": "Video naar MP3 in seconden — gratis iPhone-app",
     "entity_definition": "Audio uit video⁺ is een iOS-app die video (MP4/MOV) op je iPhone op het toestel zelf omzet naar hoogwaardige MP3-bestanden.",
     "subheadline": "Bewaar muziek uit clips, knip college-audio of maak korte voice-fragmenten. Snel, privé en gratis te gebruiken met optionele in-app aankopen voor extra functies.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Download in de App Store",
     "phone_text": "Tik om video naar audio te zetten",
     "qr_alt": "QR-code om de app te downloaden",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 volgens gebruikers in de App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Audio uit video halen",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Gratis app — audio uit video",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Privacybeleid",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Gebruiksvoorwaarden",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Support",
     "developer_info": "Ontwikkeld door Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Alle rechten voorbehouden."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Video naar MP3 op iPhone — gratis"
   },
   "seo_chapter": {

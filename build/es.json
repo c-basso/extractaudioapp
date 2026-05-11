@@ -26,7 +26,6 @@
     "subtitle": "Vídeo a MP3 en segundos — app gratuita para iPhone",
     "entity_definition": "Extraer Audio de Video⁺ es una aplicación iOS que convierte videos (MP4/MOV) en tu iPhone en archivos de audio MP3 de alta calidad directamente en tu dispositivo.",
     "subheadline": "Guarda música de videos, captura audio de conferencias o crea clips de podcasts. Rápido, privado y gratuito con compras opcionales dentro de la aplicación.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Descargar en App Store",
     "phone_text": "Toca para convertir video a audio",
     "qr_alt": "Código QR para descargar la aplicación",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 según usuarios en la App Store",
     "items": [
       {
@@ -183,19 +181,14 @@
     ]
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Descargar la app gratis para audio de vídeo",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Política de Privacidad",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Términos de Uso",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Soporte",
     "developer_info": "Desarrollado por Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Todos los derechos reservados."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Vídeo a MP3 en iPhone — gratis"
   },
   "seo_chapter": {
@@ -255,11 +248,7 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Extraer Audio de Video",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   }
 }

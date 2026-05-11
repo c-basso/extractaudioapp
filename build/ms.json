@@ -26,7 +26,6 @@
     "subtitle": "Tukar video kepada MP3 dalam beberapa saat – apl iPhone percuma",
     "entity_definition": "Audio daripada Video⁺ ialah apl iOS yang menukar video (MP4/MOV) pada iPhone anda kepada fail MP3 berkualiti tinggi terus pada peranti.",
     "subheadline": "Simpan muzik daripada klip, audio kuliah atau petikan podcast. Pantas dan peribadi — ciri teras percuma dengan pembelian dalam apl pilihan.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Muat turun di App Store",
     "phone_text": "Ketik untuk menukar video kepada audio",
     "qr_alt": "Kod QR untuk muat turun apl",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "Penarafan 4.8 daripada pengguna App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Audio daripada Video⁺",
     "alternate_name": "Ekstrak audio daripada video",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Muat turun pengekstrak audio iPhone percuma",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Dasar privasi",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Terma penggunaan",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Sokongan",
     "developer_info": "Dibangunkan oleh Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Hak cipta terpelihara."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Tukar video ke MP3 di iPhone – percuma"
   },
   "seo_chapter": {

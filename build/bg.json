@@ -26,7 +26,6 @@
     "subtitle": "Видео към MP3 за секунди – безплатно приложение за iPhone",
     "entity_definition": "Звук от видео⁺ е приложение за iOS, което на вашия iPhone преобразува видео (MP4/MOV) във висококачествени MP3 файлове директно на устройството.",
     "subheadline": "Запазете музика от клипове, звук от лекции или кратки подкаст фрагменти. Бързо и поверително — основните функции са безплатни; допълнителни покупки в приложението по желание.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Изтеглете от App Store",
     "phone_text": "Докоснете, за да конвертирате видео в звук",
     "qr_alt": "QR код за изтегляне на приложението",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "оценка 4,8 от потребители на App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Звук от видео⁺",
     "alternate_name": "Извличане на звук от видео",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Изтеглете безплатния извличател на звук за iPhone",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Политика за поверителност",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Условия за ползване",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Поддръжка",
     "developer_info": "Разработено от Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Всички права запазени."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Конвертирайте видео в MP3 на iPhone – безплатно"
   },
   "seo_chapter": {

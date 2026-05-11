@@ -26,7 +26,6 @@
     "subtitle": "Muunna video MP3:ksi sekunneissa – ilmainen iPhone-sovellus",
     "entity_definition": "Ääni videosta⁺ on iOS-sovellus, joka muuntaa videot (MP4/MOV) iPhonellasi korkealaatuisiksi MP3-tiedostoiksi suoraan laitteella.",
     "subheadline": "Tallenna musiikkia videoista, luennon ääntä tai tee lyhyitä podcast-pätkiä. Nopeaa ja yksityistä — ilmainen perusversio ja valinnaiset sovelluksen sisäiset ostot.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Lataa App Storesta",
     "phone_text": "Napauta muuntaaksesi videon ääneksi",
     "qr_alt": "QR-koodi sovelluksen lataamiseen",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 tähteä App Store -käyttäjiltä",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Ääni videosta⁺",
     "alternate_name": "Irrota ääni videosta",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Lataa ilmainen äänenirrotus iPhonelle",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Tietosuojakäytäntö",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Käyttöehdot",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Tuki",
     "developer_info": "Kehittäjä Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Kaikki oikeudet pidätetään."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Muunna video MP3:ksi iPhonella – ilmaiseksi"
   },
   "seo_chapter": {

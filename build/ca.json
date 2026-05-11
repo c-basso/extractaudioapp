@@ -26,7 +26,6 @@
     "subtitle": "Vídeo a MP3 en segons — aplicació gratuïta per a iPhone",
     "entity_definition": "Àudio del vídeo⁺ és una aplicació iOS que converteix vídeos (MP4/MOV) al teu iPhone en fitxers d'àudio MP3 d'alta qualitat directament al dispositiu.",
     "subheadline": "Desa música de vídeos, captura àudio de conferències o crea clips de pòdcast. Ràpid, privat i gratuït amb compres opcionals dins de l'aplicació.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Descarrega a l'App Store",
     "phone_text": "Toca per convertir vídeo en àudio",
     "qr_alt": "Codi QR per descarregar l'aplicació",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 segons usuaris de l'App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Àudio del vídeo⁺",
     "alternate_name": "Extreure l'àudio del vídeo",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Descarrega l'app gratis per àudio de vídeo",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Política de privacitat",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Condicions d'ús",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Suport",
     "developer_info": "Desenvolupat per Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Tots els drets reservats."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Vídeo a MP3 a l'iPhone — gratis"
   },
   "seo_chapter": {

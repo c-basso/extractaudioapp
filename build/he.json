@@ -26,7 +26,6 @@
     "subtitle": "המרת וידאו ל‑MP3 תוך שניות – אפליקציית iPhone חינמית",
     "entity_definition": "אודיו מהווידאו⁺ היא אפליקציית iOS שממירה סרטונים (MP4/MOV) ב‑iPhone שלכם לקבצי MP3 באיכות גבוהה ישירות במכשיר.",
     "subheadline": "שמרו מוזיקה מסרטונים, אודיו מהרצאות או קטעים לפודקאסט. מהיר ופרטי — ליבה חינמית ורכישות בתוך האפליקציה לכלים נוספים.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "הורדה ב‑App Store",
     "phone_text": "הקישו להמרת וידאו לאודיו",
     "qr_alt": "קוד QR להורדת האפליקציה",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "דירוג 4.8 ממשתמשי App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "אודיו מהווידאו⁺",
     "alternate_name": "חילוץ אודיו מווידאו",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 הורידו את מחלץ האודיו החינמי ל‑iPhone",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "מדיניות פרטיות",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "תנאי שימוש",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "תמיכה",
     "developer_info": "פותח על ידי Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. כל הזכויות שמורות."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 המרת וידאו ל‑MP3 ב‑iPhone – חינם"
   },
   "seo_chapter": {

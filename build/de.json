@@ -25,7 +25,6 @@
     "title": "Video in MP3 umwandeln iPhone",
     "subtitle": "Video zu MP3 in Sekunden – kostenlose iPhone-App",
     "subheadline": "Musik aus Clips, Mitschnitte aus Vorlesungen oder kurze Audio-Hörproben. Schnell und privat: Basis gratis, mehr Funktionen optional per In-App-Kauf.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Im App Store herunterladen",
     "phone_text": "Tippen Sie, um Video in Audio zu konvertieren",
     "qr_alt": "QR-Code zum Herunterladen der App",
@@ -94,7 +93,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 Sterne laut Nutzerbewertungen im App Store",
     "items": [
       {
@@ -151,19 +149,14 @@
     ]
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Kostenlose App für Ton aus Video laden",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Datenschutzrichtlinie",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Nutzungsbedingungen",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Support",
     "copyright": "© {year} c-basso. Alle Rechte vorbehalten.",
     "developer_info": "Entwickelt von Vladimir Ivakhnenko (c-basso)"
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Video zu MP3 auf dem iPhone – gratis"
   },
   "seo_chapter": {
@@ -192,12 +185,8 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Audio aus Video extrahieren",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "by_the_numbers": {
     "title": "Audio aus Video⁺ in Zahlen",

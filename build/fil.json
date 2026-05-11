@@ -26,7 +26,6 @@
     "subtitle": "I-convert ang video sa MP3 sa ilang segundo – libreng iPhone app",
     "entity_definition": "Ang Audio mula sa Video⁺ ay iOS app na nagko-convert ng video (MP4/MOV) sa iyong iPhone tungo sa MP3 na mataas ang kalidad—direkta sa device.",
     "subheadline": "I-save ang musika mula sa clips, kuhanin ang audio ng lecture, o gumawa ng maikling podcast clip. Mabilis at pribado—libre ang core na features at may opsyonal na in-app purchases.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "I-download sa App Store",
     "phone_text": "I-tap para i-convert ang video sa audio",
     "qr_alt": "QR code para i-download ang app",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4.8 rating mula sa App Store users",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Audio mula sa Video⁺",
     "alternate_name": "Kunin ang audio mula sa video",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 I-download ang libreng iPhone audio extractor",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Patakaran sa privacy",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Terms of Use",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Suporta",
     "developer_info": "Binuo ni Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Lahat ng karapatan ay nakalaan."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 I-convert ang video sa MP3 sa iPhone – libre"
   },
   "seo_chapter": {

@@ -5,11 +5,43 @@ const {
     URLS,
     SITE_URL,
     DEFAULT_LANGUAGE,
-    LANGUAGES
+    LANGUAGES,
+    APP_STORE_APP_URL,
+    SITE_PRIVACY_URL,
+    SITE_TERMS_URL,
+    SUPPORT_MAILTO_URL,
+    APP_PUBLISHER,
+    APP_VERSION,
+    APP_FILE_SIZE,
+    PRICE_CURRENCY_BY_LANG
 } = require('./constants');
 const { readImageDimensions } = require('./lib/imageDimensions');
 
 const PROJECT_ROOT = path.join(__dirname, '..');
+
+/** Shared app / legal / store URLs and build-time app metadata (single source: constants.js). */
+function injectAppDefaults(data, lang) {
+    const currency =
+        PRICE_CURRENCY_BY_LANG[lang] ?? PRICE_CURRENCY_BY_LANG[DEFAULT_LANGUAGE];
+
+    data.hero = data.hero || {};
+    data.hero.cta_url = APP_STORE_APP_URL;
+
+    data.footer = data.footer || {};
+    data.footer.cta_url = APP_STORE_APP_URL;
+    data.footer.privacy_url = SITE_PRIVACY_URL;
+    data.footer.terms_url = SITE_TERMS_URL;
+    data.footer.support_url = SUPPORT_MAILTO_URL;
+
+    data.floating_cta = data.floating_cta || {};
+    data.floating_cta.url = APP_STORE_APP_URL;
+
+    data.app_info = data.app_info || {};
+    data.app_info.publisher = APP_PUBLISHER;
+    data.app_info.version = APP_VERSION;
+    data.app_info.file_size = APP_FILE_SIZE;
+    data.app_info.price_currency = currency;
+}
 
 function resolveSiteImageUrlToLocalPath(imageUrl) {
     if (imageUrl.startsWith(SITE_URL)) {
@@ -43,7 +75,9 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
             
             const template = fs.readFileSync(templatePath, 'utf8');
             const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-            
+
+            injectAppDefaults(data, lang);
+
             // Add build timestamp for cache busting
             const buildTimestamp = Date.now();
             if (!data.meta) {

@@ -26,7 +26,6 @@
     "subtitle": "Video thành MP3 trong vài giây — bắt đầu miễn phí",
     "entity_definition": "Âm thanh từ video⁺ là ứng dụng iOS chuyển video (MP4/MOV) trên iPhone của bạn thành tệp MP3 chất lượng, chủ yếu xử lý cục bộ trên máy.",
     "subheadline": "Giữ nhạc từ clip, tách tiếng bài giảng hay cắt đoạn thoại ngắn. Nhanh và riêng tư: chức năng cốt lõi miễn phí; có thể mở rộng bằng giao dịch trong ứng dụng.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Tải trên App Store",
     "phone_text": "Chạm để chuyển video thành âm thanh",
     "qr_alt": "Mã QR tải ứng dụng",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 — theo đánh giá trên App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Trích xuất âm thanh từ video",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Ứng dụng miễn phí — âm thanh từ video",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Chính sách quyền riêng tư",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Điều khoản sử dụng",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Hỗ trợ",
     "developer_info": "Phát triển bởi Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Mọi quyền được bảo lưu."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Video → MP3 trên iPhone — miễn phí"
   },
   "seo_chapter": {

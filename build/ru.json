@@ -26,7 +26,6 @@
     "subtitle": "Видео в MP3 за секунды — бесплатное приложение для iPhone",
     "entity_definition": "Извлечь аудио из видео⁺ — это iOS приложение, которое конвертирует видео (MP4/MOV) на вашем iPhone в высококачественные MP3 аудиофайлы прямо на устройстве.",
     "subheadline": "Сохраняйте музыку из роликов, вырезайте фрагменты лекций или делайте короткие аудио-клипы. Быстро, приватно; базовые функции бесплатно, расширения — через покупки в приложении.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Загрузить в App Store",
     "phone_text": "Нажмите, чтобы конвертировать видео в аудио",
     "qr_alt": "QR-код для скачивания приложения",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 по оценкам пользователей в App Store",
     "items": [
       {
@@ -183,19 +181,14 @@
     ]
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Скачать бесплатное приложение для аудио из видео",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Политика",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Условия",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Поддержка",
     "developer_info": "Разработано Владимиром Ивахненко (c-basso)",
     "copyright": "© {year} c-basso. Все права защищены."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Видео в MP3 на iPhone — бесплатно"
   },
   "seo_chapter": {
@@ -255,11 +248,7 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Извлечь аудио из видео",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   }
 }

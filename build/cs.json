@@ -26,7 +26,6 @@
     "subtitle": "Převeďte video na MP3 během chvilky – bezplatná aplikace pro iPhone",
     "entity_definition": "Extrahovat zvuk z videa⁺ je aplikace pro iOS, která převádí videa (MP4/MOV) na vašem iPhone na vysoce kvalitní soubory MP3 přímo na zařízení.",
     "subheadline": "Uložte si hudbu z videí, zachyťte záznam z přednášky nebo vytvořte krátký klip pro podcast. Rychlé, soukromé a základní funkce zdarma s volitelnými nákupy v aplikaci.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Stáhnout v App Store",
     "phone_text": "Klepněte pro převod videa na zvuk",
     "qr_alt": "QR kód ke stažení aplikace",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "hodnocení 4,8 od uživatelů App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extrahovat zvuk z videa⁺",
     "alternate_name": "Extrahovat zvuk z videa",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Stáhněte si bezplatný extraktor zvuku pro iPhone",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Zásady ochrany osobních údajů",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Podmínky použití",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Podpora",
     "developer_info": "Vyvinuto Vladimirem Ivakhnenkem (c-basso)",
     "copyright": "© {year} c-basso. Všechna práva vyhrazena."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Převeďte video na MP3 na iPhone – zdarma"
   },
   "seo_chapter": {

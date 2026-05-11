@@ -26,7 +26,6 @@
     "subtitle": "കുറച്ച് സെക്കൻഡുകൾക്കുള്ളിൽ വീഡിയോ MP3-ആക്കുക — സൗജന്യ iPhone ആപ്പ്",
     "entity_definition": "വീഡിയോയിൽ നിന്ന് ഓഡിയോ⁺ ഒരു iOS ആപ്പാണ്; നിങ്ങളുടെ iPhone-ൽ വീഡിയോ (MP4/MOV) നേരിട്ട് ഉപകരണത്തിൽ ഉയർന്ന നിലവാരമുള്ള MP3 ഫയലുകളാക്കി മാറ്റുന്നു.",
     "subheadline": "വീഡിയോകളിൽ നിന്ന് സംഗീതം സേവ് ചെയ്യുക, ക്ലാസ് ഓഡിയോ എടുക്കുക അല്ലെങ്കിൽ പോഡ്‌കാസ്റ്റ് ക്ലിപ്പുകൾ ഉണ്ടാക്കുക. വേഗത്തിലും സ്വകാര്യമായും — അടിസ്ഥാനം സൗജന്യം; ആപ്പിൽ ഓപ്ഷണൽ വാങ്ങലുകൾ.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "App Store-ൽ നിന്ന് ഡൗൺലോഡ് ചെയ്യുക",
     "phone_text": "വീഡിയോ ഓഡിയോയാക്കാൻ ടാപ്പ് ചെയ്യുക",
     "qr_alt": "ആപ്പ് ഡൗൺലോഡ് QR കോഡ്",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "App Store ഉപയോക്താക്കളിൽ നിന്ന് 4.8 റേറ്റിംഗ്",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "വീഡിയോയിൽ നിന്ന് ഓഡിയോ⁺",
     "alternate_name": "വീഡിയോയിൽ നിന്ന് ഓഡിയോ എടുക്കൽ",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 സൗജന്യ iPhone ഓഡിയോ എക്സ്ട്രാക്ടർ ഡൗൺലോഡ് ചെയ്യുക",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "സ്വകാര്യതാ നയം",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "ഉപയോഗ നിബന്ധനകൾ",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "പിന്തുണ",
     "developer_info": "Vladimir Ivakhnenko (c-basso) വികസിപ്പിച്ചത്",
     "copyright": "© {year} c-basso. എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 iPhone-ൽ വീഡിയോ MP3-ആക്കുക — സൗജന്യം"
   },
   "seo_chapter": {

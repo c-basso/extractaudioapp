@@ -26,7 +26,6 @@
     "subtitle": "すぐに音だけを保存できる無料のiPhoneアプリ",
     "entity_definition": "動画から音声を抽出⁺は、iPhone上の動画（MP4／MOVなど）をその場で高音質MP3に変換するiOSアプリです。データは端末内で処理されます。",
     "subheadline": "動画のBGMだけ残したい、講義の音声だけ聴きたい、ボイス用に切り出したい──共有メニューからでも使え、快適でプライバシーを守れる変換が可能です。基本利用は無料で、追加機能は任意の課金です。",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "App Storeでダウンロード",
     "phone_text": "タップして動画を音声に変換",
     "qr_alt": "アプリダウンロード用QRコード",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4.8—App Storeのレビューに基づく評価",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "動画から音声を抽出",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 無料で入手—動画から音声を抽出",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "プライバシーポリシー",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "利用規約",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "サポート",
     "developer_info": "開発：Vladimir Ivakhnenko（c-basso）",
     "copyright": "© {year} c-basso. All rights reserved."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 動画→MP3（無料）"
   },
   "seo_chapter": {

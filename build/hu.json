@@ -26,7 +26,6 @@
     "subtitle": "Videó MP3-ba alakítása másodpercek alatt – ingyenes iPhone alkalmazás",
     "entity_definition": "A Hang a videóból⁺ egy iOS alkalmazás, amely az Ön iPhone-ján közvetlenül a készüléken alakítja át a videókat (MP4/MOV) kiváló minőségű MP3 hangfájlokká.",
     "subheadline": "Menthet zenét klipekből, előadás hangját vagy rövid podcast részeket. Gyors és bizalmas — ingyenes alapfunkciók és opcionális alkalmazáson belüli vásárlások.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Letöltés az App Store-ból",
     "phone_text": "Érintse meg a videó hanggá alakításához",
     "qr_alt": "QR-kód az alkalmazás letöltéséhez",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 értékelés App Store felhasználóktól",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Hang a videóból⁺",
     "alternate_name": "Hang kinyerése videóból",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Töltse le az ingyenes iPhone hangkinyerőt",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Adatvédelmi irányelvek",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Felhasználási feltételek",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Támogatás",
     "developer_info": "Fejlesztő: Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Minden jog fenntartva."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Videó MP3-ba iPhone-on – ingyen"
   },
   "seo_chapter": {

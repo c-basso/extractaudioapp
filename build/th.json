@@ -26,7 +26,6 @@
     "subtitle": "วิดีโอเป็น MP3 ในไม่กี่วินาที — เริ่มฟรี",
     "entity_definition": "ดึงเสียงจากวิดีโอ⁺ คือแอป iOS ที่แปลงวิดีโอ (MP4/MOV) บน iPhone ของคุณให้เป็นไฟล์ MP3 คุณภาพสูง โดยประมวลผลหลักในเครื่อง",
     "subheadline": "เก็บเพลงจากวิดีโอ แยกเสียงบรรยายจากคาบเรียน หรือตัดคลิปเสียงสั้นๆ ใช้งานง่าย เร็ว และเป็นส่วนตัว ฟังก์ชันหลักใช้ฟรี ฟีเจอร์เสริมซื้อเพิ่มได้ในแอป",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "ดาวน์โหลดบน App Store",
     "phone_text": "แตะเพื่อแปลงวิดีโอเป็นเสียง",
     "qr_alt": "QR โค้ดดาวน์โหลดแอป",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4.8 — ตามรีวิวใน App Store",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "แยกเสียงจากวิดีโอ",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 แอปฟรี — แยกเสียงจากวิดีโอ",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "นโยบายความเป็นส่วนตัว",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "ข้อกำหนดการใช้งาน",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "ช่วยเหลือ",
     "developer_info": "พัฒนาโดย Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso สงวนลิขสิทธิ์"
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 วิดีโอ → MP3 บน iPhone — ฟรี"
   },
   "seo_chapter": {

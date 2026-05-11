@@ -26,7 +26,6 @@
     "subtitle": "Convert video to MP3 in seconds - free iPhone app",
     "entity_definition": "Extract Audio from Video⁺ is an iOS app that converts videos (MP4/MOV) on your iPhone into high-quality MP3 audio files directly on your device.",
     "subheadline": "Save music from videos, capture lecture audio, or create podcast clips. Fast, private, and free to use with optional in-app purchases.",
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "download_alt": "Download on the App Store",
     "phone_text": "Tap to convert video to audio",
     "qr_alt": "QR Code to download the app",
@@ -126,7 +125,6 @@
     ]
   },
   "testimonials": {
-    "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4.8 rating from App Store users",
     "items": [
       {
@@ -185,27 +183,18 @@
   "app_info": {
     "name": "Extract Audio from Video⁺",
     "alternate_name": "Извлечь аудио из видео",
-    "publisher": "c-basso",
-    "version": "1.0.0",
-    "file_size": "50 MB",
     "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio",
-    "price_currency": "USD"
+    "application_sub_category": "Audio"
   },
   "footer": {
-    "cta_url": "https://apps.apple.com/app/id6744582065",
     "cta_text": "📱 Download the free iPhone audio extractor",
-    "privacy_url": "https://extractaudioapp.com/privacy.html",
     "privacy_text": "Privacy Policy",
-    "terms_url": "https://extractaudioapp.com/terms.html",
     "terms_text": "Terms of Use",
-    "support_url": "mailto:c-basso@ya.ru",
     "support_text": "Support",
     "developer_info": "Developed by Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. All rights reserved."
   },
   "floating_cta": {
-    "url": "https://apps.apple.com/app/id6744582065",
     "text": "📱 Convert video to MP3 on iPhone - Free"
   },
   "seo_chapter": {
