@@ -1,8 +1,8 @@
 {
   "meta": {
     "lang": "id",
-    "title": "Ekstrak audio dari video di iPhone | Aplikasi MP3 gratis (2026)",
-    "description": "Ekstrak audio dari video di iPhone Anda dalam hitungan detik. Ubah MP4 dan MOV jadi MP3 berkualitas tinggi — cepat dan privat langsung di perangkat.",
+    "title": "Ekstrak audio dari video di iPhone | App MP3 gratis (2026)",
+    "description": "Ekstrak audio dari video iPhone ke MP3 dalam detik: MP4 dan MOV di perangkat jadi MP3 jernih, privat tanpa cloud. Potong dari Foto atau Bagikan. Mulai gratis.",
     "keywords": "ekstrak audio dari video, audio dari video iphone, video ke mp3, mp4 ke mp3 iphone, ubah video ke audio, aplikasi gratis, ios, iphone, app store, pemrosesan lokal, privasi",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/id/",
@@ -35,12 +35,36 @@
   "features": {
     "title": "Mengapa pengguna memilih ekstraktor audio iPhone ini",
     "items": [
-      { "title": "Mulai gratis", "description": "Unduh dan gunakan gratis. Ekstraksi audio inti sudah termasuk; fitur tambahan lewat pembelian dalam aplikasi.", "icon": "⚡" },
-      { "title": "Konversi MP3 cepat", "description": "Ubah video ke MP3 dengan cepat dan output berkualitas. Mendukung MP4, MOV, dan format video iPhone umum lainnya.", "icon": "🎵" },
-      { "title": "Pemotongan presisi", "description": "Pilih bagian yang tepat sebelum mengekspor. Simpan hanya segmen yang Anda inginkan sebagai audio.", "icon": "✂️" },
-      { "title": "Bisa dari Bagikan", "description": "Gunakan tombol Bagikan di Foto atau File — tanpa pengaturan rumit.", "icon": "🔗" },
-      { "title": "UI sederhana untuk iPhone", "description": "Antarmuka bersih dan intuitif. Mudah digunakan bahkan pertama kali.", "icon": "🎨" },
-      { "title": "Kualitas audio tinggi", "description": "Output jernih untuk musik, podcast, kuliah, dan rekaman suara.", "icon": "🎵" }
+      {
+        "title": "Mulai gratis",
+        "description": "Unduh dan gunakan gratis. Ekstraksi audio inti sudah termasuk; fitur tambahan lewat pembelian dalam aplikasi.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Konversi MP3 cepat",
+        "description": "Ubah video ke MP3 dengan cepat dan output berkualitas. Mendukung MP4, MOV, dan format video iPhone umum lainnya.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Pemotongan presisi",
+        "description": "Pilih bagian yang tepat sebelum mengekspor. Simpan hanya segmen yang Anda inginkan sebagai audio.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Bisa dari Bagikan",
+        "description": "Gunakan tombol Bagikan di Foto atau File — tanpa pengaturan rumit.",
+        "icon": "🔗"
+      },
+      {
+        "title": "UI sederhana untuk iPhone",
+        "description": "Antarmuka bersih dan intuitif. Mudah digunakan bahkan pertama kali.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Kualitas audio tinggi",
+        "description": "Output jernih untuk musik, podcast, kuliah, dan rekaman suara.",
+        "icon": "🎵"
+      }
     ]
   },
   "by_the_numbers": {
@@ -105,21 +129,57 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "Rating 4,8 dari pengguna App Store",
     "items": [
-      { "text": "\"Sempurna untuk menyimpan musik dan klip suara dari video. Pemotongan mudah dan ekspor cepat.\"", "author": "Sarah M., pengguna iPhone", "rating": "5 bintang", "verified": true },
-      { "text": "\"Bagus untuk rekaman kuliah. Antarmuka bersih, konversi cepat, tanpa kurva belajar.\"", "author": "Michael T., mahasiswa", "rating": "5 bintang", "verified": true },
-      { "text": "\"Suka mulai dari Bagikan di Foto. Beberapa ketukan dan audio yang saya butuhkan sudah ada.\"", "author": "Jessica L., kreator konten", "rating": "5 bintang", "verified": true }
+      {
+        "text": "\"Sempurna untuk menyimpan musik dan klip suara dari video. Pemotongan mudah dan ekspor cepat.\"",
+        "author": "Sarah M., pengguna iPhone",
+        "rating": "5 bintang",
+        "verified": true
+      },
+      {
+        "text": "\"Bagus untuk rekaman kuliah. Antarmuka bersih, konversi cepat, tanpa kurva belajar.\"",
+        "author": "Michael T., mahasiswa",
+        "rating": "5 bintang",
+        "verified": true
+      },
+      {
+        "text": "\"Suka mulai dari Bagikan di Foto. Beberapa ketukan dan audio yang saya butuhkan sudah ada.\"",
+        "author": "Jessica L., kreator konten",
+        "rating": "5 bintang",
+        "verified": true
+      }
     ]
   },
   "faq": {
     "title": "FAQ: video ke audio di iPhone",
     "items": [
-      { "question": "Bagaimana cara mengekstrak audio dari video di iPhone?", "answer": "Buka Audio dari Video⁺, pilih klip dari pustaka, potong jika perlu, lalu ketuk Simpan sebagai audio (MP3). Anda juga bisa membuka langsung dari menu Bagikan di Foto atau File." },
-      { "question": "Apakah ada aplikasi iPhone gratis untuk mengubah video ke audio?", "answer": "Ya. Audio dari Video⁺ gratis diunduh dan mencakup konversi inti tanpa biaya. Alat tambahan dibuka dengan pembelian dalam aplikasi." },
-      { "question": "Bagaimana cara cepat mengekstrak suara dari video?", "answer": "Empat langkah: buka aplikasi, pilih video, potong segmen yang diinginkan, simpan sebagai audio. Untuk akses lebih cepat mulai dari tombol Bagikan di Foto." },
-      { "question": "Bisakah mengubah MP4 atau MOV ke MP3 di iPhone?", "answer": "Ya. Aplikasi mendukung format umum seperti MP4 dan MOV serta mengekspor audio sebagai MP3 dengan beberapa ketukan." },
-      { "question": "Apakah bisa digunakan gratis?", "answer": "Ya. Ekstraksi audio inti gratis. Pembelian dalam aplikasi opsional untuk fitur tambahan." },
-      { "question": "Apakah Audio dari Video⁺ lebih baik dari konverter online?", "answer": "Ya, untuk pengguna iPhone. Audio dari Video⁺ memproses video langsung di perangkat sehingga file Anda tidak meninggalkan iPhone. Konverter online memerlukan unggahan ke server yang bisa lebih lambat dan kurang privat. Aplikasi gratis diunduh dan digunakan; pembelian dalam aplikasi opsional." },
-      { "question": "Apakah Audio dari Video⁺ lebih aman dibanding konverter online?", "answer": "Ya, lebih aman. Audio dari Video⁺ memproses video sepenuhnya di iPhone Anda — tanpa unggahan ke server eksternal. Video Anda tetap privat di perangkat. Konverter online memerlukan unggahan file yang berisiko privasi." }
+      {
+        "question": "Bagaimana cara mengekstrak audio dari video di iPhone?",
+        "answer": "Buka Audio dari Video⁺, pilih klip dari pustaka, potong jika perlu, lalu ketuk Simpan sebagai audio (MP3). Anda juga bisa membuka langsung dari menu Bagikan di Foto atau File."
+      },
+      {
+        "question": "Apakah ada aplikasi iPhone gratis untuk mengubah video ke audio?",
+        "answer": "Ya. Audio dari Video⁺ gratis diunduh dan mencakup konversi inti tanpa biaya. Alat tambahan dibuka dengan pembelian dalam aplikasi."
+      },
+      {
+        "question": "Bagaimana cara cepat mengekstrak suara dari video?",
+        "answer": "Empat langkah: buka aplikasi, pilih video, potong segmen yang diinginkan, simpan sebagai audio. Untuk akses lebih cepat mulai dari tombol Bagikan di Foto."
+      },
+      {
+        "question": "Bisakah mengubah MP4 atau MOV ke MP3 di iPhone?",
+        "answer": "Ya. Aplikasi mendukung format umum seperti MP4 dan MOV serta mengekspor audio sebagai MP3 dengan beberapa ketukan."
+      },
+      {
+        "question": "Apakah bisa digunakan gratis?",
+        "answer": "Ya. Ekstraksi audio inti gratis. Pembelian dalam aplikasi opsional untuk fitur tambahan."
+      },
+      {
+        "question": "Apakah Audio dari Video⁺ lebih baik dari konverter online?",
+        "answer": "Ya, untuk pengguna iPhone. Audio dari Video⁺ memproses video langsung di perangkat sehingga file Anda tidak meninggalkan iPhone. Konverter online memerlukan unggahan ke server yang bisa lebih lambat dan kurang privat. Aplikasi gratis diunduh dan digunakan; pembelian dalam aplikasi opsional."
+      },
+      {
+        "question": "Apakah Audio dari Video⁺ lebih aman dibanding konverter online?",
+        "answer": "Ya, lebih aman. Audio dari Video⁺ memproses video sepenuhnya di iPhone Anda — tanpa unggahan ke server eksternal. Video Anda tetap privat di perangkat. Konverter online memerlukan unggahan file yang berisiko privasi."
+      }
     ]
   },
   "app_info": {

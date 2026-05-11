@@ -1,8 +1,8 @@
 {
   "meta": {
     "lang": "fi",
-    "title": "Irrota ääni videosta iPhonella | Ilmainen MP3-sovellus (2026)",
-    "description": "Irrota ääni videoista iPhonella sekunneissa. Muunna MP4 ja MOV korkealaatuiseksi MP3:ksi — nopeasti ja yksityisesti suoraan laitteella.",
+    "title": "Ääni iPhone-videosta | Ilmainen MP3-sovellus (2026)",
+    "description": "iPhone-video MP3:ksi sekunneissa: MP4 ja MOV pysyvät laitteella selvänä äänenä, yksityisesti ilman pilveä. Leikkaa Kuvista tai Jaa. Aloita ilmaiseksi.",
     "keywords": "ääni videosta, irrota ääni videosta iphone, video mp3 iphone, mp4 mp3, mov mp3, video ääneksi, ilmainen sovellus, ios, iphone, app store, paikallinen muunnos, yksityisyys",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/fi/",
@@ -35,12 +35,36 @@
   "features": {
     "title": "Miksi käyttäjät valitsevat tämän äänenirrotuksen iPhonelle",
     "items": [
-      { "title": "Aloita ilmaiseksi", "description": "Ilmainen lataus ja käyttö. Äänen perusirrotus sisältyy; lisäominaisuudet sovelluksen sisäisillä ostoksilla.", "icon": "⚡" },
-      { "title": "Nopea MP3-muunnos", "description": "Muunna videot MP3:ksi nopeasti ja hyvällä laadulla. Tukee MP4-, MOV- ja muita yleisiä iPhone-videoformaatteja.", "icon": "🎵" },
-      { "title": "Tarkka leikkaus", "description": "Valitse juuri tarvitsemasi kohta ennen vientiä. Tallenna vain haluamasi pätkä äänenä.", "icon": "✂️" },
-      { "title": "Toimii Jaosta", "description": "Käytä Jaa-painiketta Valokuvissa tai Tiedostoissa — ei monimutkaista asetusta.", "icon": "🔗" },
-      { "title": "Selkeä iPhone-käyttöliittymä", "description": "Siisti ja intuitiivinen. Helppo käyttää jo ensimmäisellä kerralla.", "icon": "🎨" },
-      { "title": "Hyvä äänenlaatu", "description": "Kirkas tuloste musiikille, podcasteille, luennoille ja äänitteille.", "icon": "🎵" }
+      {
+        "title": "Aloita ilmaiseksi",
+        "description": "Ilmainen lataus ja käyttö. Äänen perusirrotus sisältyy; lisäominaisuudet sovelluksen sisäisillä ostoksilla.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Nopea MP3-muunnos",
+        "description": "Muunna videot MP3:ksi nopeasti ja hyvällä laadulla. Tukee MP4-, MOV- ja muita yleisiä iPhone-videoformaatteja.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Tarkka leikkaus",
+        "description": "Valitse juuri tarvitsemasi kohta ennen vientiä. Tallenna vain haluamasi pätkä äänenä.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Toimii Jaosta",
+        "description": "Käytä Jaa-painiketta Valokuvissa tai Tiedostoissa — ei monimutkaista asetusta.",
+        "icon": "🔗"
+      },
+      {
+        "title": "Selkeä iPhone-käyttöliittymä",
+        "description": "Siisti ja intuitiivinen. Helppo käyttää jo ensimmäisellä kerralla.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Hyvä äänenlaatu",
+        "description": "Kirkas tuloste musiikille, podcasteille, luennoille ja äänitteille.",
+        "icon": "🎵"
+      }
     ]
   },
   "by_the_numbers": {
@@ -105,21 +129,57 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 tähteä App Store -käyttäjiltä",
     "items": [
-      { "text": "\"Täydellinen musiikin ja äänipätkien tallentamiseen videoista. Leikkaus on helppo ja vienti nopea.\"", "author": "Sarah M., iPhone-käyttäjä", "rating": "5 tähteä", "verified": true },
-      { "text": "\"Hyvä luentoäänitteisiin. Selkeä käyttöliittymä, nopea muunnos ja ei oppimiskynnystä.\"", "author": "Michael T., opiskelija", "rating": "5 tähteä", "verified": true },
-      { "text": "\"Pidän siitä, että voin aloittaa Jaosta Valokuvissa. Muutama napautus ja ääni on tallessa.\"", "author": "Jessica L., sisällöntuottaja", "rating": "5 tähteä", "verified": true }
+      {
+        "text": "\"Täydellinen musiikin ja äänipätkien tallentamiseen videoista. Leikkaus on helppo ja vienti nopea.\"",
+        "author": "Sarah M., iPhone-käyttäjä",
+        "rating": "5 tähteä",
+        "verified": true
+      },
+      {
+        "text": "\"Hyvä luentoäänitteisiin. Selkeä käyttöliittymä, nopea muunnos ja ei oppimiskynnystä.\"",
+        "author": "Michael T., opiskelija",
+        "rating": "5 tähteä",
+        "verified": true
+      },
+      {
+        "text": "\"Pidän siitä, että voin aloittaa Jaosta Valokuvissa. Muutama napautus ja ääni on tallessa.\"",
+        "author": "Jessica L., sisällöntuottaja",
+        "rating": "5 tähteä",
+        "verified": true
+      }
     ]
   },
   "faq": {
     "title": "Usein kysyttyä: video ääneksi iPhonella",
     "items": [
-      { "question": "Miten irrotan äänen videosta iPhonella?", "answer": "Avaa Ääni videosta⁺, valitse pätkä kirjastosta, leikkaa tarvittaessa ja napauta Tallenna äänenä (MP3). Voit myös käynnistää suoraan Jaosta Valokuvissa tai Tiedostoissa." },
-      { "question": "Onko ilmainen sovellus videon muuntamiseen ääneksi?", "answer": "Kyllä. Ääni videosta⁺ on ilmainen ladata ja sisältää perusmuunnoksen ilman maksua. Lisätyökalut avautuvat sovelluksen sisäisillä ostoksilla." },
-      { "question": "Miten irrotan äänen nopeasti?", "answer": "Neljä vaihetta: avaa sovellus, valitse video, leikkaa haluttu kohta, tallenna äänenä. Nopeampi alku Jaosta Valokuvissa." },
-      { "question": "Voinko muuntaa MP4:n tai MOV:n MP3:ksi iPhonella?", "answer": "Kyllä. Sovellus tukee yleisiä formaatteja kuten MP4 ja MOV ja vie äänen MP3:na muutamalla napautuksella." },
-      { "question": "Voinko käyttää sitä ilmaiseksi?", "answer": "Kyllä. Äänen perusirrotus on ilmainen. Lisäominaisuudet valinnaisilla sovelluksen sisäisillä ostoksilla." },
-      { "question": "Onko Ääni videosta⁺ parempi kuin verkkomuuntimet?", "answer": "Kyllä, iPhone-käyttäjille. Ääni videosta⁺ käsittelee videot suoraan laitteella, joten tiedostot eivät poistu iPhoneltasi. Verkkopalvelut vaativat latauksen palvelimelle, mikä voi olla hitaampaa ja vähemmän yksityistä. Sovellus on ilmainen ladata ja käyttää; lisäominaisuudet valinnaisesti." },
-      { "question": "Onko Ääni videosta⁺ turvallisempi kuin verkkomuuntimet?", "answer": "Kyllä, turvallisempi. Ääni videosta⁺ käsittelee videot kokonaan iPhonellasi — ei lähetystä ulkoisille palvelimille. Videosi pysyvät yksityisinä laitteella. Verkkomuuntimet vaativat tiedostojen lataamisen, mikä voi heikentää yksityisyyttä." }
+      {
+        "question": "Miten irrotan äänen videosta iPhonella?",
+        "answer": "Avaa Ääni videosta⁺, valitse pätkä kirjastosta, leikkaa tarvittaessa ja napauta Tallenna äänenä (MP3). Voit myös käynnistää suoraan Jaosta Valokuvissa tai Tiedostoissa."
+      },
+      {
+        "question": "Onko ilmainen sovellus videon muuntamiseen ääneksi?",
+        "answer": "Kyllä. Ääni videosta⁺ on ilmainen ladata ja sisältää perusmuunnoksen ilman maksua. Lisätyökalut avautuvat sovelluksen sisäisillä ostoksilla."
+      },
+      {
+        "question": "Miten irrotan äänen nopeasti?",
+        "answer": "Neljä vaihetta: avaa sovellus, valitse video, leikkaa haluttu kohta, tallenna äänenä. Nopeampi alku Jaosta Valokuvissa."
+      },
+      {
+        "question": "Voinko muuntaa MP4:n tai MOV:n MP3:ksi iPhonella?",
+        "answer": "Kyllä. Sovellus tukee yleisiä formaatteja kuten MP4 ja MOV ja vie äänen MP3:na muutamalla napautuksella."
+      },
+      {
+        "question": "Voinko käyttää sitä ilmaiseksi?",
+        "answer": "Kyllä. Äänen perusirrotus on ilmainen. Lisäominaisuudet valinnaisilla sovelluksen sisäisillä ostoksilla."
+      },
+      {
+        "question": "Onko Ääni videosta⁺ parempi kuin verkkomuuntimet?",
+        "answer": "Kyllä, iPhone-käyttäjille. Ääni videosta⁺ käsittelee videot suoraan laitteella, joten tiedostot eivät poistu iPhoneltasi. Verkkopalvelut vaativat latauksen palvelimelle, mikä voi olla hitaampaa ja vähemmän yksityistä. Sovellus on ilmainen ladata ja käyttää; lisäominaisuudet valinnaisesti."
+      },
+      {
+        "question": "Onko Ääni videosta⁺ turvallisempi kuin verkkomuuntimet?",
+        "answer": "Kyllä, turvallisempi. Ääni videosta⁺ käsittelee videot kokonaan iPhonellasi — ei lähetystä ulkoisille palvelimille. Videosi pysyvät yksityisinä laitteella. Verkkomuuntimet vaativat tiedostojen lataamisen, mikä voi heikentää yksityisyyttä."
+      }
     ]
   },
   "app_info": {

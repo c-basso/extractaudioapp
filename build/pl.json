@@ -2,7 +2,7 @@
   "meta": {
     "lang": "pl",
     "title": "Audio z wideo na iPhone | Darmowa aplikacja MP3 (2026)",
-    "description": "Wyciągnij dźwięk z klipów na iPhone w kilka sekund. MP4 i MOV zamieniają się w wyraźny MP3 — szybko i prywatnie, na urządzeniu.",
+    "description": "Dźwięk z wideo na iPhone w sekundach: MP4 i MOV na czyste MP3 na urządzeniu, bez chmury. Przytnij fragment ze Zdjęć lub Udostępniania. Zacznij za darmo.",
     "keywords": "wyciągnąć audio z wideo, dźwięk z filmu iphone, mp4 na mp3, mov na mp3, konwerter wideo na mp3, audio z wideo aplikacja, ekstrakcja audio, wideo do mp3, darmowa aplikacja iphone, ios, app store, lokalna konwersja, prywatność",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/pl/",
@@ -35,12 +35,36 @@
   "features": {
     "title": "Dlaczego warto na iPhone",
     "items": [
-      { "title": "Start za darmo", "description": "Pobranie i ekstrakcja rdzenia bez opłat; rozszerzenia przez opcjonalne zakupy w aplikacji.", "icon": "⚡" },
-      { "title": "Szybka konwersja do MP3", "description": "MP4, MOV i popularne formaty z iPhone’a na wyraźny MP3, przetwarzanie lokalnie.", "icon": "🎵" },
-      { "title": "Precyzyjne przycinanie", "description": "Wybierz tylko fragment, którego potrzebujesz przed eksportem.", "icon": "✂️" },
-      { "title": "Przez Udostępnij", "description": "Start z Zdjęć lub Plików — mało kroków.", "icon": "🔗" },
-      { "title": "Przejrzysty interfejs", "description": "Czytelny na małym ekranie; także dla początkujących.", "icon": "🎨" },
-      { "title": "Dobry dźwięk", "description": "Nadaje się do muzyki, wykładów, podcastów i głosu.", "icon": "🎵" }
+      {
+        "title": "Start za darmo",
+        "description": "Pobranie i ekstrakcja rdzenia bez opłat; rozszerzenia przez opcjonalne zakupy w aplikacji.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Szybka konwersja do MP3",
+        "description": "MP4, MOV i popularne formaty z iPhone’a na wyraźny MP3, przetwarzanie lokalnie.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Precyzyjne przycinanie",
+        "description": "Wybierz tylko fragment, którego potrzebujesz przed eksportem.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Przez Udostępnij",
+        "description": "Start z Zdjęć lub Plików — mało kroków.",
+        "icon": "🔗"
+      },
+      {
+        "title": "Przejrzysty interfejs",
+        "description": "Czytelny na małym ekranie; także dla początkujących.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Dobry dźwięk",
+        "description": "Nadaje się do muzyki, wykładów, podcastów i głosu.",
+        "icon": "🎵"
+      }
     ]
   },
   "by_the_numbers": {
@@ -105,21 +129,57 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 — wg recenzji w App Store",
     "items": [
-      { "text": "\"Przycinam fragment i zapisuję MP3 — prosto i szybko.\"", "author": "Anna K., użytkowniczka iPhone", "rating": "5 gwiazdek", "verified": true },
-      { "text": "\"Do nagrań z wykładów idealna: wszystko na telefonie, spokojny interfejs.\"", "author": "Piotr M., student", "rating": "5 gwiazdek", "verified": true },
-      { "text": "\"Często zaczynam z Udostępnij w Zdjęciach — oszczędza czas.\"", "author": "Katarzyna W., twórczyni", "rating": "5 gwiazdek", "verified": true }
+      {
+        "text": "\"Przycinam fragment i zapisuję MP3 — prosto i szybko.\"",
+        "author": "Anna K., użytkowniczka iPhone",
+        "rating": "5 gwiazdek",
+        "verified": true
+      },
+      {
+        "text": "\"Do nagrań z wykładów idealna: wszystko na telefonie, spokojny interfejs.\"",
+        "author": "Piotr M., student",
+        "rating": "5 gwiazdek",
+        "verified": true
+      },
+      {
+        "text": "\"Często zaczynam z Udostępnij w Zdjęciach — oszczędza czas.\"",
+        "author": "Katarzyna W., twórczyni",
+        "rating": "5 gwiazdek",
+        "verified": true
+      }
     ]
   },
   "faq": {
     "title": "FAQ: ze wideo na audio na iPhone",
     "items": [
-      { "question": "Jak wyciągnąć dźwięk z wideo na iPhonie?", "answer": "Otwórz Audio z wideo⁺, wybierz klip z biblioteki, opcjonalnie przytnij i zapisz jako audio (MP3). Możesz też przez Udostępnij w Zdjęciach lub Plikach." },
-      { "question": "Czy jest darmowa aplikacja wideo → audio?", "answer": "Tak. Aplikację pobierzesz za darmo; kluczowa ekstrakcja mieści się w darmowym rdzeniu. Więcej funkcji — przez opcjonalne zakupy w aplikacji." },
-      { "question": "Jak szybko to działa?", "answer": "Otwórz aplikację → wybierz wideo → przytnij fragment → zapisz audio. Najczęściej najszybciej przez Udostępnij w Zdjęciach." },
-      { "question": "Czy działa z MP4 i MOV?", "answer": "Tak. Typowe formaty na iPhone, w tym MP4 i MOV, eksportujesz do MP3 w kilku krokach." },
-      { "question": "Czy mogę korzystać za darmo na start?", "answer": "Tak: główna ekstrakcja jest darmowa. Dodatkowe opcje — zakupy opcjonalne; nie potrzebujesz subskrypcji, żeby zacząć." },
-      { "question": "Czy to lepsze niż konwertery online?", "answer": "Dla wielu użytkowników iPhone’a tak: wideo obrabiane jest lokalnie i nie musi trafiać na serwer. Narzędzia online często wymagają uploadu i bywają wolniejsze lub mniej dyskretne." },
-      { "question": "Czy jest to bezpieczniejsze niż online?", "answer": "Zwykle tak, bo nagrania pozostają na iPhonie zamiast iść na zewnętrzny hosting. To ważne przy prywatnych materiałach." }
+      {
+        "question": "Jak wyciągnąć dźwięk z wideo na iPhonie?",
+        "answer": "Otwórz Audio z wideo⁺, wybierz klip z biblioteki, opcjonalnie przytnij i zapisz jako audio (MP3). Możesz też przez Udostępnij w Zdjęciach lub Plikach."
+      },
+      {
+        "question": "Czy jest darmowa aplikacja wideo → audio?",
+        "answer": "Tak. Aplikację pobierzesz za darmo; kluczowa ekstrakcja mieści się w darmowym rdzeniu. Więcej funkcji — przez opcjonalne zakupy w aplikacji."
+      },
+      {
+        "question": "Jak szybko to działa?",
+        "answer": "Otwórz aplikację → wybierz wideo → przytnij fragment → zapisz audio. Najczęściej najszybciej przez Udostępnij w Zdjęciach."
+      },
+      {
+        "question": "Czy działa z MP4 i MOV?",
+        "answer": "Tak. Typowe formaty na iPhone, w tym MP4 i MOV, eksportujesz do MP3 w kilku krokach."
+      },
+      {
+        "question": "Czy mogę korzystać za darmo na start?",
+        "answer": "Tak: główna ekstrakcja jest darmowa. Dodatkowe opcje — zakupy opcjonalne; nie potrzebujesz subskrypcji, żeby zacząć."
+      },
+      {
+        "question": "Czy to lepsze niż konwertery online?",
+        "answer": "Dla wielu użytkowników iPhone’a tak: wideo obrabiane jest lokalnie i nie musi trafiać na serwer. Narzędzia online często wymagają uploadu i bywają wolniejsze lub mniej dyskretne."
+      },
+      {
+        "question": "Czy jest to bezpieczniejsze niż online?",
+        "answer": "Zwykle tak, bo nagrania pozostają na iPhonie zamiast iść na zewnętrzny hosting. To ważne przy prywatnych materiałach."
+      }
     ]
   },
   "app_info": {

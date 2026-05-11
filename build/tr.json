@@ -2,7 +2,7 @@
   "meta": {
     "lang": "tr",
     "title": "Videodan ses çıkarma iPhone | Ücretsiz MP3 uygulaması (2026)",
-    "description": "Kliplerden saniyeler içinde ses alın. MP4 ve MOV net MP3’e dönüşür—hızlı, gizli ve cihazınızda.",
+    "description": "iPhone videolarından saniyeler içinde MP3: MP4 ve MOV cihazda net ses—özel, buluta yükleme yok. Fotoğraflar veya Paylaş’tan kırpın. Ücretsiz başlayın.",
     "keywords": "videodan ses çıkarma, videodan ses alma iphone, mp4 mp3 dönüştürücü, mov mp3, video ses ayırma, video mp3 çevirici, ücretsiz iphone uygulaması, ios, app store, yerel dönüştürme, gizlilik",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/tr/",
@@ -35,12 +35,36 @@
   "features": {
     "title": "iPhone’da neden tercih ediliyor",
     "items": [
-      { "title": "Ücretsiz başlangıç", "description": "İndirme ve temel ses çıkarma ücretsiz; genişletme isteğe bağlı uygulama içi satın alımlarla.", "icon": "⚡" },
-      { "title": "Hızlı MP3 dönüşümü", "description": "MP4, MOV ve yaygın formatlardan net MP3; işlem cihazda.", "icon": "🎵" },
-      { "title": "Kesin kırpma", "description": "Dışa aktarmadan önce yalnızca ihtiyacınız olan bölümü seçin.", "icon": "✂️" },
-      { "title": "Paylaş ile", "description": "Fotoğraflar veya Dosyalar’dan—az adım.", "icon": "🔗" },
-      { "title": "Sade arayüz", "description": "Küçük ekranda okunaklı; yeni başlayanlar için uygun.", "icon": "🎨" },
-      { "title": "Temiz ses", "description": "Müzik, ders, podcast ve konuşma için uygun.", "icon": "🎵" }
+      {
+        "title": "Ücretsiz başlangıç",
+        "description": "İndirme ve temel ses çıkarma ücretsiz; genişletme isteğe bağlı uygulama içi satın alımlarla.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Hızlı MP3 dönüşümü",
+        "description": "MP4, MOV ve yaygın formatlardan net MP3; işlem cihazda.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Kesin kırpma",
+        "description": "Dışa aktarmadan önce yalnızca ihtiyacınız olan bölümü seçin.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Paylaş ile",
+        "description": "Fotoğraflar veya Dosyalar’dan—az adım.",
+        "icon": "🔗"
+      },
+      {
+        "title": "Sade arayüz",
+        "description": "Küçük ekranda okunaklı; yeni başlayanlar için uygun.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Temiz ses",
+        "description": "Müzik, ders, podcast ve konuşma için uygun.",
+        "icon": "🎵"
+      }
     ]
   },
   "by_the_numbers": {
@@ -105,21 +129,57 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 — App Store değerlendirmelerine göre",
     "items": [
-      { "text": "\"Kırpıp MP3 kaydediyorum; basit ve hızlı.\"", "author": "Ayşe K., iPhone kullanıcısı", "rating": "5 yıldız", "verified": true },
-      { "text": "\"Ders videoları için süper; her şey cihazda, arayüz sakin.\"", "author": "Mehmet T., öğrenci", "rating": "5 yıldız", "verified": true },
-      { "text": "\"Sık Fotoğraflar’dan Paylaş ile başlıyorum—zaman kazandırıyor.\"", "author": "Zeynep L., içerik üreticisi", "rating": "5 yıldız", "verified": true }
+      {
+        "text": "\"Kırpıp MP3 kaydediyorum; basit ve hızlı.\"",
+        "author": "Ayşe K., iPhone kullanıcısı",
+        "rating": "5 yıldız",
+        "verified": true
+      },
+      {
+        "text": "\"Ders videoları için süper; her şey cihazda, arayüz sakin.\"",
+        "author": "Mehmet T., öğrenci",
+        "rating": "5 yıldız",
+        "verified": true
+      },
+      {
+        "text": "\"Sık Fotoğraflar’dan Paylaş ile başlıyorum—zaman kazandırıyor.\"",
+        "author": "Zeynep L., içerik üreticisi",
+        "rating": "5 yıldız",
+        "verified": true
+      }
     ]
   },
   "faq": {
     "title": "SSS: videodan iPhone’da sese",
     "items": [
-      { "question": "iPhone’da videodan ses nasıl çıkarılır?", "answer": "Videodan Ses⁺’i açın, kitaplıktan videoyu seçin, gerekirse kırpın ve ses olarak (MP3) kaydedin. Fotoğraflar veya Dosyalar’dan Paylaş ile de gönderebilirsiniz." },
-      { "question": "Ücretsiz video → ses uygulaması var mı?", "answer": "Evet. İndirme ücretsiz; temel çıkarma ücretsiz çekirdekte. Ek özellikler isteğe bağlı uygulama içi satın alımla." },
-      { "question": "Ne kadar hızlı?", "answer": "Uygulamayı aç → video seç → kırp → ses olarak kaydet. Çoğu zaman en hızlısı Fotoğraflar’daki Paylaş ile başlamaktır." },
-      { "question": "MP4 ve MOV olur mu?", "answer": "Evet. iPhone’da yaygın formatlar—MP4 ve MOV dahil—birkaç adımda MP3’e aktarılabilir." },
-      { "question": "Ücretsiz başlayabilir miyim?", "answer": "Evet; ana çıkarma ücretsiz. Daha fazlası için isteğe bağlı satın alım; abonelik şart değil." },
-      { "question": "Çevrimiçi dönüştürücülerden iyi mi?", "answer": "Birçok iPhone kullanıcısı için evet: video cihazda işlenir, yüklemeniz şart olmaz. Çevrimiçi araçlar genelde yükleme ve bekleme gerektirir." },
-      { "question": "Çevrimiçiye göre daha güvenli mi?", "answer": "Genelde öyledir; dosyalarınız iPhone’da kalır, üçüncü taraf sunuculara gitmek zorunda kalmazsınız. Kişisel kayıtlar için avantajlıdır." }
+      {
+        "question": "iPhone’da videodan ses nasıl çıkarılır?",
+        "answer": "Videodan Ses⁺’i açın, kitaplıktan videoyu seçin, gerekirse kırpın ve ses olarak (MP3) kaydedin. Fotoğraflar veya Dosyalar’dan Paylaş ile de gönderebilirsiniz."
+      },
+      {
+        "question": "Ücretsiz video → ses uygulaması var mı?",
+        "answer": "Evet. İndirme ücretsiz; temel çıkarma ücretsiz çekirdekte. Ek özellikler isteğe bağlı uygulama içi satın alımla."
+      },
+      {
+        "question": "Ne kadar hızlı?",
+        "answer": "Uygulamayı aç → video seç → kırp → ses olarak kaydet. Çoğu zaman en hızlısı Fotoğraflar’daki Paylaş ile başlamaktır."
+      },
+      {
+        "question": "MP4 ve MOV olur mu?",
+        "answer": "Evet. iPhone’da yaygın formatlar—MP4 ve MOV dahil—birkaç adımda MP3’e aktarılabilir."
+      },
+      {
+        "question": "Ücretsiz başlayabilir miyim?",
+        "answer": "Evet; ana çıkarma ücretsiz. Daha fazlası için isteğe bağlı satın alım; abonelik şart değil."
+      },
+      {
+        "question": "Çevrimiçi dönüştürücülerden iyi mi?",
+        "answer": "Birçok iPhone kullanıcısı için evet: video cihazda işlenir, yüklemeniz şart olmaz. Çevrimiçi araçlar genelde yükleme ve bekleme gerektirir."
+      },
+      {
+        "question": "Çevrimiçiye göre daha güvenli mi?",
+        "answer": "Genelde öyledir; dosyalarınız iPhone’da kalır, üçüncü taraf sunuculara gitmek zorunda kalmazsınız. Kişisel kayıtlar için avantajlıdır."
+      }
     ]
   },
   "app_info": {

@@ -2,7 +2,7 @@
   "meta": {
     "lang": "sv",
     "title": "Extrahera ljud från video på iPhone | Gratis MP3-app (2026)",
-    "description": "Extrahera ljud från videor på iPhone på några sekunder. Konvertera MP4 och MOV till MP3 i hög kvalitet — snabbt och privat direkt på enheten.",
+    "description": "Extrahera ljud från iPhone-video till MP3 på några sekunder: MP4 och MOV på enheten, helt privat utan moln. Klipp från Bilder eller Dela. Börja gratis.",
     "keywords": "extrahera ljud från video, ljud från video iphone, video till mp3, mp4 till mp3 iphone, konvertera video till ljud, gratis app, ios, iphone, app store, lokal bearbetning, integritet",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/sv/",
@@ -35,12 +35,36 @@
   "features": {
     "title": "Varför användare väljer den här ljudextraktorn för iPhone",
     "items": [
-      { "title": "Kom igång gratis", "description": "Gratis att ladda ner och använda. Grundläggande ljudextraktion ingår; fler funktioner via köp i appen.", "icon": "⚡" },
-      { "title": "Snabb MP3-konvertering", "description": "Konvertera videor till MP3 snabbt med bra kvalitet. Stöd för MP4, MOV och andra vanliga iPhone-videformat.", "icon": "🎵" },
-      { "title": "Exakt klippning", "description": "Välj precis den del du behöver före export. Spara bara det avsnitt du vill ha som ljud.", "icon": "✂️" },
-      { "title": "Fungerar från Dela", "description": "Använd Dela-knappen i Bilder eller Filer — inget krångligt upplägg.", "icon": "🔗" },
-      { "title": "Enkelt gränssnitt för iPhone", "description": "Rent och intuitivt. Lätt att använda även första gången.", "icon": "🎨" },
-      { "title": "Hög ljudkvalitet", "description": "Tydligt resultat för musik, poddar, föreläsningar och röstinspelningar.", "icon": "🎵" }
+      {
+        "title": "Kom igång gratis",
+        "description": "Gratis att ladda ner och använda. Grundläggande ljudextraktion ingår; fler funktioner via köp i appen.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Snabb MP3-konvertering",
+        "description": "Konvertera videor till MP3 snabbt med bra kvalitet. Stöd för MP4, MOV och andra vanliga iPhone-videformat.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Exakt klippning",
+        "description": "Välj precis den del du behöver före export. Spara bara det avsnitt du vill ha som ljud.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Fungerar från Dela",
+        "description": "Använd Dela-knappen i Bilder eller Filer — inget krångligt upplägg.",
+        "icon": "🔗"
+      },
+      {
+        "title": "Enkelt gränssnitt för iPhone",
+        "description": "Rent och intuitivt. Lätt att använda även första gången.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Hög ljudkvalitet",
+        "description": "Tydligt resultat för musik, poddar, föreläsningar och röstinspelningar.",
+        "icon": "🎵"
+      }
     ]
   },
   "by_the_numbers": {
@@ -105,21 +129,57 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "betyg 4,8 från App Store-användare",
     "items": [
-      { "text": "\"Perfekt för att spara musik och röstklipp från videor. Klippning är enkel och exporten snabb.\"", "author": "Sarah M., iPhone-användare", "rating": "5 stjärnor", "verified": true },
-      { "text": "\"Utmärkt för föreläsningsinspelningar. Rent gränssnitt, snabb konvertering och ingen inlärningskurva.\"", "author": "Michael T., student", "rating": "5 stjärnor", "verified": true },
-      { "text": "\"Jag gillar att starta från Dela i Bilder. Med några tryck har jag ljudet jag behöver.\"", "author": "Jessica L., innehållsskapare", "rating": "5 stjärnor", "verified": true }
+      {
+        "text": "\"Perfekt för att spara musik och röstklipp från videor. Klippning är enkel och exporten snabb.\"",
+        "author": "Sarah M., iPhone-användare",
+        "rating": "5 stjärnor",
+        "verified": true
+      },
+      {
+        "text": "\"Utmärkt för föreläsningsinspelningar. Rent gränssnitt, snabb konvertering och ingen inlärningskurva.\"",
+        "author": "Michael T., student",
+        "rating": "5 stjärnor",
+        "verified": true
+      },
+      {
+        "text": "\"Jag gillar att starta från Dela i Bilder. Med några tryck har jag ljudet jag behöver.\"",
+        "author": "Jessica L., innehållsskapare",
+        "rating": "5 stjärnor",
+        "verified": true
+      }
     ]
   },
   "faq": {
     "title": "Vanliga frågor: video till ljud på iPhone",
     "items": [
-      { "question": "Hur extraherar jag ljud från en video på iPhone?", "answer": "Öppna Ljud från video⁺, välj ett klipp från biblioteket, klipp vid behov och tryck på Spara som ljud (MP3). Du kan också starta direkt från Dela-menyn i Bilder eller Filer." },
-      { "question": "Finns det en gratis iPhone-app för video till ljud?", "answer": "Ja. Ljud från video⁺ är gratis att ladda ner och kärnkonvertering ingår utan kostnad. Fler verktyg låses upp via köp i appen." },
-      { "question": "Hur tar jag ut ljud från video snabbt?", "answer": "Fyra steg: öppna appen, välj video, klipp segmentet du vill ha, spara som ljud. Snabbare väg: starta från Dela-knappen i Bilder." },
-      { "question": "Kan jag konvertera MP4 eller MOV till MP3 på iPhone?", "answer": "Ja. Appen stöder vanliga format som MP4 och MOV och exporterar ljud som MP3 med några tryck." },
-      { "question": "Kan jag använda den gratis?", "answer": "Ja. Grundläggande ljudextraktion är gratis. Ytterligare funktioner finns som valfria köp i appen." },
-      { "question": "Är Ljud från video⁺ bättre än onlinekonverterare?", "answer": "För iPhone-användare, ja. Ljud från video⁺ bearbetar videor direkt på enheten så filerna lämnar inte din iPhone. Onlinekonverterare kräver uppladdning till servrar, vilket kan vara långsammare och mindre privat. Appen är gratis att ladda ner och använda; fler funktioner via valfria köp i appen." },
-      { "question": "Är Ljud från video⁺ säkrare än onlinekonverterare?", "answer": "Ja, säkrare. Ljud från video⁺ bearbetar videor helt på din iPhone — ingen uppladdning till externa servrar. Dina videor förblir privata på enheten. Onlinekonverterare kräver uppladdning av filer, vilket kan medföra integritetsrisker." }
+      {
+        "question": "Hur extraherar jag ljud från en video på iPhone?",
+        "answer": "Öppna Ljud från video⁺, välj ett klipp från biblioteket, klipp vid behov och tryck på Spara som ljud (MP3). Du kan också starta direkt från Dela-menyn i Bilder eller Filer."
+      },
+      {
+        "question": "Finns det en gratis iPhone-app för video till ljud?",
+        "answer": "Ja. Ljud från video⁺ är gratis att ladda ner och kärnkonvertering ingår utan kostnad. Fler verktyg låses upp via köp i appen."
+      },
+      {
+        "question": "Hur tar jag ut ljud från video snabbt?",
+        "answer": "Fyra steg: öppna appen, välj video, klipp segmentet du vill ha, spara som ljud. Snabbare väg: starta från Dela-knappen i Bilder."
+      },
+      {
+        "question": "Kan jag konvertera MP4 eller MOV till MP3 på iPhone?",
+        "answer": "Ja. Appen stöder vanliga format som MP4 och MOV och exporterar ljud som MP3 med några tryck."
+      },
+      {
+        "question": "Kan jag använda den gratis?",
+        "answer": "Ja. Grundläggande ljudextraktion är gratis. Ytterligare funktioner finns som valfria köp i appen."
+      },
+      {
+        "question": "Är Ljud från video⁺ bättre än onlinekonverterare?",
+        "answer": "För iPhone-användare, ja. Ljud från video⁺ bearbetar videor direkt på enheten så filerna lämnar inte din iPhone. Onlinekonverterare kräver uppladdning till servrar, vilket kan vara långsammare och mindre privat. Appen är gratis att ladda ner och använda; fler funktioner via valfria köp i appen."
+      },
+      {
+        "question": "Är Ljud från video⁺ säkrare än onlinekonverterare?",
+        "answer": "Ja, säkrare. Ljud från video⁺ bearbetar videor helt på din iPhone — ingen uppladdning till externa servrar. Dina videor förblir privata på enheten. Onlinekonverterare kräver uppladdning av filer, vilket kan medföra integritetsrisker."
+      }
     ]
   },
   "app_info": {

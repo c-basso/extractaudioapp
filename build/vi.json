@@ -1,8 +1,8 @@
 {
   "meta": {
     "lang": "vi",
-    "title": "Tách âm thanh từ video trên iPhone | Ứng dụng MP3 miễn phí (2026)",
-    "description": "Lấy âm thanh từ clip trên iPhone chỉ trong vài giây. MP4 và MOV thành MP3 rõ nét—nhanh, riêng tư, xử lý trên máy.",
+    "title": "Tách âm thanh từ video trên iPhone | App MP3 miễn phí (2026)",
+    "description": "Tách âm thanh từ video iPhone sang MP3 trong vài giây: MP4 và MOV xử lý trên máy, riêng tư, không đám mây. Cắt từ Ảnh hoặc Chia sẻ. Bắt đầu miễn phí ngay.",
     "keywords": "trích xuất âm thanh từ video, tách âm thanh khỏi video iphone, chuyển mp4 sang mp3, mov sang mp3, chuyển video sang mp3, ứng dụng miễn phí iphone, ios, app store, xử lý cục bộ, quyền riêng tư",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/vi/",
@@ -35,12 +35,36 @@
   "features": {
     "title": "Vì sao nhiều người dùng trên iPhone",
     "items": [
-      { "title": "Bắt đầu miễn phí", "description": "Tải và trích âm thanh lõi không mất phí; mở rộng qua mua trong ứng dụng tùy chọn.", "icon": "⚡" },
-      { "title": "Đổi sang MP3 nhanh", "description": "MP4, MOV và định dạng thường gặp → MP3 rõ, xử lý cục bộ.", "icon": "🎵" },
-      { "title": "Cắt chính xác", "description": "Chỉ chọn đoạn cần trước khi xuất.", "icon": "✂️" },
-      { "title": "Qua Chia sẻ", "description": "Từ Ảnh hoặc Tệp—ít thao tác.", "icon": "🔗" },
-      { "title": "Giao diện gọn", "description": "Dễ đọc trên màn nhỏ; phù hợp người mới.", "icon": "🎨" },
-      { "title": "Âm thanh nghe tốt", "description": "Phù hợp nhạc, bài giảng, podcast và giọng nói.", "icon": "🎵" }
+      {
+        "title": "Bắt đầu miễn phí",
+        "description": "Tải và trích âm thanh lõi không mất phí; mở rộng qua mua trong ứng dụng tùy chọn.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Đổi sang MP3 nhanh",
+        "description": "MP4, MOV và định dạng thường gặp → MP3 rõ, xử lý cục bộ.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Cắt chính xác",
+        "description": "Chỉ chọn đoạn cần trước khi xuất.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Qua Chia sẻ",
+        "description": "Từ Ảnh hoặc Tệp—ít thao tác.",
+        "icon": "🔗"
+      },
+      {
+        "title": "Giao diện gọn",
+        "description": "Dễ đọc trên màn nhỏ; phù hợp người mới.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Âm thanh nghe tốt",
+        "description": "Phù hợp nhạc, bài giảng, podcast và giọng nói.",
+        "icon": "🎵"
+      }
     ]
   },
   "by_the_numbers": {
@@ -105,21 +129,57 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "4,8 — theo đánh giá trên App Store",
     "items": [
-      { "text": "\"Cắt đoạn rồi lưu MP3—đơn giản và nhanh.\"", "author": "Nguyễn M., người dùng iPhone", "rating": "5 sao", "verified": true },
-      { "text": "\"Bài giảng quay video rất hợp: xử lý trên máy, giao diện thoáng.\"", "author": "Trần T., sinh viên", "rating": "5 sao", "verified": true },
-      { "text": "\"Thường mở từ Chia sẻ trong Ảnh—tiết kiệm thời gian.\"", "author": "Lê H., nhà sáng tạo nội dung", "rating": "5 sao", "verified": true }
+      {
+        "text": "\"Cắt đoạn rồi lưu MP3—đơn giản và nhanh.\"",
+        "author": "Nguyễn M., người dùng iPhone",
+        "rating": "5 sao",
+        "verified": true
+      },
+      {
+        "text": "\"Bài giảng quay video rất hợp: xử lý trên máy, giao diện thoáng.\"",
+        "author": "Trần T., sinh viên",
+        "rating": "5 sao",
+        "verified": true
+      },
+      {
+        "text": "\"Thường mở từ Chia sẻ trong Ảnh—tiết kiệm thời gian.\"",
+        "author": "Lê H., nhà sáng tạo nội dung",
+        "rating": "5 sao",
+        "verified": true
+      }
     ]
   },
   "faq": {
     "title": "Hỏi đáp: từ video sang âm thanh trên iPhone",
     "items": [
-      { "question": "Làm sao trích âm thanh từ video trên iPhone?", "answer": "Mở Âm thanh từ video⁺, chọn clip trong thư viện, cắt nếu cần rồi lưu dưới dạng âm thanh (MP3). Hoặc Chia sẻ từ Ảnh hoặc Tệp vào app." },
-      { "question": "Có app miễn phí kiểu video → âm thanh không?", "answer": "Có. Tải miễn phí; phần trích lõi nằm trong gói miễn phí. Tính năng nâng cao—mua trong app tùy chọn." },
-      { "question": "Nhanh đến mức nào?", "answer": "Mở app → chọn video → cắt đoạn → lưu âm thanh. Thường nhanh nhất khi bắt đầu từ Chia sẻ trong Ảnh." },
-      { "question": "MP4 và MOV có được không?", "answer": "Có. Định dạng thường gặp trên iPhone, gồm MP4 và MOV, có thể xuất MP3 trong vài bước." },
-      { "question": "Có bắt đầu miễn phí không?", "answer": "Có: chức năng trích chính miễn phí. Muốn thêm tiện ích có thể mua trong app—không cần gói đăng ký để bắt đầu." },
-      { "question": "Có hơn công cụ chuyển online không?", "answer": "Với nhiều người dùng iPhone là có: video xử lý cục bộ, không phải tải lên. Dịch vụ online thường cần upload và có thể chậm hoặc kém riêng tư hơn." },
-      { "question": "Có an toàn hơn chuyển online không?", "answer": "Thường là có vì tệp ở lại iPhone thay vì lên máy chủ bên thứ ba—hữu ích với clip cá nhân." }
+      {
+        "question": "Làm sao trích âm thanh từ video trên iPhone?",
+        "answer": "Mở Âm thanh từ video⁺, chọn clip trong thư viện, cắt nếu cần rồi lưu dưới dạng âm thanh (MP3). Hoặc Chia sẻ từ Ảnh hoặc Tệp vào app."
+      },
+      {
+        "question": "Có app miễn phí kiểu video → âm thanh không?",
+        "answer": "Có. Tải miễn phí; phần trích lõi nằm trong gói miễn phí. Tính năng nâng cao—mua trong app tùy chọn."
+      },
+      {
+        "question": "Nhanh đến mức nào?",
+        "answer": "Mở app → chọn video → cắt đoạn → lưu âm thanh. Thường nhanh nhất khi bắt đầu từ Chia sẻ trong Ảnh."
+      },
+      {
+        "question": "MP4 và MOV có được không?",
+        "answer": "Có. Định dạng thường gặp trên iPhone, gồm MP4 và MOV, có thể xuất MP3 trong vài bước."
+      },
+      {
+        "question": "Có bắt đầu miễn phí không?",
+        "answer": "Có: chức năng trích chính miễn phí. Muốn thêm tiện ích có thể mua trong app—không cần gói đăng ký để bắt đầu."
+      },
+      {
+        "question": "Có hơn công cụ chuyển online không?",
+        "answer": "Với nhiều người dùng iPhone là có: video xử lý cục bộ, không phải tải lên. Dịch vụ online thường cần upload và có thể chậm hoặc kém riêng tư hơn."
+      },
+      {
+        "question": "Có an toàn hơn chuyển online không?",
+        "answer": "Thường là có vì tệp ở lại iPhone thay vì lên máy chủ bên thứ ba—hữu ích với clip cá nhân."
+      }
     ]
   },
   "app_info": {

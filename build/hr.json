@@ -1,8 +1,8 @@
 {
   "meta": {
     "lang": "hr",
-    "title": "Izdvojite zvuk iz videa na iPhoneu | Besplatna MP3 aplikacija (2026)",
-    "description": "Izdvojite zvuk iz videozapisa na iPhoneu za nekoliko sekundi. Pretvorite MP4 i MOV u visokokvalitetan MP3 — brzo i privatno izravno na uređaju.",
+    "title": "Zvuk iz videa na iPhoneu | Besplatna MP3 app (2026)",
+    "description": "Izdvojite zvuk iz iPhone videa u MP3 za sekunde: MP4 i MOV lokalno, privatno i bez prijenosa u oblak. Skratite iz Fotografija ili Dijeli. Započnite besplatno.",
     "keywords": "zvuk iz videa, izdvojiti zvuk iz videa iphone, video u mp3, mp4 u mp3 iphone, pretvorba videa u zvuk, besplatna aplikacija, ios, iphone, app store, obrada na uređaju, privatnost",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/hr/",
@@ -35,12 +35,36 @@
   "features": {
     "title": "Zašto korisnici biraju ovaj izdvajač zvuka za iPhone",
     "items": [
-      { "title": "Besplatni početak", "description": "Besplatno preuzimanje i korištenje. Osnovno izdvajanje zvuka uključeno; dodatne značajke putem kupnji u aplikaciji.", "icon": "⚡" },
-      { "title": "Brza MP3 pretvorba", "description": "Brzo pretvorite video u MP3 uz dobru kvalitetu. Podržava MP4, MOV i druge uobičajene formate videa na iPhoneu.", "icon": "🎵" },
-      { "title": "Precizno obrezivanje", "description": "Odaberite točno onaj dio koji trebate prije izvoza. Spremite samo željeni isječak kao zvuk.", "icon": "✂️" },
-      { "title": "Radi iz dijeljenja", "description": "Koristite gumb za dijeljenje u Fotografijama ili Datotekama — bez složenog podešavanja.", "icon": "🔗" },
-      { "title": "Jednostavno sučelje za iPhone", "description": "Čisto i intuitivno sučelje. Lako za korištenje čak i pri prvom pokušaju.", "icon": "🎨" },
-      { "title": "Visoka kvaliteta zvuka", "description": "Čist izlaz za glazbu, podcaste, predavanja i glasovne zapise.", "icon": "🎵" }
+      {
+        "title": "Besplatni početak",
+        "description": "Besplatno preuzimanje i korištenje. Osnovno izdvajanje zvuka uključeno; dodatne značajke putem kupnji u aplikaciji.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Brza MP3 pretvorba",
+        "description": "Brzo pretvorite video u MP3 uz dobru kvalitetu. Podržava MP4, MOV i druge uobičajene formate videa na iPhoneu.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Precizno obrezivanje",
+        "description": "Odaberite točno onaj dio koji trebate prije izvoza. Spremite samo željeni isječak kao zvuk.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Radi iz dijeljenja",
+        "description": "Koristite gumb za dijeljenje u Fotografijama ili Datotekama — bez složenog podešavanja.",
+        "icon": "🔗"
+      },
+      {
+        "title": "Jednostavno sučelje za iPhone",
+        "description": "Čisto i intuitivno sučelje. Lako za korištenje čak i pri prvom pokušaju.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Visoka kvaliteta zvuka",
+        "description": "Čist izlaz za glazbu, podcaste, predavanja i glasovne zapise.",
+        "icon": "🎵"
+      }
     ]
   },
   "by_the_numbers": {
@@ -105,21 +129,57 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "Ocjena 4,8 od korisnika App Storea",
     "items": [
-      { "text": "\"Savršeno za spremanje glazbe i glasovnih isječaka iz videozapisa. Obrezivanje je jednostavno, a izvoz brz.\"", "author": "Sarah M., korisnica iPhonea", "rating": "5 zvjezdica", "verified": true },
-      { "text": "\"Odlično za snimke predavanja. Čisto sučelje, brza pretvorba i bez složenog učenja.\"", "author": "Michael T., student", "rating": "5 zvjezdica", "verified": true },
-      { "text": "\"Volim početi iz dijeljenja u Fotografijama. Nekoliko dodira i zvuk je spreman.\"", "author": "Jessica L., kreatorka sadržaja", "rating": "5 zvjezdica", "verified": true }
+      {
+        "text": "\"Savršeno za spremanje glazbe i glasovnih isječaka iz videozapisa. Obrezivanje je jednostavno, a izvoz brz.\"",
+        "author": "Sarah M., korisnica iPhonea",
+        "rating": "5 zvjezdica",
+        "verified": true
+      },
+      {
+        "text": "\"Odlično za snimke predavanja. Čisto sučelje, brza pretvorba i bez složenog učenja.\"",
+        "author": "Michael T., student",
+        "rating": "5 zvjezdica",
+        "verified": true
+      },
+      {
+        "text": "\"Volim početi iz dijeljenja u Fotografijama. Nekoliko dodira i zvuk je spreman.\"",
+        "author": "Jessica L., kreatorka sadržaja",
+        "rating": "5 zvjezdica",
+        "verified": true
+      }
     ]
   },
   "faq": {
     "title": "Često postavljana pitanja: video u zvuk na iPhoneu",
     "items": [
-      { "question": "Kako izdvojiti zvuk iz videa na iPhoneu?", "answer": "Otvorite Zvuk iz videa⁺, odaberite isječak iz biblioteke, po potrebi obrežite i dodirnite Spremi kao audio (MP3). Možete i pokrenuti izravno iz izbornika dijeljenja u Fotografijama ili Datotekama." },
-      { "question": "Postoji li besplatna iPhone aplikacija za pretvorbu videa u zvuk?", "answer": "Da. Zvuk iz videa⁺ besplatna je za preuzimanje i uključuje osnovnu pretvorbu bez naknade. Dodatni alati dostupni su putem kupnji u aplikaciji." },
-      { "question": "Kako brzo izdvojiti zvuk iz videa?", "answer": "Četiri koraka: otvorite aplikaciju, odaberite video, obrežite željeni dio, spremite kao zvuk. Za brži pristup počnite iz gumba za dijeljenje u Fotografijama." },
-      { "question": "Mogu li pretvoriti MP4 ili MOV u MP3 na iPhoneu?", "answer": "Da. Aplikacija podržava uobičajene formate poput MP4 i MOV te izvozi zvuk kao MP3 uz nekoliko dodira." },
-      { "question": "Mogu li je koristiti besplatno?", "answer": "Da. Osnovno izdvajanje zvuka besplatno je. Opcionalne kupnje u aplikaciji za dodatne značajke." },
-      { "question": "Je li Zvuk iz videa⁺ bolji od online pretvarača?", "answer": "Da, za korisnike iPhonea. Zvuk iz videa⁺ obrađuje video izravno na uređaju pa vaše datoteke ne napuštaju iPhone. Online pretvarači zahtijevaju slanje na servere, što može biti sporije i manje privatno. Aplikacija je besplatna za preuzimanje i korištenje s opcionalnim kupnjama u aplikaciji." },
-      { "question": "Je li Zvuk iz videa⁺ sigurniji od online pretvarača?", "answer": "Da, sigurniji. Zvuk iz videa⁺ obrađuje video u potpunosti na vašem iPhoneu — bez slanja na vanjske servere. Vaši videozapisi ostaju privatni na uređaju. Online pretvarači zahtijevaju učitavanje datoteka što nosi rizik za privatnost." }
+      {
+        "question": "Kako izdvojiti zvuk iz videa na iPhoneu?",
+        "answer": "Otvorite Zvuk iz videa⁺, odaberite isječak iz biblioteke, po potrebi obrežite i dodirnite Spremi kao audio (MP3). Možete i pokrenuti izravno iz izbornika dijeljenja u Fotografijama ili Datotekama."
+      },
+      {
+        "question": "Postoji li besplatna iPhone aplikacija za pretvorbu videa u zvuk?",
+        "answer": "Da. Zvuk iz videa⁺ besplatna je za preuzimanje i uključuje osnovnu pretvorbu bez naknade. Dodatni alati dostupni su putem kupnji u aplikaciji."
+      },
+      {
+        "question": "Kako brzo izdvojiti zvuk iz videa?",
+        "answer": "Četiri koraka: otvorite aplikaciju, odaberite video, obrežite željeni dio, spremite kao zvuk. Za brži pristup počnite iz gumba za dijeljenje u Fotografijama."
+      },
+      {
+        "question": "Mogu li pretvoriti MP4 ili MOV u MP3 na iPhoneu?",
+        "answer": "Da. Aplikacija podržava uobičajene formate poput MP4 i MOV te izvozi zvuk kao MP3 uz nekoliko dodira."
+      },
+      {
+        "question": "Mogu li je koristiti besplatno?",
+        "answer": "Da. Osnovno izdvajanje zvuka besplatno je. Opcionalne kupnje u aplikaciji za dodatne značajke."
+      },
+      {
+        "question": "Je li Zvuk iz videa⁺ bolji od online pretvarača?",
+        "answer": "Da, za korisnike iPhonea. Zvuk iz videa⁺ obrađuje video izravno na uređaju pa vaše datoteke ne napuštaju iPhone. Online pretvarači zahtijevaju slanje na servere, što može biti sporije i manje privatno. Aplikacija je besplatna za preuzimanje i korištenje s opcionalnim kupnjama u aplikaciji."
+      },
+      {
+        "question": "Je li Zvuk iz videa⁺ sigurniji od online pretvarača?",
+        "answer": "Da, sigurniji. Zvuk iz videa⁺ obrađuje video u potpunosti na vašem iPhoneu — bez slanja na vanjske servere. Vaši videozapisi ostaju privatni na uređaju. Online pretvarači zahtijevaju učitavanje datoteka što nosi rizik za privatnost."
+      }
     ]
   },
   "app_info": {

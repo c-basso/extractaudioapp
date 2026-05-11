@@ -1,8 +1,8 @@
 {
   "meta": {
     "lang": "ms",
-    "title": "Ekstrak audio daripada video di iPhone | Apl MP3 percuma (2026)",
-    "description": "Ekstrak audio daripada video pada iPhone anda dalam beberapa saat. Tukar MP4 dan MOV kepada MP3 berkualiti tinggi — pantas dan peribadi terus pada peranti.",
+    "title": "Ekstrak audio video di iPhone | Apl MP3 percuma (2026)",
+    "description": "Keluarkan audio video iPhone ke MP3 dalam beberapa saat: MP4 dan MOV jadi MP3 jelas di peranti, peribadi tanpa awan. Potong dari Foto atau Kongsi. Mula percuma.",
     "keywords": "ekstrak audio daripada video, audio video iphone, video ke mp3, mp4 ke mp3 iphone, tukar video ke audio, apl percuma, ios, iphone, app store, pemprosesan tempatan, privasi",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/ms/",
@@ -35,12 +35,36 @@
   "features": {
     "title": "Mengapa pengguna memilih pengekstrak audio iPhone ini",
     "items": [
-      { "title": "Mula percuma", "description": "Muat turun dan guna percuma. Pengekstrakan audio teras disertakan; ciri tambahan melalui pembelian dalam apl.", "icon": "⚡" },
-      { "title": "Penukaran MP3 pantas", "description": "Tukar video kepada MP3 dengan cepat dan output berkualiti. Menyokong MP4, MOV dan format video iPhone biasa lain.", "icon": "🎵" },
-      { "title": "Pemotongan tepat", "description": "Pilih bahagian yang tepat sebelum mengeksport. Simpan hanya segmen yang anda mahu sebagai audio.", "icon": "✂️" },
-      { "title": "Berfungsi daripada Kongsi", "description": "Gunakan butang Kongsi dalam Foto atau Fail — tanpa tetapan rumit.", "icon": "🔗" },
-      { "title": "UI mudah untuk iPhone", "description": "Antara muka bersih dan intuitif. Mudah digunakan walaupun kali pertama.", "icon": "🎨" },
-      { "title": "Kualiti audio tinggi", "description": "Output jelas untuk muzik, podcast, kuliah dan rakaman suara.", "icon": "🎵" }
+      {
+        "title": "Mula percuma",
+        "description": "Muat turun dan guna percuma. Pengekstrakan audio teras disertakan; ciri tambahan melalui pembelian dalam apl.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Penukaran MP3 pantas",
+        "description": "Tukar video kepada MP3 dengan cepat dan output berkualiti. Menyokong MP4, MOV dan format video iPhone biasa lain.",
+        "icon": "🎵"
+      },
+      {
+        "title": "Pemotongan tepat",
+        "description": "Pilih bahagian yang tepat sebelum mengeksport. Simpan hanya segmen yang anda mahu sebagai audio.",
+        "icon": "✂️"
+      },
+      {
+        "title": "Berfungsi daripada Kongsi",
+        "description": "Gunakan butang Kongsi dalam Foto atau Fail — tanpa tetapan rumit.",
+        "icon": "🔗"
+      },
+      {
+        "title": "UI mudah untuk iPhone",
+        "description": "Antara muka bersih dan intuitif. Mudah digunakan walaupun kali pertama.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Kualiti audio tinggi",
+        "description": "Output jelas untuk muzik, podcast, kuliah dan rakaman suara.",
+        "icon": "🎵"
+      }
     ]
   },
   "by_the_numbers": {
@@ -105,21 +129,57 @@
     "stars": "⭐️⭐️⭐️⭐️⭐️",
     "rating_text": "Penarafan 4.8 daripada pengguna App Store",
     "items": [
-      { "text": "\"Sesuai untuk menyimpan muzik dan klip suara daripada video. Pemotongan mudah dan eksport pantas.\"", "author": "Sarah M., pengguna iPhone", "rating": "5 bintang", "verified": true },
-      { "text": "\"Bagus untuk rakaman kuliah. Antara muka bersih, penukaran pantas, tiada lengkung pembelajaran.\"", "author": "Michael T., pelajar", "rating": "5 bintang", "verified": true },
-      { "text": "\"Suka mula daripada Kongsi dalam Foto. Beberapa ketikan dan audio yang saya perlukan sudah ada.\"", "author": "Jessica L., pencipta kandungan", "rating": "5 bintang", "verified": true }
+      {
+        "text": "\"Sesuai untuk menyimpan muzik dan klip suara daripada video. Pemotongan mudah dan eksport pantas.\"",
+        "author": "Sarah M., pengguna iPhone",
+        "rating": "5 bintang",
+        "verified": true
+      },
+      {
+        "text": "\"Bagus untuk rakaman kuliah. Antara muka bersih, penukaran pantas, tiada lengkung pembelajaran.\"",
+        "author": "Michael T., pelajar",
+        "rating": "5 bintang",
+        "verified": true
+      },
+      {
+        "text": "\"Suka mula daripada Kongsi dalam Foto. Beberapa ketikan dan audio yang saya perlukan sudah ada.\"",
+        "author": "Jessica L., pencipta kandungan",
+        "rating": "5 bintang",
+        "verified": true
+      }
     ]
   },
   "faq": {
     "title": "Soalan lazim: video ke audio di iPhone",
     "items": [
-      { "question": "Bagaimana mengekstrak audio daripada video di iPhone?", "answer": "Buka Audio daripada Video⁺, pilih klip daripada pustaka, potong jika perlu, kemudian ketik Simpan sebagai audio (MP3). Anda juga boleh membuka terus daripada menu Kongsi dalam Foto atau Fail." },
-      { "question": "Adakah apl iPhone percuma untuk menukar video ke audio?", "answer": "Ya. Audio daripada Video⁺ percuma untuk dimuat turun dan merangkumi penukaran teras tanpa caj. Alatan tambahan dibuka dengan pembelian dalam apl." },
-      { "question": "Bagaimana cara pantas mengekstrak bunyi daripada video?", "answer": "Empat langkah: buka apl, pilih video, potong segmen yang dikehendaki, simpan sebagai audio. Untuk akses lebih pantas mula daripada butang Kongsi dalam Foto." },
-      { "question": "Bolehkah menukar MP4 atau MOV kepada MP3 di iPhone?", "answer": "Ya. Apl menyokong format biasa seperti MP4 dan MOV serta mengeksport audio sebagai MP3 dengan beberapa ketikan." },
-      { "question": "Bolehkah digunakan percuma?", "answer": "Ya. Pengekstrakan audio teras percuma. Pembelian dalam apl pilihan untuk ciri tambahan." },
-      { "question": "Adakah Audio daripada Video⁺ lebih baik daripada penukar dalam talian?", "answer": "Ya, untuk pengguna iPhone. Audio daripada Video⁺ memproses video terus pada peranti supaya fail anda tidak meninggalkan iPhone. Penukar dalam talian memerlukan muat naik ke pelayan yang mungkin lebih perlahan dan kurang peribadi. Apl percuma untuk dimuat turun dan digunakan; pembelian dalam apl pilihan." },
-      { "question": "Adakah Audio daripada Video⁺ lebih selamat berbanding penukar dalam talian?", "answer": "Ya, lebih selamat. Audio daripada Video⁺ memproses video sepenuhnya pada iPhone anda — tanpa muat naik ke pelayan luar. Video anda kekal peribadi pada peranti. Penukar dalam talian memerlukan muat naik fail yang berisiko privasi." }
+      {
+        "question": "Bagaimana mengekstrak audio daripada video di iPhone?",
+        "answer": "Buka Audio daripada Video⁺, pilih klip daripada pustaka, potong jika perlu, kemudian ketik Simpan sebagai audio (MP3). Anda juga boleh membuka terus daripada menu Kongsi dalam Foto atau Fail."
+      },
+      {
+        "question": "Adakah apl iPhone percuma untuk menukar video ke audio?",
+        "answer": "Ya. Audio daripada Video⁺ percuma untuk dimuat turun dan merangkumi penukaran teras tanpa caj. Alatan tambahan dibuka dengan pembelian dalam apl."
+      },
+      {
+        "question": "Bagaimana cara pantas mengekstrak bunyi daripada video?",
+        "answer": "Empat langkah: buka apl, pilih video, potong segmen yang dikehendaki, simpan sebagai audio. Untuk akses lebih pantas mula daripada butang Kongsi dalam Foto."
+      },
+      {
+        "question": "Bolehkah menukar MP4 atau MOV kepada MP3 di iPhone?",
+        "answer": "Ya. Apl menyokong format biasa seperti MP4 dan MOV serta mengeksport audio sebagai MP3 dengan beberapa ketikan."
+      },
+      {
+        "question": "Bolehkah digunakan percuma?",
+        "answer": "Ya. Pengekstrakan audio teras percuma. Pembelian dalam apl pilihan untuk ciri tambahan."
+      },
+      {
+        "question": "Adakah Audio daripada Video⁺ lebih baik daripada penukar dalam talian?",
+        "answer": "Ya, untuk pengguna iPhone. Audio daripada Video⁺ memproses video terus pada peranti supaya fail anda tidak meninggalkan iPhone. Penukar dalam talian memerlukan muat naik ke pelayan yang mungkin lebih perlahan dan kurang peribadi. Apl percuma untuk dimuat turun dan digunakan; pembelian dalam apl pilihan."
+      },
+      {
+        "question": "Adakah Audio daripada Video⁺ lebih selamat berbanding penukar dalam talian?",
+        "answer": "Ya, lebih selamat. Audio daripada Video⁺ memproses video sepenuhnya pada iPhone anda — tanpa muat naik ke pelayan luar. Video anda kekal peribadi pada peranti. Penukar dalam talian memerlukan muat naik fail yang berisiko privasi."
+      }
     ]
   },
   "app_info": {
