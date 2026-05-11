@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "lang": "id",
+    "title": "Ekstrak audio dari video di iPhone | Aplikasi MP3 gratis (2026)",
+    "description": "Ekstrak audio dari video di iPhone Anda dalam hitungan detik. Ubah MP4 dan MOV jadi MP3 berkualitas tinggi — cepat dan privat langsung di perangkat.",
+    "keywords": "ekstrak audio dari video, audio dari video iphone, video ke mp3, mp4 ke mp3 iphone, ubah video ke audio, aplikasi gratis, ios, iphone, app store, pemrosesan lokal, privasi",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/id/",
+    "og_title": "Ekstrak audio dari video di iPhone – konverter MP3 gratis",
+    "og_description": "Ubah video iPhone jadi MP3 di perangkat tanpa unggah ke server. Mulai dari Foto atau Bagikan, potong sebelum ekspor — fitur inti gratis.",
+    "og_image": "https://extractaudioapp.com/id/site_preview.png",
+    "site_name": "Audio dari Video⁺",
+    "og_locale": "id_ID",
+    "twitter_url": "https://extractaudioapp.com/id/",
+    "twitter_title": "Ekstrak audio dari video di iPhone – aplikasi gratis",
+    "twitter_description": "Video ke MP3 di iPhone dengan pemrosesan di perangkat — tanpa unggah. Fitur inti gratis; alat tambahan lewat pembelian dalam aplikasi.",
+    "twitter_image": "https://extractaudioapp.com/id/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/id/",
+    "geo_region": "ID",
+    "geo_placename": "Indonesia"
+  },
+  "hero": {
+    "logo_alt": "Logo Audio dari Video⁺",
+    "title": "Ekstrak audio dari video di iPhone",
+    "subtitle": "Ubah video ke MP3 dalam hitungan detik – aplikasi iPhone gratis",
+    "entity_definition": "Audio dari Video⁺ adalah aplikasi iOS yang mengubah video (MP4/MOV) di iPhone Anda menjadi file MP3 berkualitas tinggi langsung di perangkat.",
+    "subheadline": "Simpan musik dari klip, audio kuliah, atau cuplikan podcast. Cepat dan privat — fitur inti gratis dengan pembelian dalam aplikasi opsional.",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "Unduh di App Store",
+    "phone_text": "Ketuk untuk mengubah video menjadi audio",
+    "qr_alt": "Kode QR untuk mengunduh aplikasi",
+    "qr_text": "Pindai dengan ponsel Anda untuk mengunduh"
+  },
+  "features": {
+    "title": "Mengapa pengguna memilih ekstraktor audio iPhone ini",
+    "items": [
+      { "title": "Mulai gratis", "description": "Unduh dan gunakan gratis. Ekstraksi audio inti sudah termasuk; fitur tambahan lewat pembelian dalam aplikasi.", "icon": "⚡" },
+      { "title": "Konversi MP3 cepat", "description": "Ubah video ke MP3 dengan cepat dan output berkualitas. Mendukung MP4, MOV, dan format video iPhone umum lainnya.", "icon": "🎵" },
+      { "title": "Pemotongan presisi", "description": "Pilih bagian yang tepat sebelum mengekspor. Simpan hanya segmen yang Anda inginkan sebagai audio.", "icon": "✂️" },
+      { "title": "Bisa dari Bagikan", "description": "Gunakan tombol Bagikan di Foto atau File — tanpa pengaturan rumit.", "icon": "🔗" },
+      { "title": "UI sederhana untuk iPhone", "description": "Antarmuka bersih dan intuitif. Mudah digunakan bahkan pertama kali.", "icon": "🎨" },
+      { "title": "Kualitas audio tinggi", "description": "Output jernih untuk musik, podcast, kuliah, dan rekaman suara.", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "Audio dari Video⁺ dalam angka",
+    "items": [
+      "4,8 dari 5 bintang berdasarkan 140+ ulasan App Store",
+      "Unduh dan gunakan gratis – pembelian dalam aplikasi opsional",
+      "Mendukung MP4, MOV, dan format video iPhone umum lainnya",
+      "Ukuran aplikasi iOS sekitar 50 MB",
+      "Memproses video langsung di iPhone Anda untuk privasi dan kecepatan"
+    ],
+    "stats": [
+      {
+        "number": "4,8",
+        "label": "Rating bintang",
+        "detail": "Berdasarkan 140+ ulasan App Store"
+      },
+      {
+        "number": "~50 MB",
+        "label": "Ukuran aplikasi",
+        "detail": "Ringan dan cepat"
+      },
+      {
+        "number": "100%",
+        "label": "Fitur inti gratis",
+        "detail": "Pembelian dalam aplikasi opsional"
+      },
+      {
+        "number": "Di perangkat",
+        "label": "Pemrosesan",
+        "detail": "Video Anda tidak meninggalkan iPhone"
+      }
+    ]
+  },
+  "demo": {
+    "title": "Cara mengekstrak audio dari video di iPhone – langkah demi langkah",
+    "subtitle": "Ikuti langkah sederhana ini untuk audio berkualitas tinggi di iPhone",
+    "placeholder_line1": "📱 Video demo segera hadir",
+    "placeholder_line2": "Langkah 1: Buka aplikasi > Langkah 2: Pilih video > Langkah 3: Potong jika perlu > Langkah 4: Ekstrak audio dan simpan sebagai MP3"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Buka aplikasi",
+        "text": "Buka aplikasi {{app_info.name}} di iPhone Anda. Aplikasi dapat diunduh gratis dari App Store."
+      },
+      {
+        "name": "Pilih video Anda",
+        "text": "Pilih video dari pustaka Anda. Anda dapat menggunakan MP4, MOV, atau format umum lainnya."
+      },
+      {
+        "name": "Potong jika perlu",
+        "text": "Gunakan alat pemotong untuk memilih bagian video yang ingin Anda ekstrak audio-nya. Langkah ini opsional."
+      },
+      {
+        "name": "Ekstrak dan simpan audio",
+        "text": "Ketuk Simpan sebagai audio untuk mengekstrak audio dari video dan menyimpannya sebagai MP3. Audio disimpan di iPhone Anda."
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "Rating 4,8 dari pengguna App Store",
+    "items": [
+      { "text": "\"Sempurna untuk menyimpan musik dan klip suara dari video. Pemotongan mudah dan ekspor cepat.\"", "author": "Sarah M., pengguna iPhone", "rating": "5 bintang", "verified": true },
+      { "text": "\"Bagus untuk rekaman kuliah. Antarmuka bersih, konversi cepat, tanpa kurva belajar.\"", "author": "Michael T., mahasiswa", "rating": "5 bintang", "verified": true },
+      { "text": "\"Suka mulai dari Bagikan di Foto. Beberapa ketukan dan audio yang saya butuhkan sudah ada.\"", "author": "Jessica L., kreator konten", "rating": "5 bintang", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "FAQ: video ke audio di iPhone",
+    "items": [
+      { "question": "Bagaimana cara mengekstrak audio dari video di iPhone?", "answer": "Buka Audio dari Video⁺, pilih klip dari pustaka, potong jika perlu, lalu ketuk Simpan sebagai audio (MP3). Anda juga bisa membuka langsung dari menu Bagikan di Foto atau File." },
+      { "question": "Apakah ada aplikasi iPhone gratis untuk mengubah video ke audio?", "answer": "Ya. Audio dari Video⁺ gratis diunduh dan mencakup konversi inti tanpa biaya. Alat tambahan dibuka dengan pembelian dalam aplikasi." },
+      { "question": "Bagaimana cara cepat mengekstrak suara dari video?", "answer": "Empat langkah: buka aplikasi, pilih video, potong segmen yang diinginkan, simpan sebagai audio. Untuk akses lebih cepat mulai dari tombol Bagikan di Foto." },
+      { "question": "Bisakah mengubah MP4 atau MOV ke MP3 di iPhone?", "answer": "Ya. Aplikasi mendukung format umum seperti MP4 dan MOV serta mengekspor audio sebagai MP3 dengan beberapa ketukan." },
+      { "question": "Apakah bisa digunakan gratis?", "answer": "Ya. Ekstraksi audio inti gratis. Pembelian dalam aplikasi opsional untuk fitur tambahan." },
+      { "question": "Apakah Audio dari Video⁺ lebih baik dari konverter online?", "answer": "Ya, untuk pengguna iPhone. Audio dari Video⁺ memproses video langsung di perangkat sehingga file Anda tidak meninggalkan iPhone. Konverter online memerlukan unggahan ke server yang bisa lebih lambat dan kurang privat. Aplikasi gratis diunduh dan digunakan; pembelian dalam aplikasi opsional." },
+      { "question": "Apakah Audio dari Video⁺ lebih aman dibanding konverter online?", "answer": "Ya, lebih aman. Audio dari Video⁺ memproses video sepenuhnya di iPhone Anda — tanpa unggahan ke server eksternal. Video Anda tetap privat di perangkat. Konverter online memerlukan unggahan file yang berisiko privasi." }
+    ]
+  },
+  "app_info": {
+    "name": "Audio dari Video⁺",
+    "alternate_name": "Ekstrak audio dari video",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 Unduh ekstraktor audio iPhone gratis",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "Kebijakan privasi",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "Ketentuan penggunaan",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Dukungan",
+    "developer_info": "Dikembangkan oleh Vladimir Ivakhnenko (c-basso)",
+    "copyright": "© {year} c-basso. Hak cipta dilindungi."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 Ubah video ke MP3 di iPhone – gratis"
+  },
+  "seo_chapter": {
+    "title": "Cara mengubah video ke MP3 di iPhone (panduan 2026)",
+    "subtitle": "Ekstraksi audio cepat dan privat dengan aplikasi iPhone gratis",
+    "intro": "Audio dari Video⁺ adalah aplikasi multimedia untuk iOS yang mengubah file video (MP4/MOV) menjadi file audio MP3. Aplikasi memproses video langsung di perangkat dan tidak memerlukan internet untuk ekstraksi itu sendiri. Pemrosesan dilakukan secara lokal — file video tetap di iPhone pengguna dan tidak diunggah ke server eksternal. Mendukung format video iPhone umum dengan keluaran MP3. Ekstraksi audio inti gratis; fitur tambahan melalui pembelian dalam aplikasi opsional.",
+    "sections": [
+      {
+        "heading": "Langkah demi langkah: ekstrak audio di iPhone",
+        "body": "Dengan Audio dari Video⁺: 1) Buka aplikasi, 2) Pilih video dari pustaka, 3) Potong segmen jika perlu, 4) Ketuk Simpan sebagai audio untuk mengekspor MP3. Anda juga bisa mulai dari tombol Bagikan di Foto atau File tanpa membuka aplikasi terlebih dahulu."
+      },
+      {
+        "heading": "Fitur dan kemampuan",
+        "body": "Audio dari Video⁺ memproses file video di perangkat alih-alih mengunggahnya ke server jarak jauh. Ini meningkatkan privasi dan tidak memerlukan internet untuk ekstraksi. Termasuk pemotongan untuk memilih segmen tertentu. Keluaran adalah MP3. Berfungsi sebagai konverter video-ke-MP3 dan mendukung masukan MP4 serta MOV yang umum di perangkat iOS."
+      }
+    ],
+    "bullets_title": "Penggunaan umum",
+    "bullets": [
+      "Mengekstrak trek audio dari video untuk koleksi musik",
+      "Mengubah rekaman kuliah atau rapat menjadi audio untuk ditinjau",
+      "Membuat klip audio dari konten video untuk podcast atau catatan suara",
+      "Mengekstrak audio dari video untuk remix atau alur kerja produksi audio"
+    ],
+    "conclusion": "Audio dari Video⁺ adalah aplikasi iOS yang memungkinkan Anda mengekstrak audio dari file video di iPhone. Ekstraksi dilakukan secara lokal di perangkat. Fitur ekstraksi utama gratis; fungsi tambahan melalui pembelian dalam aplikasi opsional."
+  },
+  "comparison": {
+    "title": "Audio dari Video⁺ vs konverter online",
+    "intro": "Perbandingan dengan konverter video-ke-audio online:",
+    "table": {
+      "feature": "Fitur",
+      "online_converters": "Konverter online",
+      "this_app": "Audio dari Video⁺",
+      "rows": [
+        {
+          "feature": "Privasi",
+          "online": "Video diunggah ke server",
+          "app": "Pemrosesan di iPhone Anda"
+        },
+        {
+          "feature": "Kemudahan",
+          "online": "Perlu unggah dan menunggu",
+          "app": "Tombol Bagikan atau buka aplikasi langsung"
+        },
+        {
+          "feature": "Biaya",
+          "online": "Sering berlangganan atau ada batas",
+          "app": "Gratis untuk inti, pembelian dalam aplikasi opsional"
+        },
+        {
+          "feature": "Kecepatan",
+          "online": "Tergantung kecepatan unggah/unduh",
+          "app": "Pemrosesan instan di perangkat"
+        }
+      ]
+    }
+  }
+}

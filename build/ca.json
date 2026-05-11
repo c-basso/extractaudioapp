@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "lang": "ca",
+    "title": "Extreure àudio del vídeo a l'iPhone | App gratuïta MP3 (2026)",
+    "description": "Extreu l'àudio dels teus vídeos a l'iPhone en segons. Converteix MP4 i MOV a MP3 amb bona qualitat, ràpid i privat al dispositiu.",
+    "keywords": "extreure àudio vídeo, àudio vídeo iphone, vídeo a mp3, mp4 a mp3 iphone, convertir vídeo àudio, aplicació gratuïta, ios, iphone, app store, processament local, privacitat",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/ca/",
+    "og_title": "Àudio del vídeo a l'iPhone — conversor gratuït a MP3",
+    "og_description": "Converteix vídeos de l'iPhone a MP3 al dispositiu sense pujar als servidors. Des de Fotos o Compartir, retalla abans d'exportar — el nucli és gratuït.",
+    "og_image": "https://extractaudioapp.com/ca/site_preview.png",
+    "site_name": "Àudio del vídeo⁺",
+    "og_locale": "ca_ES",
+    "twitter_url": "https://extractaudioapp.com/ca/",
+    "twitter_title": "Extreure àudio del vídeo a l'iPhone — aplicació gratuïta",
+    "twitter_description": "Vídeo a MP3 a l'iPhone amb processament al dispositiu — sense pujades. Nucli gratuït; eines extra amb compres opcionals a l'app.",
+    "twitter_image": "https://extractaudioapp.com/ca/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/ca/",
+    "geo_region": "ES",
+    "geo_placename": "Spain"
+  },
+  "hero": {
+    "logo_alt": "Logotip Àudio del vídeo⁺",
+    "title": "Extreure àudio del vídeo a l'iPhone",
+    "subtitle": "Vídeo a MP3 en segons — aplicació gratuïta per a iPhone",
+    "entity_definition": "Àudio del vídeo⁺ és una aplicació iOS que converteix vídeos (MP4/MOV) al teu iPhone en fitxers d'àudio MP3 d'alta qualitat directament al dispositiu.",
+    "subheadline": "Desa música de vídeos, captura àudio de conferències o crea clips de pòdcast. Ràpid, privat i gratuït amb compres opcionals dins de l'aplicació.",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "Descarrega a l'App Store",
+    "phone_text": "Toca per convertir vídeo en àudio",
+    "qr_alt": "Codi QR per descarregar l'aplicació",
+    "qr_text": "Escaneja amb el telèfon per descarregar"
+  },
+  "features": {
+    "title": "Per què trien aquest extrector d'àudio a l'iPhone",
+    "items": [
+      { "title": "Comença gratis", "description": "Descarrega i usa les funcions bàsiques d'extracció sense cost. Les funcions extra són opcionals amb compres dins de l'app.", "icon": "⚡" },
+      { "title": "Conversió ràpida a MP3", "description": "MP4, MOV i altres formats habituals es converteixen a MP3 amb bona qualitat en poc temps.", "icon": "🎵" },
+      { "title": "Retall precís", "description": "Selecciona només el fragment que vols abans d'exportar l'àudio.", "icon": "✂️" },
+      { "title": "Des de Compartir", "description": "Obre l'acció des de Fotos o Fitxers amb el botó Compartir, sense complicacions.", "icon": "🔗" },
+      { "title": "Interfície clara", "description": "Pensada per a iPhone: pocs passos i sense soroll visual.", "icon": "🎨" },
+      { "title": "Bona qualitat d'àudio", "description": "Ideal per a música, pòdcasts, classes i notes de veu.", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "Àudio del vídeo⁺ en xifres",
+    "items": [
+      "4,8 de 5 estrelles segons més de 140 valoracions a l'App Store",
+      "Gratis per descarregar i usar — compres opcionals dins de l'aplicació",
+      "Compatible amb MP4, MOV i altres formats de vídeo habituals a l'iPhone",
+      "Mida de l'app per a iOS d'uns 50 MB",
+      "Processa vídeos directament al teu iPhone per privacitat i velocitat"
+    ],
+    "stats": [
+      {
+        "number": "4,8",
+        "label": "Valoració",
+        "detail": "Segons més de 140 ressenyes a l'App Store"
+      },
+      {
+        "number": "~50 MB",
+        "label": "Mida de l'app",
+        "detail": "Lleugera i ràpida"
+      },
+      {
+        "number": "100%",
+        "label": "Nucli gratuït",
+        "detail": "Compres opcionals a l'app"
+      },
+      {
+        "number": "Al dispositiu",
+        "label": "Processament",
+        "detail": "Els teus vídeos no surten de l'iPhone"
+      }
+    ]
+  },
+  "demo": {
+    "title": "Com extreure àudio del vídeo a l'iPhone — guia pas a pas",
+    "subtitle": "Segueix aquests passos senzills per obtenir àudio de qualitat a l'iPhone",
+    "placeholder_line1": "📱 Vídeo demo properament",
+    "placeholder_line2": "Pas 1: Obre l'app > Pas 2: Selecciona vídeo > Pas 3: Retalla si cal > Pas 4: Extreu àudio i desa com a MP3"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Obre l'aplicació",
+        "text": "Obre l'aplicació {{app_info.name}} al teu iPhone. L'aplicació es descarrega gratis des de l'App Store."
+      },
+      {
+        "name": "Selecciona el vídeo",
+        "text": "Tria un vídeo de la biblioteca de l'iPhone. Pots triar MP4, MOV o altres formats habituals."
+      },
+      {
+        "name": "Retalla si cal",
+        "text": "Amb les eines de retall selecciona exactament la part del vídeo de la qual vols extreure l'àudio. Aquest pas és opcional."
+      },
+      {
+        "name": "Extreu i desa l'àudio",
+        "text": "Toca Desa com a àudio per extreure l'àudio del vídeo i desar-lo com a fitxer MP3. L'àudio quedarà al teu iPhone."
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "4,8 segons usuaris de l'App Store",
+    "items": [
+      { "text": "\"Retallar un tros del vídeo i desar-lo com a MP3 és molt directe. L'eina de retall s'entén al moment.\"", "author": "Laia V., usuària d'iPhone", "rating": "5 estrelles", "verified": true },
+      { "text": "\"Per a gravacions de classe: interfície neta i conversió ràpida.\"", "author": "Jordi P., estudiant", "rating": "5 estrelles", "verified": true },
+      { "text": "\"Des de Compartir a Fotos tinc l'àudio que necessito en segons.\"", "author": "Maria S., creadora de contingut", "rating": "5 estrelles", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "Preguntes freqüents: vídeo a àudio a l'iPhone",
+    "items": [
+      { "question": "Com extrec l'àudio d'un vídeo a l'iPhone?", "answer": "Obre Àudio del vídeo⁺, tria un clip de la biblioteca, retalla si cal i prem Desa com a àudio (MP3). També pots iniciar-ho des de Compartir a Fotos o Fitxers." },
+      { "question": "Hi ha una app gratis per passar vídeo a àudio?", "answer": "Sí. Àudio del vídeo⁺ es descarrega gratis i inclou les funcions bàsiques d'extracció sense cost. Les funcions addicionals són opcionals amb compres dins de l'app." },
+      { "question": "Com fer-ho ràpid?", "answer": "Obre l'app → selecciona el vídeo → retalla el tram → desa com a àudio. El més ràpid sol ser començar des de Compartir a Fotos." },
+      { "question": "Funciona amb MP4 i MOV?", "answer": "Sí. Els formats habituals de l'iPhone, com MP4 i MOV, es poden convertir a MP3 en pocs passos." },
+      { "question": "Puc usar-la gratis?", "answer": "Sí. L'extracció bàsica és gratuïta. Si vols més eines, estan disponibles com a extres de pagament opcional." },
+      { "question": "Àudio del vídeo⁺ és millor que els extractors en línia?", "answer": "Sí, per a usuaris d'iPhone. Àudio del vídeo⁺ processa vídeos directament al dispositiu, així que els fitxers no surten del teu iPhone. Els convertidors en línia exigeixen pujar vídeos a servidors, cosa que pot ser més lenta i menys privada. L'aplicació és gratis per descarregar i usar, amb compres opcionals dins de l'aplicació." },
+      { "question": "És segur usar Àudio del vídeo⁺ comparat amb convertidors en línia?", "answer": "Sí, més segur. Àudio del vídeo⁺ processa vídeos completament al teu iPhone, sense pujades a servidors externs. Els teus vídeos romanen privats al dispositiu. Els convertidors en línia exigeixen pujar fitxers, amb possibles riscos de privacitat." }
+    ]
+  },
+  "app_info": {
+    "name": "Àudio del vídeo⁺",
+    "alternate_name": "Extreure l'àudio del vídeo",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 Descarrega l'app gratis per àudio de vídeo",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "Política de privacitat",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "Condicions d'ús",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Suport",
+    "developer_info": "Desenvolupat per Vladimir Ivakhnenko (c-basso)",
+    "copyright": "© {year} c-basso. Tots els drets reservats."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 Vídeo a MP3 a l'iPhone — gratis"
+  },
+  "seo_chapter": {
+    "title": "Com convertir vídeo a MP3 a l'iPhone (guia 2026)",
+    "subtitle": "Extracció d'àudio ràpida i privada amb una app gratuïta",
+    "intro": "Àudio del vídeo⁺ és una aplicació multimèdia per a dispositius iOS que converteix fitxers de vídeo (MP4/MOV) en fitxers d'àudio MP3. L'aplicació processa vídeos directament al dispositiu sense exigir connexió a internet per a l'extracció. L'extracció es fa localment: els vídeos romanen a l'iPhone de l'usuari i no es pengen a servidors externs. Admet formats habituals de vídeo a l'iPhone i produeix àudio en MP3. La funció principal d'extracció és gratuïta; funcions addicionals mitjançant compres opcionals dins de l'aplicació.",
+    "sections": [
+      {
+        "heading": "Pas a pas: àudio des del vídeo a l'iPhone",
+        "body": "Amb Àudio del vídeo⁺: 1) obre l'app, 2) tria un vídeo de la biblioteca, 3) retalla el fragment si cal, 4) prem Desa com a àudio per exportar MP3. També pots començar des de Compartir a Fotos o Fitxers sense obrir l'app abans."
+      },
+      {
+        "heading": "Característiques i capacitats",
+        "body": "Àudio del vídeo⁺ processa vídeos al dispositiu en lloc de penjar-los a servidors remots. Això afavoreix la privacitat i no cal internet per extreure l'àudio. Inclou retall per seleccionar segments concrets. La sortida és MP3. Funciona com a convertidor de vídeo a MP3 amb entrades MP4 i MOV habituals a iOS."
+      }
+    ],
+    "bullets_title": "Ús habitual",
+    "bullets": [
+      "Extreure pistes d'àudio de vídeos per a la col·lecció musical",
+      "Convertir gravacions de conferències o reunions a àudio per revisar després",
+      "Crear clips d'àudio des de vídeo per a pòdcasts o notes de veu",
+      "Extreure àudio de vídeos per remesclar o editar en fluxos de treball d'àudio"
+    ],
+    "conclusion": "Àudio del vídeo⁺ és una aplicació iOS que permet extreure àudio de fitxers de vídeo a l'iPhone. L'extracció es fa localment al dispositiu. La funció principal és gratuïta; funcionalitat addicional amb compres opcionals dins de l'aplicació."
+  },
+  "comparison": {
+    "title": "Àudio del vídeo⁺ vs convertidors en línia",
+    "intro": "Compara Àudio del vídeo⁺ amb convertidors de vídeo a àudio en línia:",
+    "table": {
+      "feature": "Funció",
+      "online_converters": "Convertidors en línia",
+      "this_app": "Àudio del vídeo⁺",
+      "rows": [
+        {
+          "feature": "Privacitat",
+          "online": "Els vídeos es pengen a servidors",
+          "app": "El processament és al teu iPhone"
+        },
+        {
+          "feature": "Facilitat d'ús",
+          "online": "Cal pujar fitxers i esperar",
+          "app": "Usa Compartir o obre l'aplicació directament"
+        },
+        {
+          "feature": "Cost",
+          "online": "Sovint subscripció o límits",
+          "app": "Gratis per usar, compres opcionals a l'app"
+        },
+        {
+          "feature": "Velocitat",
+          "online": "Depèn de la velocitat de pujada/baixada",
+          "app": "Processament immediat al dispositiu"
+        }
+      ]
+    }
+  }
+}

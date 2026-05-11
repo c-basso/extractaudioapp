@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "lang": "fil",
+    "title": "Kunin ang audio mula sa video sa iPhone | Libreng MP3 app (2026)",
+    "description": "Kunin ang audio mula sa mga video sa iPhone sa ilang segundo. I-convert ang MP4 at MOV sa mataas na kalidad na MP3 — mabilis at pribado mismo sa device.",
+    "keywords": "kunin ang audio sa video, audio mula sa video iphone, video sa mp3, mp4 sa mp3 iphone, i-convert ang video sa audio, libreng app, ios, iphone, app store, on-device, privacy",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/fil/",
+    "og_title": "Kunin ang audio mula sa video sa iPhone – libreng MP3 converter",
+    "og_description": "I-convert ang video sa iPhone sa MP3 sa device—walang upload sa server. Simulan mula sa Photos o Share, i-trim bago i-export; libre ang pangunahing features.",
+    "og_image": "https://extractaudioapp.com/fil/site_preview.png",
+    "site_name": "Audio mula sa Video⁺",
+    "og_locale": "tl_PH",
+    "twitter_url": "https://extractaudioapp.com/fil/",
+    "twitter_title": "Kunin ang audio mula sa video sa iPhone – libreng app",
+    "twitter_description": "Video sa MP3 sa iPhone: processing sa device, hindi kailangan mag-upload. Libre ang core; dagdag na tools sa optional na in-app purchases.",
+    "twitter_image": "https://extractaudioapp.com/fil/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/fil/",
+    "geo_region": "PH",
+    "geo_placename": "Philippines"
+  },
+  "hero": {
+    "logo_alt": "Logo ng Audio mula sa Video⁺",
+    "title": "Kunin ang audio mula sa video sa iPhone",
+    "subtitle": "I-convert ang video sa MP3 sa ilang segundo – libreng iPhone app",
+    "entity_definition": "Ang Audio mula sa Video⁺ ay iOS app na nagko-convert ng video (MP4/MOV) sa iyong iPhone tungo sa MP3 na mataas ang kalidad—direkta sa device.",
+    "subheadline": "I-save ang musika mula sa clips, kuhanin ang audio ng lecture, o gumawa ng maikling podcast clip. Mabilis at pribado—libre ang core na features at may opsyonal na in-app purchases.",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "I-download sa App Store",
+    "phone_text": "I-tap para i-convert ang video sa audio",
+    "qr_alt": "QR code para i-download ang app",
+    "qr_text": "I-scan gamit ang telepono mo para mag-download"
+  },
+  "features": {
+    "title": "Bakit pinipili ng mga user ang audio extractor na ito sa iPhone",
+    "items": [
+      { "title": "Libreng simulan", "description": "Libreng i-download at gamitin. Kasama ang core na pagkuha ng audio; dagdag na features sa pamamagitan ng in-app purchases.", "icon": "⚡" },
+      { "title": "Mabilis na MP3 conversion", "description": "I-convert ang mga video sa MP3 nang mabilis at maganda ang output. Sinusuportahan ang MP4, MOV, at iba pang karaniwang format sa iPhone.", "icon": "🎵" },
+      { "title": "Tumpak na trim", "description": "Piliin ang eksaktong bahagi bago mag-export. I-save lang ang gusto mong segment bilang audio.", "icon": "✂️" },
+      { "title": "Gumagana mula sa Share", "description": "Gamitin ang Share sa Photos o Files para mabilis na access—walang komplikadong setup.", "icon": "🔗" },
+      { "title": "Simple na UI para sa iPhone", "description": "Malinis at intuitive na interface. Madaling gamitin kahit unang beses.", "icon": "🎨" },
+      { "title": "Mataas na kalidad ng audio", "description": "Malinaw na output para sa musika, podcast, lecture, at voice recording.", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "Audio mula sa Video⁺ sa mga numero",
+    "items": [
+      "4.8 sa 5 stars batay sa 140+ App Store ratings",
+      "Libreng i-download at gamitin – may opsyonal na in-app purchases",
+      "Sinusuportahan ang MP4, MOV, at iba pang karaniwang video format sa iPhone",
+      "~50 MB ang laki ng iOS app",
+      "Pinoproseso ang video mismo sa iPhone mo para sa privacy at bilis"
+    ],
+    "stats": [
+      {
+        "number": "4.8",
+        "label": "Star rating",
+        "detail": "Batay sa 140+ App Store reviews"
+      },
+      {
+        "number": "~50 MB",
+        "label": "Laki ng app",
+        "detail": "Magaan at mabilis"
+      },
+      {
+        "number": "100%",
+        "label": "Libreng core feature",
+        "detail": "Opsyonal na in-app purchases"
+      },
+      {
+        "number": "Sa device",
+        "label": "Processing",
+        "detail": "Hindi umaalis sa iPhone mo ang mga video mo"
+      }
+    ]
+  },
+  "demo": {
+    "title": "Paano kunin ang audio mula sa video sa iPhone – hakbang-hakbang",
+    "subtitle": "Sundin ang simpleng hakbang para sa mataas na kalidad ng audio sa iPhone",
+    "placeholder_line1": "📱 Darating na ang demo video",
+    "placeholder_line2": "Hakbang 1: Buksan ang app > Hakbang 2: Pumili ng video > Hakbang 3: I-trim kung kailangan > Hakbang 4: Kunin ang audio at i-save bilang MP3"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Buksan ang app",
+        "text": "Buksan ang {{app_info.name}} sa iPhone mo. Libre ang app sa App Store."
+      },
+      {
+        "name": "Piliin ang video mo",
+        "text": "Pumili ng video mula sa library mo. Puwedeng MP4, MOV, o iba pang karaniwang format."
+      },
+      {
+        "name": "I-trim kung kailangan",
+        "text": "Gamitin ang trim tools para piliin ang eksaktong bahagi ng video kung saan kukunin ang audio. Opsyonal ang hakbang na ito."
+      },
+      {
+        "name": "Kunin at i-save ang audio",
+        "text": "I-tap ang I-save bilang audio para i-extract ang audio at i-save bilang MP3. Nasa iPhone mo ang audio."
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "4.8 rating mula sa App Store users",
+    "items": [
+      { "text": "\"Perpekto para mag-save ng musika at voice clips mula sa video. Simple ang trim at mabilis ang export.\"", "author": "Sarah M., iPhone user", "rating": "5 stars", "verified": true },
+      { "text": "\"Maganda sa lecture recordings. Malinis na interface, mabilis na conversion, walang hirap matuto.\"", "author": "Michael T., estudyante", "rating": "5 stars", "verified": true },
+      { "text": "\"Gusto ko mag-start mula sa Share sa Photos. Ilang tap lang, may audio na ako.\"", "author": "Jessica L., content creator", "rating": "5 stars", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "FAQ: video tungo sa audio sa iPhone",
+    "items": [
+      { "question": "Paano ko kukunin ang audio mula sa video sa iPhone?", "answer": "Buksan ang Audio mula sa Video⁺, pumili ng clip mula sa library, i-trim kung kailangan, at i-tap ang I-save bilang audio (MP3). Puwede ring direkta mula sa Share menu sa Photos o Files." },
+      { "question": "May libreng iPhone app ba para sa video-to-audio?", "answer": "Oo. Libre ang Audio mula sa Video⁺ at kasama ang core conversion nang walang bayad. Dagdag na tools sa pamamagitan ng in-app purchases." },
+      { "question": "Paano mabilis na kunin ang tunog mula sa video?", "answer": "Apat na hakbang: buksan ang app, pumili ng video, i-trim ang segment, i-save bilang audio. Mas mabilis kung magsisimula sa Share button sa Photos." },
+      { "question": "Puwede bang i-convert ang MP4 o MOV sa MP3 sa iPhone?", "answer": "Oo. Sinusuportahan ng app ang karaniwang format tulad ng MP4 at MOV at nag-e-export ng MP3 sa ilang tap lang." },
+      { "question": "Libre ba gamitin?", "answer": "Oo. Libre ang core na pagkuha ng audio. May opsyonal na in-app purchases para sa dagdag na features." },
+      { "question": "Mas maganda ba ang Audio mula sa Video⁺ kaysa online converters?", "answer": "Oo, para sa iPhone users. Pinoproseso ng Audio mula sa Video⁺ ang video mismo sa device—hindi umaalis ang files mo sa iPhone. Ang online converters ay nangangailangan ng upload sa server, na maaaring mas mabagal at menos pribado. Libre ang app na i-download at gamitin; may opsyonal na in-app purchases." },
+      { "question": "Mas ligtas ba ang Audio mula sa Video⁺ kaysa online converters?", "answer": "Oo, mas ligtas. Buong processing sa iPhone mo—walang upload sa external servers. Nananatiling pribado ang mga video mo sa device. Ang online converters ay nangangailangan ng upload, na may privacy risk." }
+    ]
+  },
+  "app_info": {
+    "name": "Audio mula sa Video⁺",
+    "alternate_name": "Kunin ang audio mula sa video",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 I-download ang libreng iPhone audio extractor",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "Patakaran sa privacy",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "Terms of Use",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Suporta",
+    "developer_info": "Binuo ni Vladimir Ivakhnenko (c-basso)",
+    "copyright": "© {year} c-basso. Lahat ng karapatan ay nakalaan."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 I-convert ang video sa MP3 sa iPhone – libre"
+  },
+  "seo_chapter": {
+    "title": "Paano i-convert ang video sa MP3 sa iPhone (Gabay 2026)",
+    "subtitle": "Mabilis at pribadong pagkuha ng audio gamit ang libreng iPhone app",
+    "intro": "Ang Audio mula sa Video⁺ ay MultimediaApplication para sa iOS na nagko-convert ng video files (MP4/MOV) tungo sa MP3 audio files. Pinoproseso ng app ang video mismo sa device at hindi nangangailangan ng internet para sa mismong extraction. Lokal ang processing—nananatili ang mga video sa iPhone ng user at hindi ina-upload sa external servers. Sinusuportahan ang karaniwang iPhone video formats at MP3 ang output. Libre ang core na pagkuha ng audio; dagdag na features sa opsyonal na in-app purchases.",
+    "sections": [
+      {
+        "heading": "Hakbang-hakbang: kunin ang audio sa iPhone",
+        "body": "Gamit ang Audio mula sa Video⁺: 1) Buksan ang app, 2) Pumili ng video mula sa library, 3) I-trim ang segment kung kailangan, 4) I-tap ang I-save bilang audio para mag-export ng MP3. Puwede ring magsimula sa Share button sa Photos o Files nang hindi muna bubuksan ang app."
+      },
+      {
+        "heading": "Mga feature at kakayahan",
+        "body": "Pinoproseso ng Audio mula sa Video⁺ ang mga video file sa device sa halip na i-upload sa remote servers. Nakakatulong ito sa privacy at hindi kailangan ng internet para sa extraction. May trim functionality para pumili ng specific segments. MP3 ang output. Gumagana bilang video-to-MP3 converter at sinusuportahan ang MP4 at MOV na karaniwan sa iOS."
+      }
+    ],
+    "bullets_title": "Karaniwang gamit",
+    "bullets": [
+      "Pagkuha ng audio tracks mula sa video para sa music collection",
+      "Pag-convert ng lecture o meeting recordings sa audio para sa review",
+      "Paggawa ng audio clips mula sa video para sa podcast o voice notes",
+      "Pagkuha ng audio mula sa video para sa remix o audio editing workflow"
+    ],
+    "conclusion": "Ang Audio mula sa Video⁺ ay iOS application na nagpapahintulot na kunin ang audio mula sa video files sa iPhone. Nangyayari ang extraction nang lokal sa device. Libre ang pangunahing feature; dagdag na functionality sa opsyonal na in-app purchases."
+  },
+  "comparison": {
+    "title": "Audio mula sa Video⁺ vs online converters",
+    "intro": "Pagkukumpara sa online video-to-audio converters:",
+    "table": {
+      "feature": "Feature",
+      "online_converters": "Online converters",
+      "this_app": "Audio mula sa Video⁺",
+      "rows": [
+        {
+          "feature": "Privacy",
+          "online": "Ina-upload ang video sa servers",
+          "app": "Processing sa iPhone mo"
+        },
+        {
+          "feature": "Kadaliang gamitin",
+          "online": "Kailangan mag-upload at maghintay",
+          "app": "Gamitin ang Share o buksan direkta ang app"
+        },
+        {
+          "feature": "Halaga",
+          "online": "Kadalasan may subscription o limit",
+          "app": "Libre gamitin, opsyonal na in-app purchases"
+        },
+        {
+          "feature": "Bilis",
+          "online": "Depende sa upload/download speed",
+          "app": "Mabilis na processing sa device"
+        }
+      ]
+    }
+  }
+}

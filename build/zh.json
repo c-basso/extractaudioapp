@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "lang": "zh",
+    "title": "在 iPhone 上从视频提取音频｜免费 MP3 转换应用（2026）",
+    "description": "在 iPhone 上秒速从视频提取音频：将 MP4、MOV 等常见格式转为高品质 MP3，处理全程在设备本地完成，不上传至服务器，兼顾速度与隐私。可从照片或系统「共享」菜单一键进入，先裁剪再导出，适合音乐、课程与播客等场景。",
+    "keywords": "从视频提取音频,iPhone 提取音频,视频转音频,视频转 MP3,MP4 转 MP3,MOV 转 MP3,音频提取应用,视频提取 MP3,免费提取音频,iPhone 音频提取器,视频转音频应用,分享菜单 提取音频,本地转换,隐私,iOS 应用,App Store",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/zh/",
+    "og_title": "在 iPhone 上从视频提取音频｜免费 MP3 转换",
+    "og_description": "在 iPhone 上将视频转为 MP3：支持 MP4、MOV 与常见格式，全程本地处理、无需上传到第三方服务器，更适合在意隐私的用户；可从照片或分享菜单快速进入，先裁剪再导出高品质音频。应用可免费下载，核心提取免费，进阶工具可选应用内购买。",
+    "og_image": "https://extractaudioapp.com/zh/site_preview.png",
+    "site_name": "从视频提取音频⁺",
+    "og_locale": "zh_CN",
+    "twitter_url": "https://extractaudioapp.com/zh/",
+    "twitter_title": "在 iPhone 上从视频提取音频｜免费应用",
+    "twitter_description": "在 iPhone 上将视频转为高品质 MP3：本地处理、无需上传第三方服务器，保护隐私；可从照片或共享菜单进入，支持先裁剪再导出。应用可免费下载，核心提取免费，进阶工具可选应用内购买，适合音乐、课程与播客。",
+    "twitter_image": "https://extractaudioapp.com/zh/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/zh/",
+    "geo_region": "CN",
+    "geo_placename": "China"
+  },
+  "hero": {
+    "logo_alt": "从视频提取音频⁺ 标志",
+    "title": "在 iPhone 上从视频提取音频",
+    "subtitle": "秒速将视频转为 MP3｜免费 iPhone 应用",
+    "entity_definition": "从视频提取音频⁺ 是一款 iOS 应用，可在 iPhone 上把视频（MP4/MOV）直接转换为高品质 MP3，全部在设备本地完成。",
+    "subheadline": "保存视频里的音乐、录制讲座人声，或制作播客片段。处理快速、注重隐私；核心功能免费，进阶功能可选购。",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "在 App Store 下载",
+    "phone_text": "点按即可将视频转为音频",
+    "qr_alt": "下载应用的二维码",
+    "qr_text": "用手机扫描即可下载"
+  },
+  "features": {
+    "title": "用户选择这款 iPhone 音频提取工具的原因",
+    "items": [
+      { "title": "免费上手", "description": "下载即可使用，核心提取功能免费；更多功能可通过应用内购买解锁。", "icon": "⚡" },
+      { "title": "快速导出 MP3", "description": "快速将视频转为高品质 MP3，支持 MP4、MOV 及常见 iPhone 视频格式。", "icon": "🎵" },
+      { "title": "精准裁剪", "description": "导出前可裁剪到需要的片段，只保存想要的音频部分。", "icon": "✂️" },
+      { "title": "支持分享扩展", "description": "在照片或文件中使用「共享」，一键接入，无需繁琐设置。", "icon": "🔗" },
+      { "title": "为 iPhone 设计", "description": "界面简洁直观，首次使用也能轻松完成。", "icon": "🎨" },
+      { "title": "音质清晰", "description": "适合音乐、播客、课程录音与人声内容。", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "从视频提取音频⁺ 数据一览",
+    "items": [
+      "App Store 评分 4.8/5（基于 140+ 条评价）",
+      "下载使用免费｜进阶功能可选应用内购买",
+      "支持 MP4、MOV 等常见 iPhone 视频格式",
+      "iOS 应用约 50 MB",
+      "在 iPhone 本地处理，兼顾隐私与速度"
+    ],
+    "stats": [
+      {
+        "number": "4.8",
+        "label": "星级评分",
+        "detail": "基于 140+ 条 App Store 评论"
+      },
+      {
+        "number": "~50 MB",
+        "label": "应用体积",
+        "detail": "轻量快速"
+      },
+      {
+        "number": "100%",
+        "label": "核心功能免费",
+        "detail": "可选应用内购买"
+      },
+      {
+        "number": "本地",
+        "label": "处理位置",
+        "detail": "视频不离开你的 iPhone"
+      }
+    ]
+  },
+  "demo": {
+    "title": "如何在 iPhone 上从视频提取音频｜分步指南",
+    "subtitle": "按以下简单步骤，在 iPhone 上获得高品质音频",
+    "placeholder_line1": "📱 演示视频即将上线",
+    "placeholder_line2": "步骤 1：打开应用 > 步骤 2：选择视频 > 步骤 3：按需裁剪 > 步骤 4：提取音频并保存为 MP3"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "打开应用",
+        "text": "在 iPhone 上打开 {{app_info.name}}。应用可在 App Store 免费下载。"
+      },
+      {
+        "name": "选择视频",
+        "text": "从相册中选择视频，格式可为 MP4、MOV 或其他常见格式。"
+      },
+      {
+        "name": "按需裁剪",
+        "text": "使用裁剪工具选择要提取音频的片段。此步骤可选。"
+      },
+      {
+        "name": "提取并保存",
+        "text": "点按「存储为音频」，将音频导出为 MP3 并保存到 iPhone。"
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "App Store 用户评分 4.8",
+    "items": [
+      { "text": "「非常适合保存视频里的音乐和短语音，裁剪简单，导出很快。」", "author": "Sarah M.，iPhone 用户", "rating": "5 星", "verified": true },
+      { "text": "「上课录像转音频很方便，界面清晰，转换快，上手零门槛。」", "author": "Michael T.，学生", "rating": "5 星", "verified": true },
+      { "text": "「最喜欢从照片里点分享就能用，几步就能得到想要的音频。」", "author": "Jessica L.，内容创作者", "rating": "5 星", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "视频转音频常见问题（iPhone）",
+    "items": [
+      { "question": "如何在 iPhone 上从视频提取音频？", "answer": "打开「从视频提取音频⁺」，从相册选择片段，按需裁剪后点「存储为音频」（MP3）。也可直接从照片或文件的分享菜单启动。" },
+      { "question": "有没有免费的视频转音频应用？", "answer": "有。「从视频提取音频⁺」可免费下载，核心转换免费；更多工具可通过应用内购买解锁。" },
+      { "question": "怎样最快提取视频里的声音？", "answer": "四步：打开应用、选择视频、裁剪片段、存储为音频。也可从照片的分享按钮快速进入。" },
+      { "question": "能在 iPhone 上把 MP4 或 MOV 转成 MP3 吗？", "answer": "可以。支持常见格式如 MP4、MOV，几步即可导出 MP3。" },
+      { "question": "可以免费使用吗？", "answer": "可以，核心音频提取免费；进阶功能为可选应用内购买。" },
+      { "question": "和在线转换相比有什么优势？", "answer": "对 iPhone 用户而言，本应用在设备本地处理，文件无需上传服务器；在线工具通常需要上传，速度较慢且隐私风险更高。应用可免费下载使用，进阶功能可选购。" },
+      { "question": "相比在线转换更安全吗？", "answer": "更安全。处理完全在 iPhone 本地完成，无需上传到第三方服务器，视频保留在设备上。在线转换通常需要上传文件，存在隐私隐患。" }
+    ]
+  },
+  "app_info": {
+    "name": "从视频提取音频⁺",
+    "alternate_name": "从视频提取音频",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 免费下载 iPhone 音频提取应用",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "隐私政策",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "使用条款",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "支持",
+    "developer_info": "开发者：Vladimir Ivakhnenko（c-basso）",
+    "copyright": "© {year} c-basso。保留所有权利。"
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 iPhone 视频转 MP3｜免费"
+  },
+  "seo_chapter": {
+    "title": "如何在 iPhone 上将视频转为 MP3（2026 指南）",
+    "subtitle": "使用免费应用，快速、私密地提取音频",
+    "intro": "从视频提取音频⁺ 是一款适用于 iOS 的多媒体应用，可将视频文件（MP4/MOV）转换为 MP3。应用在设备本地处理，提取音频无需联网。处理在本地完成，视频文件保留在用户 iPhone 上，不会上传到外部服务器。支持常见 iPhone 视频格式，输出为 MP3。核心提取功能免费，更多功能可通过应用内购买获取。",
+    "sections": [
+      {
+        "heading": "分步操作：在 iPhone 上提取音频",
+        "body": "使用「从视频提取音频⁺」：1）打开应用；2）从相册选择视频；3）按需裁剪；4）点「存储为音频」导出 MP3。也可先从照片或文件的分享菜单进入，无需先打开应用。"
+      },
+      {
+        "heading": "功能与能力",
+        "body": "应用在本地处理视频，而非上传到远程服务器，有利于隐私，且提取过程可不依赖网络。提供裁剪功能以选择片段，输出为 MP3。可作为视频转 MP3 工具，支持 iOS 常见的 MP4、MOV 输入。"
+      }
+    ],
+    "bullets_title": "常见使用场景",
+    "bullets": [
+      "从视频中提取音轨用于音乐收藏",
+      "将讲座或会议录像转为音频便于复习",
+      "从视频内容制作播客片段或语音备忘录",
+      "为混音或后期流程提取视频中的音频"
+    ],
+    "conclusion": "从视频提取音频⁺ 让用户在 iPhone 上从视频文件提取音频；处理在设备本地完成。核心提取免费，更多功能可通过应用内购买获得。"
+  },
+  "comparison": {
+    "title": "从视频提取音频⁺ 与在线转换对比",
+    "intro": "与在线视频转音频工具相比：",
+    "table": {
+      "feature": "对比项",
+      "online_converters": "在线转换",
+      "this_app": "从视频提取音频⁺",
+      "rows": [
+        {
+          "feature": "隐私",
+          "online": "视频需上传服务器",
+          "app": "在 iPhone 本地处理"
+        },
+        {
+          "feature": "易用性",
+          "online": "需上传并等待",
+          "app": "分享菜单或直接进入应用"
+        },
+        {
+          "feature": "费用",
+          "online": "常有订阅或额度限制",
+          "app": "核心免费，可选应用内购买"
+        },
+        {
+          "feature": "速度",
+          "online": "取决于上传/下载网速",
+          "app": "设备本地即时处理"
+        }
+      ]
+    }
+  }
+}

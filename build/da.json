@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "lang": "da",
+    "title": "Udtræk lyd fra video på iPhone | Gratis MP3-app (2026)",
+    "description": "Udtræk lyd fra dine iPhone-videoer på få sekunder. Konverter MP4 og MOV til MP3 i høj kvalitet — hurtigt og privat direkte på enheden.",
+    "keywords": "udtrække lyd fra video, lyd fra video iphone, hvordan udtrækker man lyd fra video, mp4 til mp3 iphone, video til mp3, konverter video til lyd, gratis app, ios app, iphone, app store, lokal konvertering, privacy, lydekstraktion",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/da/",
+    "og_title": "Udtræk lyd fra video på iPhone – gratis MP3-konverter",
+    "og_description": "Konverter iPhone-video til MP3: MP4 og MOV behandles på telefonen uden upload til servere. Start fra Fotos eller Del, trim før eksport — kernfunktioner gratis.",
+    "og_image": "https://extractaudioapp.com/da/site_preview.png",
+    "site_name": "Lyd fra video⁺",
+    "og_locale": "da_DK",
+    "twitter_url": "https://extractaudioapp.com/da/",
+    "twitter_title": "Udtræk lyd fra video på iPhone – gratis app",
+    "twitter_description": "Skift iPhone-video til MP3 med lokal behandling på enheden — ingen upload til servere. Kernfunktioner gratis; ekstra funktioner kan tilkøbes som køb i appen.",
+    "twitter_image": "https://extractaudioapp.com/da/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/da/",
+    "geo_region": "DK",
+    "geo_placename": "Denmark"
+  },
+  "hero": {
+    "logo_alt": "Logo til Lyd fra video⁺",
+    "title": "Udtræk lyd fra video på iPhone",
+    "subtitle": "Konverter video til MP3 på sekunder – gratis iPhone-app",
+    "entity_definition": "Lyd fra video⁺ er en iOS-app, der konverterer video (MP4/MOV) på din iPhone til MP3-filer i høj kvalitet direkte på enheden.",
+    "subheadline": "Gem musik fra klip, optag forelæsninger som lyd eller lav korte podklip. Hurtigt og privat med gratis kernfunktioner og valgfrie køb i appen til ekstra værktøjer.",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "Download i App Store",
+    "phone_text": "Tryk for at konvertere video til lyd",
+    "qr_alt": "QR-kode til download af appen",
+    "qr_text": "Scan med telefonen for at downloade"
+  },
+  "features": {
+    "title": "Derfor vælger brugerne denne lydudtrækker på iPhone",
+    "items": [
+      { "title": "Kom i gang gratis", "description": "Gratis at downloade og bruge. Kerneudtræk af lyd er inkluderet; ekstra funktioner kan tilkøbes i appen.", "icon": "⚡" },
+      { "title": "Hurtig MP3-konvertering", "description": "Konverter video til MP3 hurtigt og med god kvalitet. Understøtter MP4, MOV og andre almindelige iPhone-formater.", "icon": "🎵" },
+      { "title": "Præcis trimning", "description": "Vælg præcis den del, du skal bruge, før du eksporterer. Gem kun det udsnit, du vil have som lyd.", "icon": "✂️" },
+      { "title": "Virker fra Del", "description": "Brug Del-knappen i Fotos eller Filer for hurtig adgang — uden besværlig opsætning.", "icon": "🔗" },
+      { "title": "Enkelt iPhone-design", "description": "Rent og intuitivt interface til iPhone. Nemt første gang du prøver.", "icon": "🎨" },
+      { "title": "Høj lydkvalitet", "description": "Klar lyd til musik, podcasts, forelæsninger og stemmeoptagelser.", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "Lyd fra video⁺ i tal",
+    "items": [
+      "4,8 ud af 5 stjerner baseret på 140+ bedømmelser i App Store",
+      "Gratis at downloade og bruge – valgfrie køb i appen",
+      "Understøtter MP4, MOV og andre almindelige iPhone-videoformater",
+      "Ca. 50 MB iOS-app",
+      "Behandler video direkte på din iPhone for privatliv og hastighed"
+    ],
+    "stats": [
+      {
+        "number": "4,8",
+        "label": "Stjernebedømmelse",
+        "detail": "Baseret på 140+ anmeldelser i App Store"
+      },
+      {
+        "number": "ca. 50 MB",
+        "label": "App-størrelse",
+        "detail": "Let og hurtig"
+      },
+      {
+        "number": "100%",
+        "label": "Gratis kernfunktion",
+        "detail": "Valgfrie køb i appen"
+      },
+      {
+        "number": "På enheden",
+        "label": "Behandling",
+        "detail": "Dine videoer forlader aldrig din iPhone"
+      }
+    ]
+  },
+  "demo": {
+    "title": "Sådan udtrækker du lyd fra video på iPhone – trin for trin",
+    "subtitle": "Følg disse enkle trin for at få høj kvalitet på din iPhone",
+    "placeholder_line1": "📱 Demo-video kommer snart",
+    "placeholder_line2": "Trin 1: Åbn app > Trin 2: Vælg video > Trin 3: Trim om nødvendigt > Trin 4: Udtræk lyd og gem som MP3"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Åbn appen",
+        "text": "Åbn {{app_info.name}} på din iPhone. Appen kan downloades gratis fra App Store."
+      },
+      {
+        "name": "Vælg din video",
+        "text": "Vælg en video fra dit bibliotek. Du kan bruge MP4, MOV og andre almindelige formater."
+      },
+      {
+        "name": "Trim om nødvendigt",
+        "text": "Brug trim-værktøjerne til at vælge præcis den del af videoen, du vil udtrække lyd fra. Dette trin er valgfrit."
+      },
+      {
+        "name": "Udtræk og gem lyd",
+        "text": "Tryk på Gem som lyd for at udtrække lyd fra videoen og gemme den som MP3. Lyden gemmes på din iPhone."
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "4,8 i bedømmelse fra App Store-brugere",
+    "items": [
+      { "text": "\"Perfekt til at gemme musik og stemme fra videoer. Trimning er enkel, og eksporten er hurtig.\"", "author": "Sarah M., iPhone-bruger", "rating": "5 stjerner", "verified": true },
+      { "text": "\"Super til forelæsningsoptagelser. Rent interface, hurtig konvertering og ingen stejl læringskurve.\"", "author": "Michael T., studerende", "rating": "5 stjerner", "verified": true },
+      { "text": "\"Jeg elsker at starte fra Del i Fotos. Få tryk, så har jeg den lyd, jeg skal bruge.\"", "author": "Jessica L., indholdsskaber", "rating": "5 stjerner", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "Ofte stillede spørgsmål: video til lyd på iPhone",
+    "items": [
+      { "question": "Hvordan udtrækker jeg lyd fra en video på iPhone?", "answer": "Åbn Lyd fra video⁺, vælg et klip fra dit bibliotek, trim om nødvendigt, og tryk på Gem som lyd (MP3). Du kan også starte direkte fra Del-menuen i Fotos eller Filer." },
+      { "question": "Findes der en gratis iPhone-app til video-til-lyd?", "answer": "Ja. Lyd fra video⁺ er gratis at downloade og indeholder kernkonvertering uden omkostning. Ekstra værktøjer kan låses op med køb i appen." },
+      { "question": "Hvordan udtrækker jeg hurtigt lyd fra video?", "answer": "Fire trin: åbn appen, vælg video, trim det ønskede udsnit, gem som lyd. For hurtigere adgang start fra Del-knappen i Fotos." },
+      { "question": "Kan jeg konvertere MP4 eller MOV til MP3 på iPhone?", "answer": "Ja. Appen understøtter almindelige formater som MP4 og MOV og eksporterer lyd som MP3 med få tryk." },
+      { "question": "Kan jeg bruge den gratis?", "answer": "Ja. Kerneudtræk af lyd er gratis. Valgfrie køb i appen giver ekstra funktioner." },
+      { "question": "Er Lyd fra video⁺ bedre end online-lydkonvertere?", "answer": "Ja, til iPhone-brugere. Lyd fra video⁺ behandler video direkte på enheden, så dine filer ikke forlader telefonen. Online-konvertere kræver upload til servere, hvilket kan være langsommere og mindre privat. Appen er gratis at downloade og bruge med valgfrie køb i appen." },
+      { "question": "Er Lyd fra video⁺ sikrere end online-konvertere?", "answer": "Ja, sikrere. Lyd fra video⁺ behandler video helt på din iPhone — ingen upload til eksterne servere. Dine videoer forbliver private på enheden. Online-konvertere kræver upload af filer, hvilket kan være en privatlivsrisiko." }
+    ]
+  },
+  "app_info": {
+    "name": "Lyd fra video⁺",
+    "alternate_name": "Udtræk lyd fra video",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 Download den gratis iPhone-lydudtrækker",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "Privatlivspolitik",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "Vilkår for brug",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Support",
+    "developer_info": "Udviklet af Vladimir Ivakhnenko (c-basso)",
+    "copyright": "© {year} c-basso. Alle rettigheder forbeholdes."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 Konverter video til MP3 på iPhone – gratis"
+  },
+  "seo_chapter": {
+    "title": "Sådan konverterer du video til MP3 på iPhone (guide 2026)",
+    "subtitle": "Hurtig og privat lydudtrækning med en gratis iPhone-app",
+    "intro": "Lyd fra video⁺ er en multimedieapp til iOS, der konverterer videofiler (MP4/MOV) til MP3. Appen behandler video direkte på enheden og kræver ikke internet til selve udtrækket. Behandlingen sker lokalt, så videofiler forbliver på brugerens iPhone og uploades ikke til eksterne servere. Appen understøtter almindelige iPhone-videoformater og leverer lyd i MP3-format. Kerneudtræk af lyd er gratis; yderligere funktioner kan tilkøbes i appen.",
+    "sections": [
+      {
+        "heading": "Trin for trin: udtræk lyd på iPhone",
+        "body": "Med Lyd fra video⁺: 1) Åbn appen, 2) Vælg en video fra dit bibliotek, 3) Trim udsnittet om nødvendigt, 4) Tryk på Gem som lyd for at eksportere MP3. Du kan også starte fra Del-knappen i Fotos eller Filer uden først at åbne appen."
+      },
+      {
+        "heading": "Funktioner og muligheder",
+        "body": "Lyd fra video⁺ behandler videofiler på enheden i stedet for at uploade dem til eksterne servere. Det giver privatliv og kræver ikke internet til udtræk. Appen har trimfunktion, så du kan vælge bestemte udsnit. Output er MP3. Den fungerer som video-til-MP3-konverter og understøtter MP4- og MOV-input, som er almindelige på iOS."
+      }
+    ],
+    "bullets_title": "Typiske anvendelser",
+    "bullets": [
+      "Udtrække lydspor fra video til musiksamling",
+      "Konvertere optagelser af forelæsninger eller møder til lyd til senere gennemgang",
+      "Lave lydklip fra video til podcast eller stemmenoter",
+      "Udtrække lyd fra video til remix eller redigering i audioproduktion"
+    ],
+    "conclusion": "Lyd fra video⁺ er en iOS-app, der gør det muligt at udtrække lyd fra videofiler på iPhone. Udtrækket sker lokalt på enheden. Den primære udtræksfunktion er gratis; ekstra funktioner kan tilkøbes i appen."
+  },
+  "comparison": {
+    "title": "Lyd fra video⁺ kontra online-konvertere",
+    "intro": "Sådan sammenligner Lyd fra video⁺ med online video-til-lyd-konvertere:",
+    "table": {
+      "feature": "Funktion",
+      "online_converters": "Online-konvertere",
+      "this_app": "Lyd fra video⁺",
+      "rows": [
+        {
+          "feature": "Privatliv",
+          "online": "Video uploades til servere",
+          "app": "Behandling på din iPhone"
+        },
+        {
+          "feature": "Brugervenlighed",
+          "online": "Kræver upload og ventetid",
+          "app": "Brug Del eller åbn appen direkte"
+        },
+        {
+          "feature": "Pris",
+          "online": "Ofte abonnement eller begrænsninger",
+          "app": "Gratis kernfunktioner, valgfrie køb i appen"
+        },
+        {
+          "feature": "Hastighed",
+          "online": "Afhænger af upload- og downloadhastighed",
+          "app": "Øjeblikkelig behandling på enheden"
+        }
+      ]
+    }
+  }
+}

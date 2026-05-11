@@ -17,8 +17,15 @@ const { SITE_URL, URLS } = require('./constants');
   for (const { url } of URLS) {
     lines.push('  <url>');
     lines.push(`    <loc>${url}</loc>`);
-    for (const { lang, url: alternateUrl } of URLS) {
-      lines.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${alternateUrl}" />`);
+    for (const alt of URLS) {
+      const alternateUrl = alt.url;
+      if (alt.hreflangs) {
+        for (const hl of alt.hreflangs) {
+          lines.push(`    <xhtml:link rel="alternate" hreflang="${hl}" href="${alternateUrl}" />`);
+        }
+      } else {
+        lines.push(`    <xhtml:link rel="alternate" hreflang="${alt.lang}" href="${alternateUrl}" />`);
+      }
     }
     lines.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}" />`);
     lines.push(`    <lastmod>${lastmod}</lastmod>`);

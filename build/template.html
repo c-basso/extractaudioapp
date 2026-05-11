@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{meta.lang}}">
+<html lang="{{meta.lang}}" dir="{{meta.text_direction}}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
@@ -49,8 +49,8 @@
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{meta.canonical}}">
-    {{#each meta.alternate_languages as |lang|}}
-    <link rel="alternate" hreflang="{{lang.lang}}" href="{{lang.url}}" />
+    {{#each meta.alternate_languages_head as |alt|}}
+    <link rel="alternate" hreflang="{{alt.hreflang}}" href="{{alt.url}}" />
     {{/each}}
     <link rel="alternate" hreflang="x-default" href="{{meta.alternate_default}}" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -552,7 +552,7 @@
                 </div>
                 <div class="footer-links">
                     {{#each meta.alternate_languages as |lang|}}
-                    <a href="{{lang.url}}" hreflang="{{lang.lang}}">{{lang.lang}}</a>
+                    <a href="{{lang.url}}" hreflang="{{lang.lang}}">{{lang.link_label}}</a>
                     {{/each}}
                 </div>
             </div>

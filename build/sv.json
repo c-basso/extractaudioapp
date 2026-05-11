@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "lang": "sv",
+    "title": "Extrahera ljud från video på iPhone | Gratis MP3-app (2026)",
+    "description": "Extrahera ljud från videor på iPhone på några sekunder. Konvertera MP4 och MOV till MP3 i hög kvalitet — snabbt och privat direkt på enheten.",
+    "keywords": "extrahera ljud från video, ljud från video iphone, video till mp3, mp4 till mp3 iphone, konvertera video till ljud, gratis app, ios, iphone, app store, lokal bearbetning, integritet",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/sv/",
+    "og_title": "Extrahera ljud från video på iPhone – gratis MP3-konverterare",
+    "og_description": "Konvertera iPhone-videor till MP3 på enheten utan uppladdning till servrar. Starta från Bilder eller Dela, klipp före export — kärnfunktioner gratis.",
+    "og_image": "https://extractaudioapp.com/sv/site_preview.png",
+    "site_name": "Ljud från video⁺",
+    "og_locale": "sv_SE",
+    "twitter_url": "https://extractaudioapp.com/sv/",
+    "twitter_title": "Extrahera ljud från video på iPhone – gratis app",
+    "twitter_description": "Video till MP3 på iPhone med bearbetning på enheten — ingen uppladdning. Kärn gratis; extra verktyg med valfria köp i appen.",
+    "twitter_image": "https://extractaudioapp.com/sv/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/sv/",
+    "geo_region": "SE",
+    "geo_placename": "Sweden"
+  },
+  "hero": {
+    "logo_alt": "Logotyp för Ljud från video⁺",
+    "title": "Extrahera ljud från video på iPhone",
+    "subtitle": "Konvertera video till MP3 på några sekunder – gratis iPhone-app",
+    "entity_definition": "Ljud från video⁺ är en iOS-app som konverterar video (MP4/MOV) på din iPhone till MP3-filer i hög kvalitet direkt på enheten.",
+    "subheadline": "Spara musik från klipp, föreläsningsljud eller korta podcastbitar. Snabbt och privat — kärnfunktioner gratis och valfria köp i appen.",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "Ladda ner i App Store",
+    "phone_text": "Tryck för att konvertera video till ljud",
+    "qr_alt": "QR-kod för att ladda ner appen",
+    "qr_text": "Skanna med telefonen för att ladda ner"
+  },
+  "features": {
+    "title": "Varför användare väljer den här ljudextraktorn för iPhone",
+    "items": [
+      { "title": "Kom igång gratis", "description": "Gratis att ladda ner och använda. Grundläggande ljudextraktion ingår; fler funktioner via köp i appen.", "icon": "⚡" },
+      { "title": "Snabb MP3-konvertering", "description": "Konvertera videor till MP3 snabbt med bra kvalitet. Stöd för MP4, MOV och andra vanliga iPhone-videformat.", "icon": "🎵" },
+      { "title": "Exakt klippning", "description": "Välj precis den del du behöver före export. Spara bara det avsnitt du vill ha som ljud.", "icon": "✂️" },
+      { "title": "Fungerar från Dela", "description": "Använd Dela-knappen i Bilder eller Filer — inget krångligt upplägg.", "icon": "🔗" },
+      { "title": "Enkelt gränssnitt för iPhone", "description": "Rent och intuitivt. Lätt att använda även första gången.", "icon": "🎨" },
+      { "title": "Hög ljudkvalitet", "description": "Tydligt resultat för musik, poddar, föreläsningar och röstinspelningar.", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "Ljud från video⁺ i siffror",
+    "items": [
+      "4,8 av 5 stjärnor baserat på fler än 140 betyg i App Store",
+      "Gratis att ladda ner och använda – valfria köp i appen",
+      "Stöd för MP4, MOV och andra vanliga iPhone-videformat",
+      "Ungefär 50 MB appstorlek för iOS",
+      "Bearbetar video direkt på iPhone för integritet och hastighet"
+    ],
+    "stats": [
+      {
+        "number": "4,8",
+        "label": "Stjärnbetyg",
+        "detail": "Baserat på fler än 140 recensioner i App Store"
+      },
+      {
+        "number": "ca 50 MB",
+        "label": "Appstorlek",
+        "detail": "Lätt och snabb"
+      },
+      {
+        "number": "100 %",
+        "label": "Grundfunktion gratis",
+        "detail": "Valfria köp i appen"
+      },
+      {
+        "number": "På enheten",
+        "label": "Bearbetning",
+        "detail": "Dina videor lämnar aldrig iPhonen"
+      }
+    ]
+  },
+  "demo": {
+    "title": "Så extraherar du ljud från video på iPhone – steg för steg",
+    "subtitle": "Följ dessa enkla steg för bra ljudkvalitet på iPhone",
+    "placeholder_line1": "📱 Demovideo kommer snart",
+    "placeholder_line2": "Steg 1: Öppna appen > Steg 2: Välj video > Steg 3: Klipp vid behov > Steg 4: Extrahera ljud och spara som MP3"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Öppna appen",
+        "text": "Öppna appen {{app_info.name}} på din iPhone. Appen är gratis att ladda ner från App Store."
+      },
+      {
+        "name": "Välj din video",
+        "text": "Välj en video från biblioteket. Du kan använda MP4, MOV eller andra vanliga format."
+      },
+      {
+        "name": "Klipp vid behov",
+        "text": "Använd klippverktygen för att markera exakt den del av videon du vill extrahera ljud från. Det här steget är valfritt."
+      },
+      {
+        "name": "Extrahera och spara ljud",
+        "text": "Tryck på Spara som ljud för att extrahera ljud från videon som en MP3-fil. Ljudet sparas på din iPhone."
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "betyg 4,8 från App Store-användare",
+    "items": [
+      { "text": "\"Perfekt för att spara musik och röstklipp från videor. Klippning är enkel och exporten snabb.\"", "author": "Sarah M., iPhone-användare", "rating": "5 stjärnor", "verified": true },
+      { "text": "\"Utmärkt för föreläsningsinspelningar. Rent gränssnitt, snabb konvertering och ingen inlärningskurva.\"", "author": "Michael T., student", "rating": "5 stjärnor", "verified": true },
+      { "text": "\"Jag gillar att starta från Dela i Bilder. Med några tryck har jag ljudet jag behöver.\"", "author": "Jessica L., innehållsskapare", "rating": "5 stjärnor", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "Vanliga frågor: video till ljud på iPhone",
+    "items": [
+      { "question": "Hur extraherar jag ljud från en video på iPhone?", "answer": "Öppna Ljud från video⁺, välj ett klipp från biblioteket, klipp vid behov och tryck på Spara som ljud (MP3). Du kan också starta direkt från Dela-menyn i Bilder eller Filer." },
+      { "question": "Finns det en gratis iPhone-app för video till ljud?", "answer": "Ja. Ljud från video⁺ är gratis att ladda ner och kärnkonvertering ingår utan kostnad. Fler verktyg låses upp via köp i appen." },
+      { "question": "Hur tar jag ut ljud från video snabbt?", "answer": "Fyra steg: öppna appen, välj video, klipp segmentet du vill ha, spara som ljud. Snabbare väg: starta från Dela-knappen i Bilder." },
+      { "question": "Kan jag konvertera MP4 eller MOV till MP3 på iPhone?", "answer": "Ja. Appen stöder vanliga format som MP4 och MOV och exporterar ljud som MP3 med några tryck." },
+      { "question": "Kan jag använda den gratis?", "answer": "Ja. Grundläggande ljudextraktion är gratis. Ytterligare funktioner finns som valfria köp i appen." },
+      { "question": "Är Ljud från video⁺ bättre än onlinekonverterare?", "answer": "För iPhone-användare, ja. Ljud från video⁺ bearbetar videor direkt på enheten så filerna lämnar inte din iPhone. Onlinekonverterare kräver uppladdning till servrar, vilket kan vara långsammare och mindre privat. Appen är gratis att ladda ner och använda; fler funktioner via valfria köp i appen." },
+      { "question": "Är Ljud från video⁺ säkrare än onlinekonverterare?", "answer": "Ja, säkrare. Ljud från video⁺ bearbetar videor helt på din iPhone — ingen uppladdning till externa servrar. Dina videor förblir privata på enheten. Onlinekonverterare kräver uppladdning av filer, vilket kan medföra integritetsrisker." }
+    ]
+  },
+  "app_info": {
+    "name": "Ljud från video⁺",
+    "alternate_name": "Extrahera ljud från video",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 Ladda ner den gratis ljudextraktorn för iPhone",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "Integritetspolicy",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "Användarvillkor",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Support",
+    "developer_info": "Utvecklad av Vladimir Ivakhnenko (c-basso)",
+    "copyright": "© {year} c-basso. Alla rättigheter förbehållna."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 Konvertera video till MP3 på iPhone – gratis"
+  },
+  "seo_chapter": {
+    "title": "Så konverterar du video till MP3 på iPhone (guide 2026)",
+    "subtitle": "Snabb och privat ljudextraktion med en gratis iPhone-app",
+    "intro": "Ljud från video⁺ är en multimediaapp för iOS som konverterar videofiler (MP4/MOV) till MP3-ljudfiler. Appen bearbetar video direkt på enheten och kräver inte internet för själva extraktionen. Bearbetning sker lokalt — videofilerna stannar på användarens iPhone och laddas inte upp till externa servrar. Vanliga iPhone-videformat stöds och utdata är MP3. Grundläggande ljudextraktion är gratis; fler funktioner via valfria köp i appen.",
+    "sections": [
+      {
+        "heading": "Steg för steg: extrahera ljud på iPhone",
+        "body": "Med appen Ljud från video⁺: 1) Öppna appen, 2) Välj en video från biblioteket, 3) Klipp vid behov, 4) Tryck på Spara som ljud och exportera MP3. Du kan också starta från Dela-knappen i Bilder eller Filer utan att öppna appen först."
+      },
+      {
+        "heading": "Funktioner och möjligheter",
+        "body": "Ljud från video⁺ bearbetar videofiler på enheten i stället för att ladda upp dem till fjärrservrar. Det ger integritetsfördelar och kräver inte internet för extraktion. Appen har klippfunktion för att välja specifika segment. Utdata är MP3. Den fungerar som en video-till-MP3-konverterare och stöder MP4 och MOV som är vanliga på iOS."
+      }
+    ],
+    "bullets_title": "Vanliga användningsområden",
+    "bullets": [
+      "Extrahera ljudspår från videor till musiksamlingen",
+      "Konvertera föreläsnings- eller mötesinspelningar till ljud för senare lyssning",
+      "Skapa ljudklipp från video för podd eller röstanteckningar",
+      "Extrahera ljud från video för remix eller redigering i ljudarbetsflöden"
+    ],
+    "conclusion": "Ljud från video⁺ är en iOS-app som låter dig extrahera ljud från videofiler på iPhone. Extraktion sker lokalt på enheten. Huvudfunktionen för extraktion är gratis; ytterligare funktioner via valfria köp i appen."
+  },
+  "comparison": {
+    "title": "Ljud från video⁺ jämfört med onlinekonverterare",
+    "intro": "Så här jämför sig Ljud från video⁺ med onlinekonverterare:",
+    "table": {
+      "feature": "Funktion",
+      "online_converters": "Onlinekonverterare",
+      "this_app": "Ljud från video⁺",
+      "rows": [
+        {
+          "feature": "Integritet",
+          "online": "Videor laddas upp till servrar",
+          "app": "Bearbetning på din iPhone"
+        },
+        {
+          "feature": "Enkelhet",
+          "online": "Kräver uppladdning och väntan",
+          "app": "Använd Dela eller öppna appen direkt"
+        },
+        {
+          "feature": "Kostnad",
+          "online": "Ofta prenumeration eller begränsningar",
+          "app": "Grund gratis, valfria köp i appen"
+        },
+        {
+          "feature": "Hastighet",
+          "online": "Beror på upp- och nedladdningshastighet",
+          "app": "Omedelbar bearbetning på enheten"
+        }
+      ]
+    }
+  }
+}

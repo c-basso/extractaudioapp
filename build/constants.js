@@ -17,13 +17,43 @@ const LANGUAGES = [
     'th',
     'tr',
     'uk',
-    'vi'
+    'vi',
+    'cs',
+    'zh',
+    'da',
+    'el',
+    'fi',
+    'fil',
+    'he',
+    'hr',
+    'hu',
+    'id',
+    'ms',
+    'no',
+    'sk',
+    'sv',
+    'bg',
+    'sl',
+    'ca',
+    'hi',
+    'bn',
+    'ta',
+    'te',
+    'ml'
 ];
 
-const URLS = LANGUAGES.map((lang) => ({
-    lang,
-    url: lang === DEFAULT_LANGUAGE ? SITE_URL : `${SITE_URL}${lang}/`
-}));
+const URLS = LANGUAGES.map((lang) => {
+    const entry = {
+        lang,
+        url: lang === DEFAULT_LANGUAGE ? SITE_URL : `${SITE_URL}${lang}/`
+    };
+    // Single URL for Chinese; search engines get both script variants via hreflang.
+    if (lang === 'zh') {
+        entry.hreflangs = ['zh-Hans', 'zh-Hant'];
+    }
+    entry.link_label = lang === 'zh' ? '中文' : lang;
+    return entry;
+});
 
 const ADDITIONAL_URLS = [
     `${SITE_URL}llms.txt`

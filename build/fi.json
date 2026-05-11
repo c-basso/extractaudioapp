@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "lang": "fi",
+    "title": "Irrota ääni videosta iPhonella | Ilmainen MP3-sovellus (2026)",
+    "description": "Irrota ääni videoista iPhonella sekunneissa. Muunna MP4 ja MOV korkealaatuiseksi MP3:ksi — nopeasti ja yksityisesti suoraan laitteella.",
+    "keywords": "ääni videosta, irrota ääni videosta iphone, video mp3 iphone, mp4 mp3, mov mp3, video ääneksi, ilmainen sovellus, ios, iphone, app store, paikallinen muunnos, yksityisyys",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/fi/",
+    "og_title": "Irrota ääni videosta iPhonella – ilmainen MP3-muunnin",
+    "og_description": "Muunna iPhone-videot MP3:ksi laitteella ilman palvelimelle lähetystä. Aloita Valokuvista tai Jaosta, leikkaa ja vie — perustoiminnot ilmaiseksi.",
+    "og_image": "https://extractaudioapp.com/fi/site_preview.png",
+    "site_name": "Ääni videosta⁺",
+    "og_locale": "fi_FI",
+    "twitter_url": "https://extractaudioapp.com/fi/",
+    "twitter_title": "Irrota ääni videosta iPhonella – ilmainen sovellus",
+    "twitter_description": "Video MP3:ksi iPhonella: käsittely laitteella, ei tiedostojen lähetystä. Perustoiminnot ilmaiseksi; lisätyökalut sovelluksen sisäisillä ostoksilla.",
+    "twitter_image": "https://extractaudioapp.com/fi/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/fi/",
+    "geo_region": "FI",
+    "geo_placename": "Finland"
+  },
+  "hero": {
+    "logo_alt": "Ääni videosta⁺ -logo",
+    "title": "Irrota ääni videosta iPhonella",
+    "subtitle": "Muunna video MP3:ksi sekunneissa – ilmainen iPhone-sovellus",
+    "entity_definition": "Ääni videosta⁺ on iOS-sovellus, joka muuntaa videot (MP4/MOV) iPhonellasi korkealaatuisiksi MP3-tiedostoiksi suoraan laitteella.",
+    "subheadline": "Tallenna musiikkia videoista, luennon ääntä tai tee lyhyitä podcast-pätkiä. Nopeaa ja yksityistä — ilmainen perusversio ja valinnaiset sovelluksen sisäiset ostot.",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "Lataa App Storesta",
+    "phone_text": "Napauta muuntaaksesi videon ääneksi",
+    "qr_alt": "QR-koodi sovelluksen lataamiseen",
+    "qr_text": "Skannaa puhelimella ladataksesi"
+  },
+  "features": {
+    "title": "Miksi käyttäjät valitsevat tämän äänenirrotuksen iPhonelle",
+    "items": [
+      { "title": "Aloita ilmaiseksi", "description": "Ilmainen lataus ja käyttö. Äänen perusirrotus sisältyy; lisäominaisuudet sovelluksen sisäisillä ostoksilla.", "icon": "⚡" },
+      { "title": "Nopea MP3-muunnos", "description": "Muunna videot MP3:ksi nopeasti ja hyvällä laadulla. Tukee MP4-, MOV- ja muita yleisiä iPhone-videoformaatteja.", "icon": "🎵" },
+      { "title": "Tarkka leikkaus", "description": "Valitse juuri tarvitsemasi kohta ennen vientiä. Tallenna vain haluamasi pätkä äänenä.", "icon": "✂️" },
+      { "title": "Toimii Jaosta", "description": "Käytä Jaa-painiketta Valokuvissa tai Tiedostoissa — ei monimutkaista asetusta.", "icon": "🔗" },
+      { "title": "Selkeä iPhone-käyttöliittymä", "description": "Siisti ja intuitiivinen. Helppo käyttää jo ensimmäisellä kerralla.", "icon": "🎨" },
+      { "title": "Hyvä äänenlaatu", "description": "Kirkas tuloste musiikille, podcasteille, luennoille ja äänitteille.", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "Ääni videosta⁺ numeroina",
+    "items": [
+      "4,8 tähteä viidestä yli 140 App Store -arvioinnin perusteella",
+      "Ilmainen lataus ja käyttö – valinnaiset sovelluksen sisäiset ostot",
+      "Tukee MP4-, MOV- ja muita yleisiä iPhone-videoformaatteja",
+      "iOS-sovelluksen koko noin 50 Mt",
+      "Käsittelee videot suoraan iPhonellasi yksityisyyden ja nopeuden vuoksi"
+    ],
+    "stats": [
+      {
+        "number": "4,8",
+        "label": "Tähtiarvio",
+        "detail": "Yli 140 App Store -arvostelun perusteella"
+      },
+      {
+        "number": "~50 Mt",
+        "label": "Sovelluksen koko",
+        "detail": "Kevyt ja nopea"
+      },
+      {
+        "number": "100%",
+        "label": "Ilmainen perustoiminto",
+        "detail": "Valinnaiset sovelluksen sisäiset ostot"
+      },
+      {
+        "number": "Laitteella",
+        "label": "Käsittely",
+        "detail": "Videosi eivät poistu iPhoneltasi"
+      }
+    ]
+  },
+  "demo": {
+    "title": "Näin irrotat äänen videosta iPhonella – vaihe vaiheelta",
+    "subtitle": "Näillä helpoilla vaiheilla saat laadukasta ääntä iPhonella",
+    "placeholder_line1": "📱 Esittelyvideo tulossa pian",
+    "placeholder_line2": "Vaihe 1: Avaa sovellus > Vaihe 2: Valitse video > Vaihe 3: Leikkaa tarvittaessa > Vaihe 4: Irrota ääni ja tallenna MP3:na"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Avaa sovellus",
+        "text": "Avaa {{app_info.name}} iPhonellasi. Sovelluksen voi ladata ilmaiseksi App Storesta."
+      },
+      {
+        "name": "Valitse video",
+        "text": "Valitse video kirjastostasi. Voit käyttää MP4-, MOV- tai muita yleisiä formaatteja."
+      },
+      {
+        "name": "Leikkaa tarvittaessa",
+        "text": "Käytä leikkaustyökaluja valitaksesi juuri sen kohdan videosta, josta haluat irrottaa äänen. Vaihe on valinnainen."
+      },
+      {
+        "name": "Irrota ja tallenna ääni",
+        "text": "Napauta Tallenna äänenä irrottaaksesi äänen videosta ja tallentaaksesi sen MP3-tiedostona. Ääni tallennetaan iPhonelle."
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "4,8 tähteä App Store -käyttäjiltä",
+    "items": [
+      { "text": "\"Täydellinen musiikin ja äänipätkien tallentamiseen videoista. Leikkaus on helppo ja vienti nopea.\"", "author": "Sarah M., iPhone-käyttäjä", "rating": "5 tähteä", "verified": true },
+      { "text": "\"Hyvä luentoäänitteisiin. Selkeä käyttöliittymä, nopea muunnos ja ei oppimiskynnystä.\"", "author": "Michael T., opiskelija", "rating": "5 tähteä", "verified": true },
+      { "text": "\"Pidän siitä, että voin aloittaa Jaosta Valokuvissa. Muutama napautus ja ääni on tallessa.\"", "author": "Jessica L., sisällöntuottaja", "rating": "5 tähteä", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "Usein kysyttyä: video ääneksi iPhonella",
+    "items": [
+      { "question": "Miten irrotan äänen videosta iPhonella?", "answer": "Avaa Ääni videosta⁺, valitse pätkä kirjastosta, leikkaa tarvittaessa ja napauta Tallenna äänenä (MP3). Voit myös käynnistää suoraan Jaosta Valokuvissa tai Tiedostoissa." },
+      { "question": "Onko ilmainen sovellus videon muuntamiseen ääneksi?", "answer": "Kyllä. Ääni videosta⁺ on ilmainen ladata ja sisältää perusmuunnoksen ilman maksua. Lisätyökalut avautuvat sovelluksen sisäisillä ostoksilla." },
+      { "question": "Miten irrotan äänen nopeasti?", "answer": "Neljä vaihetta: avaa sovellus, valitse video, leikkaa haluttu kohta, tallenna äänenä. Nopeampi alku Jaosta Valokuvissa." },
+      { "question": "Voinko muuntaa MP4:n tai MOV:n MP3:ksi iPhonella?", "answer": "Kyllä. Sovellus tukee yleisiä formaatteja kuten MP4 ja MOV ja vie äänen MP3:na muutamalla napautuksella." },
+      { "question": "Voinko käyttää sitä ilmaiseksi?", "answer": "Kyllä. Äänen perusirrotus on ilmainen. Lisäominaisuudet valinnaisilla sovelluksen sisäisillä ostoksilla." },
+      { "question": "Onko Ääni videosta⁺ parempi kuin verkkomuuntimet?", "answer": "Kyllä, iPhone-käyttäjille. Ääni videosta⁺ käsittelee videot suoraan laitteella, joten tiedostot eivät poistu iPhoneltasi. Verkkopalvelut vaativat latauksen palvelimelle, mikä voi olla hitaampaa ja vähemmän yksityistä. Sovellus on ilmainen ladata ja käyttää; lisäominaisuudet valinnaisesti." },
+      { "question": "Onko Ääni videosta⁺ turvallisempi kuin verkkomuuntimet?", "answer": "Kyllä, turvallisempi. Ääni videosta⁺ käsittelee videot kokonaan iPhonellasi — ei lähetystä ulkoisille palvelimille. Videosi pysyvät yksityisinä laitteella. Verkkomuuntimet vaativat tiedostojen lataamisen, mikä voi heikentää yksityisyyttä." }
+    ]
+  },
+  "app_info": {
+    "name": "Ääni videosta⁺",
+    "alternate_name": "Irrota ääni videosta",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 Lataa ilmainen äänenirrotus iPhonelle",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "Tietosuojakäytäntö",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "Käyttöehdot",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Tuki",
+    "developer_info": "Kehittäjä Vladimir Ivakhnenko (c-basso)",
+    "copyright": "© {year} c-basso. Kaikki oikeudet pidätetään."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 Muunna video MP3:ksi iPhonella – ilmaiseksi"
+  },
+  "seo_chapter": {
+    "title": "Näin muunnat videon MP3:ksi iPhonella (opas 2026)",
+    "subtitle": "Nopea ja yksityinen äänenirrotus ilmaisella iPhone-sovelluksella",
+    "intro": "Ääni videosta⁺ on iOS:lle tarkoitettu multimedia-sovellus, joka muuntaa videotiedostot (MP4/MOV) MP3-äänitiedostoiksi. Sovellus käsittelee videot suoraan laitteella eikä tarvitse internet-yhteyttä itse irrotukseen. Käsittely tapahtuu paikallisesti: videot pysyvät käyttäjän iPhonella eikä niitä lähetetä ulkoisille palvelimille. Sovellus tukee yleisiä iPhone-videoformaatteja ja tuottaa MP3-äänen. Äänen perusirrotus on ilmainen; lisäominaisuudet valinnaisilla sovelluksen sisäisillä ostoksilla.",
+    "sections": [
+      {
+        "heading": "Vaihe vaiheelta: irrota ääni iPhonella",
+        "body": "Ääni videosta⁺ -sovelluksella: 1) Avaa sovellus, 2) Valitse video kirjastosta, 3) Leikkaa tarvittaessa, 4) Napauta Tallenna äänenä viedäksesi MP3:n. Voit myös aloittaa Jaosta Valokuvissa tai Tiedostoissa avaamatta sovellusta ensin."
+      },
+      {
+        "heading": "Ominaisuudet ja mahdollisuudet",
+        "body": "Ääni videosta⁺ käsittelee videotiedostot laitteella sen sijaan, että ne lähetettäisiin etäpalvelimille. Tämä parantaa yksityisyyttä eikä vaadi verkkoa irrotukseen. Mukana on leikkaus, jolla voit valita tiettyjä pätkiä. Tuloste on MP3. Toimii video–MP3-muuntimena ja tukee MP4- ja MOV-sisääntuloja tyypillisesti iOS-laitteilla."
+      }
+    ],
+    "bullets_title": "Tyypilliset käyttötavat",
+    "bullets": [
+      "Ääniraitojen irrottaminen videoista musiikkikokoelmaa varten",
+      "Luento- tai kokousvideoiden muuntaminen ääneksi myöhempää kuuntelua varten",
+      "Äänipätkien tekeminen videoista podcastia tai äänimuistioita varten",
+      "Äänen irrottaminen videoista remixiä tai äänituotantoa varten"
+    ],
+    "conclusion": "Ääni videosta⁺ on iOS-sovellus, jonka avulla voit irrottaa äänen videotiedostoista iPhonella. Irrotus tapahtuu paikallisesti laitteella. Päätoiminto on ilmainen; lisäominaisuudet valinnaisilla sovelluksen sisäisillä ostoksilla."
+  },
+  "comparison": {
+    "title": "Ääni videosta⁺ verrattuna verkkomuuntimeihin",
+    "intro": "Vertailu verkkopohjaisiin video–ääni-muuntimeihin:",
+    "table": {
+      "feature": "Ominaisuus",
+      "online_converters": "Verkkomuuntimet",
+      "this_app": "Ääni videosta⁺",
+      "rows": [
+        {
+          "feature": "Yksityisyys",
+          "online": "Videot lähetetään palvelimille",
+          "app": "Käsittely iPhonellasi"
+        },
+        {
+          "feature": "Helppous",
+          "online": "Vaatii lähetyksen ja odotuksen",
+          "app": "Jaa-painike tai suora avaus"
+        },
+        {
+          "feature": "Hinta",
+          "online": "Usein tilaus tai rajat",
+          "app": "Ilmainen perus, valinnaiset ostot sovelluksessa"
+        },
+        {
+          "feature": "Nopeus",
+          "online": "Riippuu lähetys- ja latausnopeudesta",
+          "app": "Heti laitteella"
+        }
+      ]
+    }
+  }
+}

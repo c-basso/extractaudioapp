@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "lang": "hu",
+    "title": "Hang kinyerése videóból iPhone-on | Ingyenes MP3 alkalmazás (2026)",
+    "description": "Nyerjen ki hangot videókból iPhone-ján másodpercek alatt. MP4 és MOV átalakítása kiváló minőségű MP3-ba — gyorsan és bizalmasan, közvetlenül a készüléken.",
+    "keywords": "hang kinyerése videóból, videó hang iphone, videó mp3, mp4 mp3 iphone, videó hanggá alakítása, ingyenes alkalmazás, ios, iphone, app store, helyi feldolgozás, adatvédelem",
+    "author": "Vladimir Ivakhnenko",
+    "og_url": "https://extractaudioapp.com/hu/",
+    "og_title": "Hang kinyerése videóból iPhone-on – ingyenes MP3 konverter",
+    "og_description": "Videók MP3-ba alakítása iPhone-on helyben, szerverre feltöltés nélkül. Kezdés Fotók vagy Megosztás menüből, vágás export előtt — alapfunkciók ingyen.",
+    "og_image": "https://extractaudioapp.com/hu/site_preview.png",
+    "site_name": "Hang a videóból⁺",
+    "og_locale": "hu_HU",
+    "twitter_url": "https://extractaudioapp.com/hu/",
+    "twitter_title": "Hang kinyerése videóból iPhone-on – ingyenes alkalmazás",
+    "twitter_description": "Videó MP3-ba iPhone-on: feldolgozás a készüléken, feltöltés nélkül. Alap funkciók ingyen; extra eszközök alkalmazáson belüli vásárlásokkal.",
+    "twitter_image": "https://extractaudioapp.com/hu/site_preview.png",
+    "app_store_id": "6744582065",
+    "canonical": "https://extractaudioapp.com/hu/",
+    "geo_region": "HU",
+    "geo_placename": "Hungary"
+  },
+  "hero": {
+    "logo_alt": "Hang a videóból⁺ logó",
+    "title": "Hang kinyerése videóból iPhone-on",
+    "subtitle": "Videó MP3-ba alakítása másodpercek alatt – ingyenes iPhone alkalmazás",
+    "entity_definition": "A Hang a videóból⁺ egy iOS alkalmazás, amely az Ön iPhone-ján közvetlenül a készüléken alakítja át a videókat (MP4/MOV) kiváló minőségű MP3 hangfájlokká.",
+    "subheadline": "Menthet zenét klipekből, előadás hangját vagy rövid podcast részeket. Gyors és bizalmas — ingyenes alapfunkciók és opcionális alkalmazáson belüli vásárlások.",
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "download_alt": "Letöltés az App Store-ból",
+    "phone_text": "Érintse meg a videó hanggá alakításához",
+    "qr_alt": "QR-kód az alkalmazás letöltéséhez",
+    "qr_text": "Olvassa be telefonjával a letöltéshez"
+  },
+  "features": {
+    "title": "Miért választják ezt a hangkinyerőt iPhone-ra",
+    "items": [
+      { "title": "Ingyenes indulás", "description": "Ingyenes letöltés és használat. Az alapvető hangkinyerés benne van; további funkciók alkalmazáson belüli vásárlásokkal.", "icon": "⚡" },
+      { "title": "Gyors MP3 konverzió", "description": "Videók gyors MP3-ba alakítása jó minőségben. Támogatja az MP4-et, MOV-ot és más gyakori iPhone videóformátumokat.", "icon": "🎵" },
+      { "title": "Pontos vágás", "description": "Válassza ki pontosan a szükséges részt export előtt. Csak a kívánt szakaszt mentheti hangként.", "icon": "✂️" },
+      { "title": "Működik Megosztásból", "description": "Használja a Megosztás gombot Fotókban vagy Fájlokban — bonyolult beállítás nélkül.", "icon": "🔗" },
+      { "title": "Egyszerű iPhone felület", "description": "Tiszta, intuitív felület. Könnyen használható már első alkalommal is.", "icon": "🎨" },
+      { "title": "Magas hangminőség", "description": "Tiszta kimenet zenéhez, podcastokhoz, előadásokhoz és hangfelvételekhez.", "icon": "🎵" }
+    ]
+  },
+  "by_the_numbers": {
+    "title": "Hang a videóból⁺ számokban",
+    "items": [
+      "4,8 csillag ötből több mint 140 App Store értékelés alapján",
+      "Ingyenes letöltés és használat – opcionális alkalmazáson belüli vásárlások",
+      "Támogatja az MP4-et, MOV-ot és más gyakori iPhone videóformátumokat",
+      "Az iOS alkalmazás mérete kb. 50 MB",
+      "A videók közvetlenül az iPhone-ján dolgozódnak fel a biztonság és sebesség miatt"
+    ],
+    "stats": [
+      {
+        "number": "4,8",
+        "label": "Csillag értékelés",
+        "detail": "Több mint 140 App Store értékelés alapján"
+      },
+      {
+        "number": "~50 MB",
+        "label": "Alkalmazás méret",
+        "detail": "Könnyű és gyors"
+      },
+      {
+        "number": "100%",
+        "label": "Ingyenes alapfunkció",
+        "detail": "Opcionális alkalmazáson belüli vásárlások"
+      },
+      {
+        "number": "A készüléken",
+        "label": "Feldolgozás",
+        "detail": "Videói nem hagyják el az iPhone-ját"
+      }
+    ]
+  },
+  "demo": {
+    "title": "Hogyan nyerjen ki hangot videóból iPhone-on – lépésről lépésre",
+    "subtitle": "Kövesse ezeket az egyszerű lépéseket kiváló hangminőségért iPhone-on",
+    "placeholder_line1": "📱 Demó videó hamarosan",
+    "placeholder_line2": "1. lépés: Nyissa meg az alkalmazást > 2. Válasszon videót > 3. Vágjon szükség szerint > 4. Nyerjen ki hangot és mentse MP3-ként"
+  },
+  "howto_steps": {
+    "items": [
+      {
+        "name": "Nyissa meg az alkalmazást",
+        "text": "Nyissa meg a(z) {{app_info.name}} alkalmazást iPhone-ján. Az alkalmazás ingyenesen letölthető az App Store-ból."
+      },
+      {
+        "name": "Válasszon videót",
+        "text": "Válasszon videót a könyvtárából. Használhat MP4-et, MOV-ot vagy más gyakori formátumot."
+      },
+      {
+        "name": "Vágjon szükség szerint",
+        "text": "A vágóeszközökkel jelölje ki pontosan azt a részt, ahonnan hangot szeretne kinyerni. Ez a lépés opcionális."
+      },
+      {
+        "name": "Nyisson ki és mentse a hangot",
+        "text": "Érintse meg a Mentés hangként lehetőséget a hang kinyeréséhez és MP3-ként mentéséhez. A hang az iPhone-jára kerül."
+      }
+    ]
+  },
+  "testimonials": {
+    "stars": "⭐️⭐️⭐️⭐️⭐️",
+    "rating_text": "4,8 értékelés App Store felhasználóktól",
+    "items": [
+      { "text": "\"Tökéletes zene és hangrészletek mentéséhez videókból. A vágás egyszerű, az export gyors.\"", "author": "Sarah M., iPhone felhasználó", "rating": "5 csillag", "verified": true },
+      { "text": "\"Nagyszerű előadásfelvételekhez. Tiszta felület, gyors konverzió, tanulási görbe nélkül.\"", "author": "Michael T., hallgató", "rating": "5 csillag", "verified": true },
+      { "text": "\"Szeretek Fotókból Megosztással indítani. Néhány érintés és megvan a hang.\"", "author": "Jessica L., tartalomkészítő", "rating": "5 csillag", "verified": true }
+    ]
+  },
+  "faq": {
+    "title": "GYIK: videó hanggá alakítása iPhone-on",
+    "items": [
+      { "question": "Hogyan nyerhetek ki hangot videóból iPhone-on?", "answer": "Nyissa meg a Hang a videóból⁺ alkalmazást, válasszon klipet a könyvtárából, vágjon szükség szerint, majd érintse meg a Mentés hangként (MP3) lehetőséget. Közvetlenül a Fotók vagy Fájlok Megosztás menüjéből is indíthat." },
+      { "question": "Van ingyenes iPhone alkalmazás videó hanggá alakításához?", "answer": "Igen. A Hang a videóból⁺ ingyenesen letölthető, és az alap konverzió díjmentes. További eszközök alkalmazáson belüli vásárlásokkal nyithatók meg." },
+      { "question": "Hogyan nyerjek ki gyorsan hangot a videóból?", "answer": "Négy lépés: nyissa meg az alkalmazást, válasszon videót, vágja ki a kívánt részt, mentse hangként. Gyorsabb kezdés a Fotók Megosztás gombjáról." },
+      { "question": "Átalakíthatom MP4-et vagy MOV-ot MP3-ba iPhone-on?", "answer": "Igen. Az alkalmazás támogatja a gyakori formátumokat, például MP4-et és MOV-ot, és néhány érintéssel MP3-ba exportál." },
+      { "question": "Használhatom ingyen?", "answer": "Igen. Az alapvető hangkinyerés ingyenes. Opcionális alkalmazáson belüli vásárlások további funkciókért." },
+      { "question": "Jobb a Hang a videóból⁺ az online konvertereknél?", "answer": "Igen, iPhone felhasználóknak. A Hang a videóból⁺ közvetlenül a készüléken dolgozza fel a videókat, így fájljai nem hagyják el az iPhone-t. Az online konverterek feltöltést igényelnek, ami lassabb és kevésbé bizalmas lehet. Az alkalmazás ingyenesen letölthető és használható; opcionális alkalmazáson belüli vásárlásokkal." },
+      { "question": "Biztonságosabb a Hang a videóból⁺ az online konvertereknél?", "answer": "Igen, biztonságosabb. A feldolgozás teljes egészében az iPhone-ján történik — nincs külső szerverre feltöltés. Videói bizalmasan maradnak a készüléken. Az online konverterek fájlfeltöltést igényelnek, ami adatvédelmi kockázatot jelenthet." }
+    ]
+  },
+  "app_info": {
+    "name": "Hang a videóból⁺",
+    "alternate_name": "Hang kinyerése videóból",
+    "publisher": "c-basso",
+    "version": "1.0.0",
+    "file_size": "50 MB",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio",
+    "price_currency": "USD"
+  },
+  "footer": {
+    "cta_url": "https://apps.apple.com/app/id6744582065",
+    "cta_text": "📱 Töltse le az ingyenes iPhone hangkinyerőt",
+    "privacy_url": "https://extractaudioapp.com/privacy.html",
+    "privacy_text": "Adatvédelmi irányelvek",
+    "terms_url": "https://extractaudioapp.com/terms.html",
+    "terms_text": "Felhasználási feltételek",
+    "support_url": "mailto:c-basso@ya.ru",
+    "support_text": "Támogatás",
+    "developer_info": "Fejlesztő: Vladimir Ivakhnenko (c-basso)",
+    "copyright": "© {year} c-basso. Minden jog fenntartva."
+  },
+  "floating_cta": {
+    "url": "https://apps.apple.com/app/id6744582065",
+    "text": "📱 Videó MP3-ba iPhone-on – ingyen"
+  },
+  "seo_chapter": {
+    "title": "Hogyan alakítson videót MP3-ba iPhone-on (útmutató 2026)",
+    "subtitle": "Gyors és bizalmas hangkinyerés ingyenes iPhone alkalmazással",
+    "intro": "A Hang a videóból⁺ egy iOS multimédia alkalmazás, amely videófájlokat (MP4/MOV) MP3 hangfájlokká alakít. Az alkalmazás közvetlenül a készüléken dolgozza fel a videókat, és magának a kinyerésnek az internetkapcsolat nem feltétele. A feldolgozás helyben történik — a videók az iPhone-on maradnak, nem kerülnek külső szerverekre. Támogatja a gyakori iPhone videóformátumokat, a kimenet MP3. Az alapvető hangkinyerés ingyenes; további funkciók opcionális alkalmazáson belüli vásárlásokkal.",
+    "sections": [
+      {
+        "heading": "Lépésről lépésre: hang kinyerése iPhone-on",
+        "body": "A Hang a videóból⁺ alkalmazással: 1) Nyissa meg az alkalmazást, 2) Válasszon videót a könyvtárából, 3) Szükség szerint vágja ki a részt, 4) Érintse meg a Mentés hangként lehetőséget az MP3 exportálásához. Kezdhet a Fotók vagy Fájlok Megosztás gombjáról is az alkalmazás előzetes megnyitása nélkül."
+      },
+      {
+        "heading": "Funkciók és képességek",
+        "body": "A Hang a videóból⁺ a készüléken dolgozza fel a videófájlokat a távoli szerverekre feltöltés helyett. Ez előnyös adatvédelem szempontjából, és a kinyeréshez nem szükséges internet. Tartalmaz vágó funkciót konkrét szakaszok kijelöléséhez. A kimenet MP3. Videó–MP3 konverterként működik, és támogatja az iOS eszközökön gyakori MP4 és MOV bemenetet."
+      }
+    ],
+    "bullets_title": "Gyakori felhasználási esetek",
+    "bullets": [
+      "Hang sávok kinyerése videókból zenei gyűjteményhez",
+      "Előadás- vagy értekezletfelvételek hanggá alakítása későbbi meghallgatáshoz",
+      "Hangklip készítése videó tartalomból podcasthoz vagy hangjegyzetekhez",
+      "Hang kinyerése videóból remixhez vagy hang szerkesztési munkafolyamathoz"
+    ],
+    "conclusion": "A Hang a videóból⁺ egy iOS alkalmazás, amellyel videófájlokból nyerhet ki hangot iPhone-on. A kinyerés helyben történik a készüléken. A fő funkció ingyenes; további lehetőségek opcionális alkalmazáson belüli vásárlásokkal."
+  },
+  "comparison": {
+    "title": "Hang a videóból⁺ kontra online konverterek",
+    "intro": "Összehasonlítás az online videó–hang konverterekkel:",
+    "table": {
+      "feature": "Jellemző",
+      "online_converters": "Online konverterek",
+      "this_app": "Hang a videóból⁺",
+      "rows": [
+        {
+          "feature": "Adatvédelem",
+          "online": "Videók feltöltése szerverekre",
+          "app": "Feldolgozás az iPhone-ján"
+        },
+        {
+          "feature": "Könnyű használat",
+          "online": "Feltöltés és várakozás szükséges",
+          "app": "Megosztás gomb vagy közvetlen alkalmazás megnyitás"
+        },
+        {
+          "feature": "Költség",
+          "online": "Gyakran előfizetés vagy korlát",
+          "app": "Ingyenes alap, opcionális alkalmazáson belüli vásárlások"
+        },
+        {
+          "feature": "Sebesség",
+          "online": "Függ a feltöltés/letöltés sebességétől",
+          "app": "Azonnali feldolgozás a készüléken"
+        }
+      ]
+    }
+  }
+}

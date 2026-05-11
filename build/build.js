@@ -50,8 +50,14 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
                 data.meta = {};
             }
             data.meta.version = buildTimestamp;
+            data.meta.text_direction = lang === 'he' ? 'rtl' : 'ltr';
             data.meta.alternate_default = SITE_URL;
             data.meta.alternate_languages = URLS;
+            data.meta.alternate_languages_head = URLS.flatMap((entry) =>
+                entry.hreflangs
+                    ? entry.hreflangs.map((hreflang) => ({ hreflang, url: entry.url }))
+                    : [{ hreflang: entry.lang, url: entry.url }]
+            );
 
             // Auto-refresh "last updated" copy on every build using language locale.
             const localeByLang = {
@@ -70,7 +76,29 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
                 th: 'th-TH',
                 tr: 'tr-TR',
                 uk: 'uk-UA',
-                vi: 'vi-VN'
+                vi: 'vi-VN',
+                cs: 'cs-CZ',
+                zh: 'zh-CN',
+                da: 'da-DK',
+                el: 'el-GR',
+                fi: 'fi-FI',
+                fil: 'fil-PH',
+                he: 'he-IL',
+                hr: 'hr-HR',
+                hu: 'hu-HU',
+                id: 'id-ID',
+                ms: 'ms-MY',
+                no: 'nb-NO',
+                sk: 'sk-SK',
+                sv: 'sv-SE',
+                bg: 'bg-BG',
+                sl: 'sl-SI',
+                ca: 'ca-ES',
+                hi: 'hi-IN',
+                bn: 'bn-IN',
+                ta: 'ta-IN',
+                te: 'te-IN',
+                ml: 'ml-IN'
             };
             const monthYear = new Intl.DateTimeFormat(localeByLang[lang] || 'en-US', {
                 month: 'long',
@@ -92,7 +120,29 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
                 th: 'อัปเดตล่าสุด:',
                 tr: 'Son güncelleme:',
                 uk: 'Останнє оновлення:',
-                vi: 'Cập nhật lần cuối:'
+                vi: 'Cập nhật lần cuối:',
+                cs: 'Naposledy aktualizováno:',
+                zh: '最后更新：',
+                da: 'Sidst opdateret:',
+                el: 'Τελευταία ενημέρωση:',
+                fi: 'Viimeksi päivitetty:',
+                fil: 'Huling na-update:',
+                he: 'עודכן לאחרונה:',
+                hr: 'Zadnje ažuriranje:',
+                hu: 'Utolsó frissítés:',
+                id: 'Terakhir diperbarui:',
+                ms: 'Kemaskini terakhir:',
+                no: 'Sist oppdatert:',
+                sk: 'Naposledy aktualizované:',
+                sv: 'Senast uppdaterad:',
+                bg: 'Последна актуализация:',
+                sl: 'Nazadnje posodobljeno:',
+                ca: 'Darrera actualització:',
+                hi: 'अंतिम अपडेट:',
+                bn: 'সর্বশেষ আপডেট:',
+                ta: 'கடைசியாக புதுப்பிக்கப்பட்டது:',
+                te: 'చివరిగా నవీకరించబడింది:',
+                ml: 'അവസാനമായി അപ്ഡേറ്റ് ചെയ്തത്:'
             };
             const lastUpdatedPrefix = lastUpdatedPrefixByLang[lang] || lastUpdatedPrefixByLang.en;
             data.last_updated = {

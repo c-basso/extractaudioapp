@@ -46,6 +46,12 @@ Usage notes:
 <location>project</location>
 </skill>
 
+<skill>
+<name>seo-content-writer</name>
+<description>'Write SEO blog posts, articles, landing pages with keyword integration, header optimization, and snippet targeting. SEO文章写作/内容优化'</description>
+<location>project</location>
+</skill>
+
 </available_skills>
 <!-- SKILLS_TABLE_END -->
 
