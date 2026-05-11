@@ -13,7 +13,11 @@ const {
     APP_PUBLISHER,
     APP_VERSION,
     APP_FILE_SIZE,
-    PRICE_CURRENCY_BY_LANG
+    PRICE_CURRENCY_BY_LANG,
+    SCHEMA_AGGREGATE_RATING_VALUE,
+    SCHEMA_AGGREGATE_RATING_COUNT,
+    SCHEMA_AGGREGATE_BEST_RATING,
+    SCHEMA_AGGREGATE_WORST_RATING
 } = require('./constants');
 const { readImageDimensions } = require('./lib/imageDimensions');
 
@@ -41,6 +45,13 @@ function injectAppDefaults(data, lang) {
     data.app_info.version = APP_VERSION;
     data.app_info.file_size = APP_FILE_SIZE;
     data.app_info.price_currency = currency;
+
+    data.schema_rating = {
+        rating_value: SCHEMA_AGGREGATE_RATING_VALUE,
+        rating_count: SCHEMA_AGGREGATE_RATING_COUNT,
+        best_rating: SCHEMA_AGGREGATE_BEST_RATING,
+        worst_rating: SCHEMA_AGGREGATE_WORST_RATING
+    };
 }
 
 function resolveSiteImageUrlToLocalPath(imageUrl) {

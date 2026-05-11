@@ -94,6 +94,12 @@ const APP_PUBLISHER = 'c-basso';
 const APP_VERSION = '1.2.16';
 const APP_FILE_SIZE = '50 MB';
 
+/** JSON-LD AggregateRating — держите в соответствии с данными в App Store Connect. */
+const SCHEMA_AGGREGATE_RATING_VALUE = 4.8;
+const SCHEMA_AGGREGATE_RATING_COUNT = 259;
+const SCHEMA_AGGREGATE_BEST_RATING = 5;
+const SCHEMA_AGGREGATE_WORST_RATING = 1;
+
 /**
  * ISO 4217 for JSON-LD Offer.priceCurrency — primary market per locale page.
  * Aligned with typical App Store storefronts for that language.
@@ -155,5 +161,9 @@ module.exports = {
     APP_PUBLISHER,
     APP_VERSION,
     APP_FILE_SIZE,
-    PRICE_CURRENCY_BY_LANG
+    PRICE_CURRENCY_BY_LANG,
+    SCHEMA_AGGREGATE_RATING_VALUE,
+    SCHEMA_AGGREGATE_RATING_COUNT,
+    SCHEMA_AGGREGATE_BEST_RATING,
+    SCHEMA_AGGREGATE_WORST_RATING
 };
