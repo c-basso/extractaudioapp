@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "从视频提取音频⁺ 数据一览",
     "items": [
-      "App Store 评分 4.8/5（基于 140+ 条评价）",
+      "App Store 评分 4.5/5（基于 290+ 条评价）",
       "下载使用免费｜进阶功能可选应用内购买",
       "支持 MP4、MOV 等常见 iPhone 视频格式",
       "iOS 应用约 50 MB",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4.8",
+        "number": "4.5",
         "label": "星级评分",
-        "detail": "基于 140+ 条 App Store 评论"
+        "detail": "基于 290+ 条 App Store 评论"
       },
       {
         "number": "~50 MB",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "App Store 用户评分 4.8",
+    "rating_text": "App Store 用户评分 4.5",
     "items": [
       {
         "text": "「非常适合保存视频里的音乐和短语音，裁剪简单，导出很快。」",

@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "Hang a videóból⁺ számokban",
     "items": [
-      "4,8 csillag ötből több mint 140 App Store értékelés alapján",
+      "4,5 csillag ötből több mint 290 App Store értékelés alapján",
       "Ingyenes letöltés és használat – opcionális alkalmazáson belüli vásárlások",
       "Támogatja az MP4-et, MOV-ot és más gyakori iPhone videóformátumokat",
       "Az iOS alkalmazás mérete kb. 50 MB",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4,8",
+        "number": "4,5",
         "label": "Csillag értékelés",
-        "detail": "Több mint 140 App Store értékelés alapján"
+        "detail": "Több mint 290 App Store értékelés alapján"
       },
       {
         "number": "~50 MB",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "4,8 értékelés App Store felhasználóktól",
+    "rating_text": "4,5 értékelés App Store felhasználóktól",
     "items": [
       {
         "text": "\"Tökéletes zene és hangrészletek mentéséhez videókból. A vágás egyszerű, az export gyors.\"",

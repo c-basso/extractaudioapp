@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "Audio mula sa Video⁺ sa mga numero",
     "items": [
-      "4.8 sa 5 stars batay sa 140+ App Store ratings",
+      "4.5 sa 5 stars batay sa 290+ App Store ratings",
       "Libreng i-download at gamitin – may opsyonal na in-app purchases",
       "Sinusuportahan ang MP4, MOV, at iba pang karaniwang video format sa iPhone",
       "~50 MB ang laki ng iOS app",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4.8",
+        "number": "4.5",
         "label": "Star rating",
-        "detail": "Batay sa 140+ App Store reviews"
+        "detail": "Batay sa 290+ App Store reviews"
       },
       {
         "number": "~50 MB",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "4.8 rating mula sa App Store users",
+    "rating_text": "4.5 rating mula sa App Store users",
     "items": [
       {
         "text": "\"Perpekto para mag-save ng musika at voice clips mula sa video. Simple ang trim at mabilis ang export.\"",

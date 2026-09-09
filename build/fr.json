@@ -1,19 +1,19 @@
 {
   "meta": {
     "lang": "fr",
-    "title": "Audio depuis une vidéo sur iPhone | App gratuite MP3 (2026)",
-    "description": "Extrayez l’audio des vidéos iPhone en secondes : MP4 et MOV en MP3 net sur l’appareil, sans cloud. Coupez via Photos ou Partager. Commencez gratuitement.",
-    "keywords": "extraire le son d'une video, convertir vidéo en mp3, convertir mp3, convertir en mp3, convertisseur en mp3, convertisseur vidéo mp3, convertisseur vidéo en mp3, mp4 en mp3, convertir une vidéo en mp3, comment extraire le son d'une vidéo, extraire son d'une vidéo en ligne, transformer mp4 en mp3, télécharger vidéo, extraire l'audio d'une vidéo, extraire l'audio d'une vidéo sur iphone, application iOS, iPhone",
+    "title": "Extraire le son d'une vidéo iPhone | App gratuite (2026)",
+    "description": "Extraire son vidéo iPhone gratuitement : MP4 et MOV en MP3 net sur l’appareil, sans cloud. Coupez via Photos ou Partager. Fonctions principales gratuites.",
+    "keywords": "extraire son video iphone, extraire le son d'une video iphone, extraire le son d'une vidéo, convertir vidéo en mp3, convertir mp3, convertir en mp3, convertisseur en mp3, convertisseur vidéo mp3, convertisseur vidéo en mp3, mp4 en mp3, convertir une vidéo en mp3, comment extraire le son d'une vidéo, extraire son d'une vidéo en ligne, transformer mp4 en mp3, extraire l'audio d'une vidéo, extraire l'audio d'une vidéo sur iphone, application iOS, iPhone, app gratuite",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/fr/",
-    "og_title": "Son d'une vidéo sur iPhone — convertisseur MP3 gratuit",
-    "og_description": "Extrayez le son de vos vidéos sur iPhone en quelques secondes. MP4 et MOV vers MP3 : traitement local, sans envoi vers des serveurs distants.",
+    "og_title": "Extraire le son d'une vidéo iPhone — app gratuite",
+    "og_description": "Extrayez le son de vos vidéos iPhone en quelques secondes. MP4 et MOV vers MP3 en local, sans envoi vers des serveurs. L’essentiel est gratuit.",
     "og_image": "https://extractaudioapp.com/fr/site_preview.png",
     "site_name": "Extraire l'Audio d'une Vidéo⁺",
     "og_locale": "fr_FR",
     "twitter_url": "https://extractaudioapp.com/fr/",
-    "twitter_title": "Extraire le Son d'une Vidéo iPhone - Application Gratuite",
-    "twitter_description": "Vidéo vers MP3 sur iPhone en quelques gestes. Fonctions principales gratuites ; options supplémentaires via achats intégrés.",
+    "twitter_title": "Extraire le son d'une vidéo iPhone — app gratuite",
+    "twitter_description": "Vidéo vers MP3 sur iPhone en quelques gestes. Fonctions principales gratuites ; options via achats intégrés.",
     "twitter_image": "https://extractaudioapp.com/fr/site_preview.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/fr/",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "logo_alt": "Logo Extraire l'Audio d'une Vidéo⁺",
-    "title": "Extraire le Son d'une Vidéo iPhone",
+    "title": "Extraire le son d'une vidéo iPhone",
     "subtitle": "Vidéo en MP3 en quelques secondes — application gratuite pour iPhone",
     "subheadline": "Musique depuis des clips, extraits de cours ou courts podcasts audio. Rapide et privé : l'essentiel est gratuit, le reste en achats intégrés optionnels.",
     "download_alt": "Télécharger sur l'App Store",
@@ -93,7 +93,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "4,8 selon les utilisateurs sur l'App Store",
+    "rating_text": "4,5 selon les utilisateurs sur l'App Store",
     "items": [
       {
         "text": "\"Je découpe un passage et je l'enregistre en MP3 sans me prendre la tête. La découpe est limpide.\"",
@@ -191,7 +191,7 @@
   "by_the_numbers": {
     "title": "Extraire l'Audio d'une Vidéo⁺ en Chiffres",
     "items": [
-      "4.8 sur 5 étoiles basé sur 140+ évaluations App Store",
+      "4.5 sur 5 étoiles basé sur 290+ évaluations App Store",
       "Gratuit à télécharger et utiliser – achats intégrés optionnels disponibles",
       "Prend en charge MP4, MOV et autres formats vidéo iPhone courants",
       "~50 Mo taille de l'application iOS",
@@ -199,9 +199,9 @@
     ],
     "stats": [
       {
-        "number": "4.8",
+        "number": "4.5",
         "label": "Note",
-        "detail": "Basé sur 140+ avis App Store"
+        "detail": "Basé sur 290+ avis App Store"
       },
       {
         "number": "~50 Mo",

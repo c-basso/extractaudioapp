@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "Ääni videosta⁺ numeroina",
     "items": [
-      "4,8 tähteä viidestä yli 140 App Store -arvioinnin perusteella",
+      "4,5 tähteä viidestä yli 290 App Store -arvioinnin perusteella",
       "Ilmainen lataus ja käyttö – valinnaiset sovelluksen sisäiset ostot",
       "Tukee MP4-, MOV- ja muita yleisiä iPhone-videoformaatteja",
       "iOS-sovelluksen koko noin 50 Mt",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4,8",
+        "number": "4,5",
         "label": "Tähtiarvio",
-        "detail": "Yli 140 App Store -arvostelun perusteella"
+        "detail": "Yli 290 App Store -arvostelun perusteella"
       },
       {
         "number": "~50 Mt",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "4,8 tähteä App Store -käyttäjiltä",
+    "rating_text": "4,5 tähteä App Store -käyttäjiltä",
     "items": [
       {
         "text": "\"Täydellinen musiikin ja äänipätkien tallentamiseen videoista. Leikkaus on helppo ja vienti nopea.\"",

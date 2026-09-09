@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "Lyd fra video⁺ i tal",
     "items": [
-      "4,8 ud af 5 stjerner baseret på 140+ bedømmelser i App Store",
+      "4,5 ud af 5 stjerner baseret på 290+ bedømmelser i App Store",
       "Gratis at downloade og bruge – valgfrie køb i appen",
       "Understøtter MP4, MOV og andre almindelige iPhone-videoformater",
       "Ca. 50 MB iOS-app",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4,8",
+        "number": "4,5",
         "label": "Stjernebedømmelse",
-        "detail": "Baseret på 140+ anmeldelser i App Store"
+        "detail": "Baseret på 290+ anmeldelser i App Store"
       },
       {
         "number": "ca. 50 MB",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "4,8 i bedømmelse fra App Store-brugere",
+    "rating_text": "4,5 i bedømmelse fra App Store-brugere",
     "items": [
       {
         "text": "\"Perfekt til at gemme musik og stemme fra videoer. Trimning er enkel, og eksporten er hurtig.\"",

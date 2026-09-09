@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "Zvok iz videa⁺ v številkah",
     "items": [
-      "4,8 od 5 zvezd na podlagi več kot 140 ocen v App Store",
+      "4,5 od 5 zvezd na podlagi več kot 290 ocen v App Store",
       "Brezplačen prenos in uporaba – prostovoljni nakupi v aplikaciji",
       "Podpora za MP4, MOV in druge običajne formate videa za iPhone",
       "Velikost aplikacije za iOS približno 50 MB",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4,8",
+        "number": "4,5",
         "label": "Ocena z zvezdicami",
-        "detail": "Na podlagi več kot 140 mnenj v App Store"
+        "detail": "Na podlagi več kot 290 mnenj v App Store"
       },
       {
         "number": "cca 50 MB",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "ocena 4,8 od uporabnikov App Store",
+    "rating_text": "ocena 4,5 od uporabnikov App Store",
     "items": [
       {
         "text": "\"Idealno za shranjevanje glasbe in glasovnih izrezkov iz videoposnetkov. Obrezovanje je preprosto, izvoz pa hiter.\"",

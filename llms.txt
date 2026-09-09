@@ -13,7 +13,7 @@ Extract Audio from Video⁺ is an iOS app that converts videos (MP4/MOV) on iPho
 - Platform: iOS
 - App Store ID: 6744582065
 - App type: Mobile audio utility (video to audio / MP4 & MOV to MP3)
-- Rating: 4.8 out of 5 based on 140+ App Store ratings
+- Rating: 4.5 out of 5 based on 290+ App Store ratings
 - Pricing: Free to download and use, optional in-app purchases available
 - App size: ~50 MB
 - Supported formats: MP4, MOV, and other common iPhone video formats

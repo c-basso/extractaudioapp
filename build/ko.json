@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "동영상에서 오디오 추출⁺ 숫자로 보기",
     "items": [
-      "App Store 평점 4.8/5(140개 이상 리뷰 기준)",
+      "App Store 평점 4.5/5(290개 이상 리뷰 기준)",
       "핵심 기능 무료·인앱 구매는 선택",
       "MP4·MOV 등 일반적인 iPhone 동영상 형식 지원",
       "앱 용량 약 50MB",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4.8",
+        "number": "4.5",
         "label": "평점",
-        "detail": "140개 이상 리뷰"
+        "detail": "290개 이상 리뷰"
       },
       {
         "number": "약 50MB",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "4.8—App Store 리뷰 기준",
+    "rating_text": "4.5—App Store 리뷰 기준",
     "items": [
       {
         "text": "\"영상 속 음악만 뽑고 싶어서 깔았는데 트리밍이 단순하고 기다림도 짧아서 만족해요.\"",

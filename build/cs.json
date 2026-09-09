@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "Extrahovat zvuk z videa⁺ v číslech",
     "items": [
-      "4,8 z 5 hvězd podle více než 140 hodnocení v App Store",
+      "4,5 z 5 hvězd podle více než 290 hodnocení v App Store",
       "Stažení a používání zdarma – další funkce volitelně přes nákupy v aplikaci",
       "Podporuje MP4, MOV a další běžné formáty videa na iPhone",
       "Velikost aplikace iOS cca 50 MB",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4,8",
+        "number": "4,5",
         "label": "Hodnocení hvězdami",
-        "detail": "Na základě více než 140 recenzí v App Store"
+        "detail": "Na základě více než 290 recenzí v App Store"
       },
       {
         "number": "cca 50 MB",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "hodnocení 4,8 od uživatelů App Store",
+    "rating_text": "hodnocení 4,5 od uživatelů App Store",
     "items": [
       {
         "text": "\"Ideální na uložení hudby a hlasových úryvků z videí. Ořezávání je jednoduché a export rychlý.\"",

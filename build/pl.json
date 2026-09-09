@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "Audio z wideo⁺ w liczbach",
     "items": [
-      "Średnia 4,8/5 gwiazdek na podstawie 140+ ocen w App Store",
+      "Średnia 4,5/5 gwiazdek na podstawie 290+ ocen w App Store",
       "Darmowe pobranie i użycie rdzenia – opcjonalne zakupy w aplikacji",
       "Obsługa MP4, MOV i innych typowych formatów wideo z iPhone’a",
       "Rozmiar aplikacji ok. 50 MB na iOS",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4,8",
+        "number": "4,5",
         "label": "Ocena",
-        "detail": "Na podstawie 140+ recenzji"
+        "detail": "Na podstawie 290+ recenzji"
       },
       {
         "number": "~50 MB",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "4,8 — wg recenzji w App Store",
+    "rating_text": "4,5 — wg recenzji w App Store",
     "items": [
       {
         "text": "\"Przycinam fragment i zapisuję MP3 — prosto i szybko.\"",

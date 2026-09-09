@@ -47,9 +47,9 @@ const URLS = LANGUAGES.map((lang) => {
         lang,
         url: lang === DEFAULT_LANGUAGE ? SITE_URL : `${SITE_URL}${lang}/`
     };
-    // Single URL for Chinese; search engines get both script variants via hreflang.
+    // Simplified Chinese only — do not claim zh-Hant for the same URL.
     if (lang === 'zh') {
-        entry.hreflangs = ['zh-Hans', 'zh-Hant'];
+        entry.hreflangs = ['zh-Hans'];
     }
     entry.link_label = lang === 'zh' ? '中文' : lang;
     return entry;
@@ -94,9 +94,9 @@ const APP_PUBLISHER = 'c-basso';
 const APP_VERSION = '1.2.16';
 const APP_FILE_SIZE = '50 MB';
 
-/** JSON-LD AggregateRating — держите в соответствии с данными в App Store Connect. */
-const SCHEMA_AGGREGATE_RATING_VALUE = 4.8;
-const SCHEMA_AGGREGATE_RATING_COUNT = 259;
+/** JSON-LD AggregateRating — sync with App Store (sum of storefront rating counts). */
+const SCHEMA_AGGREGATE_RATING_VALUE = 4.5;
+const SCHEMA_AGGREGATE_RATING_COUNT = 290;
 const SCHEMA_AGGREGATE_BEST_RATING = 5;
 const SCHEMA_AGGREGATE_WORST_RATING = 1;
 

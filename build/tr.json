@@ -69,7 +69,7 @@
   "by_the_numbers": {
     "title": "Videodan Ses⁺ rakamlarla",
     "items": [
-      "App Store’da 140+ değerlendirmeye dayalı 4,8/5 puan",
+      "App Store’da 290+ değerlendirmeye dayalı 4,5/5 puan",
       "Ücretsiz indirme ve çekirdek kullanım—isteğe bağlı uygulama içi satın alımlar",
       "MP4, MOV ve tipik iPhone video formatları desteklenir",
       "Uygulama boyutu yaklaşık 50 MB",
@@ -77,9 +77,9 @@
     ],
     "stats": [
       {
-        "number": "4,8",
+        "number": "4,5",
         "label": "Puan",
-        "detail": "140+ yoruma göre"
+        "detail": "290+ yoruma göre"
       },
       {
         "number": "~50 MB",
@@ -125,7 +125,7 @@
     ]
   },
   "testimonials": {
-    "rating_text": "4,8 — App Store değerlendirmelerine göre",
+    "rating_text": "4,5 — App Store değerlendirmelerine göre",
     "items": [
       {
         "text": "\"Kırpıp MP3 kaydediyorum; basit ve hızlı.\"",
