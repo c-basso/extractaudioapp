@@ -56,7 +56,9 @@ const URLS = LANGUAGES.map((lang) => {
 });
 
 const ADDITIONAL_URLS = [
-    `${SITE_URL}llms.txt`
+    `${SITE_URL}llms.txt`,
+    `${SITE_URL}guides/`,
+    ...require('./guides/en').map((g) => `${SITE_URL}guides/${g.slug}/`)
 ];
 
 // Expected JSON-LD types that should be present on each generated page.
@@ -91,8 +93,20 @@ const SITE_TERMS_URL = 'https://extractaudioapp.com/terms.html';
 const SUPPORT_MAILTO_URL = 'mailto:c-basso@ya.ru';
 
 const APP_PUBLISHER = 'c-basso';
-const APP_VERSION = '1.2.16';
-const APP_FILE_SIZE = '50 MB';
+const APP_VERSION = '1.3.3';
+const APP_FILE_SIZE = '23.1 MB';
+/** Minimum iOS version from the App Store listing (see app.md). */
+const APP_MIN_IOS = '18.6';
+
+/** US storefront rating shown on the App Store page (see app.md). */
+const APP_RATING_US_VALUE = 4.7;
+const APP_RATING_US_COUNT = 40;
+
+/** Locales that render the new landing page (`build/landing-template.html`). Others use `build/template.html`. */
+const LANDING_V2_LANGUAGES = [DEFAULT_LANGUAGE];
+
+/** Keyword guides (English). Content lives in `build/guides/en.js`; pages are written to /guides/<slug>/. */
+const GUIDES_PATH = 'guides/';
 
 /** JSON-LD AggregateRating — sync with App Store (sum of storefront rating counts). */
 const SCHEMA_AGGREGATE_RATING_VALUE = 4.5;
@@ -165,5 +179,10 @@ module.exports = {
     SCHEMA_AGGREGATE_RATING_VALUE,
     SCHEMA_AGGREGATE_RATING_COUNT,
     SCHEMA_AGGREGATE_BEST_RATING,
-    SCHEMA_AGGREGATE_WORST_RATING
+    SCHEMA_AGGREGATE_WORST_RATING,
+    APP_MIN_IOS,
+    APP_RATING_US_VALUE,
+    APP_RATING_US_COUNT,
+    LANDING_V2_LANGUAGES,
+    GUIDES_PATH
 };

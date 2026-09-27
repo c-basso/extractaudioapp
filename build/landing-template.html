@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="{{meta.lang}}" dir="{{meta.text_direction}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>{{meta.title}}</title>
+    <meta name="description" content="{{meta.description}}">
+    <meta name="keywords" content="{{meta.keywords}}">
+    <meta name="author" content="{{meta.author}}">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#1a1220">
+    <meta name="color-scheme" content="light">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="application-name" content="{{app_info.name}}">
+    <meta name="apple-mobile-web-app-title" content="{{app_info.name}}">
+    <meta name="apple-itunes-app" content="app-id={{meta.app_store_id}}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{meta.og_url}}">
+    <meta property="og:title" content="{{meta.og_title}}">
+    <meta property="og:site_name" content="{{meta.site_name}}">
+    <meta property="og:locale" content="{{meta.og_locale}}">
+    <meta property="og:description" content="{{meta.og_description}}">
+    <meta property="og:image" content="{{meta.og_image}}">
+    <meta property="og:image:width" content="{{meta.og_image_width}}">
+    <meta property="og:image:height" content="{{meta.og_image_height}}">
+    <meta property="og:logo" content="{{meta.og_logo}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{meta.twitter_url}}">
+    <meta name="twitter:title" content="{{meta.twitter_title}}">
+    <meta name="twitter:description" content="{{meta.twitter_description}}">
+    <meta name="twitter:image" content="{{meta.twitter_image}}">
+    <meta name="twitter:image:width" content="{{meta.og_image_width}}">
+    <meta name="twitter:image:height" content="{{meta.og_image_height}}">
+
+    <link rel="canonical" href="{{meta.canonical}}">
+    {{#each meta.alternate_languages_head as |alt|}}
+    <link rel="alternate" hreflang="{{alt.hreflang}}" href="{{alt.url}}" />
+    {{/each}}
+    <link rel="alternate" hreflang="x-default" href="{{meta.alternate_default}}" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "{{meta.title}}",
+        "description": "{{meta.description}}",
+        "url": "{{meta.canonical}}",
+        "inLanguage": "{{meta.lang}}",
+        "isPartOf": { "@type": "WebSite", "name": "{{app_info.name}}", "url": "{{meta.canonical}}" },
+        "primaryImageOfPage": "https://extractaudioapp.com/screenshots/2.webp",
+        "about": { "@type": "SoftwareApplication", "name": "{{app_info.name}}", "applicationCategory": "{{app_info.application_category}}" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{app_info.name}}",
+        "url": "{{meta.canonical}}"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "{{app_info.publisher}}",
+        "url": "{{meta.canonical}}",
+        "logo": "https://extractaudioapp.com/store/app-icon-512.webp",
+        "sameAs": ["{{hero.cta_url}}"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "{{app_info.name}}",
+        "alternateName": "{{app_info.alternate_name}}",
+        "description": "{{meta.description}}",
+        "url": "{{meta.canonical}}",
+        "image": "https://extractaudioapp.com/store/app-icon-512.webp",
+        "applicationCategory": "{{app_info.application_category}}",
+        "applicationSubCategory": "{{app_info.application_sub_category}}",
+        "operatingSystem": "iOS {{app_info.min_ios}} or later",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "{{app_info.price_currency}}", "availability": "https://schema.org/InStock" },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": {{schema_rating.rating_value}},
+            "ratingCount": {{schema_rating.rating_count}},
+            "bestRating": {{schema_rating.best_rating}},
+            "worstRating": {{schema_rating.worst_rating}}
+        },
+        "author": { "@type": "Person", "name": "{{meta.author}}" },
+        "publisher": { "@type": "Organization", "name": "{{app_info.publisher}}" },
+        "screenshot": [
+            {{#each screenshots.items as |shot|}}
+            "https://extractaudioapp.com{{shot.src}}",
+            {{/each}}
+        ],
+        "downloadUrl": "{{hero.cta_url}}",
+        "installUrl": "{{hero.cta_url}}",
+        "softwareVersion": "{{app_info.version}}",
+        "fileSize": "{{app_info.file_size}}",
+        "featureList": [
+            "Extract audio from video as MP3 or M4A",
+            "Trim video before extracting audio",
+            "Share extension for Photos and Files",
+            "On-device conversion, no upload",
+            "Library of extracted audio files"
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "{{demo.title}}",
+        "description": "{{demo.subtitle}}",
+        "image": "https://extractaudioapp.com/screenshots/2.webp",
+        "totalTime": "PT1M",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "{{app_info.price_currency}}", "value": "0" },
+        "tool": [{ "@type": "HowToTool", "name": "{{app_info.name}} (iPhone app)" }],
+        "step": [
+            {{#each howto_steps.items as |step|}}
+            {
+                "@type": "HowToStep",
+                "position": {{step_index}},
+                "name": "{{step.name}}",
+                "text": "{{step.text}}",
+                "image": "https://extractaudioapp.com{{step.image}}",
+                "url": "{{meta.canonical}}#step-{{step_index}}"
+            },
+            {{/each}}
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {{#each faq.items as |item|}}
+            {
+                "@type": "Question",
+                "name": "{{item.question}}",
+                "acceptedAnswer": { "@type": "Answer", "text": "{{item.answer}}", "url": "https://extractaudioapp.com{{item.url}}" }
+            },
+            {{/each}}
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "{{app_info.name}}", "item": "{{meta.canonical}}" }]
+    }
+    </script>
+
+    <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" as="image" href="/screenshots/2.webp" fetchpriority="high">
+    <link rel="stylesheet" href="/fonts/fonts.css?v={{meta.version}}">
+    <link rel="stylesheet" href="/landing.css?v={{meta.version}}">
+</head>
+<body class="lp">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a class="brand" href="/" aria-label="{{app_info.name}} home">
+                <img src="/logo.webp" alt="" width="36" height="36">
+                <span>{{app_info.name}}</span>
+            </a>
+            <nav class="nav" aria-label="Primary">
+                <a href="#how-it-works">{{nav.how}}</a>
+                <a href="#guides">{{nav.guides}}</a>
+                <a href="#faq">{{nav.faq}}</a>
+            </nav>
+            <a class="btn btn-small" href="{{hero.cta_url}}" data-cta="header">{{nav.download}}</a>
+        </div>
+    </header>
+
+    <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="wrap hero-grid">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="dot" aria-hidden="true"></span>{{hero.eyebrow}}</p>
+                <h1 id="hero-title">{{hero.title_lead}} <span class="accent">{{hero.title_accent}}</span></h1>
+                <p class="lead">{{hero.subtitle}}</p>
+                <ul class="chips" aria-label="Key features">
+                    {{#each hero.bullets as |b|}}
+                    <li>{{b}}</li>
+                    {{/each}}
+                </ul>
+                <div class="hero-actions">
+                    <a class="store-badge" href="{{hero.cta_url}}" data-cta="hero">
+                        <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60">
+                    </a>
+                    <div class="rating" aria-label="{{schema_rating.rating_value}} out of 5 stars, {{schema_rating.rating_count}}+ ratings">
+                        <span class="stars" aria-hidden="true">★★★★★</span>
+                        <span><strong>{{schema_rating.rating_value}}</strong> · {{schema_rating.rating_count}}+ ratings</span>
+                    </div>
+                </div>
+                <div class="qr-inline">
+                    <img src="/qr.gif" alt="{{hero.qr_alt}}" width="84" height="84" loading="lazy">
+                    <span>{{hero.qr_text}}</span>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="false">
+                <div class="phones">
+                    <img class="phone phone-back" src="/screenshots/3.webp" alt="Trim video sound before extracting audio" width="460" height="995" loading="eager" decoding="async">
+                    <img class="phone phone-front" src="/screenshots/2.webp" alt="{{hero.shot_alt}}" width="460" height="995" fetchpriority="high">
+                    <div class="float-tag tag-mp3" aria-hidden="true"><span class="wave"><i></i><i></i><i></i><i></i><i></i></span>MP3</div>
+                    <div class="float-tag tag-m4a" aria-hidden="true"><span class="wave"><i></i><i></i><i></i><i></i><i></i></span>M4A</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section class="download" id="download" aria-labelledby="download-title">
+        <div class="wrap">
+            <div class="download-card">
+                <div class="download-head">
+                    <img class="app-icon" src="/store/app-icon-512.webp" alt="{{hero.logo_alt}}" width="112" height="112" loading="lazy">
+                    <div>
+                        <p class="eyebrow eyebrow-light">{{download.eyebrow}}</p>
+                        <h2 id="download-title">{{download.title}}</h2>
+                        <p class="muted-light">{{download.subtitle}}</p>
+                    </div>
+                </div>
+                <dl class="facts">
+                    {{#each download.facts as |f|}}
+                    <div><dt>{{f.label}}</dt><dd>{{f.value}}</dd></div>
+                    {{/each}}
+                </dl>
+                <div class="points">
+                    {{#each download.points as |p|}}
+                    <div class="point"><h3>{{p.title}}</h3><p>{{p.text}}</p></div>
+                    {{/each}}
+                </div>
+                <div class="download-actions">
+                    <a class="store-badge" href="{{hero.cta_url}}" data-cta="download">
+                        <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60" loading="lazy">
+                    </a>
+                    <div class="qr-inline qr-light">
+                        <img src="/qr.gif" alt="{{hero.qr_alt}}" width="84" height="84" loading="lazy">
+                        <span>{{hero.qr_text}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section class="shots" id="screenshots" aria-labelledby="shots-title">
+        <div class="wrap">
+            <p class="eyebrow">{{screenshots.eyebrow}}</p>
+            <h2 id="shots-title">{{screenshots.title}}</h2>
+            <p class="section-sub">{{screenshots.subtitle}}</p>
+        </div>
+        <ul class="shot-rail" tabindex="0" aria-label="App screenshots">
+            {{#each screenshots.items as |shot|}}
+            <li>
+                <figure>
+                    <img src="{{shot.src}}" alt="{{shot.alt}}" width="460" height="995" loading="lazy" decoding="async">
+                    <figcaption>{{shot.caption}}</figcaption>
+                </figure>
+            </li>
+            {{/each}}
+        </ul>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how" id="how-it-works" aria-labelledby="how-title">
+        <div class="wrap">
+            <p class="eyebrow">{{demo.eyebrow}}</p>
+            <h2 id="how-title">{{demo.title}}</h2>
+            <p class="section-sub">{{demo.subtitle}}</p>
+            <ol class="steps">
+                {{#each howto_steps.items as |step|}}
+                <li class="step" id="step-{{step_index}}">
+                    <div class="step-shot"><img src="{{step.image}}" alt="Step {{step_index}}: {{step.name}}" width="460" height="995" loading="lazy" decoding="async"></div>
+                    <div class="step-body">
+                        <span class="step-num">{{step_index}}</span>
+                        <h3>{{step.name}}</h3>
+                        <p>{{step.text}}</p>
+                    </div>
+                </li>
+                {{/each}}
+            </ol>
+            <div class="center"><a class="btn" href="{{hero.cta_url}}" data-cta="how">{{cta.button}}</a></div>
+        </div>
+    </section>
+
+    <!-- GUIDES -->
+    <section class="guides" id="guides" aria-labelledby="guides-title">
+        <div class="wrap">
+            <p class="eyebrow">{{guides.eyebrow}}</p>
+            <h2 id="guides-title">{{guides.title}}</h2>
+            <p class="section-sub">{{guides.subtitle}}</p>
+            <ul class="guide-grid">
+                {{#each guides_list as |g|}}
+                <li>
+                    <a class="guide-card" href="{{g.url}}">
+                        <span class="guide-tag">{{g.eyebrow}}</span>
+                        <h3>{{g.title}}</h3>
+                        <p>{{g.text}}</p>
+                        <span class="guide-more">{{guides.read_label}} <span aria-hidden="true">→</span></span>
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+            <div class="center"><a class="btn btn-ghost" href="/guides/">{{guides.all_label}} →</a></div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+        <div class="wrap wrap-narrow">
+            <p class="eyebrow">{{faq.eyebrow}}</p>
+            <h2 id="faq-title">{{faq.title}}</h2>
+            <div class="faq-list">
+                {{#each faq.items as |item|}}
+                <details class="faq-item">
+                    <summary><h3>{{item.question}}</h3><span class="faq-icon" aria-hidden="true"></span></summary>
+                    <div class="faq-answer">
+                        <p>{{item.answer}}</p>
+                        <a class="learn-more" href="{{item.url}}">{{faq.learn_more}} <span aria-hidden="true">→</span></a>
+                    </div>
+                </details>
+                {{/each}}
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" aria-labelledby="cta-title">
+        <div class="wrap">
+            <div class="cta-card">
+                <img src="/store/app-icon-512.webp" alt="" width="96" height="96" loading="lazy">
+                <h2 id="cta-title">{{cta.title}}</h2>
+                <p>{{cta.subtitle}}</p>
+                <a class="store-badge" href="{{hero.cta_url}}" data-cta="final">
+                    <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60" loading="lazy">
+                </a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-grid">
+            <div class="footer-brand">
+                <a class="brand" href="/"><img src="/logo.webp" alt="" width="36" height="36" loading="lazy"><span>{{app_info.name}}</span></a>
+                <p>{{footer.tagline}}</p>
+                <a class="store-badge" href="{{footer.cta_url}}" data-cta="footer"><img src="/download.svg" alt="{{hero.download_alt}}" width="150" height="50" loading="lazy"></a>
+            </div>
+            <nav aria-label="{{footer.guides_title}}">
+                <h2>{{footer.guides_title}}</h2>
+                <ul>
+                    {{#each guides_list as |g|}}
+                    <li><a href="{{g.url}}">{{g.title}}</a></li>
+                    {{/each}}
+                </ul>
+            </nav>
+            <nav aria-label="{{footer.app_title}}">
+                <h2>{{footer.app_title}}</h2>
+                <ul>
+                    <li><a href="#how-it-works">{{nav.how}}</a></li>
+                    <li><a href="#faq">{{nav.faq}}</a></li>
+                    <li><a href="/guides/">{{guides.all_label}}</a></li>
+                    <li><a href="{{footer.cta_url}}">App Store</a></li>
+                </ul>
+                <h2>{{footer.legal_title}}</h2>
+                <ul>
+                    <li><a href="{{footer.privacy_url}}">{{footer.privacy_text}}</a></li>
+                    <li><a href="{{footer.terms_url}}">{{footer.terms_text}}</a></li>
+                    <li><a href="{{footer.support_url}}">{{footer.support_text}}</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="wrap footer-langs">
+            <h2>{{footer.languages_title}}</h2>
+            <p>
+                {{#each meta.alternate_languages as |lang|}}
+                <a href="{{lang.url}}" hreflang="{{lang.lang}}">{{lang.link_label}}</a>
+                {{/each}}
+            </p>
+        </div>
+        <div class="wrap footer-bottom">
+            <p>{{footer.developer_info}} · {{footer.copyright}} · {{last_updated.text}}</p>
+        </div>
+    </footer>
+
+    <a class="floating-cta" href="{{floating_cta.url}}" data-cta="floating">
+        <img src="/logo.webp" alt="" width="28" height="28"> {{floating_cta.text}}
+    </a>
+
+    <script>
+    (function () {
+        var cta = document.querySelector('.floating-cta');
+        var hero = document.querySelector('.hero');
+        var finalCta = document.querySelector('.cta');
+        if (!('IntersectionObserver' in window) || !cta || !hero) return;
+        var seen = { hero: true, cta: false };
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) { seen[e.target === hero ? 'hero' : 'cta'] = e.isIntersecting; });
+            cta.classList.toggle('show', !seen.hero && !seen.cta);
+        });
+        io.observe(hero);
+        if (finalCta) io.observe(finalCta);
+    })();
+    document.querySelectorAll('a[data-cta]').forEach(function (a) {
+        a.addEventListener('click', function () {
+            if (window.ym instanceof Function) window.ym(103201708, 'reachGoal', 'app_store_click', { place: a.getAttribute('data-cta') });
+        });
+    });
+    </script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+    ym(103201708, 'init', {webvisor:true, clickmap:true, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/103201708" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>

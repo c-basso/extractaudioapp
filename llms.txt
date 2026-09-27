@@ -1,12 +1,28 @@
 # Extract Audio from Video⁺
 
-Extract Audio from Video⁺ is an iOS app that converts videos (MP4/MOV) on iPhone into high-quality MP3 audio files directly on the device.
+Extract Audio from Video⁺ is an iOS app that converts videos (MP4/MOV) on iPhone into high-quality MP3 or M4A audio files directly on the device.
 
 ## Main Sections
 
 - [Landing page](/): App overview, features, how it works, FAQ, and links to the App Store.
 - [Privacy policy](/privacy.html): How user data is handled across apps by Vladimir Ivakhnenko.
 - [Terms of use](/terms.html): Terms that govern app usage and subscriptions.
+
+## Guides
+
+- [All guides](/guides/): Step-by-step iPhone video-to-audio guides.
+- [How to Extract Audio from Video on iPhone](/guides/extract-audio-from-video-iphone/): The 4-tap method, from Photos or the Share button.
+- [How to Convert Video to MP3 on iPhone](/guides/convert-video-to-mp3-iphone/): Turn any iPhone video into a universal MP3 file.
+- [How to Convert MP4 to MP3 on iPhone](/guides/mp4-to-mp3-iphone/): Convert downloaded MP4 files from Files or Photos.
+- [How to Convert MOV to MP3 on iPhone](/guides/mov-to-mp3-iphone/): Turn camera recordings into audio files.
+- [How to Convert Video to M4A on iPhone](/guides/video-to-m4a-iphone/): Apple-native audio for ringtones and GarageBand.
+- [How to Extract Audio from Video on iPhone Without an App](/guides/extract-audio-without-app-iphone/): The free Shortcuts recipe — and its limits.
+- [Extract Audio from Video Online (Free) vs an iPhone App](/guides/extract-audio-online-vs-app/): Privacy, speed and limits compared.
+- [How to Save Music from a Video on iPhone](/guides/save-music-from-video-iphone/): Keep the song, drop the picture.
+- [How to Extract Only Part of the Audio from a Video on iPhone](/guides/trim-audio-from-video-iphone/): Trim to the exact seconds you need.
+- [How to Get the Audio from a Screen Recording on iPhone](/guides/screen-recording-to-audio-iphone/): Keep the sound, fix silent recordings.
+- [How to Convert a Lecture Video to Audio on iPhone](/guides/lecture-video-to-audio-iphone/): Study on the go with small MP3 files.
+- [How to Make a Ringtone from a Video on iPhone](/guides/video-to-ringtone-iphone/): iOS 26 Use as Ringtone — in 4 steps.
 
 ## Key Facts
 
@@ -15,9 +31,10 @@ Extract Audio from Video⁺ is an iOS app that converts videos (MP4/MOV) on iPho
 - App type: Mobile audio utility (video to audio / MP4 & MOV to MP3)
 - Rating: 4.5 out of 5 based on 290+ App Store ratings
 - Pricing: Free to download and use, optional in-app purchases available
-- App size: ~50 MB
+- App size: ~23 MB (version 1.3.3)
+- Requires: iOS 18.6 or later, iPhone
 - Supported formats: MP4, MOV, and other common iPhone video formats
-- Output format: MP3 audio
+- Output formats: MP3 and M4A audio
 - Typical use cases: Save music from videos, extract lecture audio, create podcast clips, remix audio for creative projects
 
 ## Contact

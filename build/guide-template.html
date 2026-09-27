@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>{{page.title}}</title>
+    <meta name="description" content="{{page.description}}">
+    <meta name="author" content="{{site.author}}">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#1a1220">
+    <meta name="color-scheme" content="light">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-itunes-app" content="app-id={{site.app_store_id}}">
+    <meta property="og:type" content="{{page.og_type}}">
+    <meta property="og:url" content="{{page.canonical}}">
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:site_name" content="{{site.app_name}}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:description" content="{{page.description}}">
+    <meta property="og:image" content="{{site.og_image}}">
+    <meta property="og:image:width" content="{{site.og_image_width}}">
+    <meta property="og:image:height" content="{{site.og_image_height}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{page.title}}">
+    <meta name="twitter:description" content="{{page.description}}">
+    <meta name="twitter:image" content="{{site.og_image}}">
+    <link rel="canonical" href="{{page.canonical}}">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+{{page.jsonld}}
+    <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/fonts/fonts.css?v={{site.version}}">
+    <link rel="stylesheet" href="/landing.css?v={{site.version}}">
+</head>
+<body class="lp guide-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a class="brand" href="/" aria-label="{{site.app_name}} home">
+                <img src="/logo.webp" alt="" width="36" height="36">
+                <span>{{site.app_name}}</span>
+            </a>
+            <nav class="nav" aria-label="Primary">
+                <a href="/#how-it-works">{{nav.how}}</a>
+                <a href="/guides/">{{nav.guides}}</a>
+                <a href="/#faq">{{nav.faq}}</a>
+            </nav>
+            <a class="btn btn-small" href="{{site.store_url}}" data-cta="header">{{nav.download}}</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="wrap">
+            <nav class="breadcrumbs" aria-label="Breadcrumb">{{page.breadcrumbs}}</nav>
+        </div>
+{{page.body}}
+        <section class="cta" aria-labelledby="cta-title">
+            <div class="wrap">
+                <div class="cta-card">
+                    <img src="/store/app-icon-512.webp" alt="" width="96" height="96" loading="lazy">
+                    <h2 id="cta-title">{{cta.title}}</h2>
+                    <p>{{cta.subtitle}}</p>
+                    <a class="store-badge" href="{{site.store_url}}" data-cta="final">
+                        <img src="/download.svg" alt="{{site.download_alt}}" width="180" height="60" loading="lazy">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-grid">
+            <div class="footer-brand">
+                <a class="brand" href="/"><img src="/logo.webp" alt="" width="36" height="36" loading="lazy"><span>{{site.app_name}}</span></a>
+                <p>{{footer.tagline}}</p>
+                <a class="store-badge" href="{{site.store_url}}" data-cta="footer"><img src="/download.svg" alt="{{site.download_alt}}" width="150" height="50" loading="lazy"></a>
+            </div>
+            <nav aria-label="{{footer.guides_title}}">
+                <h2>{{footer.guides_title}}</h2>
+                <ul>{{site.footer_guides}}</ul>
+            </nav>
+            <nav aria-label="{{footer.app_title}}">
+                <h2>{{footer.app_title}}</h2>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#how-it-works">{{nav.how}}</a></li>
+                    <li><a href="/#faq">{{nav.faq}}</a></li>
+                    <li><a href="{{site.store_url}}">App Store</a></li>
+                </ul>
+                <h2>{{footer.legal_title}}</h2>
+                <ul>
+                    <li><a href="/privacy.html">{{footer.privacy_text}}</a></li>
+                    <li><a href="/terms.html">{{footer.terms_text}}</a></li>
+                    <li><a href="mailto:c-basso@ya.ru">{{footer.support_text}}</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="wrap footer-bottom">
+            <p>{{footer.developer_info}} · {{site.copyright}} · {{site.last_updated}}</p>
+        </div>
+    </footer>
+
+    <a class="floating-cta" href="{{site.store_url}}" data-cta="floating">
+        <img src="/logo.webp" alt="" width="28" height="28"> {{floating_cta.text}}
+    </a>
+
+    <script>
+    (function () {
+        var cta = document.querySelector('.floating-cta');
+        var top = document.querySelector('.guide-hero, .hub-hero');
+        var finalCta = document.querySelector('.cta');
+        if (!('IntersectionObserver' in window) || !cta || !top) return;
+        var seen = { top: true, cta: false };
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) { seen[e.target === top ? 'top' : 'cta'] = e.isIntersecting; });
+            cta.classList.toggle('show', !seen.top && !seen.cta);
+        });
+        io.observe(top);
+        if (finalCta) io.observe(finalCta);
+    })();
+    document.querySelectorAll('a[data-cta]').forEach(function (a) {
+        a.addEventListener('click', function () {
+            if (window.ym instanceof Function) window.ym(103201708, 'reachGoal', 'app_store_click', { place: a.getAttribute('data-cta'), page: location.pathname });
+        });
+    });
+    </script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+    ym(103201708, 'init', {webvisor:true, clickmap:true, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/103201708" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>

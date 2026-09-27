@@ -22,3 +22,10 @@
 - `privacy.html` - Privacy policy page
 - `terms.html` - Terms of service page
 - `package.json` - Node.js dependencies and scripts
+
+## Landing v2 (English) and guides
+
+- English homepage (`index.html`) is rendered from `build/landing-template.html` + `build/en.json` (see `LANDING_V2_LANGUAGES` in `build/constants.js`). Other locales still use `build/template.html`.
+- Keyword guides live in `build/guides/en.js` and render to `/guides/<slug>/index.html` + `/guides/index.html` via `build/guides.js` and `build/guide-template.html` (run automatically by `npm run build`). Do not edit files in `/guides/` by hand.
+- Styles for landing v2 and guides: `landing.css`. Classic locales: `style.css`.
+- Keyword research: `keywords.md`. App Store listing data: `app.md`.

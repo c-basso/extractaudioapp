@@ -46,6 +46,19 @@
 ## Other site URLs
 
 - [llms.txt](https://extractaudioapp.com/llms.txt)
+- [guides/](https://extractaudioapp.com/guides/)
+- [guides/extract-audio-from-video-iphone/](https://extractaudioapp.com/guides/extract-audio-from-video-iphone/)
+- [guides/convert-video-to-mp3-iphone/](https://extractaudioapp.com/guides/convert-video-to-mp3-iphone/)
+- [guides/mp4-to-mp3-iphone/](https://extractaudioapp.com/guides/mp4-to-mp3-iphone/)
+- [guides/mov-to-mp3-iphone/](https://extractaudioapp.com/guides/mov-to-mp3-iphone/)
+- [guides/video-to-m4a-iphone/](https://extractaudioapp.com/guides/video-to-m4a-iphone/)
+- [guides/extract-audio-without-app-iphone/](https://extractaudioapp.com/guides/extract-audio-without-app-iphone/)
+- [guides/extract-audio-online-vs-app/](https://extractaudioapp.com/guides/extract-audio-online-vs-app/)
+- [guides/save-music-from-video-iphone/](https://extractaudioapp.com/guides/save-music-from-video-iphone/)
+- [guides/trim-audio-from-video-iphone/](https://extractaudioapp.com/guides/trim-audio-from-video-iphone/)
+- [guides/screen-recording-to-audio-iphone/](https://extractaudioapp.com/guides/screen-recording-to-audio-iphone/)
+- [guides/lecture-video-to-audio-iphone/](https://extractaudioapp.com/guides/lecture-video-to-audio-iphone/)
+- [guides/video-to-ringtone-iphone/](https://extractaudioapp.com/guides/video-to-ringtone-iphone/)
 
 ## Crawling / discovery
 
