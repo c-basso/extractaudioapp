@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>iPhoneで動画から着信音を作る方法（iOS 26対応）</title>
+    <meta name="description" content="どんな動画もiPhoneの着信音に。音声を30秒以内にトリミングして「ファイル」に保存し、「共有」→「着信音として使用」をタップ。iOS 26とGarageBandの方法を解説。">
+    <meta name="author" content="Vladimir Ivakhnenko">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#1a1220">
+    <meta name="color-scheme" content="light">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-itunes-app" content="app-id=6744582065">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/">
+    <meta property="og:title" content="iPhoneで動画から着信音を作る方法（iOS 26対応）">
+    <meta property="og:site_name" content="動画から音声抽出⁺">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:description" content="どんな動画もiPhoneの着信音に。音声を30秒以内にトリミングして「ファイル」に保存し、「共有」→「着信音として使用」をタップ。iOS 26とGarageBandの方法を解説。">
+    <meta property="og:image" content="https://extractaudioapp.com/ja/site_preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="iPhoneで動画から着信音を作る方法（iOS 26対応）">
+    <meta name="twitter:description" content="どんな動画もiPhoneの着信音に。音声を30秒以内にトリミングして「ファイル」に保存し、「共有」→「着信音として使用」をタップ。iOS 26とGarageBandの方法を解説。">
+    <meta name="twitter:image" content="https://extractaudioapp.com/ja/site_preview.png">
+    <link rel="canonical" href="https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/">
+    <link rel="alternate" hreflang="en" href="https://extractaudioapp.com/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="ru" href="https://extractaudioapp.com/ru/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="de" href="https://extractaudioapp.com/de/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="es" href="https://extractaudioapp.com/es/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="fr" href="https://extractaudioapp.com/fr/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="it" href="https://extractaudioapp.com/it/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="pt" href="https://extractaudioapp.com/pt/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="ja" href="https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="ko" href="https://extractaudioapp.com/ko/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="nl" href="https://extractaudioapp.com/nl/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="pl" href="https://extractaudioapp.com/pl/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="ro" href="https://extractaudioapp.com/ro/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="th" href="https://extractaudioapp.com/th/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="tr" href="https://extractaudioapp.com/tr/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="uk" href="https://extractaudioapp.com/uk/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="vi" href="https://extractaudioapp.com/vi/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="cs" href="https://extractaudioapp.com/cs/guides/video-to-ringtone-iphone/" />
+    <link rel="alternate" hreflang="x-default" href="https://extractaudioapp.com/guides/video-to-ringtone-iphone/" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "iPhoneで動画から着信音を作る方法",
+  "description": "どんな動画もiPhoneの着信音に。音声を30秒以内にトリミングして「ファイル」に保存し、「共有」→「着信音として使用」をタップ。iOS 26とGarageBandの方法を解説。",
+  "url": "https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/",
+  "mainEntityOfPage": "https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/",
+  "image": "https://extractaudioapp.com/screenshots/2.webp",
+  "inLanguage": "ja",
+  "datePublished": "2026-09-27",
+  "dateModified": "2026-09-27",
+  "author": {
+    "@type": "Person",
+    "name": "Vladimir Ivakhnenko"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "c-basso",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://extractaudioapp.com/store/app-icon-512.webp"
+    }
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "動画から音声抽出⁺"
+  },
+  "keywords": "動画 着信音 iPhone"
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "iPhoneで動画から着信音を作る方法",
+  "description": "動画から着信音を作るには、動画から音声抽出⁺で動画を開き、30秒以内にトリミングしてM4AまたはMP3で抽出し、「ファイル」に保存します。iOS 26では「ファイル」でそのファイルを長押しし、「共有」→「着信音として使用」を選びます。それ以前のiOSでは、GarageBandに読み込んで着信音として書き出します。",
+  "image": "https://extractaudioapp.com/screenshots/2.webp",
+  "totalTime": "PT1M",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "動画から音声抽出⁺ (iPhoneアプリ)"
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "動画をアプリに送る",
+      "text": "写真または「ファイル」で動画を開き、「共有」をタップしてアプリを選びます。動画が読み込まれた状態でアプリが開きます。",
+      "image": "https://extractaudioapp.com/screenshots/2.webp",
+      "url": "https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/#step-1"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "30秒以内にトリミング",
+      "text": "「動画をトリミング」をタップし、着信音の上限である30秒以内を選びます。",
+      "image": "https://extractaudioapp.com/screenshots/3.webp",
+      "url": "https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/#step-2"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "抽出して「ファイル」に保存",
+      "text": "「音声を抽出」（M4AまたはMP3）をタップし、「共有」→「“ファイル”に保存」を選びます。",
+      "image": "https://extractaudioapp.com/screenshots/4.webp",
+      "url": "https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/#step-3"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "着信音として使用",
+      "text": "「ファイル」で音声ファイルを長押しし、「共有」→「着信音として使用」（iOS 26）をタップ。「設定」→「サウンドと触覚」→「着信音」で確認します。",
+      "image": "https://extractaudioapp.com/screenshots/4.webp",
+      "url": "https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/#step-4"
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "iPhoneの着信音は何秒まで？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "音声ファイルから作るカスタム着信音は30秒までです。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "iPhoneの着信音に必要な形式は？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "iOS 26では、30秒未満のMP3またはM4Aファイルを「着信音として使用」で設定できます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "動画をそのまま着信音にできますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "できません。まず動画から音声を抽出し、その音声ファイルを着信音に設定します。"
+      }
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ホーム",
+      "item": "https://extractaudioapp.com/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "ガイド",
+      "item": "https://extractaudioapp.com/ja/guides/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "動画から着信音を作る",
+      "item": "https://extractaudioapp.com/ja/guides/video-to-ringtone-iphone/"
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "動画から音声抽出⁺",
+  "description": "どんな動画もiPhoneの着信音に。音声を30秒以内にトリミングして「ファイル」に保存し、「共有」→「着信音として使用」をタップ。iOS 26とGarageBandの方法を解説。",
+  "operatingSystem": "iOS 18.6+",
+  "applicationCategory": "MultimediaApplication",
+  "image": "https://extractaudioapp.com/store/app-icon-512.webp",
+  "downloadUrl": "https://apps.apple.com/app/id6744582065",
+  "installUrl": "https://apps.apple.com/app/id6744582065",
+  "softwareVersion": "1.3.3",
+  "fileSize": "23.1 MB",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "ratingCount": 290,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "c-basso"
+  }
+}
+    </script>
+    <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/fonts/fonts.css?v=1790537915471">
+    <link rel="stylesheet" href="/landing.css?v=1790537915471">
+</head>
+<body class="lp guide-page">
+    <a class="skip-link" href="#main">本文へスキップ</a>
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a class="brand" href="/ja/" aria-label="動画から音声抽出⁺ — ホーム">
+                <img src="/logo.webp" alt="" width="36" height="36">
+                <span>動画から音声抽出⁺</span>
+            </a>
+            <nav class="nav" aria-label="メインメニュー">
+                <a href="/ja/#how-it-works">使い方</a>
+                <a href="/ja/guides/">ガイド</a>
+                <a href="/ja/#faq">よくある質問</a>
+            </nav>
+            <a class="btn btn-small" href="https://apps.apple.com/app/id6744582065" data-cta="header">ダウンロード</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="wrap">
+            <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/guides/">ガイド</a></li><li aria-current="page">動画から着信音を作る</li></ol></nav>
+        </div>
+
+        <section class="guide-hero">
+            <div class="wrap">
+                <p class="eyebrow"><span class="dot" aria-hidden="true"></span>着信音 · ガイド</p>
+                <h1>iPhoneで動画から着信音を作る方法</h1>
+                <p class="guide-meta">更新： 2026年9月 · 2 分で読めます · 著者： Vladimir Ivakhnenko</p>
+                <div class="answer-box"><strong>かんたんな答え</strong>動画から着信音を作るには、動画から音声抽出⁺で動画を開き、30秒以内にトリミングしてM4AまたはMP3で抽出し、「ファイル」に保存します。iOS 26では「ファイル」でそのファイルを長押しし、「共有」→「着信音として使用」を選びます。それ以前のiOSでは、GarageBandに読み込んで着信音として書き出します。</div>
+            </div>
+        </section>
+        <div class="wrap guide-layout">
+            <article class="guide-content">
+                <p>笑い声、パーティーの曲、愛犬の鳴き声。動画の中のどんな音も着信音にできます。iOS 26なら、音声ファイルさえあればとてもかんたんです。</p>
+                <h2>手順</h2>
+                <ol class="guide-steps">
+                <li class="guide-step" id="step-1">
+                <img src="/screenshots/2.webp" alt="ステップ 1: 動画をアプリに送る" width="460" height="995" loading="lazy" decoding="async">
+                <div><h3><span>1.</span>動画をアプリに送る</h3><p>写真または「ファイル」で動画を開き、「共有」をタップしてアプリを選びます。動画が読み込まれた状態でアプリが開きます。</p></div>
+            </li>
+<li class="guide-step" id="step-2">
+                <img src="/screenshots/3.webp" alt="ステップ 2: 30秒以内にトリミング" width="460" height="995" loading="lazy" decoding="async">
+                <div><h3><span>2.</span>30秒以内にトリミング</h3><p>「動画をトリミング」をタップし、着信音の上限である30秒以内を選びます。</p></div>
+            </li>
+<li class="guide-step" id="step-3">
+                <img src="/screenshots/4.webp" alt="ステップ 3: 抽出して「ファイル」に保存" width="460" height="995" loading="lazy" decoding="async">
+                <div><h3><span>3.</span>抽出して「ファイル」に保存</h3><p>「音声を抽出」（M4AまたはMP3）をタップし、「共有」→「“ファイル”に保存」を選びます。</p></div>
+            </li>
+<li class="guide-step" id="step-4">
+                <img src="/screenshots/4.webp" alt="ステップ 4: 着信音として使用" width="460" height="995" loading="lazy" decoding="async">
+                <div><h3><span>4.</span>着信音として使用</h3><p>「ファイル」で音声ファイルを長押しし、「共有」→「着信音として使用」（iOS 26）をタップ。「設定」→「サウンドと触覚」→「着信音」で確認します。</p></div>
+            </li>
+                </ol>
+                <div class="inline-cta">
+                    <img class="icon" src="/logo.webp" alt="" width="56" height="56" loading="lazy">
+                    <p>動画から音声抽出⁺<span>App Storeで無料 · MP3・M4A · 端末内処理</span></p>
+                    <a class="store-badge" href="https://apps.apple.com/app/id6744582065" data-cta="inline"><img src="/download.svg" alt="App Storeで 動画から音声抽出⁺ をダウンロード" width="144" height="48" loading="lazy"></a>
+                </div>
+                <h2>iOS 18の場合：GarageBandを使う方法</h2>
+<ol>
+<li>上の手順で音声を抽出・トリミングし、「ファイル」に保存します。</li>
+<li>GarageBandを開き、「オーディオレコーダー」でプロジェクトを作成してトラック表示に切り替えます。</li>
+<li>ループブラウザ →「ファイル」→「“ファイル”Appから項目をブラウズ」で音声を選び、トラックにドラッグします。</li>
+<li>「My Songs」に戻り、プロジェクトを長押し →「共有」→「着信音」→「書き出す」をタップします。</li>
+</ol>
+<h2>「着信音として使用」が表示されない理由</h2>
+<ul>
+<li>ファイルが30秒を超えている → もう一度トリミング。</li>
+<li>ファイルがMP3でもM4Aでもない。</li>
+<li>iPhoneがまだiOS 26ではない → GarageBandを使う。</li>
+</ul>
+                <h2>よくある質問</h2>
+                <div class="faq-list">
+                <details class="faq-item"><summary><h3>iPhoneの着信音は何秒まで？</h3><span class="faq-icon" aria-hidden="true"></span></summary><div class="faq-answer"><p>音声ファイルから作るカスタム着信音は30秒までです。</p></div></details>
+<details class="faq-item"><summary><h3>iPhoneの着信音に必要な形式は？</h3><span class="faq-icon" aria-hidden="true"></span></summary><div class="faq-answer"><p>iOS 26では、30秒未満のMP3またはM4Aファイルを「着信音として使用」で設定できます。</p></div></details>
+<details class="faq-item"><summary><h3>動画をそのまま着信音にできますか？</h3><span class="faq-icon" aria-hidden="true"></span></summary><div class="faq-answer"><p>できません。まず動画から音声を抽出し、その音声ファイルを着信音に設定します。</p></div></details>
+                </div>
+                <section class="related" aria-labelledby="related-title">
+                    <h2 id="related-title">関連ガイド</h2>
+                    <ul class="guide-grid">
+                    <li><a class="guide-card" href="/ja/guides/trim-audio-from-video-iphone/"><span class="guide-tag">トリミング</span><h3>音声を一部だけ抽出</h3><p>1秒単位でトリミング。</p><span class="guide-more">ガイドを読む <span aria-hidden="true">→</span></span></a></li>
+<li><a class="guide-card" href="/ja/guides/video-to-m4a-iphone/"><span class="guide-tag">動画をM4Aに</span><h3>動画をM4Aに</h3><p>着信音やGarageBand向けのApple形式。</p><span class="guide-more">ガイドを読む <span aria-hidden="true">→</span></span></a></li>
+<li><a class="guide-card" href="/ja/guides/save-music-from-video-iphone/"><span class="guide-tag">音楽</span><h3>動画から音楽を取り出す</h3><p>曲だけ残して、映像はカット。</p><span class="guide-more">ガイドを読む <span aria-hidden="true">→</span></span></a></li>
+                    </ul>
+                </section>
+            </article>
+            <aside class="guide-aside" aria-label="アプリをダウンロード">
+                <div class="aside-card">
+                    <img class="shot" src="/screenshots/2.webp" alt="動画から音声抽出⁺ — 音声抽出画面" width="460" height="995" loading="lazy">
+                    <h2>動画から音声抽出⁺</h2>
+                    <p>★ 4.5 · 290+ 件の評価<br>無料 · 23.1 MB · iOS 18.6+</p>
+                    <a class="store-badge" href="https://apps.apple.com/app/id6744582065" data-cta="aside"><img src="/download.svg" alt="App Storeで 動画から音声抽出⁺ をダウンロード" width="144" height="48" loading="lazy"></a>
+                </div>
+            </aside>
+        </div>
+        <section class="cta" aria-labelledby="cta-title">
+            <div class="wrap">
+                <div class="cta-card">
+                    <img src="/store/app-icon-512.webp" alt="" width="96" height="96" loading="lazy">
+                    <h2 id="cta-title">ほしい音は、もう動画の中にあります。</h2>
+                    <p>4回のタップで取り出そう。無料、プライベート、iPhoneだけで。</p>
+                    <a class="store-badge" href="https://apps.apple.com/app/id6744582065" data-cta="final">
+                        <img src="/download.svg" alt="App Storeで 動画から音声抽出⁺ をダウンロード" width="180" height="60" loading="lazy">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-grid">
+            <div class="footer-brand">
+                <a class="brand" href="/ja/"><img src="/logo.webp" alt="" width="36" height="36" loading="lazy"><span>動画から音声抽出⁺</span></a>
+                <p>iPhoneで動画から音声を抽出する、いちばんシンプルな方法。</p>
+                <a class="store-badge" href="https://apps.apple.com/app/id6744582065" data-cta="footer"><img src="/download.svg" alt="App Storeで 動画から音声抽出⁺ をダウンロード" width="150" height="50" loading="lazy"></a>
+            </div>
+            <nav aria-label="ガイド">
+                <h2>ガイド</h2>
+                <ul><li><a href="/ja/guides/extract-audio-from-video-iphone/">iPhoneで動画から音声を抽出</a></li><li><a href="/ja/guides/convert-video-to-mp3-iphone/">動画をMP3に変換</a></li><li><a href="/ja/guides/mp4-to-mp3-iphone/">MP4をMP3に変換</a></li><li><a href="/ja/guides/mov-to-mp3-iphone/">MOVをMP3に</a></li><li><a href="/ja/guides/video-to-m4a-iphone/">動画をM4Aに</a></li><li><a href="/ja/guides/extract-audio-without-app-iphone/">アプリなし（ショートカット）</a></li><li><a href="/ja/guides/extract-audio-online-vs-app/">オンラインかアプリか</a></li><li><a href="/ja/guides/save-music-from-video-iphone/">動画から音楽を取り出す</a></li><li><a href="/ja/guides/trim-audio-from-video-iphone/">音声を一部だけ抽出</a></li><li><a href="/ja/guides/screen-recording-to-audio-iphone/">画面収録の音声を保存</a></li><li><a href="/ja/guides/lecture-video-to-audio-iphone/">講義の動画を音声に</a></li><li><a href="/ja/guides/video-to-ringtone-iphone/">動画から着信音を作る</a></li></ul>
+            </nav>
+            <nav aria-label="アプリ">
+                <h2>アプリ</h2>
+                <ul>
+                    <li><a href="/ja/">ホーム</a></li>
+                    <li><a href="/ja/#how-it-works">使い方</a></li>
+                    <li><a href="/ja/guides/">すべてのガイド</a></li>
+                    <li><a href="/ja/#faq">よくある質問</a></li>
+                    <li><a href="https://apps.apple.com/app/id6744582065">App Store</a></li>
+                </ul>
+                <h2>法的情報</h2>
+                <ul>
+                    <li><a href="/privacy.html">プライバシーポリシー</a></li>
+                    <li><a href="/terms.html">利用規約</a></li>
+                    <li><a href="mailto:c-basso@ya.ru">サポート</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="wrap footer-bottom">
+            <p>開発：Vladimir Ivakhnenko（c-basso） · © 2026 c-basso. All rights reserved. · 更新： 2026年9月</p>
+        </div>
+    </footer>
+
+    <a class="floating-cta" href="https://apps.apple.com/app/id6744582065" data-cta="floating">
+        <img src="/logo.webp" alt="" width="28" height="28"> 無料でダウンロード
+    </a>
+
+    <script>
+    (function () {
+        var cta = document.querySelector('.floating-cta');
+        var top = document.querySelector('.guide-hero, .hub-hero');
+        var finalCta = document.querySelector('.cta');
+        if (!('IntersectionObserver' in window) || !cta || !top) return;
+        var seen = { top: true, cta: false };
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) { seen[e.target === top ? 'top' : 'cta'] = e.isIntersecting; });
+            cta.classList.toggle('show', !seen.top && !seen.cta);
+        });
+        io.observe(top);
+        if (finalCta) io.observe(finalCta);
+    })();
+    document.querySelectorAll('a[data-cta]').forEach(function (a) {
+        a.addEventListener('click', function () {
+            if (window.ym instanceof Function) window.ym(103201708, 'reachGoal', 'app_store_click', { place: a.getAttribute('data-cta'), page: location.pathname });
+        });
+    });
+    </script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+    ym(103201708, 'init', {webvisor:true, clickmap:true, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/103201708" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>

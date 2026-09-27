@@ -242,5 +242,52 @@
   },
   "floating_cta": {
     "text": "Get the free app"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "home": "home",
+    "primary_nav": "Primary",
+    "key_features": "Key features",
+    "out_of_5": "out of 5 stars",
+    "ratings": "ratings",
+    "trim_alt": "Trim video sound before extracting audio",
+    "screenshots_label": "App screenshots",
+    "step": "Step",
+    "iphone_app": "iPhone app",
+    "features": [
+      "Extract audio from video as MP3 or M4A",
+      "Trim video before extracting audio",
+      "Share extension for Photos and Files",
+      "On-device conversion, no upload",
+      "Library of extracted audio files"
+    ]
+  },
+  "guide_ui": {
+    "lang": "en",
+    "og_locale": "en_US",
+    "locale": "en-US",
+    "home": "Home",
+    "guides": "Guides",
+    "guide": "Guide",
+    "updated": "Updated",
+    "min_read": "min read",
+    "by": "by",
+    "quick_answer": "Quick answer",
+    "step_by_step": "Step by step",
+    "faq_title": "Frequently asked questions",
+    "related": "Related guides",
+    "read_guide": "Read guide",
+    "inline_cta_sub": "Free on the App Store · MP3 &amp; M4A · on-device",
+    "aside_label": "Download the app",
+    "aside_shot_alt": "audio extraction screen",
+    "ratings": "ratings",
+    "free": "Free",
+    "iphone_app": "iPhone app",
+    "step": "Step",
+    "hub_title": "Extract Audio from Video Guides for iPhone (MP3, M4A)",
+    "hub_description": "Step-by-step iPhone guides: extract audio from video, convert MP4 and MOV to MP3 or M4A, trim audio, save music, make ringtones. Free, on-device, no upload.",
+    "hub_h1": "Extract audio from video on iPhone: every guide",
+    "hub_sub": "Pick the job you want to do. Each guide gives a quick answer, the exact steps with screenshots, and fixes for common problems.",
+    "published": "2026-09-27"
   }
 }

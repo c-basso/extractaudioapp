@@ -1,254 +1,293 @@
 {
   "meta": {
     "lang": "pl",
-    "title": "Audio z wideo na iPhone | Darmowa aplikacja MP3 (2026)",
-    "description": "Dźwięk z wideo na iPhone w sekundach: MP4 i MOV na czyste MP3 na urządzeniu, bez chmury. Przytnij fragment ze Zdjęć lub Udostępniania. Zacznij za darmo.",
-    "keywords": "wyciągnąć audio z wideo, dźwięk z filmu iphone, mp4 na mp3, mov na mp3, konwerter wideo na mp3, audio z wideo aplikacja, ekstrakcja audio, wideo do mp3, darmowa aplikacja iphone, ios, app store, lokalna konwersja, prywatność",
+    "title": "Wyciągnij dźwięk z filmu na iPhonie — MP3 i M4A za darmo",
+    "description": "Wyciągnij dźwięk z dowolnego filmu na iPhonie: MP4 i MOV na MP3 lub M4A w kilka sekund. Przytnij, zachowaj w Plikach i udostępnij — bez wysyłania do chmury.",
+    "keywords": "wyciągnąć dźwięk z filmu, jak wyciągnąć dźwięk z filmu iphone, audio z wideo, dźwięk z filmu iphone, film na mp3, wideo na mp3 iphone, mp4 na mp3, mov na mp3, wideo na m4a, konwerter wideo na mp3, wyciągnąć dźwięk z filmu online, muzyka z filmu, dzwonek z filmu iphone",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/pl/",
-    "og_title": "Audio z wideo na iPhone | MP3 z MP4/MOV, start za darmo",
-    "og_description": "Zamień wideo na MP3 w kilku krokach. MP4/MOV na iPhone, bez wysyłania plików na zewnętrzne serwery. Przetwarzanie odbywa się na urządzeniu.",
+    "og_title": "Dźwięk z filmu na iPhonie — MP3 i M4A w kilka sekund",
+    "og_description": "Darmowa aplikacja na iPhone’a: zamień dowolny film na MP3 lub M4A bezpośrednio na urządzeniu. Przytnij, zachowaj i udostępnij — bez wysyłania plików.",
     "og_image": "https://extractaudioapp.com/pl/site_preview.png",
-    "site_name": "Audio z wideo⁺",
+    "site_name": "Extract Audio from Video⁺",
     "og_locale": "pl_PL",
     "twitter_url": "https://extractaudioapp.com/pl/",
-    "twitter_title": "Audio z wideo na iPhone | Darmowy konwerter MP3",
-    "twitter_description": "Wideo na MP3 na iPhone kilkoma stuknięciami. Rdzeń za darmo; więcej opcji przez opcjonalne zakupy w aplikacji.",
+    "twitter_title": "Wyciągnij dźwięk z filmu na iPhonie — za darmo",
+    "twitter_description": "Dowolny film na MP3 lub M4A w kilka sekund. Na urządzeniu, prywatnie, za darmo na start.",
     "twitter_image": "https://extractaudioapp.com/pl/site_preview.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/pl/",
     "geo_region": "PL",
     "geo_placename": "Poland"
   },
-  "hero": {
-    "logo_alt": "Logo aplikacji Audio z wideo⁺",
-    "title": "Audio z wideo na iPhone",
-    "subtitle": "Wideo na MP3 w kilka sekund — start za darmo",
-    "entity_definition": "Audio z wideo⁺ to aplikacja iOS, która na iPhonie zamienia nagrania MP4/MOV na pliki MP3 w wysokiej jakości, bez wysyłania ich w obce chmury.",
-    "subheadline": "Zachowaj muzykę z klipów, wyciągnij audio z wykładów albo przygotuj krótkie nagrania głosowe. Szybko, prywatnie; podstawowe funkcje za darmo, zaawansowane opcje przez opcjonalne zakupy w aplikacji.",
-    "download_alt": "Pobierz w App Store",
-    "phone_text": "Dotknij, by zamienić wideo na audio",
-    "qr_alt": "Kod QR do pobrania aplikacji",
-    "qr_text": "Zeskanuj telefonem, aby pobrać"
+  "app_info": {
+    "name": "Extract Audio from Video⁺",
+    "alternate_name": "Dźwięk z filmu — MP3 i M4A",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio"
   },
-  "features": {
-    "title": "Dlaczego warto na iPhone",
-    "items": [
+  "nav": {
+    "how": "Jak to działa",
+    "guides": "Poradniki",
+    "faq": "FAQ",
+    "download": "Pobierz"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "home": "strona główna",
+    "primary_nav": "Menu główne",
+    "key_features": "Najważniejsze funkcje",
+    "out_of_5": "na 5 gwiazdek",
+    "ratings": "ocen",
+    "trim_alt": "Przycinanie dźwięku filmu przed wyodrębnieniem audio",
+    "screenshots_label": "Zrzuty ekranu aplikacji",
+    "step": "Krok",
+    "iphone_app": "aplikacja na iPhone’a",
+    "features": [
+      "Wyciąganie dźwięku z filmu do MP3 lub M4A",
+      "Przycinanie filmu przed wyodrębnieniem",
+      "Rozszerzenie udostępniania dla Zdjęć i Plików",
+      "Konwersja na urządzeniu, bez wysyłania",
+      "Biblioteka wyodrębnionych plików audio"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Darmowa aplikacja do wyciągania dźwięku",
+    "title_lead": "Wyciągnij dźwięk z każdego filmu",
+    "title_accent": "na iPhonie",
+    "subtitle": "Zamień filmy MP4 i MOV na MP3 lub M4A w kilka sekund. Przytnij dokładnie ten fragment, który chcesz, zachowaj w Plikach i udostępnij gdziekolwiek — wszystko na Twoim urządzeniu.",
+    "bullets": [
+      "MP3 i M4A",
+      "Przycinanie przed eksportem",
+      "Działa z menu Udostępnij",
+      "Bez wysyłania i bez konta"
+    ],
+    "logo_alt": "Ikona aplikacji Extract Audio from Video⁺",
+    "download_alt": "Pobierz Extract Audio from Video⁺ z App Store",
+    "qr_alt": "Kod QR do pobrania Extract Audio from Video⁺ z App Store",
+    "qr_text": "Zeskanuj iPhone’em, aby pobrać",
+    "rating_label": "Ocena w App Store",
+    "shot_alt": "Aplikacja Extract Audio from Video: ekran wyodrębniania z przyciskami przycinania i wyodrębniania audio"
+  },
+  "download": {
+    "eyebrow": "Pobierz",
+    "title": "Darmowa aplikacja do wyciągania dźwięku z filmów",
+    "subtitle": "Pobieranie za darmo, podstawowe wyodrębnianie w zestawie. Opcjonalne zakupy w aplikacji odblokowują dodatki — możesz zacząć bez płacenia.",
+    "facts": [
       {
-        "title": "Start za darmo",
-        "description": "Pobranie i ekstrakcja rdzenia bez opłat; rozszerzenia przez opcjonalne zakupy w aplikacji.",
-        "icon": "⚡"
+        "value": "Za darmo",
+        "label": "pobieranie"
       },
       {
-        "title": "Szybka konwersja do MP3",
-        "description": "MP4, MOV i popularne formaty z iPhone’a na wyraźny MP3, przetwarzanie lokalnie.",
-        "icon": "🎵"
+        "value": "MP3 · M4A",
+        "label": "formaty"
       },
       {
-        "title": "Precyzyjne przycinanie",
-        "description": "Wybierz tylko fragment, którego potrzebujesz przed eksportem.",
-        "icon": "✂️"
+        "value": "23,1 MB",
+        "label": "rozmiar"
       },
       {
-        "title": "Przez Udostępnij",
-        "description": "Start z Zdjęć lub Plików — mało kroków.",
-        "icon": "🔗"
+        "value": "iOS 18.6+",
+        "label": "iPhone"
+      }
+    ],
+    "points": [
+      {
+        "title": "Prywatnie",
+        "text": "Filmy są konwertowane na Twoim iPhonie. Nic nie trafia na serwer."
       },
       {
-        "title": "Przejrzysty interfejs",
-        "description": "Czytelny na małym ekranie; także dla początkujących.",
-        "icon": "🎨"
+        "title": "Sekundy, nie minuty",
+        "text": "Bez wysyłania, kolejki i pobierania. Działa offline."
       },
       {
-        "title": "Dobry dźwięk",
-        "description": "Nadaje się do muzyki, wykładów, podcastów i głosu.",
-        "icon": "🎵"
+        "title": "Wbudowane w iOS",
+        "text": "Wyślij dowolny film ze Zdjęć lub Plików przyciskiem Udostępnij."
       }
     ]
   },
-  "by_the_numbers": {
-    "title": "Audio z wideo⁺ w liczbach",
+  "screenshots": {
+    "eyebrow": "Zrzuty ekranu",
+    "title": "Aplikacja w akcji",
+    "subtitle": "Pięć ekranów, jeden cel: wyciągnąć dźwięk z Twojego filmu.",
     "items": [
-      "Średnia 4,5/5 gwiazdek na podstawie 290+ ocen w App Store",
-      "Darmowe pobranie i użycie rdzenia – opcjonalne zakupy w aplikacji",
-      "Obsługa MP4, MOV i innych typowych formatów wideo z iPhone’a",
-      "Rozmiar aplikacji ok. 50 MB na iOS",
-      "Obróbka na iPhonie: szybciej i bardziej prywatnie, bez wymuszonego uploadu"
-    ],
-    "stats": [
       {
-        "number": "4,5",
-        "label": "Ocena",
-        "detail": "Na podstawie 290+ recenzji"
+        "src": "/screenshots/1.webp",
+        "alt": "Extract Audio from Video — ekstraktor audio nr 1 na iPhone’a",
+        "caption": "Dźwięk z filmu"
       },
       {
-        "number": "~50 MB",
-        "label": "Rozmiar",
-        "detail": "Lekka i szybka"
+        "src": "/screenshots/2.webp",
+        "alt": "Ekran wyodrębniania: zamiana filmu na audio na iPhonie",
+        "caption": "Film na audio"
       },
       {
-        "number": "100%",
-        "label": "Rdzeń za darmo",
-        "detail": "Dodatki opcjonalnie"
+        "src": "/screenshots/3.webp",
+        "alt": "Przycinanie dźwięku filmu znacznikami początku i końca",
+        "caption": "Przytnij dokładny fragment"
       },
       {
-        "number": "Lokalnie",
-        "label": "Przetwarzanie",
-        "detail": "Wideo zostaje na iPhonie"
+        "src": "/screenshots/4.webp",
+        "alt": "Menu Udostępnij z plikiem audio gotowym do zapisania lub wysłania",
+        "caption": "Zachowaj lub udostępnij"
+      },
+      {
+        "src": "/screenshots/5.webp",
+        "alt": "Biblioteka wyodrębnionych plików MP3 w aplikacji",
+        "caption": "Wszystkie pliki w jednej bibliotece"
       }
     ]
   },
   "demo": {
-    "title": "Jak wyciągnąć audio z wideo na iPhone – krok po kroku",
-    "subtitle": "Przekonująca jakość MP3 wykonana na Twoim urządzeniu",
-    "placeholder_line1": "📱 Film demo wkrótce",
-    "placeholder_line2": "1 Otwórz aplikację > 2 Wybierz wideo > 3 Opcjonalnie przytnij > 4 Zapisz jako MP3"
+    "eyebrow": "Jak to działa",
+    "title": "Jak wyciągnąć dźwięk z filmu na iPhonie",
+    "subtitle": "Cztery stuknięcia od filmu do MP3 lub M4A. Zacznij w aplikacji albo z menu Udostępnij w Zdjęciach."
   },
   "howto_steps": {
     "items": [
       {
-        "name": "Uruchom aplikację",
-        "text": "Otwórz {{app_info.name}} na iPhonie. Aplikację pobierzesz bezpłatnie z App Store."
+        "name": "Wybierz film",
+        "text": "Otwórz aplikację i wybierz film ze Zdjęć lub Plików — albo stuknij Udostępnij przy dowolnym filmie i wybierz aplikację.",
+        "image": "/screenshots/2.webp"
       },
       {
-        "name": "Wybierz wideo",
-        "text": "Wskaż plik z biblioteki w formacie MP4, MOV lub innym popularnym formacie."
+        "name": "Przytnij, jeśli trzeba",
+        "text": "Stuknij „Przytnij wideo” i przeciągnij żółte znaczniki, aby zostawić tylko potrzebny fragment. Opcjonalnie.",
+        "image": "/screenshots/3.webp"
       },
       {
-        "name": "Opcjonalnie przytnij",
-        "text": "Użyj narzędzi przycinania, by wybrać dokładny fragment, z którego chcesz uzyskać audio. Ten krok możesz pominąć."
+        "name": "Stuknij „Wyodrębnij audio”",
+        "text": "Ścieżka dźwiękowa zostanie przekonwertowana na MP3 lub M4A na Twoim iPhonie w kilka sekund.",
+        "image": "/screenshots/2.webp"
       },
       {
-        "name": "Zapisz audio",
-        "text": "Stuknij Zapisz jako audio, by wyciągnąć dźwięk i zapisać go jako MP3. Plik pozostaje na iPhonie."
+        "name": "Zachowaj lub udostępnij",
+        "text": "Zachowaj audio w Plikach, wyślij przez AirDrop lub do dowolnej aplikacji. Wszystkie pliki zostają w bibliotece.",
+        "image": "/screenshots/4.webp"
       }
     ]
   },
-  "testimonials": {
-    "rating_text": "4,5 — wg recenzji w App Store",
-    "items": [
-      {
-        "text": "\"Przycinam fragment i zapisuję MP3 — prosto i szybko.\"",
-        "author": "Anna K., użytkowniczka iPhone",
-        "rating": "5 gwiazdek",
-        "verified": true
-      },
-      {
-        "text": "\"Do nagrań z wykładów idealna: wszystko na telefonie, spokojny interfejs.\"",
-        "author": "Piotr M., student",
-        "rating": "5 gwiazdek",
-        "verified": true
-      },
-      {
-        "text": "\"Często zaczynam z Udostępnij w Zdjęciach — oszczędza czas.\"",
-        "author": "Katarzyna W., twórczyni",
-        "rating": "5 gwiazdek",
-        "verified": true
-      }
-    ]
+  "guides": {
+    "eyebrow": "Poradniki",
+    "title": "Poradniki do każdego zadania „film na audio”",
+    "subtitle": "Odpowiedzi krok po kroku na najczęściej wyszukiwane pytania — ze zrzutami ekranu.",
+    "all_label": "Wszystkie poradniki",
+    "read_label": "Czytaj poradnik"
   },
   "faq": {
-    "title": "FAQ: ze wideo na audio na iPhone",
+    "eyebrow": "FAQ",
+    "title": "Najczęstsze pytania o dźwięk z filmów",
+    "learn_more": "Dowiedz się więcej",
     "items": [
       {
-        "question": "Jak wyciągnąć dźwięk z wideo na iPhonie?",
-        "answer": "Otwórz Audio z wideo⁺, wybierz klip z biblioteki, opcjonalnie przytnij i zapisz jako audio (MP3). Możesz też przez Udostępnij w Zdjęciach lub Plikach."
+        "question": "Jak wyciągnąć dźwięk z filmu na iPhonie?",
+        "answer": "Otwórz Extract Audio from Video⁺, wybierz film, w razie potrzeby przytnij i stuknij „Wyodrębnij audio”. Ścieżka dźwiękowa zostanie zachowana jako MP3 lub M4A na iPhonie. Możesz też zacząć od Udostępnij w Zdjęciach.",
+        "url": "/pl/guides/extract-audio-from-video-iphone/"
       },
       {
-        "question": "Czy jest darmowa aplikacja wideo → audio?",
-        "answer": "Tak. Aplikację pobierzesz za darmo; kluczowa ekstrakcja mieści się w darmowym rdzeniu. Więcej funkcji — przez opcjonalne zakupy w aplikacji."
+        "question": "Jak zamienić film na MP3 na iPhonie?",
+        "answer": "Wyślij film do aplikacji przez Udostępnij, stuknij „Wyodrębnij audio” i wybierz MP3. Plik zostaje na urządzeniu — możesz go zachować w Plikach, wysłać przez AirDrop lub do dowolnej aplikacji.",
+        "url": "/pl/guides/convert-video-to-mp3-iphone/"
       },
       {
-        "question": "Jak szybko to działa?",
-        "answer": "Otwórz aplikację → wybierz wideo → przytnij fragment → zapisz audio. Najczęściej najszybciej przez Udostępnij w Zdjęciach."
+        "question": "Czy mogę za darmo zamienić MP4 na MP3 na iPhonie?",
+        "answer": "Tak. Otwórz MP4 w Plikach lub Zdjęciach, wyślij do aplikacji i wyeksportuj jako MP3. Podstawowa konwersja jest darmowa.",
+        "url": "/pl/guides/mp4-to-mp3-iphone/"
       },
       {
-        "question": "Czy działa z MP4 i MOV?",
-        "answer": "Tak. Typowe formaty na iPhone, w tym MP4 i MOV, eksportujesz do MP3 w kilku krokach."
+        "question": "Jak zamienić film MOV z iPhone’a na audio?",
+        "answer": "Aparat iPhone’a nagrywa w formacie MOV. Wyślij klip ze Zdjęć do aplikacji i wyeksportuj dźwięk jako MP3 lub M4A.",
+        "url": "/pl/guides/mov-to-mp3-iphone/"
       },
       {
-        "question": "Czy mogę korzystać za darmo na start?",
-        "answer": "Tak: główna ekstrakcja jest darmowa. Dodatkowe opcje — zakupy opcjonalne; nie potrzebujesz subskrypcji, żeby zacząć."
+        "question": "Czy mogę zapisać dźwięk z filmu jako M4A?",
+        "answer": "Tak, wybierz M4A przy wyodrębnianiu. To format Apple: mniejszy niż MP3 i idealny na dzwonki oraz do GarageBand.",
+        "url": "/pl/guides/video-to-m4a-iphone/"
       },
       {
-        "question": "Czy to lepsze niż konwertery online?",
-        "answer": "Dla wielu użytkowników iPhone’a tak: wideo obrabiane jest lokalnie i nie musi trafiać na serwer. Narzędzia online często wymagają uploadu i bywają wolniejsze lub mniej dyskretne."
+        "question": "Czy da się wyciągnąć dźwięk z filmu na iPhonie bez aplikacji?",
+        "answer": "Tak, skrótem z akcją „Koduj multimedia” i opcją „Tylko audio”. Działa jednak tylko do M4A i bez przycinania — do MP3 lub krótkich fragmentów aplikacja jest szybsza.",
+        "url": "/pl/guides/extract-audio-without-app-iphone/"
       },
       {
-        "question": "Czy jest to bezpieczniejsze niż online?",
-        "answer": "Zwykle tak, bo nagrania pozostają na iPhonie zamiast iść na zewnętrzny hosting. To ważne przy prywatnych materiałach."
+        "question": "Czy wyciąganie dźwięku z filmu online jest bezpieczne?",
+        "answer": "Serwisy online wymagają wysłania filmu na cudzy serwer. Extract Audio from Video⁺ konwertuje na iPhonie, więc Twoje filmy nie opuszczają urządzenia.",
+        "url": "/pl/guides/extract-audio-online-vs-app/"
+      },
+      {
+        "question": "Jak wyciągnąć muzykę z filmu na iPhonie?",
+        "answer": "Wyślij film do aplikacji, przytnij wokół utworu i stuknij „Wyodrębnij audio”. Zapisuj muzykę tylko z własnych filmów lub takich, do których masz prawa.",
+        "url": "/pl/guides/save-music-from-video-iphone/"
+      },
+      {
+        "question": "Czy mogę wyciągnąć tylko fragment dźwięku z filmu?",
+        "answer": "Tak. Stuknij „Przytnij wideo”, zaznacz potrzebny fragment i wyodrębnij — zapisze się tylko ta część.",
+        "url": "/pl/guides/trim-audio-from-video-iphone/"
+      },
+      {
+        "question": "Jak wyciągnąć dźwięk z nagrania ekranu?",
+        "answer": "Nagrania ekranu są zapisywane w Zdjęciach jako filmy. Wyślij jedno do aplikacji i wyodrębnij dźwięk. Jeśli plik jest cichy, podczas nagrywania mikrofon był wyłączony.",
+        "url": "/pl/guides/screen-recording-to-audio-iphone/"
+      },
+      {
+        "question": "Jak słuchać nagranego wykładu jako audio?",
+        "answer": "Zamień film z wykładem na MP3 i zachowaj w Plikach. Posłuchasz offline przy wyłączonym ekranie, a plik zajmie dużo mniej miejsca.",
+        "url": "/pl/guides/lecture-video-to-audio-iphone/"
+      },
+      {
+        "question": "Czy mogę zrobić dzwonek z filmu na iPhonie?",
+        "answer": "Tak. Przytnij dźwięk do 30 sekund, zachowaj w Plikach i w iOS 26 stuknij Udostępnij → „Użyj jako dzwonka”. W starszych wersjach użyj GarageBand.",
+        "url": "/pl/guides/video-to-ringtone-iphone/"
       }
     ]
   },
-  "app_info": {
-    "name": "Extract Audio from Video⁺",
-    "alternate_name": "Wyciąganie audio z wideo",
-    "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio"
+  "cta": {
+    "title": "Dźwięk, którego szukasz, już jest w Twoim filmie.",
+    "subtitle": "Wyciągnij go w cztery stuknięcia — za darmo, prywatnie, na iPhonie.",
+    "button": "Pobierz z App Store"
   },
   "footer": {
-    "cta_text": "📱 Darmowa aplikacja — audio z wideo",
+    "tagline": "Najprostszy sposób na wyciąganie dźwięku z filmów na iPhonie.",
+    "guides_title": "Poradniki",
+    "app_title": "Aplikacja",
+    "legal_title": "Informacje prawne",
+    "cta_text": "Pobierz z App Store",
     "privacy_text": "Polityka prywatności",
     "terms_text": "Regulamin",
     "support_text": "Wsparcie",
+    "languages_title": "Języki",
     "developer_info": "Autor: Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Wszelkie prawa zastrzeżone."
   },
   "floating_cta": {
-    "text": "📱 Wideo → MP3 na iPhone — za darmo"
+    "text": "Pobierz za darmo"
   },
-  "seo_chapter": {
-    "title": "Kompletny przewodnik: audio z wideo na iPhone (2026)",
-    "subtitle": "MP4/MOV do MP3 – darmowy start, prywatnie na urządzeniu",
-    "intro": "Audio z wideo⁺ to aplikacja multimedialna na iOS, która zamienia pliki wideo (MP4/MOV) na iPhonie na ścieżki MP3. Wiele operacji zrobisz offline: ekstrakcja jest lokalna, więc nagranie nie musi trafiać na zewnętrzny serwer. Obsługiwane są popularne formaty z iPhone’a; wyjście to MP3. Funkcje podstawowe są bezpłatne, a rozszerzenia—przez opcjonalne zakupy w aplikacji.",
-    "sections": [
-      {
-        "heading": "Kroki: wyciągnij dźwięk z wideo",
-        "body": "1) Uruchom aplikację. 2) Wybierz wideo z biblioteki. 3) Przytnij w razie potrzeby. 4) Zapisz jako MP3. Z Udostępnij w Zdjęciach lub Plikach możesz wysłać klip prosto do aplikacji, bez szukania ikony na ekranie głównym. Obsługa typowych formatów iOS, m.in. MP4 i MOV."
-      },
-      {
-        "heading": "Możliwości",
-        "body": "Zamiast wysyłać całe pliki do chmury, aplikacja stawia na obróbkę na iPhonie—korzystne dla prywatności i czasu bez transferu sieciowego samej konwersji. Przycinanie pomaga wyeksportować tylko potrzebne audio. To typowy konwerter wideo→MP3 z wejściem MP4/MOV."
-      }
-    ],
-    "bullets_title": "Popularne zastosowania",
-    "bullets": [
-      "Zachowanie ścieżki dźwiękowej z materiału wideo do własnej kolekcji",
-      "Nagrania wykładów lub spotkań tylko jako audio do słuchania w drodze",
-      "Krótkie klipy dźwiękowe na social media lub podcast",
-      "Lżejszy MP3 przed dalszą edycją w innych programach"
-    ],
-    "conclusion": "Audio z wideo⁺ ułatwia na iPhonie wydobycie dźwięku z plików wideo, lokalnie i z darmowym rdzeniem. Dodatkowe narzędzia są opcjonalne."
-  },
-  "comparison": {
-    "title": "Audio z wideo⁺ a konwertery online",
-    "intro": "Krótkie porównanie z usługami w przeglądarce:",
-    "table": {
-      "feature": "Cecha",
-      "online_converters": "Online",
-      "this_app": "Audio z wideo⁺",
-      "rows": [
-        {
-          "feature": "Prywatność",
-          "online": "Wideo często idzie na serwer",
-          "app": "Obróbka na iPhonie"
-        },
-        {
-          "feature": "Wygoda",
-          "online": "Upload i oczekiwanie",
-          "app": "Udostępnij lub bezpośrednio aplikacja"
-        },
-        {
-          "feature": "Koszt",
-          "online": "Limity lub abonament",
-          "app": "Rdzeń za darmo, dodatki opcjonalnie"
-        },
-        {
-          "feature": "Szybkość",
-          "online": "Zależna od łącza",
-          "app": "Natychmiast na urządzeniu"
-        }
-      ]
-    }
+  "guide_ui": {
+    "lang": "pl",
+    "og_locale": "pl_PL",
+    "locale": "pl-PL",
+    "home": "Strona główna",
+    "guides": "Poradniki",
+    "guide": "Poradnik",
+    "updated": "Aktualizacja:",
+    "min_read": "min czytania",
+    "by": "autor:",
+    "quick_answer": "Krótka odpowiedź",
+    "step_by_step": "Krok po kroku",
+    "faq_title": "Najczęstsze pytania",
+    "related": "Podobne poradniki",
+    "read_guide": "Czytaj poradnik",
+    "inline_cta_sub": "Za darmo w App Store · MP3 i M4A · na urządzeniu",
+    "aside_label": "Pobierz aplikację",
+    "aside_shot_alt": "ekran wyodrębniania audio",
+    "ratings": "ocen",
+    "free": "Za darmo",
+    "iphone_app": "aplikacja na iPhone’a",
+    "step": "Krok",
+    "hub_title": "Poradniki: jak wyciągnąć dźwięk z filmu na iPhonie",
+    "hub_description": "Poradniki krok po kroku na iPhone’a: dźwięk z filmu, MP4 i MOV na MP3 lub M4A, przycinanie audio, zapisywanie muzyki, dzwonki. Za darmo, bez chmury.",
+    "hub_h1": "Dźwięk z filmu na iPhonie: wszystkie poradniki",
+    "hub_sub": "Wybierz, co chcesz zrobić. Każdy poradnik ma krótką odpowiedź, dokładne kroki ze zrzutami ekranu i rozwiązania typowych problemów.",
+    "published": "2026-09-27"
   }
 }

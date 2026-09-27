@@ -1,254 +1,293 @@
 {
   "meta": {
     "lang": "ro",
-    "title": "Extrage audio din video pe iPhone | App MP3 gratuită (2026)",
-    "description": "Obține audio din clipuri iPhone în secunde: MP4 și MOV devin MP3 clar pe dispozitiv, fără cloud. Decupează din Fotografii sau Partajare. Începe gratuit.",
-    "keywords": "extrage audio din video, sunet din video iphone, mp4 în mp3, mov în mp3, convertor video mp3, extragere audio din film, video la mp3, aplicație iphone gratuită, ios, app store, conversie locală, confidențialitate",
+    "title": "Extrage audio din video pe iPhone — MP3 și M4A gratuit",
+    "description": "Extrage sunetul din orice video pe iPhone: MP4 și MOV în MP3 sau M4A în câteva secunde. Decupează, salvează în Fișiere și partajează — fără upload în cloud.",
+    "keywords": "extrage audio din video, extragere audio din video, cum extragi sunetul dintr-un video iphone, sunet din video iphone, video în mp3, video în mp3 iphone, mp4 în mp3, mov în mp3, video în m4a, convertor video mp3, extrage audio din video online, muzică din video, ton de apel din video iphone",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/ro/",
-    "og_title": "Extrage audio din video pe iPhone | MP3 din MP4/MOV, gratuit",
-    "og_description": "Transformă video în MP3 în pași simpli. MP4/MOV pe iPhone, fără a trimite fișiere pe servere externe. Procesare locală, calitate înaltă.",
+    "og_title": "Extrage audio din video pe iPhone — MP3 și M4A în secunde",
+    "og_description": "Aplicație gratuită pentru iPhone: transformă orice video în MP3 sau M4A direct pe dispozitiv. Decupează, salvează și partajează, fără upload.",
     "og_image": "https://extractaudioapp.com/ro/site_preview.png",
-    "site_name": "Audio din video⁺",
+    "site_name": "Extract Audio from Video⁺",
     "og_locale": "ro_RO",
     "twitter_url": "https://extractaudioapp.com/ro/",
-    "twitter_title": "Extrage audio din video pe iPhone | Aplicație MP3 gratis",
-    "twitter_description": "Video în MP3 pe iPhone cu câteva atingeri. Bază gratuită; extra prin achiziții opționale în aplicație.",
+    "twitter_title": "Extrage audio din video pe iPhone — gratuit",
+    "twitter_description": "Orice video în MP3 sau M4A în câteva secunde. Pe dispozitiv, privat, gratuit pentru început.",
     "twitter_image": "https://extractaudioapp.com/ro/site_preview.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/ro/",
     "geo_region": "RO",
     "geo_placename": "Romania"
   },
-  "hero": {
-    "logo_alt": "Sigla Audio din video⁺",
-    "title": "Extrage audio din video pe iPhone",
-    "subtitle": "Video în MP3 în câteva secunde — început gratuit",
-    "entity_definition": "Audio din video⁺ este o aplicație iOS care transformă clipurile MP4/MOV de pe iPhone în fișiere MP3 de înaltă calitate, cu prelucrare pe dispozitiv.",
-    "subheadline": "Păstrează muzica din înregistrări, extrage cursuri audio sau fragmente pentru rețele. Rapid și privat: funcțiile esențiale sunt gratuite; poți extinde cu achiziții opționale în aplicație.",
-    "download_alt": "Descarcă din App Store",
-    "phone_text": "Atinge pentru a converti video în audio",
-    "qr_alt": "Cod QR pentru descărcarea aplicației",
-    "qr_text": "Scanează cu telefonul pentru a descărca"
+  "app_info": {
+    "name": "Extract Audio from Video⁺",
+    "alternate_name": "Extrage audio din video — MP3 și M4A",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio"
   },
-  "features": {
-    "title": "De ce e folosită pe iPhone",
-    "items": [
+  "nav": {
+    "how": "Cum funcționează",
+    "guides": "Ghiduri",
+    "faq": "Întrebări",
+    "download": "Descarcă"
+  },
+  "ui": {
+    "skip": "Sari la conținut",
+    "home": "acasă",
+    "primary_nav": "Meniu principal",
+    "key_features": "Funcții principale",
+    "out_of_5": "din 5 stele",
+    "ratings": "evaluări",
+    "trim_alt": "Decuparea sunetului video înainte de extragere",
+    "screenshots_label": "Capturi de ecran ale aplicației",
+    "step": "Pasul",
+    "iphone_app": "aplicație pentru iPhone",
+    "features": [
+      "Extrage audio din video în MP3 sau M4A",
+      "Decupează videoclipul înainte de extragere",
+      "Extensie de partajare pentru Poze și Fișiere",
+      "Conversie pe dispozitiv, fără upload",
+      "Bibliotecă cu fișierele audio extrase"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Extractor audio gratuit pentru iPhone",
+    "title_lead": "Extrage sunetul din orice video",
+    "title_accent": "pe iPhone",
+    "subtitle": "Transformă videoclipuri MP4 și MOV în MP3 sau M4A în câteva secunde. Decupează exact porțiunea dorită, salveaz-o în Fișiere și partajeaz-o oriunde — totul pe dispozitivul tău.",
+    "bullets": [
+      "MP3 și M4A",
+      "Decupare înainte de export",
+      "Funcționează din Partajează",
+      "Fără upload, fără cont"
+    ],
+    "logo_alt": "Pictograma aplicației Extract Audio from Video⁺",
+    "download_alt": "Descarcă Extract Audio from Video⁺ din App Store",
+    "qr_alt": "Cod QR pentru a descărca Extract Audio from Video⁺ din App Store",
+    "qr_text": "Scanează cu iPhone-ul pentru a descărca",
+    "rating_label": "Evaluare în App Store",
+    "shot_alt": "Aplicația Extract Audio from Video: ecranul de extragere cu butoane pentru decupare și extragere audio"
+  },
+  "download": {
+    "eyebrow": "Descarcă",
+    "title": "Extractorul audio gratuit pentru iPhone",
+    "subtitle": "Descărcare gratuită, cu extragerea de bază inclusă. Achizițiile opționale din aplicație deblochează funcții extra — poți începe fără să plătești.",
+    "facts": [
       {
-        "title": "Început gratuit",
-        "description": "Descărcare și extragerea de bază fără cost; extinderi prin achiziții opționale în aplicație.",
-        "icon": "⚡"
+        "value": "Gratuit",
+        "label": "la descărcare"
       },
       {
-        "title": "Conversie rapidă în MP3",
-        "description": "MP4, MOV și formate uzuale pe iPhone → MP3 clar, procesat local.",
-        "icon": "🎵"
+        "value": "MP3 · M4A",
+        "label": "formate"
       },
       {
-        "title": "Decupare precisă",
-        "description": "Alege doar fragmentul de care ai nevoie înainte de export.",
-        "icon": "✂️"
+        "value": "23,1 MB",
+        "label": "dimensiune"
       },
       {
-        "title": "Prin Distribuie",
-        "description": "Pornește din Fotografii sau Fișiere—puține tap-uri.",
-        "icon": "🔗"
+        "value": "iOS 18.6+",
+        "label": "iPhone"
+      }
+    ],
+    "points": [
+      {
+        "title": "Privat",
+        "text": "Videoclipurile sunt convertite pe iPhone-ul tău. Nimic nu ajunge pe un server."
       },
       {
-        "title": "Interfață liniștită",
-        "description": "Clară pe ecran mic; potrivită și pentru începători.",
-        "icon": "🎨"
+        "title": "Secunde, nu minute",
+        "text": "Fără upload, fără coadă, fără descărcare. Funcționează offline."
       },
       {
-        "title": "Sunet plăcut",
-        "description": "Potrivit pentru muzică, cursuri, podcasturi și voce.",
-        "icon": "🎵"
+        "title": "Integrat în iOS",
+        "text": "Trimite orice video din Poze sau Fișiere cu butonul Partajează."
       }
     ]
   },
-  "by_the_numbers": {
-    "title": "Audio din video⁺ în cifre",
+  "screenshots": {
+    "eyebrow": "Capturi de ecran",
+    "title": "Aplicația în acțiune",
+    "subtitle": "Cinci ecrane, un singur scop: să scoți sunetul din video.",
     "items": [
-      "4,5 din 5 stele, pe baza a peste 290 de recenzii App Store",
-      "Descărcare gratuită și utilizare a nucleului—achiziții în aplicație opționale",
-      "Suport MP4, MOV și alte formate video uzuale pe iPhone",
-      "Dimensiune aplicație ~50 MB pe iOS",
-      "Procesare pe iPhone: mai privat, fără încărcare forțată în cloud"
-    ],
-    "stats": [
       {
-        "number": "4,5",
-        "label": "Rating",
-        "detail": "Peste 290 de recenzii"
+        "src": "/screenshots/1.webp",
+        "alt": "Extract Audio from Video — extractorul audio nr. 1 pentru iPhone",
+        "caption": "Extrage audio din video"
       },
       {
-        "number": "~50 MB",
-        "label": "Mărime app",
-        "detail": "Ușoară și rapidă"
+        "src": "/screenshots/2.webp",
+        "alt": "Ecranul de extragere: conversia unui video în audio pe iPhone",
+        "caption": "Video în audio"
       },
       {
-        "number": "100%",
-        "label": "Bază gratuită",
-        "detail": "Extra opțional"
+        "src": "/screenshots/3.webp",
+        "alt": "Decuparea sunetului video cu marcaje de început și sfârșit",
+        "caption": "Decupează exact porțiunea"
       },
       {
-        "number": "Local",
-        "label": "Procesare",
-        "detail": "Video rămâne pe iPhone"
+        "src": "/screenshots/4.webp",
+        "alt": "Meniul Partajează cu fișierul audio gata de salvat sau trimis",
+        "caption": "Salvează sau partajează"
+      },
+      {
+        "src": "/screenshots/5.webp",
+        "alt": "Biblioteca de fișiere MP3 extrase în aplicație",
+        "caption": "Toate fișierele într-o bibliotecă"
       }
     ]
   },
   "demo": {
-    "title": "Cum extragi audio din video pe iPhone—pași simpli",
-    "subtitle": "MP3 de calitate, obținut direct pe dispozitivul tău",
-    "placeholder_line1": "📱 Videoul demo vine în curând",
-    "placeholder_line2": "1 Deschide aplicația > 2 Alege video > 3 Opțional, decupează > 4 Salvează ca MP3"
+    "eyebrow": "Cum funcționează",
+    "title": "Cum extragi audio din video pe iPhone",
+    "subtitle": "Patru atingeri de la video la MP3 sau M4A. Începe în aplicație sau din Partajează în Poze."
   },
   "howto_steps": {
     "items": [
       {
-        "name": "Deschide aplicația",
-        "text": "Deschide {{app_info.name}} pe iPhone. O descarci gratuit din App Store."
-      },
-      {
-        "name": "Selectează video",
-        "text": "Alege un fișier din bibliotecă—MP4, MOV sau alt format obișnuit."
+        "name": "Alege un video",
+        "text": "Deschide aplicația și alege un video din Poze sau Fișiere — ori atinge Partajează la orice video și alege aplicația.",
+        "image": "/screenshots/2.webp"
       },
       {
         "name": "Decupează dacă e nevoie",
-        "text": "Folosește instrumentele de tăiere pentru exact porțiunea dorită. Pasul e opțional."
+        "text": "Atinge „Decupează video” și trage marcajele galbene ca să păstrezi doar porțiunea dorită. Opțional.",
+        "image": "/screenshots/3.webp"
       },
       {
-        "name": "Salvează audio",
-        "text": "Atinge Salvează ca audio pentru a extrage sunetul în MP3. Fișierul rămâne pe iPhone."
+        "name": "Atinge „Extrage audio”",
+        "text": "Pista audio este convertită în MP3 sau M4A pe iPhone-ul tău în câteva secunde.",
+        "image": "/screenshots/2.webp"
+      },
+      {
+        "name": "Salvează sau partajează",
+        "text": "Salvează audio în Fișiere, trimite-l prin AirDrop sau în orice aplicație. Toate fișierele rămân în bibliotecă.",
+        "image": "/screenshots/4.webp"
       }
     ]
   },
-  "testimonials": {
-    "rating_text": "4,5 — conform recenziilor din App Store",
-    "items": [
-      {
-        "text": "\"Decupez bucata și salvez MP3 — simplu și repede.\"",
-        "author": "Maria P., utilizatoare iPhone",
-        "rating": "5 stele",
-        "verified": true
-      },
-      {
-        "text": "\"Pentru cursuri filmate e ideală: totul pe telefon, ecran aerisit.\"",
-        "author": "Andrei L., student",
-        "rating": "5 stele",
-        "verified": true
-      },
-      {
-        "text": "\"Adesea pornesc din Distribuie în Fotografii — economisește timp.\"",
-        "author": "Elena D., creatoare de conținut",
-        "rating": "5 stele",
-        "verified": true
-      }
-    ]
+  "guides": {
+    "eyebrow": "Ghiduri",
+    "title": "Ghiduri pentru orice sarcină video-audio",
+    "subtitle": "Răspunsuri pas cu pas la cele mai căutate întrebări, cu capturi de ecran.",
+    "all_label": "Toate ghidurile",
+    "read_label": "Citește ghidul"
   },
   "faq": {
-    "title": "Întrebări frecvente: de la video la audio pe iPhone",
+    "eyebrow": "Întrebări",
+    "title": "Întrebări frecvente despre audio din video",
+    "learn_more": "Află mai multe",
     "items": [
       {
-        "question": "Cum scot sunetul dintr-un video pe iPhone?",
-        "answer": "Deschide Audio din video⁺, alege clipul din bibliotecă, decupează dacă e nevoie și salvează ca audio (MP3). Poți și din Distribuie în Fotografii sau Fișiere."
+        "question": "Cum extragi audio dintr-un video pe iPhone?",
+        "answer": "Deschide Extract Audio from Video⁺, alege videoclipul, decupează-l dacă e nevoie și atinge „Extrage audio”. Pista audio se salvează ca MP3 sau M4A pe iPhone. Poți începe și din Partajează în Poze.",
+        "url": "/ro/guides/extract-audio-from-video-iphone/"
       },
       {
-        "question": "Există o aplicație gratuită video → audio?",
-        "answer": "Da. Aplicația se descarcă gratuit; extragerea esențială e în pachetul gratuit. Funcții suplimentare—prin achiziții opționale în aplicație."
+        "question": "Cum transformi un video în MP3 pe iPhone?",
+        "answer": "Trimite videoclipul în aplicație din Partajează, atinge „Extrage audio” și alege MP3. Fișierul rămâne pe dispozitiv și îl poți salva în Fișiere, trimite prin AirDrop sau în orice aplicație.",
+        "url": "/ro/guides/convert-video-to-mp3-iphone/"
       },
       {
-        "question": "Cât de repede merge?",
-        "answer": "Deschide aplicația → alege video → decupează fragmentul → salvează audio. Cel mai rapid adesea prin Distribuie în Fotografii."
+        "question": "Pot converti gratuit MP4 în MP3 pe iPhone?",
+        "answer": "Da. Deschide MP4-ul în Fișiere sau Poze, trimite-l în aplicație și exportă-l ca MP3. Conversia de bază este gratuită.",
+        "url": "/ro/guides/mp4-to-mp3-iphone/"
       },
       {
-        "question": "Merge cu MP4 și MOV?",
-        "answer": "Da. Formate uzuale pe iPhone, inclusiv MP4 și MOV, le poți exporta în pași simpli ca MP3."
+        "question": "Cum transformi un video MOV de pe iPhone în audio?",
+        "answer": "Camera iPhone-ului filmează în format MOV. Trimite clipul din Poze în aplicație și exportă sunetul ca MP3 sau M4A.",
+        "url": "/ro/guides/mov-to-mp3-iphone/"
       },
       {
-        "question": "Pot folosi gratuit la bază?",
-        "answer": "Da: extragerea principală e gratuită. Mai multe opțiuni—achiziții opționale; nu e nevoie de abonament ca să începi."
+        "question": "Pot salva sunetul unui video ca M4A?",
+        "answer": "Da, alege M4A la extragere. E formatul Apple: mai mic decât MP3 și ideal pentru tonuri de apel și GarageBand.",
+        "url": "/ro/guides/video-to-m4a-iphone/"
       },
       {
-        "question": "E mai bună decât convertoarele online?",
-        "answer": "Pentru mulți utilizatori de iPhone, da: video e procesat local și nu trebuie încărcat în cloud. Serviciile online cer adesea încărcare și pot fi mai lente sau mai puțin discrete."
+        "question": "Se poate extrage audio din video pe iPhone fără aplicație?",
+        "answer": "Da, cu o scurtătură care folosește „Codifică media” cu „Doar audio”. Dar salvează doar M4A și nu decupează; pentru MP3 sau fragmente scurte aplicația e mai rapidă.",
+        "url": "/ro/guides/extract-audio-without-app-iphone/"
       },
       {
-        "question": "E mai sigur decât conversia online?",
-        "answer": "De obicei da, pentru că fișierele rămân pe iPhone în loc să plece pe servere terțe—util mai ales pentru înregistrări personale."
+        "question": "Este sigur să extragi audio din video online?",
+        "answer": "Serviciile online îți cer să încarci videoclipul pe serverul altcuiva. Extract Audio from Video⁺ convertește pe iPhone, așa că videoclipurile tale nu părăsesc dispozitivul.",
+        "url": "/ro/guides/extract-audio-online-vs-app/"
+      },
+      {
+        "question": "Cum extragi muzica dintr-un video pe iPhone?",
+        "answer": "Trimite videoclipul în aplicație, decupează în jurul melodiei și atinge „Extrage audio”. Salvează muzică doar din videoclipurile tale sau din cele la care ai drepturi.",
+        "url": "/ro/guides/save-music-from-video-iphone/"
+      },
+      {
+        "question": "Pot extrage doar o parte din sunetul unui video?",
+        "answer": "Da. Atinge „Decupează video”, selectează porțiunea de care ai nevoie și extrage — se salvează doar acea parte.",
+        "url": "/ro/guides/trim-audio-from-video-iphone/"
+      },
+      {
+        "question": "Cum scoți sunetul dintr-o înregistrare de ecran?",
+        "answer": "Înregistrările de ecran sunt salvate ca videoclipuri în Poze. Trimite una în aplicație și extrage sunetul. Dacă fișierul e mut, microfonul a fost oprit la înregistrare.",
+        "url": "/ro/guides/screen-recording-to-audio-iphone/"
+      },
+      {
+        "question": "Cum asculți un curs înregistrat video ca audio?",
+        "answer": "Convertește videoclipul cursului în MP3 și salvează-l în Fișiere. Îl asculți offline cu ecranul stins și ocupă mult mai puțin spațiu.",
+        "url": "/ro/guides/lecture-video-to-audio-iphone/"
+      },
+      {
+        "question": "Pot face un ton de apel dintr-un video pe iPhone?",
+        "answer": "Da. Decupează sunetul la 30 de secunde, salvează-l în Fișiere și, în iOS 26, atinge Partajează → „Folosește ca ton de apel”. În versiunile mai vechi folosește GarageBand.",
+        "url": "/ro/guides/video-to-ringtone-iphone/"
       }
     ]
   },
-  "app_info": {
-    "name": "Extract Audio from Video⁺",
-    "alternate_name": "Extragere audio din video",
-    "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio"
+  "cta": {
+    "title": "Sunetul pe care îl cauți e deja în videoclipul tău.",
+    "subtitle": "Scoate-l în patru atingeri — gratuit, privat, direct pe iPhone.",
+    "button": "Descarcă din App Store"
   },
   "footer": {
-    "cta_text": "📱 Aplicație gratuită — audio din video",
+    "tagline": "Cea mai simplă cale de a extrage audio din video pe iPhone.",
+    "guides_title": "Ghiduri",
+    "app_title": "Aplicație",
+    "legal_title": "Informații legale",
+    "cta_text": "Descarcă din App Store",
     "privacy_text": "Politica de confidențialitate",
     "terms_text": "Termeni de utilizare",
     "support_text": "Asistență",
+    "languages_title": "Limbi",
     "developer_info": "Dezvoltat de Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Toate drepturile rezervate."
   },
   "floating_cta": {
-    "text": "📱 Video → MP3 pe iPhone — gratuit"
+    "text": "Descarcă gratuit"
   },
-  "seo_chapter": {
-    "title": "Ghid complet: extrage audio din video pe iPhone (2026)",
-    "subtitle": "MP4/MOV în MP3—început gratuit, confidențial pe dispozitiv",
-    "intro": "Audio din video⁺ este o aplicație multimedia iOS care convertește fișiere video (MP4/MOV) de pe iPhone în audio MP3. Multe operațiuni merg offline: extragerea e locală, fără obligația de a încărca clipul pe servere externe. Formatele uzuale de pe iPhone sunt acceptate; ieșirea e MP3. Funcțiile de bază sunt gratuite; extinderile sunt opționale prin achiziții în aplicație.",
-    "sections": [
-      {
-        "heading": "Pași: scoate sunetul din video",
-        "body": "1) Deschide aplicația. 2) Alege video din bibliotecă. 3) Decupează dacă e nevoie. 4) Salvează ca MP3. Din Distribuie în Fotografii sau Fișiere poți trimite clipul direct, fără să cauți iconița pe ecranul principal. Suport pentru formatele tipice pe iOS (ex. MP4, MOV)."
-      },
-      {
-        "heading": "Funcții",
-        "body": "În loc să trimiți tot fișierul în cloud, aplicația pune accent pe prelucrarea pe iPhone—util pentru confidențialitate și timp fără transfer suplimentar. Decuparea ajută să exporți doar audio necesar. Este un convertor video→MP3 cu intrare MP4/MOV."
-      }
-    ],
-    "bullets_title": "Utilizări frecvente",
-    "bullets": [
-      "A păstra coloana sonoră dintr-un video pentru colecția ta",
-      "Cursuri sau întâlniri filmate → doar audio pentru ascultat în deplasare",
-      "Fragmente scurte pentru rețele sociale sau podcast",
-      "MP3 ușor înainte de editare în alte aplicații"
-    ],
-    "conclusion": "Audio din video⁺ te ajută pe iPhone să extragi sunet din video, local și cu nucleu gratuit. Funcțiile suplimentare sunt opționale."
-  },
-  "comparison": {
-    "title": "Audio din video⁺ față de convertoare online",
-    "intro": "Comparație scurtă cu serviciile din browser:",
-    "table": {
-      "feature": "Caracteristică",
-      "online_converters": "Online",
-      "this_app": "Audio din video⁺",
-      "rows": [
-        {
-          "feature": "Confidențialitate",
-          "online": "Video ajunge des pe server",
-          "app": "Procesare pe iPhone"
-        },
-        {
-          "feature": "Ușurință",
-          "online": "Încărcare și așteptare",
-          "app": "Distribuie sau deschidere directă"
-        },
-        {
-          "feature": "Cost",
-          "online": "Limite sau abonament",
-          "app": "Bază gratuită, extra opțional"
-        },
-        {
-          "feature": "Viteză",
-          "online": "Depinde de conexiune",
-          "app": "Imediat pe dispozitiv"
-        }
-      ]
-    }
+  "guide_ui": {
+    "lang": "ro",
+    "og_locale": "ro_RO",
+    "locale": "ro-RO",
+    "home": "Acasă",
+    "guides": "Ghiduri",
+    "guide": "Ghid",
+    "updated": "Actualizat:",
+    "min_read": "min de citit",
+    "by": "de",
+    "quick_answer": "Răspuns rapid",
+    "step_by_step": "Pas cu pas",
+    "faq_title": "Întrebări frecvente",
+    "related": "Ghiduri similare",
+    "read_guide": "Citește ghidul",
+    "inline_cta_sub": "Gratuit în App Store · MP3 și M4A · pe dispozitiv",
+    "aside_label": "Descarcă aplicația",
+    "aside_shot_alt": "ecranul de extragere audio",
+    "ratings": "evaluări",
+    "free": "Gratuit",
+    "iphone_app": "aplicație pentru iPhone",
+    "step": "Pasul",
+    "hub_title": "Ghiduri: cum extragi audio din video pe iPhone (MP3, M4A)",
+    "hub_description": "Ghiduri pas cu pas pentru iPhone: extrage audio din video, MP4 și MOV în MP3 sau M4A, decupează sunetul, salvează muzică, creează tonuri de apel. Gratuit.",
+    "hub_h1": "Extrage audio din video pe iPhone: toate ghidurile",
+    "hub_sub": "Alege ce vrei să faci. Fiecare ghid are un răspuns rapid, pașii exacți cu capturi de ecran și soluții pentru problemele obișnuite.",
+    "published": "2026-09-27"
   }
 }

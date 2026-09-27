@@ -1,254 +1,293 @@
 {
   "meta": {
     "lang": "tr",
-    "title": "Videodan ses çıkarma iPhone | Ücretsiz MP3 uygulaması (2026)",
-    "description": "iPhone videolarından saniyeler içinde MP3: MP4 ve MOV cihazda net ses—özel, buluta yükleme yok. Fotoğraflar veya Paylaş’tan kırpın. Ücretsiz başlayın.",
-    "keywords": "videodan ses çıkarma, videodan ses alma iphone, mp4 mp3 dönüştürücü, mov mp3, video ses ayırma, video mp3 çevirici, ücretsiz iphone uygulaması, ios, app store, yerel dönüştürme, gizlilik",
+    "title": "iPhone’da videodan ses çıkarma — ücretsiz MP3 ve M4A",
+    "description": "Her videodan sesi iPhone’da çıkar: MP4 ve MOV’u saniyeler içinde MP3 veya M4A’ya çevir. Kırp, Dosyalar’a kaydet ve paylaş — buluta yüklemeden. Ücretsiz başla.",
+    "keywords": "videodan ses çıkarma, videodan ses çıkarma iphone, videodan ses ayırma, videoyu mp3 yapma, video mp3 çevirme iphone, mp4 mp3 dönüştürme, mov mp3, video m4a, videodan ses çıkarma online, videodan müzik çıkarma, iphone zil sesi yapma video, ekran kaydı ses",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/tr/",
-    "og_title": "Videodan ses çıkarma iPhone | MP4/MOV → MP3, ücretsiz",
-    "og_description": "Videoyu birkaç adımda MP3 yapın. MP4/MOV iPhone’da kalır, dosyaları dış sunucuya göndermezsiniz. İşlem cihazda yapılır, yüksek ses kalitesi.",
+    "og_title": "iPhone’da videodan ses çıkarma — saniyeler içinde MP3 ve M4A",
+    "og_description": "Ücretsiz iPhone uygulaması: her videoyu doğrudan cihazında MP3 veya M4A’ya çevir. İstediğin kısmı kırp, kaydet ve paylaş — hiçbir şey yüklenmez.",
     "og_image": "https://extractaudioapp.com/tr/site_preview.png",
-    "site_name": "Videodan Ses⁺",
+    "site_name": "Extract Audio from Video⁺",
     "og_locale": "tr_TR",
     "twitter_url": "https://extractaudioapp.com/tr/",
-    "twitter_title": "Videodan ses çıkarma iPhone | Ücretsiz MP3 uygulaması",
-    "twitter_description": "iPhone’da video → MP3 birkaç dokunuşla. Çekirdek ücretsiz; ekler isteğe bağlı uygulama içi satın alımla.",
+    "twitter_title": "iPhone’da videodan ses çıkarma — ücretsiz",
+    "twitter_description": "Her videoyu saniyeler içinde MP3 veya M4A’ya çevir. Cihazda, gizli ve başlamak ücretsiz.",
     "twitter_image": "https://extractaudioapp.com/tr/site_preview.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/tr/",
     "geo_region": "TR",
     "geo_placename": "Turkey"
   },
-  "hero": {
-    "logo_alt": "Videodan Ses⁺ logosu",
-    "title": "Videodan ses çıkarma iPhone",
-    "subtitle": "Video MP3’e saniyeler içinde — ücretsiz başlangıç",
-    "entity_definition": "Videodan Ses⁺, iPhone’unuzdaki videoları (MP4/MOV) cihaz üzerinde yüksek kaliteli MP3 dosyalarına dönüştüren bir iOS uygulamasıdır.",
-    "subheadline": "Kliplerden müzik saklayın, ders kayıtlarından sadece sesi alın veya kısa sesler kesin. Hızlı ve gizlilik odaklı: temel işlevler ücretsiz; isteğe bağlı uygulama içi satın alımlarla genişletebilirsiniz.",
-    "download_alt": "App Store’dan indir",
-    "phone_text": "Videoyu sese çevirmek için dokunun",
-    "qr_alt": "Uygulamayı indirmek için QR kod",
-    "qr_text": "İndirmek için telefonunuzla tarayın"
+  "app_info": {
+    "name": "Extract Audio from Video⁺",
+    "alternate_name": "Videodan Ses Çıkarma — MP3 ve M4A",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio"
   },
-  "features": {
-    "title": "iPhone’da neden tercih ediliyor",
-    "items": [
+  "nav": {
+    "how": "Nasıl çalışır",
+    "guides": "Rehberler",
+    "faq": "SSS",
+    "download": "İndir"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "home": "ana sayfa",
+    "primary_nav": "Ana menü",
+    "key_features": "Öne çıkan özellikler",
+    "out_of_5": "5 üzerinden",
+    "ratings": "değerlendirme",
+    "trim_alt": "Sesi çıkarmadan önce videoyu kırpma",
+    "screenshots_label": "Uygulama ekran görüntüleri",
+    "step": "Adım",
+    "iphone_app": "iPhone uygulaması",
+    "features": [
+      "Videodan MP3 veya M4A olarak ses çıkarma",
+      "Sesi çıkarmadan önce videoyu kırpma",
+      "Fotoğraflar ve Dosyalar için paylaşım uzantısı",
+      "Cihazda dönüştürme, yükleme yok",
+      "Çıkarılan ses dosyaları arşivi"
+    ]
+  },
+  "hero": {
+    "eyebrow": "iPhone için ücretsiz ses çıkarıcı",
+    "title_lead": "Her videodan sesi çıkar",
+    "title_accent": "iPhone’da",
+    "subtitle": "MP4 ve MOV videolarını saniyeler içinde MP3 veya M4A’ya çevir. Tam istediğin kısmı kırp, Dosyalar’a kaydet ve her yerde paylaş — hepsi kendi cihazında.",
+    "bullets": [
+      "MP3 ve M4A",
+      "Dışa aktarmadan önce kırpma",
+      "Paylaş menüsünden çalışır",
+      "Yükleme yok, hesap yok"
+    ],
+    "logo_alt": "Extract Audio from Video⁺ uygulama simgesi",
+    "download_alt": "Extract Audio from Video⁺ uygulamasını App Store’dan indir",
+    "qr_alt": "Extract Audio from Video⁺ uygulamasını App Store’dan indirmek için QR kod",
+    "qr_text": "İndirmek için iPhone’unla tara",
+    "rating_label": "App Store puanı",
+    "shot_alt": "Extract Audio from Video uygulaması: kırpma ve ses çıkarma düğmeleri olan ses çıkarma ekranı"
+  },
+  "download": {
+    "eyebrow": "İndir",
+    "title": "iPhone için ücretsiz ses çıkarıcı",
+    "subtitle": "Ücretsiz indir, temel ses çıkarma hemen hazır. İsteğe bağlı uygulama içi satın alımlar ekstra özellikleri açar — ödeme yapmadan başlayabilirsin.",
+    "facts": [
       {
-        "title": "Ücretsiz başlangıç",
-        "description": "İndirme ve temel ses çıkarma ücretsiz; genişletme isteğe bağlı uygulama içi satın alımlarla.",
-        "icon": "⚡"
+        "value": "Ücretsiz",
+        "label": "indirme"
       },
       {
-        "title": "Hızlı MP3 dönüşümü",
-        "description": "MP4, MOV ve yaygın formatlardan net MP3; işlem cihazda.",
-        "icon": "🎵"
+        "value": "MP3 · M4A",
+        "label": "formatlar"
       },
       {
-        "title": "Kesin kırpma",
-        "description": "Dışa aktarmadan önce yalnızca ihtiyacınız olan bölümü seçin.",
-        "icon": "✂️"
+        "value": "23,1 MB",
+        "label": "boyut"
       },
       {
-        "title": "Paylaş ile",
-        "description": "Fotoğraflar veya Dosyalar’dan—az adım.",
-        "icon": "🔗"
+        "value": "iOS 18.6+",
+        "label": "iPhone"
+      }
+    ],
+    "points": [
+      {
+        "title": "Gizli",
+        "text": "Videolar iPhone’unda dönüştürülür. Hiçbir şey sunucuya gitmez."
       },
       {
-        "title": "Sade arayüz",
-        "description": "Küçük ekranda okunaklı; yeni başlayanlar için uygun.",
-        "icon": "🎨"
+        "title": "Dakikalar değil saniyeler",
+        "text": "Yükleme yok, sıra yok, indirme yok. Çevrimdışı çalışır."
       },
       {
-        "title": "Temiz ses",
-        "description": "Müzik, ders, podcast ve konuşma için uygun.",
-        "icon": "🎵"
+        "title": "iOS’a entegre",
+        "text": "Fotoğraflar veya Dosyalar’daki her videoyu Paylaş düğmesiyle gönder."
       }
     ]
   },
-  "by_the_numbers": {
-    "title": "Videodan Ses⁺ rakamlarla",
+  "screenshots": {
+    "eyebrow": "Ekran görüntüleri",
+    "title": "Uygulama iş başında",
+    "subtitle": "Beş ekran, tek amaç: videodaki sesi çıkarmak.",
     "items": [
-      "App Store’da 290+ değerlendirmeye dayalı 4,5/5 puan",
-      "Ücretsiz indirme ve çekirdek kullanım—isteğe bağlı uygulama içi satın alımlar",
-      "MP4, MOV ve tipik iPhone video formatları desteklenir",
-      "Uygulama boyutu yaklaşık 50 MB",
-      "İşlem iPhone’da: daha hızlı ve daha gizli, zorunlu yükleme yok"
-    ],
-    "stats": [
       {
-        "number": "4,5",
-        "label": "Puan",
-        "detail": "290+ yoruma göre"
+        "src": "/screenshots/1.webp",
+        "alt": "Extract Audio from Video — iPhone için 1 numaralı ses çıkarıcı",
+        "caption": "Videodan ses çıkar"
       },
       {
-        "number": "~50 MB",
-        "label": "Boyut",
-        "detail": "Hafif ve hızlı"
+        "src": "/screenshots/2.webp",
+        "alt": "Ses çıkarma ekranı: iPhone’da videoyu sese dönüştürme",
+        "caption": "Videoyu sese çevir"
       },
       {
-        "number": "100%",
-        "label": "Ücretsiz çekirdek",
-        "detail": "Ekler isteğe bağlı"
+        "src": "/screenshots/3.webp",
+        "alt": "Başlangıç ve bitiş işaretleriyle video sesini kırpma",
+        "caption": "Tam istediğin kısmı kırp"
       },
       {
-        "number": "Yerel",
-        "label": "İşlem",
-        "detail": "Video cihazdan çıkmaz"
+        "src": "/screenshots/4.webp",
+        "alt": "Kaydetmeye veya göndermeye hazır ses dosyasıyla Paylaş menüsü",
+        "caption": "Kaydet veya paylaş"
+      },
+      {
+        "src": "/screenshots/5.webp",
+        "alt": "Uygulamadaki çıkarılmış MP3 dosyaları arşivi",
+        "caption": "Tüm dosyalar tek arşivde"
       }
     ]
   },
   "demo": {
-    "title": "iPhone’da videodan ses çıkarma—adım adım",
-    "subtitle": "Cihazınızda kaliteli MP3, birkaç basit adımla",
-    "placeholder_line1": "📱 Demo video yakında",
-    "placeholder_line2": "1 Uygulamayı aç > 2 Video seç > 3 Gerekirse kırp > 4 MP3 olarak kaydet"
+    "eyebrow": "Nasıl çalışır",
+    "title": "iPhone’da videodan ses nasıl çıkarılır",
+    "subtitle": "Videodan MP3 veya M4A’ya dört dokunuş. Uygulamadan ya da Fotoğraflar’daki Paylaş’tan başla."
   },
   "howto_steps": {
     "items": [
       {
-        "name": "Uygulamayı açın",
-        "text": "iPhone’unuzda {{app_info.name}} uygulamasını açın. App Store’dan ücretsiz indirebilirsiniz."
+        "name": "Bir video seç",
+        "text": "Uygulamayı aç ve Fotoğraflar’dan veya Dosyalar’dan bir video seç — ya da herhangi bir videoda Paylaş’a dokunup uygulamayı seç.",
+        "image": "/screenshots/2.webp"
       },
       {
-        "name": "Video seçin",
-        "text": "Kitaplığınızdan MP4, MOV veya başka yaygın bir formatta dosya seçin."
+        "name": "Gerekirse kırp",
+        "text": "“Videoyu Kırp”a dokun ve yalnızca istediğin kısım kalacak şekilde sarı işaretleri sürükle. İsteğe bağlı.",
+        "image": "/screenshots/3.webp"
       },
       {
-        "name": "Gerekirse kırpın",
-        "text": "Kesim araçlarıyla yalnızca sesini almak istediğiniz bölümü işaretleyin. Bu adım isteğe bağlıdır."
+        "name": "“Sesi Çıkar”a dokun",
+        "text": "Ses parçası iPhone’unda saniyeler içinde MP3 veya M4A’ya dönüştürülür.",
+        "image": "/screenshots/2.webp"
       },
       {
-        "name": "Sesi kaydedin",
-        "text": "Ses Olarak Kaydet’e dokunarak MP3 olarak dışa aktarın. Dosya iPhone’unuzda kalır."
+        "name": "Kaydet veya paylaş",
+        "text": "Sesi Dosyalar’a kaydet, AirDrop ile ya da herhangi bir uygulamaya gönder. Tüm dosyalar arşivde kalır.",
+        "image": "/screenshots/4.webp"
       }
     ]
   },
-  "testimonials": {
-    "rating_text": "4,5 — App Store değerlendirmelerine göre",
-    "items": [
-      {
-        "text": "\"Kırpıp MP3 kaydediyorum; basit ve hızlı.\"",
-        "author": "Ayşe K., iPhone kullanıcısı",
-        "rating": "5 yıldız",
-        "verified": true
-      },
-      {
-        "text": "\"Ders videoları için süper; her şey cihazda, arayüz sakin.\"",
-        "author": "Mehmet T., öğrenci",
-        "rating": "5 yıldız",
-        "verified": true
-      },
-      {
-        "text": "\"Sık Fotoğraflar’dan Paylaş ile başlıyorum—zaman kazandırıyor.\"",
-        "author": "Zeynep L., içerik üreticisi",
-        "rating": "5 yıldız",
-        "verified": true
-      }
-    ]
+  "guides": {
+    "eyebrow": "Rehberler",
+    "title": "Her videodan sese işi için rehberler",
+    "subtitle": "En çok aranan sorulara ekran görüntülü, adım adım yanıtlar.",
+    "all_label": "Tüm rehberler",
+    "read_label": "Rehberi oku"
   },
   "faq": {
-    "title": "SSS: videodan iPhone’da sese",
+    "eyebrow": "SSS",
+    "title": "Videodan ses hakkında sık sorulan sorular",
+    "learn_more": "Devamını oku",
     "items": [
       {
         "question": "iPhone’da videodan ses nasıl çıkarılır?",
-        "answer": "Videodan Ses⁺’i açın, kitaplıktan videoyu seçin, gerekirse kırpın ve ses olarak (MP3) kaydedin. Fotoğraflar veya Dosyalar’dan Paylaş ile de gönderebilirsiniz."
+        "answer": "Extract Audio from Video⁺ uygulamasını aç, videoyu seç, gerekirse kırp ve “Sesi Çıkar”a dokun. Ses parçası iPhone’a MP3 veya M4A olarak kaydedilir. Fotoğraflar’daki Paylaş’tan da başlayabilirsin.",
+        "url": "/tr/guides/extract-audio-from-video-iphone/"
       },
       {
-        "question": "Ücretsiz video → ses uygulaması var mı?",
-        "answer": "Evet. İndirme ücretsiz; temel çıkarma ücretsiz çekirdekte. Ek özellikler isteğe bağlı uygulama içi satın alımla."
+        "question": "iPhone’da video MP3’e nasıl çevrilir?",
+        "answer": "Videoyu Paylaş ile uygulamaya gönder, “Sesi Çıkar”a dokun ve MP3’ü seç. Dosya cihazda kalır; Dosyalar’a kaydedebilir, AirDrop ile ya da herhangi bir uygulamaya gönderebilirsin.",
+        "url": "/tr/guides/convert-video-to-mp3-iphone/"
       },
       {
-        "question": "Ne kadar hızlı?",
-        "answer": "Uygulamayı aç → video seç → kırp → ses olarak kaydet. Çoğu zaman en hızlısı Fotoğraflar’daki Paylaş ile başlamaktır."
+        "question": "iPhone’da MP4’ü ücretsiz MP3’e çevirebilir miyim?",
+        "answer": "Evet. MP4’ü Dosyalar’da veya Fotoğraflar’da aç, uygulamaya gönder ve MP3 olarak dışa aktar. Temel dönüştürme ücretsizdir.",
+        "url": "/tr/guides/mp4-to-mp3-iphone/"
       },
       {
-        "question": "MP4 ve MOV olur mu?",
-        "answer": "Evet. iPhone’da yaygın formatlar—MP4 ve MOV dahil—birkaç adımda MP3’e aktarılabilir."
+        "question": "iPhone’un MOV videosu nasıl sese çevrilir?",
+        "answer": "iPhone kamerası MOV formatında kaydeder. Klibi Fotoğraflar’dan uygulamaya gönder ve sesi MP3 veya M4A olarak dışa aktar.",
+        "url": "/tr/guides/mov-to-mp3-iphone/"
       },
       {
-        "question": "Ücretsiz başlayabilir miyim?",
-        "answer": "Evet; ana çıkarma ücretsiz. Daha fazlası için isteğe bağlı satın alım; abonelik şart değil."
+        "question": "Videonun sesini M4A olarak kaydedebilir miyim?",
+        "answer": "Evet, çıkarırken M4A’yı seç. Apple’ın kendi formatıdır: MP3’ten küçüktür, zil sesleri ve GarageBand için idealdir.",
+        "url": "/tr/guides/video-to-m4a-iphone/"
       },
       {
-        "question": "Çevrimiçi dönüştürücülerden iyi mi?",
-        "answer": "Birçok iPhone kullanıcısı için evet: video cihazda işlenir, yüklemeniz şart olmaz. Çevrimiçi araçlar genelde yükleme ve bekleme gerektirir."
+        "question": "iPhone’da uygulamasız videodan ses çıkarılır mı?",
+        "answer": "Evet, “Ortamı Kodla” ve “Yalnızca Ses” kullanan bir kestirmeyle. Ama yalnızca M4A üretir ve kırpamaz; MP3 veya kısa parçalar için uygulama daha hızlıdır.",
+        "url": "/tr/guides/extract-audio-without-app-iphone/"
       },
       {
-        "question": "Çevrimiçiye göre daha güvenli mi?",
-        "answer": "Genelde öyledir; dosyalarınız iPhone’da kalır, üçüncü taraf sunuculara gitmek zorunda kalmazsınız. Kişisel kayıtlar için avantajlıdır."
+        "question": "Videodan online ses çıkarmak güvenli mi?",
+        "answer": "Online siteler videoyu başkasının sunucusuna yüklemeni ister. Extract Audio from Video⁺ iPhone’da dönüştürür, yani videoların cihazdan çıkmaz.",
+        "url": "/tr/guides/extract-audio-online-vs-app/"
+      },
+      {
+        "question": "iPhone’da videodan müzik nasıl çıkarılır?",
+        "answer": "Videoyu uygulamaya gönder, şarkının çevresini kırp ve “Sesi Çıkar”a dokun. Yalnızca kendi videolarından ya da hakkına sahip olduğun videolardan müzik kaydet.",
+        "url": "/tr/guides/save-music-from-video-iphone/"
+      },
+      {
+        "question": "Videonun sesinin sadece bir kısmını çıkarabilir miyim?",
+        "answer": "Evet. “Videoyu Kırp”a dokun, ihtiyacın olan kısmı seç ve çıkar — yalnızca o kısım kaydedilir.",
+        "url": "/tr/guides/trim-audio-from-video-iphone/"
+      },
+      {
+        "question": "Ekran kaydının sesi nasıl alınır?",
+        "answer": "Ekran kayıtları Fotoğraflar’da video olarak saklanır. Birini uygulamaya gönder ve sesi çıkar. Dosya sessizse kayıt sırasında mikrofon kapalıydı.",
+        "url": "/tr/guides/screen-recording-to-audio-iphone/"
+      },
+      {
+        "question": "Ders videosu ses olarak nasıl dinlenir?",
+        "answer": "Ders videosunu MP3’e çevir ve Dosyalar’a kaydet. Ekran kapalıyken çevrimdışı dinlersin ve çok daha az yer kaplar.",
+        "url": "/tr/guides/lecture-video-to-audio-iphone/"
+      },
+      {
+        "question": "iPhone’da videodan zil sesi yapabilir miyim?",
+        "answer": "Evet. Sesi 30 saniyeye kırp, Dosyalar’a kaydet ve iOS 26’da Paylaş → “Zil Sesi Olarak Kullan”a dokun. Eski sürümlerde GarageBand kullan.",
+        "url": "/tr/guides/video-to-ringtone-iphone/"
       }
     ]
   },
-  "app_info": {
-    "name": "Extract Audio from Video⁺",
-    "alternate_name": "Videodan ses çıkarma",
-    "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio"
+  "cta": {
+    "title": "Aradığın ses zaten videonda.",
+    "subtitle": "Dört dokunuşta çıkar — ücretsiz, gizli, doğrudan iPhone’da.",
+    "button": "App Store’dan indir"
   },
   "footer": {
-    "cta_text": "📱 Ücretsiz uygulama — videodan ses",
+    "tagline": "iPhone’da videodan ses çıkarmanın en kolay yolu.",
+    "guides_title": "Rehberler",
+    "app_title": "Uygulama",
+    "legal_title": "Yasal",
+    "cta_text": "App Store’dan indir",
     "privacy_text": "Gizlilik Politikası",
     "terms_text": "Kullanım Koşulları",
     "support_text": "Destek",
+    "languages_title": "Diller",
     "developer_info": "Geliştirici: Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Tüm hakları saklıdır."
   },
   "floating_cta": {
-    "text": "📱 Video → MP3 iPhone—ücretsiz"
+    "text": "Ücretsiz indir"
   },
-  "seo_chapter": {
-    "title": "Videodan ses çıkarma iPhone rehberi 2026",
-    "subtitle": "MP4/MOV → MP3: ücretsiz başlangıç, cihazda gizlilik",
-    "intro": "Videodan Ses⁺, iPhone’daki video dosyalarını (MP4/MOV) MP3 ses dosyalarına dönüştüren bir iOS multimedya uygulamasıdır. Birçok işlemi çevrimdışı yapabilirsiniz; çıkarma yerel çalışır, dosyayı dış sunucuya yüklemeniz gerekmez. Yaygın iPhone formatları desteklenir; çıktı MP3’tür. Temel özellikler ücretsiz; genişletme isteğe bağlı uygulama içi satın alımlarla mümkündür.",
-    "sections": [
-      {
-        "heading": "Adımlar: videodan sesi alın",
-        "body": "1) Uygulamayı açın. 2) Kitaplıktan video seçin. 3) Gerekirse kırpın. 4) MP3 olarak kaydedin. Paylaş ile Fotoğraflar veya Dosyalar’dan göndererek ana ekranda ikon aramadan devam edebilirsiniz. MP4 ve MOV dahil iOS’un tipik formatları desteklenir."
-      },
-      {
-        "heading": "Özellikler",
-        "body": "Buluta tüm dosyayı yüklemek yerine cihaz üstü işlemeye odaklanır; gizlilik ve yükleme beklemeden dönüşüm için uygundur. Kırpma, yalnızca ihtiyaç duyduğunuz sesi dışa aktarmanıza yardımcı olur. MP4 ve MOV girdili bir video→MP3 dönüştürücü olarak düşünebilirsiniz."
-      }
-    ],
-    "bullets_title": "Yaygın kullanım alanları",
-    "bullets": [
-      "Video içindeki müzik veya sesi koleksiyonunuz için saklamak",
-      "Ders veya toplantı kayıtlarından yalnızca sesi dinlemek",
-      "Sosyal medya veya podcast için kısa ses klipleri",
-      "Başka düzenleyicilere göndermeden önce hafif MP3 oluşturmak"
-    ],
-    "conclusion": "Videodan Ses⁺, iPhone’unuzda videodan ses çıkarmayı yerel ve ücretsiz çekirdekte kolaylaştırır; ek yetenekler isteğe bağlıdır."
-  },
-  "comparison": {
-    "title": "Videodan Ses⁺ ve çevrimiçi dönüştürücüler",
-    "intro": "Tarayıcı tabanlı video→ses hizmetleriyle kısa karşılaştırma:",
-    "table": {
-      "feature": "Özellik",
-      "online_converters": "Çevrimiçi",
-      "this_app": "Videodan Ses⁺",
-      "rows": [
-        {
-          "feature": "Gizlilik",
-          "online": "Video sıklıkla sunucuya gider",
-          "app": "İşlem iPhone’da"
-        },
-        {
-          "feature": "Kolaylık",
-          "online": "Yükleme ve bekleme",
-          "app": "Paylaş veya doğrudan uygulama"
-        },
-        {
-          "feature": "Maliyet",
-          "online": "Limit veya abonelik",
-          "app": "Çekirdek ücretsiz, ekler isteğe bağlı"
-        },
-        {
-          "feature": "Hız",
-          "online": "Bağlantıya bağlı",
-          "app": "Cihazda anında"
-        }
-      ]
-    }
+  "guide_ui": {
+    "lang": "tr",
+    "og_locale": "tr_TR",
+    "locale": "tr-TR",
+    "home": "Ana sayfa",
+    "guides": "Rehberler",
+    "guide": "Rehber",
+    "updated": "Güncellendi:",
+    "min_read": "dk okuma",
+    "by": "yazar:",
+    "quick_answer": "Kısa cevap",
+    "step_by_step": "Adım adım",
+    "faq_title": "Sık sorulan sorular",
+    "related": "İlgili rehberler",
+    "read_guide": "Rehberi oku",
+    "inline_cta_sub": "App Store’da ücretsiz · MP3 ve M4A · cihazda",
+    "aside_label": "Uygulamayı indir",
+    "aside_shot_alt": "ses çıkarma ekranı",
+    "ratings": "değerlendirme",
+    "free": "Ücretsiz",
+    "iphone_app": "iPhone uygulaması",
+    "step": "Adım",
+    "hub_title": "Rehberler: iPhone’da videodan ses çıkarma (MP3, M4A)",
+    "hub_description": "iPhone için adım adım rehberler: videodan ses çıkarma, MP4 ve MOV’u MP3 veya M4A’ya çevirme, ses kırpma, müzik kaydetme, zil sesi yapma. Ücretsiz.",
+    "hub_h1": "iPhone’da videodan ses çıkarma: tüm rehberler",
+    "hub_sub": "Ne yapmak istediğini seç. Her rehberde kısa bir cevap, ekran görüntülü net adımlar ve sık karşılaşılan sorunların çözümleri var.",
+    "published": "2026-09-27"
   }
 }

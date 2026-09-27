@@ -1,254 +1,293 @@
 {
   "meta": {
     "lang": "nl",
-    "title": "Audio uit video op de iPhone | Gratis MP3-app (2026)",
-    "description": "Audio uit iPhone-video’s in seconden: MP4 en MOV worden op je iPhone tot heldere MP3—privé, geen cloudupload. Knip via Foto’s of Deel. Gratis starten.",
-    "keywords": "audio uit video halen, geluid uit video halen iphone, video naar mp3, mp4 naar mp3 iphone, video omzetten naar audio, video naar mp3 converter, audio extractor video, mov naar mp3, gratis video naar audio app, ios app, iphone, app store, lokaal converteren, privacy",
+    "title": "Audio uit video halen op je iPhone — gratis MP3 en M4A",
+    "description": "Haal het geluid uit elke video op je iPhone: MP4 en MOV in seconden naar MP3 of M4A. Knip, bewaar in Bestanden en deel — zonder upload naar de cloud. Gratis.",
+    "keywords": "audio uit video halen, geluid uit video halen iphone, audio uit video halen iphone, video naar mp3, video naar mp3 iphone, mp4 naar mp3, mov naar mp3, video omzetten naar audio, video naar m4a, audio uit video halen online, muziek uit video halen, beltoon van video iphone",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/nl/",
-    "og_title": "Audio uit video op iPhone | MP3 uit MP4/MOV, gratis",
-    "og_description": "Zet iPhone-video om naar MP3 in een paar stappen. MP4/MOV op je toestel, zonder bestanden naar servers te sturen.",
+    "og_title": "Audio uit video halen op je iPhone — MP3 en M4A in seconden",
+    "og_description": "Gratis iPhone-app: zet elke video om naar MP3 of M4A, direct op je toestel. Knip het stuk dat je wilt, bewaar en deel, zonder upload.",
     "og_image": "https://extractaudioapp.com/nl/site_preview.png",
-    "site_name": "Audio uit video⁺",
+    "site_name": "Audio uit Video naar MP3⁺",
     "og_locale": "nl_NL",
     "twitter_url": "https://extractaudioapp.com/nl/",
-    "twitter_title": "Audio uit video op iPhone | Gratis MP3-app",
-    "twitter_description": "Video naar MP3 op je iPhone met een paar tikken. Kern gratis; extra functies via optionele in-app aankopen.",
+    "twitter_title": "Audio uit video halen op je iPhone — gratis",
+    "twitter_description": "Elke video in seconden naar MP3 of M4A. Op je toestel, privé en gratis om te beginnen.",
     "twitter_image": "https://extractaudioapp.com/nl/site_preview.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/nl/",
     "geo_region": "NL",
     "geo_placename": "Netherlands"
   },
-  "hero": {
-    "logo_alt": "Logo Audio uit video⁺",
-    "title": "Audio uit video op iPhone",
-    "subtitle": "Video naar MP3 in seconden — gratis iPhone-app",
-    "entity_definition": "Audio uit video⁺ is een iOS-app die video (MP4/MOV) op je iPhone op het toestel zelf omzet naar hoogwaardige MP3-bestanden.",
-    "subheadline": "Bewaar muziek uit clips, knip college-audio of maak korte voice-fragmenten. Snel, privé en gratis te gebruiken met optionele in-app aankopen voor extra functies.",
-    "download_alt": "Download in de App Store",
-    "phone_text": "Tik om video naar audio te zetten",
-    "qr_alt": "QR-code om de app te downloaden",
-    "qr_text": "Scan met je telefoon om te downloaden"
+  "app_info": {
+    "name": "Audio uit Video naar MP3⁺",
+    "alternate_name": "Extract Audio from Video⁺",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio"
   },
-  "features": {
-    "title": "Waarom mensen dit op de iPhone gebruiken",
-    "items": [
+  "nav": {
+    "how": "Hoe het werkt",
+    "guides": "Handleidingen",
+    "faq": "FAQ",
+    "download": "Download"
+  },
+  "ui": {
+    "skip": "Naar de inhoud",
+    "home": "home",
+    "primary_nav": "Hoofdmenu",
+    "key_features": "Belangrijkste functies",
+    "out_of_5": "van 5 sterren",
+    "ratings": "beoordelingen",
+    "trim_alt": "Geluid van de video bijsnijden voor het extraheren",
+    "screenshots_label": "Screenshots van de app",
+    "step": "Stap",
+    "iphone_app": "iPhone-app",
+    "features": [
+      "Audio uit video halen als MP3 of M4A",
+      "Video bijsnijden voor het extraheren",
+      "Deel-extensie voor Foto’s en Bestanden",
+      "Omzetten op je toestel, geen upload",
+      "Bibliotheek met alle geëxtraheerde audio"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Gratis audio-extractor voor iPhone",
+    "title_lead": "Haal het geluid uit elke video",
+    "title_accent": "op je iPhone",
+    "subtitle": "Zet MP4- en MOV-video’s in seconden om naar MP3 of M4A. Knip precies het stuk dat je wilt, bewaar het in Bestanden en deel het overal — alles op je eigen toestel.",
+    "bullets": [
+      "MP3 en M4A",
+      "Bijsnijden voor export",
+      "Werkt vanuit Deel",
+      "Geen upload, geen account"
+    ],
+    "logo_alt": "App-icoon van Audio uit Video naar MP3⁺",
+    "download_alt": "Download Audio uit Video naar MP3⁺ in de App Store",
+    "qr_alt": "QR-code om Audio uit Video naar MP3⁺ te downloaden in de App Store",
+    "qr_text": "Scan met je iPhone om te downloaden",
+    "rating_label": "Beoordeling in de App Store",
+    "shot_alt": "Audio uit Video app: extractiescherm met knoppen om bij te snijden en audio te extraheren"
+  },
+  "download": {
+    "eyebrow": "Download",
+    "title": "De gratis audio-extractor voor iPhone",
+    "subtitle": "Gratis te downloaden, met de basisfunctie meteen inbegrepen. Optionele in-app aankopen ontgrendelen extra’s — je kunt beginnen zonder te betalen.",
+    "facts": [
       {
-        "title": "Gratis begin",
-        "description": "Download en kern-extractie zonder kosten; uitbreiding via optionele in-app aankopen.",
-        "icon": "⚡"
+        "value": "Gratis",
+        "label": "downloaden"
       },
       {
-        "title": "Snelle MP3-conversie",
-        "description": "MP4, MOV en gangbare formaten naar heldere MP3, lokaal verwerkt.",
-        "icon": "🎵"
+        "value": "MP3 · M4A",
+        "label": "formaten"
       },
       {
-        "title": "Precies trimmen",
-        "description": "Kies alleen het fragment dat je nodig hebt voordat je exporteert.",
-        "icon": "✂️"
+        "value": "23,1 MB",
+        "label": "grootte"
       },
       {
-        "title": "Via Deel",
-        "description": "Start vanuit Foto's of Bestanden met Deel — weinig stappen.",
-        "icon": "🔗"
+        "value": "iOS 18.6+",
+        "label": "iPhone"
+      }
+    ],
+    "points": [
+      {
+        "title": "Privé",
+        "text": "Video’s worden op je iPhone omgezet. Er wordt niets naar een server gestuurd."
       },
       {
-        "title": "Rustige interface",
-        "description": "Overzichtelijk op klein scherm; ook voor beginners.",
-        "icon": "🎨"
+        "title": "Seconden, geen minuten",
+        "text": "Geen upload, geen wachtrij, geen download. Werkt ook offline."
       },
       {
-        "title": "Goede klank",
-        "description": "Geschikt voor muziek, colleges, podcasts en spraak.",
-        "icon": "🎵"
+        "title": "Ingebouwd in iOS",
+        "text": "Stuur elke video vanuit Foto’s of Bestanden via de Deel-knop."
       }
     ]
   },
-  "by_the_numbers": {
-    "title": "Audio uit video⁺ in cijfers",
+  "screenshots": {
+    "eyebrow": "Screenshots",
+    "title": "De app in actie",
+    "subtitle": "Vijf schermen, één doel: het geluid uit je video halen.",
     "items": [
-      "4,5 van 5 sterren op basis van 290+ App Store-beoordelingen",
-      "Gratis te downloaden en te gebruiken – optionele in-app aankopen",
-      "Ondersteunt MP4, MOV en andere gangbare iPhone-videoformaten",
-      "~50 MB app-grootte op iOS",
-      "Verwerkt video op je iPhone: sneller en privé, zonder verplichte upload"
-    ],
-    "stats": [
       {
-        "number": "4,5",
-        "label": "Sterscore",
-        "detail": "Gebaseerd op 290+ recensies"
+        "src": "/screenshots/1.webp",
+        "alt": "Audio uit Video naar MP3 — de nr. 1 audio-extractor voor iPhone",
+        "caption": "Audio uit video halen"
       },
       {
-        "number": "~50 MB",
-        "label": "App-grootte",
-        "detail": "Licht en vlot"
+        "src": "/screenshots/2.webp",
+        "alt": "Extractiescherm: video omzetten naar audio op iPhone",
+        "caption": "Video naar audio"
       },
       {
-        "number": "100%",
-        "label": "Gratis kern",
-        "detail": "Extra's optioneel"
+        "src": "/screenshots/3.webp",
+        "alt": "Geluid van de video bijsnijden met begin- en eindmarkering",
+        "caption": "Knip precies het juiste stuk"
       },
       {
-        "number": "Lokaal",
-        "label": "Verwerking",
-        "detail": "Video blijft op je iPhone"
+        "src": "/screenshots/4.webp",
+        "alt": "Deelmenu met het audiobestand klaar om te bewaren of te versturen",
+        "caption": "Bewaren of delen"
+      },
+      {
+        "src": "/screenshots/5.webp",
+        "alt": "Bibliotheek met geëxtraheerde MP3-bestanden in de app",
+        "caption": "Al je bestanden in één bibliotheek"
       }
     ]
   },
   "demo": {
-    "title": "Audio uit video op iPhone – stap voor stap",
-    "subtitle": "Zo zet je video om naar hoogwaardige MP3 op je toestel",
-    "placeholder_line1": "📱 Demovideo volgt binnenkort",
-    "placeholder_line2": "1 Open de app > 2 Kies video > 3 Trim indien nodig > 4 Sla op als MP3-audio"
+    "eyebrow": "Hoe het werkt",
+    "title": "Zo haal je audio uit een video op je iPhone",
+    "subtitle": "Vier tikken van video naar MP3 of M4A. Begin in de app of via Deel in Foto’s."
   },
   "howto_steps": {
     "items": [
       {
-        "name": "Open de app",
-        "text": "Open {{app_info.name}} op je iPhone. De app is gratis te downloaden in de App Store."
+        "name": "Kies een video",
+        "text": "Open de app en kies een video uit Foto’s of Bestanden — of tik bij een video op Deel en kies de app.",
+        "image": "/screenshots/2.webp"
       },
       {
-        "name": "Kies je video",
-        "text": "Selecteer een video uit je bibliotheek in MP4, MOV of een ander gangbaar formaat."
+        "name": "Snijd bij als dat nodig is",
+        "text": "Tik op ‘Video bijsnijden’ en sleep de gele markeringen om alleen het gewenste stuk te houden. Optioneel.",
+        "image": "/screenshots/3.webp"
       },
       {
-        "name": "Trim indien nodig",
-        "text": "Gebruik de trimtools om exact het deel te kiezen waaruit je audio wilt halen. Deze stap is optioneel."
+        "name": "Tik op ‘Audio extraheren’",
+        "text": "Het geluidsspoor wordt in seconden op je iPhone omgezet naar MP3 of M4A.",
+        "image": "/screenshots/2.webp"
       },
       {
-        "name": "Audio extraheren en opslaan",
-        "text": "Tik op Opslaan als audio om geluid uit de video te halen en op te slaan als MP3. Het bestand blijft op je iPhone."
+        "name": "Bewaar of deel",
+        "text": "Bewaar de audio in Bestanden, stuur hem via AirDrop of naar elke app. Alle bestanden blijven in je bibliotheek.",
+        "image": "/screenshots/4.webp"
       }
     ]
   },
-  "testimonials": {
-    "rating_text": "4,5 volgens gebruikers in de App Store",
-    "items": [
-      {
-        "text": "\"Ik knip het stuk bij en sla op als MP3 — simpel en snel.\"",
-        "author": "Emma V., iPhone-gebruiker",
-        "rating": "5 sterren",
-        "verified": true
-      },
-      {
-        "text": "\"Voor colleges ideaal: rustige interface, alles op mijn telefoon.\"",
-        "author": "Lucas J., student",
-        "rating": "5 sterren",
-        "verified": true
-      },
-      {
-        "text": "\"Vaak start ik vanuit Deel in Foto's — scheelt tijd.\"",
-        "author": "Noor van D., maker",
-        "rating": "5 sterren",
-        "verified": true
-      }
-    ]
+  "guides": {
+    "eyebrow": "Handleidingen",
+    "title": "Handleidingen voor elke video-naar-audio klus",
+    "subtitle": "Stap-voor-stap antwoorden op de meest gezochte vragen, met screenshots.",
+    "all_label": "Alle handleidingen",
+    "read_label": "Lees handleiding"
   },
   "faq": {
-    "title": "FAQ: van video naar audio op iPhone",
+    "eyebrow": "FAQ",
+    "title": "Veelgestelde vragen over audio uit video",
+    "learn_more": "Meer lezen",
     "items": [
       {
-        "question": "Hoe krijg ik geluid uit een iPhone-video?",
-        "answer": "Open Audio uit video⁺, kies een clip uit je bibliotheek, trim eventueel en tik op Opslaan als audio (MP3). Ook mogelijk via Deel in Foto's of Bestanden."
+        "question": "Hoe haal je audio uit een video op je iPhone?",
+        "answer": "Open Audio uit Video naar MP3⁺, kies de video, snijd bij als dat nodig is en tik op ‘Audio extraheren’. Het geluidsspoor wordt als MP3 of M4A op je iPhone bewaard. Je kunt ook beginnen via Deel in Foto’s.",
+        "url": "/nl/guides/extract-audio-from-video-iphone/"
       },
       {
-        "question": "Bestaat er een gratis app voor video-naar-audio?",
-        "answer": "Ja. De app is gratis te downloaden; de belangrijkste extractie zit in de gratis kern. Extra tools zijn optioneel via in-app aankopen."
+        "question": "Hoe zet je een video om naar MP3 op je iPhone?",
+        "answer": "Stuur de video via Deel naar de app, tik op ‘Audio extraheren’ en kies MP3. Het bestand blijft op je toestel en kun je bewaren in Bestanden, via AirDrop versturen of naar elke app sturen.",
+        "url": "/nl/guides/convert-video-to-mp3-iphone/"
       },
       {
-        "question": "Hoe snel kan het?",
-        "answer": "Open de app → kies video → trim het fragment → sla op als audio. Snelst vaak via Deel in Foto's."
+        "question": "Kan ik MP4 gratis naar MP3 omzetten op mijn iPhone?",
+        "answer": "Ja. Open de MP4 in Bestanden of Foto’s, stuur hem naar de app en exporteer als MP3. De basisconversie is gratis.",
+        "url": "/nl/guides/mp4-to-mp3-iphone/"
       },
       {
-        "question": "Werken MP4 en MOV?",
-        "answer": "Ja. Gangbare iPhone-formaten, waaronder MP4 en MOV, kun je in een paar stappen als MP3 exporteren."
+        "question": "Hoe maak je van een MOV-video van je iPhone audio?",
+        "answer": "De iPhone-camera filmt in MOV. Stuur de clip vanuit Foto’s naar de app en exporteer het geluid als MP3 of M4A.",
+        "url": "/nl/guides/mov-to-mp3-iphone/"
       },
       {
-        "question": "Kan ik het gratis gebruiken?",
-        "answer": "Ja voor de basis: kern-extractie is gratis. Meer opties koop je desgewenst bij."
+        "question": "Kan ik het geluid van een video als M4A bewaren?",
+        "answer": "Ja, kies M4A bij het extraheren. Dat is Apples eigen formaat: kleiner dan MP3 en ideaal voor beltonen en GarageBand.",
+        "url": "/nl/guides/video-to-m4a-iphone/"
       },
       {
-        "question": "Is dit beter dan online converters?",
-        "answer": "Voor veel iPhone-gebruikers wel: video wordt op je toestel verwerkt en hoeft niet naar een server. Online tools vragen vaak upload en zijn trager of minder privé."
+        "question": "Kun je zonder app audio uit een video halen op je iPhone?",
+        "answer": "Ja, met een opdracht die ‘Codeer media’ met ‘Alleen audio’ gebruikt. Maar die maakt alleen M4A en kan niet bijsnijden; voor MP3 of korte stukjes is de app sneller.",
+        "url": "/nl/guides/extract-audio-without-app-iphone/"
       },
       {
-        "question": "Is het veiliger dan online omzetten?",
-        "answer": "Meestal wel, omdat je clips op de iPhone blijven en niet verplicht naar externe servers gaan. Dat helpt je privacy, vooral bij persoonlijke opnames."
+        "question": "Is het veilig om online audio uit een video te halen?",
+        "answer": "Online tools vragen je om je video naar een server van iemand anders te uploaden. Audio uit Video naar MP3⁺ zet om op je iPhone, dus je video’s verlaten je toestel niet.",
+        "url": "/nl/guides/extract-audio-online-vs-app/"
+      },
+      {
+        "question": "Hoe haal je muziek uit een video op je iPhone?",
+        "answer": "Stuur de video naar de app, snijd bij rond het nummer en tik op ‘Audio extraheren’. Bewaar alleen muziek uit je eigen video’s of video’s waarvan je de rechten hebt.",
+        "url": "/nl/guides/save-music-from-video-iphone/"
+      },
+      {
+        "question": "Kan ik maar een deel van het geluid uit een video halen?",
+        "answer": "Ja. Tik op ‘Video bijsnijden’, selecteer het stuk dat je nodig hebt en extraheer: alleen dat deel wordt bewaard.",
+        "url": "/nl/guides/trim-audio-from-video-iphone/"
+      },
+      {
+        "question": "Hoe haal je het geluid uit een schermopname?",
+        "answer": "Schermopnamen staan als video in Foto’s. Stuur er een naar de app en haal het geluid eruit. Is het bestand stil, dan stond de microfoon uit tijdens het opnemen.",
+        "url": "/nl/guides/screen-recording-to-audio-iphone/"
+      },
+      {
+        "question": "Hoe luister je een college-video als audio?",
+        "answer": "Zet de video van het college om naar MP3 en bewaar hem in Bestanden. Zo luister je offline met het scherm uit en gebruik je veel minder opslag.",
+        "url": "/nl/guides/lecture-video-to-audio-iphone/"
+      },
+      {
+        "question": "Kan ik van een video een beltoon maken op mijn iPhone?",
+        "answer": "Ja. Snijd het geluid bij tot 30 seconden, bewaar het in Bestanden en tik in iOS 26 op Deel → ‘Gebruik als beltoon’. In oudere versies gebruik je GarageBand.",
+        "url": "/nl/guides/video-to-ringtone-iphone/"
       }
     ]
   },
-  "app_info": {
-    "name": "Extract Audio from Video⁺",
-    "alternate_name": "Audio uit video halen",
-    "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio"
+  "cta": {
+    "title": "Het geluid dat je zoekt zit al in je video.",
+    "subtitle": "Haal het eruit in vier tikken — gratis, privé, gewoon op je iPhone.",
+    "button": "Download in de App Store"
   },
   "footer": {
-    "cta_text": "📱 Gratis app — audio uit video",
+    "tagline": "De simpele manier om audio uit video te halen op je iPhone.",
+    "guides_title": "Handleidingen",
+    "app_title": "App",
+    "legal_title": "Juridisch",
+    "cta_text": "Download in de App Store",
     "privacy_text": "Privacybeleid",
     "terms_text": "Gebruiksvoorwaarden",
     "support_text": "Support",
+    "languages_title": "Talen",
     "developer_info": "Ontwikkeld door Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Alle rechten voorbehouden."
   },
   "floating_cta": {
-    "text": "📱 Video naar MP3 op iPhone — gratis"
+    "text": "Gratis downloaden"
   },
-  "seo_chapter": {
-    "title": "Audio uit video op iPhone – volledige gids 2026",
-    "subtitle": "MP4/MOV naar MP3 – gratis starten, privé op je toestel",
-    "intro": "Audio uit video⁺ is een iOS-multimedia-app die videobestanden (MP4/MOV) op je iPhone omzet naar MP3. Je kunt in veel gevallen offline werken: extractie gebeurt lokaal, zodat video niet naar externe servers hoeft. Gangbare iPhone-formaten worden ondersteund; output is MP3. De kernfunctie is gratis; uitbreidingen via optionele in-app aankopen.",
-    "sections": [
-      {
-        "heading": "Zo haal je audio uit video op iPhone",
-        "body": "1) Start de app. 2) Kies een video uit je bibliotheek. 3) Trim optioneel het stuk dat je wilt. 4) Sla op als audio in MP3. Via Deel in Foto's of Bestanden open je de app zonder om te hoeven zoeken. Ondersteunde formaten sluiten aan bij wat iOS geeft."
-      },
-      {
-        "heading": "Functies en mogelijkheden",
-        "body": "In plaats van uploaden naar een server, richt de app zich op verwerking op je iPhone—handig voor privacy en snelheid zonder dataverkeer voor de conversie zelf. Trimmen helpt om alleen relevante audio te exporteren. De app fungeert als video-naar-MP3-tool met MP4- en MOV-invoer, zoals gebruikelijk op iOS."
-      }
-    ],
-    "bullets_title": "Veelvoorkomende use-cases",
-    "bullets": [
-      "Audiotrack uit een video bewaren voor je muziekcollectie",
-      "Opnames van colleges of vergaderingen naar alleen audio om onderweg te luisteren",
-      "Korte audioclips uit video voor social of podcast",
-      "Materiaal lichter maken (MP3) voordat je het naar andere editors stuurt"
-    ],
-    "conclusion": "Audio uit video⁺ helpt je op iPhone om geluid uit videobestanden te halen, lokaal en met een gratis basisfunctie. Wil je meer, dan zijn uitbreidingen optioneel."
-  },
-  "comparison": {
-    "title": "Audio uit video⁺ versus online converters",
-    "intro": "Kort vergeleken met browser-tools die video naar audio zetten:",
-    "table": {
-      "feature": "Kenmerk",
-      "online_converters": "Online",
-      "this_app": "Audio uit video⁺",
-      "rows": [
-        {
-          "feature": "Privacy",
-          "online": "Video gaat vaak naar een server",
-          "app": "Verwerking op je iPhone"
-        },
-        {
-          "feature": "Gebruiksgemak",
-          "online": "Uploaden en wachten",
-          "app": "Deel-menu of direct app openen"
-        },
-        {
-          "feature": "Kosten",
-          "online": "Limieten of abonnement",
-          "app": "Basis gratis, extra's optioneel"
-        },
-        {
-          "feature": "Snelheid",
-          "online": "Afhankelijk van up- en download",
-          "app": "Direct op het toestel"
-        }
-      ]
-    }
+  "guide_ui": {
+    "lang": "nl",
+    "og_locale": "nl_NL",
+    "locale": "nl-NL",
+    "home": "Home",
+    "guides": "Handleidingen",
+    "guide": "Handleiding",
+    "updated": "Bijgewerkt:",
+    "min_read": "min leestijd",
+    "by": "door",
+    "quick_answer": "Kort antwoord",
+    "step_by_step": "Stap voor stap",
+    "faq_title": "Veelgestelde vragen",
+    "related": "Gerelateerde handleidingen",
+    "read_guide": "Lees handleiding",
+    "inline_cta_sub": "Gratis in de App Store · MP3 en M4A · op je toestel",
+    "aside_label": "Download de app",
+    "aside_shot_alt": "extractiescherm",
+    "ratings": "beoordelingen",
+    "free": "Gratis",
+    "iphone_app": "iPhone-app",
+    "step": "Stap",
+    "hub_title": "Handleidingen: audio uit video halen op iPhone (MP3, M4A)",
+    "hub_description": "Stap-voor-stap handleidingen voor iPhone: audio uit video halen, MP4 en MOV naar MP3 of M4A, audio bijsnijden, muziek bewaren en beltonen maken. Gratis.",
+    "hub_h1": "Audio uit video halen op iPhone: alle handleidingen",
+    "hub_sub": "Kies wat je wilt doen. Elke handleiding geeft een kort antwoord, de exacte stappen met screenshots en oplossingen voor veelvoorkomende problemen.",
+    "published": "2026-09-27"
   }
 }

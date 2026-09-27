@@ -1,8 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { SITE_URL, URLS, GUIDES_PATH } = require('./constants');
-const GUIDES = require('./guides/en');
+const { SITE_URL, URLS, DEFAULT_LANGUAGE, GUIDES_LANGUAGES, guidesPathFor } = require('./constants');
 
 (function main() {
   const sitemapPath = path.join(__dirname, '..', 'sitemap.xml');
@@ -34,15 +33,31 @@ const GUIDES = require('./guides/en');
     lines.push('  </url>');
     lines.push('');
   }
-  // English keyword guides (no locale alternates yet)
-  const guideUrls = [`${SITE_URL}${GUIDES_PATH}`, ...GUIDES.map((g) => `${SITE_URL}${GUIDES_PATH}${g.slug}/`)];
-  for (const url of guideUrls) {
-    lines.push('  <url>');
-    lines.push(`    <loc>${url}</loc>`);
-    lines.push(`    <lastmod>${lastmod}</lastmod>`);
-    lines.push(url.endsWith(`${GUIDES_PATH}`) ? '    <priority>0.8</priority>' : '    <priority>0.7</priority>');
-    lines.push('  </url>');
-    lines.push('');
+  // Keyword guides: hub + one page per slug per language, with hreflang between languages sharing a slug.
+  const slugsByLang = Object.fromEntries(
+    GUIDES_LANGUAGES.map((lang) => [lang, new Set(require(`./guides/${lang}`).map((g) => g.slug))])
+  );
+  const allSlugs = [...new Set(GUIDES_LANGUAGES.flatMap((lang) => [...slugsByLang[lang]]))];
+  const pages = [{ slug: null }, ...allSlugs.map((slug) => ({ slug }))];
+  for (const { slug } of pages) {
+    const langs = GUIDES_LANGUAGES.filter((lang) => slug === null || slugsByLang[lang].has(slug));
+    const urlFor = (lang) => `${SITE_URL}${guidesPathFor(lang)}${slug ? `${slug}/` : ''}`;
+    for (const lang of langs) {
+      lines.push('  <url>');
+      lines.push(`    <loc>${urlFor(lang)}</loc>`);
+      if (langs.length > 1) {
+        for (const alt of langs) {
+          lines.push(`    <xhtml:link rel="alternate" hreflang="${alt}" href="${urlFor(alt)}" />`);
+        }
+        if (langs.includes(DEFAULT_LANGUAGE)) {
+          lines.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${urlFor(DEFAULT_LANGUAGE)}" />`);
+        }
+      }
+      lines.push(`    <lastmod>${lastmod}</lastmod>`);
+      lines.push(slug ? '    <priority>0.7</priority>' : '    <priority>0.8</priority>');
+      lines.push('  </url>');
+      lines.push('');
+    }
   }
   lines.push('</urlset>');
 

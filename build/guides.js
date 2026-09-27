@@ -1,24 +1,29 @@
 /**
- * Builds the English keyword guides:
- *   /guides/index.html          – hub (all guides)
- *   /guides/<slug>/index.html   – one page per keyword (content: build/guides/en.js)
- * Uses build/guide-template.html + shared strings from build/en.json. Called at the end of build.js.
+ * Builds the keyword guides for every language in GUIDES_LANGUAGES:
+ *   /<guidesPath>/index.html          – hub (all guides)            e.g. /guides/, /ru/guides/
+ *   /<guidesPath>/<slug>/index.html   – one page per keyword         (content: build/guides/<lang>.js)
+ * Uses build/guide-template.html + shared strings from build/<lang>.json (`nav`, `footer`, `cta`, `ui`, `guide_ui`).
+ * Guides with the same slug in several languages are linked with hreflang alternates.
+ * Called at the end of build.js.
  */
 const fs = require('fs');
 const path = require('path');
 
 const {
     SITE_URL,
+    DEFAULT_LANGUAGE,
     APP_STORE_APP_URL,
     APP_PUBLISHER,
     APP_VERSION,
     APP_FILE_SIZE,
     APP_MIN_IOS,
+    PRICE_CURRENCY_BY_LANG,
     SCHEMA_AGGREGATE_RATING_VALUE,
     SCHEMA_AGGREGATE_RATING_COUNT,
     SCHEMA_AGGREGATE_BEST_RATING,
     SCHEMA_AGGREGATE_WORST_RATING,
-    GUIDES_PATH
+    GUIDES_LANGUAGES,
+    guidesPathFor
 } = require('./constants');
 const { renderTemplate } = require('./lib/templateEngine');
 const { readImageDimensions } = require('./lib/imageDimensions');
@@ -26,6 +31,7 @@ const { readImageDimensions } = require('./lib/imageDimensions');
 const ROOT = path.join(__dirname, '..');
 const SHOT = (n) => `/screenshots/${n}.webp`;
 const ABS = (p) => `${SITE_URL}${p.replace(/^\//, '')}`;
+const homePathFor = (lang) => (lang === DEFAULT_LANGUAGE ? '/' : `/${lang}/`);
 
 function esc(str) {
     return String(str)
@@ -69,20 +75,33 @@ function breadcrumbLd(items) {
     };
 }
 
-function appLd(appName, description) {
+/** hreflang <link>s for a page that exists in several languages. `pathForLang(lang)` returns a site path or null. */
+function alternatesHtml(pathForLang) {
+    const links = [];
+    for (const lang of GUIDES_LANGUAGES) {
+        const p = pathForLang(lang);
+        if (p) links.push(`    <link rel="alternate" hreflang="${lang}" href="${ABS(p)}" />`);
+    }
+    if (links.length < 2) return '';
+    const def = pathForLang(DEFAULT_LANGUAGE);
+    if (def) links.push(`    <link rel="alternate" hreflang="x-default" href="${ABS(def)}" />`);
+    return links.join('\n');
+}
+
+function appLd(appName, description, lang) {
     return {
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
         name: appName,
         description,
-        operatingSystem: `iOS ${APP_MIN_IOS} or later`,
+        operatingSystem: `iOS ${APP_MIN_IOS}+`,
         applicationCategory: 'MultimediaApplication',
         image: ABS('/store/app-icon-512.webp'),
         downloadUrl: APP_STORE_APP_URL,
         installUrl: APP_STORE_APP_URL,
         softwareVersion: APP_VERSION,
         fileSize: APP_FILE_SIZE,
-        offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        offers: { '@type': 'Offer', price: '0', priceCurrency: PRICE_CURRENCY_BY_LANG[lang] || 'USD' },
         aggregateRating: {
             '@type': 'AggregateRating',
             ratingValue: SCHEMA_AGGREGATE_RATING_VALUE,
@@ -94,10 +113,10 @@ function appLd(appName, description) {
     };
 }
 
-function guideCardsHtml(list) {
+function guideCardsHtml(list, base, gui) {
     return list
         .map(
-            (g) => `<li><a class="guide-card" href="/${GUIDES_PATH}${g.slug}/"><span class="guide-tag">${esc(g.eyebrow)}</span><h3>${esc(g.card.title)}</h3><p>${esc(g.card.text)}</p><span class="guide-more">Read guide <span aria-hidden="true">→</span></span></a></li>`
+            (g) => `<li><a class="guide-card" href="/${base}${g.slug}/"><span class="guide-tag">${esc(g.eyebrow)}</span><h3>${esc(g.card.title)}</h3><p>${esc(g.card.text)}</p><span class="guide-more">${esc(gui.read_guide)} <span aria-hidden="true">→</span></span></a></li>`
         )
         .join('\n');
 }
@@ -106,14 +125,14 @@ function storeBadge(place, alt, h = 48) {
     return `<a class="store-badge" href="${APP_STORE_APP_URL}" data-cta="${place}"><img src="/download.svg" alt="${esc(alt)}" width="${Math.round(h * 3)}" height="${h}" loading="lazy"></a>`;
 }
 
-function guideBody(g, all, site) {
+function guideBody(g, all, site, gui, base) {
     const words = stripTags([g.answer, g.intro, ...g.steps.map((s) => s.text), ...g.sections.map((s) => s.html), ...g.faq.map((f) => f.a)].join(' ')).split(' ').length;
     const minutes = Math.max(2, Math.round(words / 200));
 
     const steps = g.steps
         .map(
             (s, i) => `<li class="guide-step" id="step-${i + 1}">
-                <img src="${SHOT(s.image)}" alt="${esc(`Step ${i + 1}: ${s.name}`)}" width="460" height="995" loading="lazy" decoding="async">
+                <img src="${SHOT(s.image)}" alt="${esc(`${gui.step} ${i + 1}: ${s.name}`)}" width="460" height="995" loading="lazy" decoding="async">
                 <div><h3><span>${i + 1}.</span>${esc(s.name)}</h3><p>${esc(s.text)}</p></div>
             </li>`
         )
@@ -132,49 +151,48 @@ function guideBody(g, all, site) {
     return `
         <section class="guide-hero">
             <div class="wrap">
-                <p class="eyebrow"><span class="dot" aria-hidden="true"></span>${esc(g.eyebrow)} · Guide</p>
+                <p class="eyebrow"><span class="dot" aria-hidden="true"></span>${esc(g.eyebrow)} · ${esc(gui.guide)}</p>
                 <h1>${esc(g.h1)}</h1>
-                <p class="guide-meta">${esc(site.last_updated)} · ${minutes} min read · by ${esc(site.author)}</p>
-                <div class="answer-box"><strong>Quick answer</strong>${esc(g.answer)}</div>
+                <p class="guide-meta">${esc(site.last_updated)} · ${minutes} ${esc(gui.min_read)} · ${esc(gui.by)} ${esc(site.author)}</p>
+                <div class="answer-box"><strong>${esc(gui.quick_answer)}</strong>${esc(g.answer)}</div>
             </div>
         </section>
         <div class="wrap guide-layout">
             <article class="guide-content">
                 ${g.intro}
-                <h2>Step by step</h2>
+                <h2>${esc(gui.step_by_step)}</h2>
                 <ol class="guide-steps">
                 ${steps}
                 </ol>
                 <div class="inline-cta">
                     <img class="icon" src="/logo.webp" alt="" width="56" height="56" loading="lazy">
-                    <p>${esc(site.app_name)}<span>Free on the App Store · MP3 &amp; M4A · on-device</span></p>
+                    <p>${esc(site.app_name)}<span>${gui.inline_cta_sub}</span></p>
                     ${storeBadge('inline', site.download_alt)}
                 </div>
                 ${sections}
-                <h2>Frequently asked questions</h2>
+                <h2>${esc(gui.faq_title)}</h2>
                 <div class="faq-list">
                 ${faq}
                 </div>
                 <section class="related" aria-labelledby="related-title">
-                    <h2 id="related-title">Related guides</h2>
+                    <h2 id="related-title">${esc(gui.related)}</h2>
                     <ul class="guide-grid">
-                    ${guideCardsHtml(related)}
+                    ${guideCardsHtml(related, base, gui)}
                     </ul>
                 </section>
             </article>
-            <aside class="guide-aside" aria-label="Download the app">
+            <aside class="guide-aside" aria-label="${esc(gui.aside_label)}">
                 <div class="aside-card">
-                    <img class="shot" src="${SHOT(2)}" alt="${esc(site.app_name)} audio extraction screen" width="460" height="995" loading="lazy">
+                    <img class="shot" src="${SHOT(2)}" alt="${esc(`${site.app_name} — ${gui.aside_shot_alt}`)}" width="460" height="995" loading="lazy">
                     <h2>${esc(site.app_name)}</h2>
-                    <p>★ ${SCHEMA_AGGREGATE_RATING_VALUE} · ${SCHEMA_AGGREGATE_RATING_COUNT}+ ratings<br>Free · ${APP_FILE_SIZE} · iOS ${APP_MIN_IOS}+</p>
+                    <p>★ ${SCHEMA_AGGREGATE_RATING_VALUE} · ${SCHEMA_AGGREGATE_RATING_COUNT}+ ${esc(gui.ratings)}<br>${esc(gui.free)} · ${APP_FILE_SIZE} · iOS ${APP_MIN_IOS}+</p>
                     ${storeBadge('aside', site.download_alt)}
                 </div>
             </aside>
         </div>`;
 }
 
-function guideJsonLd(g, site, crumbs) {
-    const url = ABS(`/${GUIDES_PATH}${g.slug}/`);
+function guideJsonLd(g, site, gui, crumbs, url, lang) {
     return [
         {
             '@context': 'https://schema.org',
@@ -184,8 +202,8 @@ function guideJsonLd(g, site, crumbs) {
             url,
             mainEntityOfPage: url,
             image: ABS(SHOT(2)),
-            inLanguage: 'en',
-            datePublished: site.published,
+            inLanguage: lang,
+            datePublished: gui.published,
             dateModified: site.today,
             author: { '@type': 'Person', name: site.author },
             publisher: { '@type': 'Organization', name: APP_PUBLISHER, logo: { '@type': 'ImageObject', url: ABS('/store/app-icon-512.webp') } },
@@ -199,7 +217,7 @@ function guideJsonLd(g, site, crumbs) {
             description: g.answer,
             image: ABS(SHOT(2)),
             totalTime: 'PT1M',
-            tool: [{ '@type': 'HowToTool', name: `${site.app_name} (iPhone app)` }],
+            tool: [{ '@type': 'HowToTool', name: `${site.app_name} (${gui.iphone_app})` }],
             step: g.steps.map((s, i) => ({
                 '@type': 'HowToStep',
                 position: i + 1,
@@ -219,83 +237,86 @@ function guideJsonLd(g, site, crumbs) {
             }))
         },
         breadcrumbLd(crumbs),
-        appLd(site.app_name, g.description)
+        appLd(site.app_name, g.description, lang)
     ];
 }
 
-async function buildGuides() {
-    const guides = require('./guides/en');
-    const en = JSON.parse(fs.readFileSync(path.join(__dirname, 'en.json'), 'utf8'));
-    const template = fs.readFileSync(path.join(__dirname, 'guide-template.html'), 'utf8');
+async function buildGuidesForLang(lang, template, slugsByLang) {
+    const guides = require(`./guides/${lang}`);
+    const data = JSON.parse(fs.readFileSync(path.join(__dirname, `${lang}.json`), 'utf8'));
+    const gui = data.guide_ui;
+    const base = guidesPathFor(lang);
+    const home = homePathFor(lang);
 
-    const ogImage = en.meta.og_image;
+    const ogImage = data.meta.og_image;
     const { width, height } = await readImageDimensions(path.join(ROOT, ogImage.replace(SITE_URL, '')));
     const now = new Date();
     const site = {
-        app_name: en.app_info.name,
-        author: en.meta.author,
-        app_store_id: en.meta.app_store_id,
+        app_name: data.app_info.name,
+        author: data.meta.author,
+        app_store_id: data.meta.app_store_id,
         store_url: APP_STORE_APP_URL,
-        download_alt: en.hero.download_alt,
+        download_alt: data.hero.download_alt,
         og_image: ogImage,
         og_image_width: String(width),
         og_image_height: String(height),
         version: Date.now(),
         today: now.toISOString().slice(0, 10),
-        published: '2026-09-27',
-        last_updated: `Updated ${new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric' }).format(now)}`,
-        copyright: en.footer.copyright.replace(/\{year\}/g, String(now.getFullYear())),
-        footer_guides: guides.map((g) => `<li><a href="/${GUIDES_PATH}${g.slug}/">${esc(g.card.title)}</a></li>`).join('')
+        home_url: home,
+        hub_url: `/${base}`,
+        last_updated: `${gui.updated} ${new Intl.DateTimeFormat(gui.locale, { month: 'long', year: 'numeric' }).format(now)}`,
+        copyright: data.footer.copyright.replace(/\{year\}/g, String(now.getFullYear())),
+        footer_guides: guides.map((g) => `<li><a href="/${base}${g.slug}/">${esc(g.card.title)}</a></li>`).join('')
     };
-    const shared = { site, nav: en.nav, footer: en.footer, cta: en.cta, floating_cta: en.floating_cta };
+    const shared = { site, gui, ui: data.ui, nav: data.nav, footer: data.footer, cta: data.cta, guides: data.guides, floating_cta: data.floating_cta };
 
-    const outDir = path.join(ROOT, GUIDES_PATH);
+    const outDir = path.join(ROOT, base);
     fs.mkdirSync(outDir, { recursive: true });
 
-    // Individual guide pages
     for (const g of guides) {
+        const pagePath = `/${base}${g.slug}/`;
         const crumbs = [
-            { name: 'Home', path: '/' },
-            { name: 'Guides', path: `/${GUIDES_PATH}` },
-            { name: g.card.title, path: `/${GUIDES_PATH}${g.slug}/` }
+            { name: gui.home, path: home },
+            { name: gui.guides, path: `/${base}` },
+            { name: g.card.title, path: pagePath }
         ];
+        const url = ABS(pagePath);
         const page = {
             title: esc(g.title),
             description: esc(g.description),
-            canonical: ABS(`/${GUIDES_PATH}${g.slug}/`),
+            canonical: url,
+            alternates: alternatesHtml((l) => (slugsByLang[l] && slugsByLang[l].has(g.slug) ? `/${guidesPathFor(l)}${g.slug}/` : null)),
             og_type: 'article',
-            jsonld: jsonLdScripts(guideJsonLd(g, site, crumbs)),
+            jsonld: jsonLdScripts(guideJsonLd(g, site, gui, crumbs, url, lang)),
             breadcrumbs: breadcrumbsHtml(crumbs),
-            body: guideBody(g, guides, site)
+            body: guideBody(g, guides, site, gui, base)
         };
         const html = renderTemplate(template, { ...shared, page });
         const dir = path.join(outDir, g.slug);
         fs.mkdirSync(dir, { recursive: true });
         fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf8');
-        console.log(`✅ Built guide /${GUIDES_PATH}${g.slug}/`);
+        console.log(`✅ Built guide ${pagePath}`);
     }
 
     // Hub page
     const hubCrumbs = [
-        { name: 'Home', path: '/' },
-        { name: 'Guides', path: `/${GUIDES_PATH}` }
+        { name: gui.home, path: home },
+        { name: gui.guides, path: `/${base}` }
     ];
-    const hubTitle = 'Extract Audio from Video Guides for iPhone (MP3, M4A)';
-    const hubDesc = 'Step-by-step iPhone guides: extract audio from video, convert MP4 and MOV to MP3 or M4A, trim audio, save music, make ringtones. Free, on-device, no upload.';
     const hubLd = [
         {
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
-            name: hubTitle,
-            description: hubDesc,
-            url: ABS(`/${GUIDES_PATH}`),
-            inLanguage: 'en',
+            name: gui.hub_title,
+            description: gui.hub_description,
+            url: ABS(`/${base}`),
+            inLanguage: lang,
             mainEntity: {
                 '@type': 'ItemList',
                 itemListElement: guides.map((g, i) => ({
                     '@type': 'ListItem',
                     position: i + 1,
-                    url: ABS(`/${GUIDES_PATH}${g.slug}/`),
+                    url: ABS(`/${base}${g.slug}/`),
                     name: g.h1
                 }))
             }
@@ -305,20 +326,21 @@ async function buildGuides() {
     const hubBody = `
         <section class="hub-hero guides">
             <div class="wrap">
-                <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Guides</p>
-                <h1>Extract audio from video on iPhone: every guide</h1>
-                <p class="section-sub">Pick the job you want to do. Each guide gives a quick answer, the exact steps with screenshots, and fixes for common problems.</p>
+                <p class="eyebrow"><span class="dot" aria-hidden="true"></span>${esc(gui.guides)}</p>
+                <h1>${esc(gui.hub_h1)}</h1>
+                <p class="section-sub">${esc(gui.hub_sub)}</p>
                 <ul class="guide-grid">
-                ${guideCardsHtml(guides)}
+                ${guideCardsHtml(guides, base, gui)}
                 </ul>
             </div>
         </section>`;
     const hubHtml = renderTemplate(template, {
         ...shared,
         page: {
-            title: esc(hubTitle),
-            description: esc(hubDesc),
-            canonical: ABS(`/${GUIDES_PATH}`),
+            title: esc(gui.hub_title),
+            description: esc(gui.hub_description),
+            canonical: ABS(`/${base}`),
+            alternates: alternatesHtml((l) => (slugsByLang[l] ? `/${guidesPathFor(l)}` : null)),
             og_type: 'website',
             jsonld: jsonLdScripts(hubLd),
             breadcrumbs: breadcrumbsHtml(hubCrumbs),
@@ -326,7 +348,18 @@ async function buildGuides() {
         }
     });
     fs.writeFileSync(path.join(outDir, 'index.html'), hubHtml, 'utf8');
-    console.log(`✅ Built guides hub /${GUIDES_PATH}`);
+    console.log(`✅ Built guides hub /${base}`);
+}
+
+async function buildGuides() {
+    const template = fs.readFileSync(path.join(__dirname, 'guide-template.html'), 'utf8');
+    const slugsByLang = {};
+    for (const lang of GUIDES_LANGUAGES) {
+        slugsByLang[lang] = new Set(require(`./guides/${lang}`).map((g) => g.slug));
+    }
+    for (const lang of GUIDES_LANGUAGES) {
+        await buildGuidesForLang(lang, template, slugsByLang);
+    }
 }
 
 module.exports = { buildGuides };

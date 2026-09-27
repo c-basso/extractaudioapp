@@ -55,11 +55,7 @@ const URLS = LANGUAGES.map((lang) => {
     return entry;
 });
 
-const ADDITIONAL_URLS = [
-    `${SITE_URL}llms.txt`,
-    `${SITE_URL}guides/`,
-    ...require('./guides/en').map((g) => `${SITE_URL}guides/${g.slug}/`)
-];
+
 
 // Expected JSON-LD types that should be present on each generated page.
 // Keep this list in sync with `build/template.html` structured data scripts.
@@ -103,10 +99,21 @@ const APP_RATING_US_VALUE = 4.7;
 const APP_RATING_US_COUNT = 40;
 
 /** Locales that render the new landing page (`build/landing-template.html`). Others use `build/template.html`. */
-const LANDING_V2_LANGUAGES = [DEFAULT_LANGUAGE];
+const LANDING_V2_LANGUAGES = [DEFAULT_LANGUAGE, 'ru', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ko', 'nl', 'pl', 'ro', 'th', 'tr', 'uk', 'vi', 'cs'];
 
-/** Keyword guides (English). Content lives in `build/guides/en.js`; pages are written to /guides/<slug>/. */
+/** Keyword guides. Content lives in `build/guides/<lang>.js`; pages are written to /guides/<slug>/ (en) and /<lang>/guides/<slug>/. */
 const GUIDES_PATH = 'guides/';
+const GUIDES_LANGUAGES = [DEFAULT_LANGUAGE, 'ru', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ko', 'nl', 'pl', 'ro', 'th', 'tr', 'uk', 'vi', 'cs'];
+/** Site-relative guides hub path for a language, e.g. `guides/` or `ru/guides/` (no leading slash). */
+const guidesPathFor = (lang) => (lang === DEFAULT_LANGUAGE ? GUIDES_PATH : `${lang}/${GUIDES_PATH}`);
+
+const ADDITIONAL_URLS = [
+    `${SITE_URL}llms.txt`,
+    ...GUIDES_LANGUAGES.flatMap((lang) => [
+        `${SITE_URL}${guidesPathFor(lang)}`,
+        ...require(`./guides/${lang}`).map((g) => `${SITE_URL}${guidesPathFor(lang)}${g.slug}/`)
+    ])
+];
 
 /** JSON-LD AggregateRating — sync with App Store (sum of storefront rating counts). */
 const SCHEMA_AGGREGATE_RATING_VALUE = 4.5;
@@ -125,7 +132,7 @@ const PRICE_CURRENCY_BY_LANG = {
     fr: 'EUR',
     de: 'EUR',
     it: 'EUR',
-    pt: 'EUR',
+    pt: 'BRL', // /pt/ targets Brazil (pt-BR copy)
     ja: 'JPY',
     ko: 'KRW',
     nl: 'EUR',
@@ -184,5 +191,7 @@ module.exports = {
     APP_RATING_US_VALUE,
     APP_RATING_US_COUNT,
     LANDING_V2_LANGUAGES,
-    GUIDES_PATH
+    GUIDES_PATH,
+    GUIDES_LANGUAGES,
+    guidesPathFor
 };

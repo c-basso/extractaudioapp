@@ -106,11 +106,9 @@
         "softwareVersion": "{{app_info.version}}",
         "fileSize": "{{app_info.file_size}}",
         "featureList": [
-            "Extract audio from video as MP3 or M4A",
-            "Trim video before extracting audio",
-            "Share extension for Photos and Files",
-            "On-device conversion, no upload",
-            "Library of extracted audio files"
+            {{#each ui.features as |feat|}}
+            "{{feat}}",
+            {{/each}}
         ]
     }
     </script>
@@ -123,7 +121,7 @@
         "image": "https://extractaudioapp.com/screenshots/2.webp",
         "totalTime": "PT1M",
         "estimatedCost": { "@type": "MonetaryAmount", "currency": "{{app_info.price_currency}}", "value": "0" },
-        "tool": [{ "@type": "HowToTool", "name": "{{app_info.name}} (iPhone app)" }],
+        "tool": [{ "@type": "HowToTool", "name": "{{app_info.name}} ({{ui.iphone_app}})" }],
         "step": [
             {{#each howto_steps.items as |step|}}
             {
@@ -168,15 +166,15 @@
     <link rel="stylesheet" href="/landing.css?v={{meta.version}}">
 </head>
 <body class="lp">
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main">{{ui.skip}}</a>
 
     <header class="site-header">
         <div class="wrap header-inner">
-            <a class="brand" href="/" aria-label="{{app_info.name}} home">
+            <a class="brand" href="{{meta.canonical}}" aria-label="{{app_info.name}} — {{ui.home}}">
                 <img src="/logo.webp" alt="" width="36" height="36">
                 <span>{{app_info.name}}</span>
             </a>
-            <nav class="nav" aria-label="Primary">
+            <nav class="nav" aria-label="{{ui.primary_nav}}">
                 <a href="#how-it-works">{{nav.how}}</a>
                 <a href="#guides">{{nav.guides}}</a>
                 <a href="#faq">{{nav.faq}}</a>
@@ -193,7 +191,7 @@
                 <p class="eyebrow"><span class="dot" aria-hidden="true"></span>{{hero.eyebrow}}</p>
                 <h1 id="hero-title">{{hero.title_lead}} <span class="accent">{{hero.title_accent}}</span></h1>
                 <p class="lead">{{hero.subtitle}}</p>
-                <ul class="chips" aria-label="Key features">
+                <ul class="chips" aria-label="{{ui.key_features}}">
                     {{#each hero.bullets as |b|}}
                     <li>{{b}}</li>
                     {{/each}}
@@ -202,9 +200,9 @@
                     <a class="store-badge" href="{{hero.cta_url}}" data-cta="hero">
                         <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60">
                     </a>
-                    <div class="rating" aria-label="{{schema_rating.rating_value}} out of 5 stars, {{schema_rating.rating_count}}+ ratings">
+                    <div class="rating" aria-label="{{schema_rating.rating_value}} {{ui.out_of_5}}, {{schema_rating.rating_count}}+ {{ui.ratings}}">
                         <span class="stars" aria-hidden="true">★★★★★</span>
-                        <span><strong>{{schema_rating.rating_value}}</strong> · {{schema_rating.rating_count}}+ ratings</span>
+                        <span><strong>{{schema_rating.rating_value}}</strong> · {{schema_rating.rating_count}}+ {{ui.ratings}}</span>
                     </div>
                 </div>
                 <div class="qr-inline">
@@ -214,7 +212,7 @@
             </div>
             <div class="hero-visual" aria-hidden="false">
                 <div class="phones">
-                    <img class="phone phone-back" src="/screenshots/3.webp" alt="Trim video sound before extracting audio" width="460" height="995" loading="eager" decoding="async">
+                    <img class="phone phone-back" src="/screenshots/3.webp" alt="{{ui.trim_alt}}" width="460" height="995" loading="eager" decoding="async">
                     <img class="phone phone-front" src="/screenshots/2.webp" alt="{{hero.shot_alt}}" width="460" height="995" fetchpriority="high">
                     <div class="float-tag tag-mp3" aria-hidden="true"><span class="wave"><i></i><i></i><i></i><i></i><i></i></span>MP3</div>
                     <div class="float-tag tag-m4a" aria-hidden="true"><span class="wave"><i></i><i></i><i></i><i></i><i></i></span>M4A</div>
@@ -265,7 +263,7 @@
             <h2 id="shots-title">{{screenshots.title}}</h2>
             <p class="section-sub">{{screenshots.subtitle}}</p>
         </div>
-        <ul class="shot-rail" tabindex="0" aria-label="App screenshots">
+        <ul class="shot-rail" tabindex="0" aria-label="{{ui.screenshots_label}}">
             {{#each screenshots.items as |shot|}}
             <li>
                 <figure>
@@ -286,7 +284,7 @@
             <ol class="steps">
                 {{#each howto_steps.items as |step|}}
                 <li class="step" id="step-{{step_index}}">
-                    <div class="step-shot"><img src="{{step.image}}" alt="Step {{step_index}}: {{step.name}}" width="460" height="995" loading="lazy" decoding="async"></div>
+                    <div class="step-shot"><img src="{{step.image}}" alt="{{ui.step}} {{step_index}}: {{step.name}}" width="460" height="995" loading="lazy" decoding="async"></div>
                     <div class="step-body">
                         <span class="step-num">{{step_index}}</span>
                         <h3>{{step.name}}</h3>
@@ -317,7 +315,7 @@
                 </li>
                 {{/each}}
             </ul>
-            <div class="center"><a class="btn btn-ghost" href="/guides/">{{guides.all_label}} →</a></div>
+            <div class="center"><a class="btn btn-ghost" href="{{guides.hub_url}}">{{guides.all_label}} →</a></div>
         </div>
     </section>
 
@@ -358,7 +356,7 @@
     <footer class="site-footer">
         <div class="wrap footer-grid">
             <div class="footer-brand">
-                <a class="brand" href="/"><img src="/logo.webp" alt="" width="36" height="36" loading="lazy"><span>{{app_info.name}}</span></a>
+                <a class="brand" href="{{meta.canonical}}"><img src="/logo.webp" alt="" width="36" height="36" loading="lazy"><span>{{app_info.name}}</span></a>
                 <p>{{footer.tagline}}</p>
                 <a class="store-badge" href="{{footer.cta_url}}" data-cta="footer"><img src="/download.svg" alt="{{hero.download_alt}}" width="150" height="50" loading="lazy"></a>
             </div>
@@ -375,7 +373,7 @@
                 <ul>
                     <li><a href="#how-it-works">{{nav.how}}</a></li>
                     <li><a href="#faq">{{nav.faq}}</a></li>
-                    <li><a href="/guides/">{{guides.all_label}}</a></li>
+                    <li><a href="{{guides.hub_url}}">{{guides.all_label}}</a></li>
                     <li><a href="{{footer.cta_url}}">App Store</a></li>
                 </ul>
                 <h2>{{footer.legal_title}}</h2>

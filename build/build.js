@@ -22,7 +22,8 @@ const {
     LANDING_V2_LANGUAGES,
     APP_MIN_IOS,
     APP_RATING_US_VALUE,
-    APP_RATING_US_COUNT
+    APP_RATING_US_COUNT,
+    guidesPathFor
 } = require('./constants');
 const { readImageDimensions } = require('./lib/imageDimensions');
 const { renderTemplate } = require('./lib/templateEngine');
@@ -156,8 +157,10 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
 
             if (LANDING_V2_LANGUAGES.includes(lang)) {
                 // Guide cards for the homepage grid + footer (content: build/guides/en.js).
-                data.guides_list = require('./guides/en').map((g) => ({
-                    url: `/guides/${g.slug}/`,
+                data.guides = data.guides || {};
+                data.guides.hub_url = `/${guidesPathFor(lang)}`;
+                data.guides_list = require(`./guides/${lang}`).map((g) => ({
+                    url: `/${guidesPathFor(lang)}${g.slug}/`,
                     title: g.card.title,
                     text: g.card.text,
                     eyebrow: g.eyebrow
@@ -187,7 +190,7 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
                 fr: 'fr-FR',
                 de: 'de-DE',
                 it: 'it-IT',
-                pt: 'pt-PT',
+                pt: 'pt-BR',
                 ja: 'ja-JP',
                 ko: 'ko-KR',
                 nl: 'nl-NL',
