@@ -296,6 +296,210 @@ Extract Audio from Video⁺ is an iOS app that converts videos (MP4/MOV) on iPho
 - [Jak převést videopřednášku na zvuk na iPhonu?](/cs/guides/lecture-video-to-audio-iphone/)
 - [Jak udělat vyzvánění z videa na iPhonu?](/cs/guides/video-to-ringtone-iphone/)
 
+## 简体中文教程
+
+- [首页（ZH）](/zh/): 从视频提取音频⁺ — 简体中文版。
+- [全部教程](/zh/guides/)
+- [iPhone怎么从视频中提取音频？](/zh/guides/extract-audio-from-video-iphone/)
+- [苹果手机怎么把视频转成MP3？](/zh/guides/convert-video-to-mp3-iphone/)
+- [iPhone上MP4怎么转MP3？](/zh/guides/mp4-to-mp3-iphone/)
+- [iPhone上MOV怎么转MP3？](/zh/guides/mov-to-mp3-iphone/)
+- [iPhone怎么把视频声音存储为M4A？](/zh/guides/video-to-m4a-iphone/)
+- [不用App怎么在iPhone上提取视频音频？](/zh/guides/extract-audio-without-app-iphone/)
+- [视频提取音频：在线工具还是应用？](/zh/guides/extract-audio-online-vs-app/)
+- [iPhone怎么提取视频中的音乐？](/zh/guides/save-music-from-video-iphone/)
+- [iPhone怎么只截取视频中的一段声音？](/zh/guides/trim-audio-from-video-iphone/)
+- [iPhone怎么保存屏幕录制里的声音？](/zh/guides/screen-recording-to-audio-iphone/)
+- [iPhone怎么把讲座视频转成音频？](/zh/guides/lecture-video-to-audio-iphone/)
+- [苹果手机怎么用视频做铃声？](/zh/guides/video-to-ringtone-iphone/)
+
+## Danske guides
+
+- [Forside (DA)](/da/): Udtræk lyd fra video⁺ — dansk version.
+- [Alle guides](/da/guides/)
+- [Sådan udtrækker du lyd fra video på iPhone](/da/guides/extract-audio-from-video-iphone/)
+- [Sådan konverterer du video til MP3 på iPhone](/da/guides/convert-video-to-mp3-iphone/)
+- [Sådan konverterer du MP4 til MP3 på iPhone](/da/guides/mp4-to-mp3-iphone/)
+- [Sådan konverterer du MOV til MP3 på iPhone](/da/guides/mov-to-mp3-iphone/)
+- [Sådan gemmer du lyd fra video som M4A på iPhone](/da/guides/video-to-m4a-iphone/)
+- [Sådan udtrækker du lyd fra video på iPhone uden app](/da/guides/extract-audio-without-app-iphone/)
+- [Udtræk lyd fra video: online eller app?](/da/guides/extract-audio-online-vs-app/)
+- [Sådan udtrækker du musik fra video på iPhone](/da/guides/save-music-from-video-iphone/)
+- [Sådan klipper du en del af lyden fra en video på iPhone](/da/guides/trim-audio-from-video-iphone/)
+- [Sådan gemmer du lyden fra en skærmoptagelse på iPhone](/da/guides/screen-recording-to-audio-iphone/)
+- [Sådan gør du en videoforelæsning til lyd på iPhone](/da/guides/lecture-video-to-audio-iphone/)
+- [Sådan laver du en ringetone fra video på iPhone](/da/guides/video-to-ringtone-iphone/)
+
+## Ελληνικοί οδηγοί
+
+- [Αρχική (EL)](/el/): Εξαγωγή ήχου από βίντεο⁺ — ελληνική έκδοση.
+- [Όλοι οι οδηγοί](/el/guides/)
+- [Πώς να κάνετε εξαγωγή ήχου από βίντεο στο iPhone](/el/guides/extract-audio-from-video-iphone/)
+- [Μετατροπή βίντεο σε MP3 στο iPhone](/el/guides/convert-video-to-mp3-iphone/)
+- [MP4 σε MP3 στο iPhone](/el/guides/mp4-to-mp3-iphone/)
+- [MOV σε MP3 στο iPhone](/el/guides/mov-to-mp3-iphone/)
+- [Βίντεο σε M4A στο iPhone](/el/guides/video-to-m4a-iphone/)
+- [Εξαγωγή ήχου από βίντεο στο iPhone χωρίς εφαρμογή](/el/guides/extract-audio-without-app-iphone/)
+- [Εξαγωγή ήχου από βίντεο: online ή εφαρμογή;](/el/guides/extract-audio-online-vs-app/)
+- [Εξαγωγή μουσικής από βίντεο στο iPhone](/el/guides/save-music-from-video-iphone/)
+- [Πώς να κόψετε μέρος του ήχου από βίντεο στο iPhone](/el/guides/trim-audio-from-video-iphone/)
+- [Ήχος από εγγραφή οθόνης στο iPhone](/el/guides/screen-recording-to-audio-iphone/)
+- [Βιντεοδιάλεξη σε ήχο στο iPhone](/el/guides/lecture-video-to-audio-iphone/)
+- [Ήχος κλήσης από βίντεο στο iPhone](/el/guides/video-to-ringtone-iphone/)
+
+## Suomenkieliset oppaat
+
+- [Etusivu (FI)](/fi/): Irrota ääni videosta⁺ — suomenkielinen versio.
+- [Kaikki oppaat](/fi/guides/)
+- [Näin irrotat äänen videosta iPhonella](/fi/guides/extract-audio-from-video-iphone/)
+- [Näin muunnat videon MP3:ksi iPhonella](/fi/guides/convert-video-to-mp3-iphone/)
+- [MP4 MP3:ksi iPhonella](/fi/guides/mp4-to-mp3-iphone/)
+- [MOV MP3:ksi iPhonella](/fi/guides/mov-to-mp3-iphone/)
+- [Video M4A:ksi iPhonella](/fi/guides/video-to-m4a-iphone/)
+- [Äänen irrotus videosta iPhonella ilman sovellusta](/fi/guides/extract-audio-without-app-iphone/)
+- [Irrota ääni videosta: netissä vai sovelluksella?](/fi/guides/extract-audio-online-vs-app/)
+- [Näin irrotat musiikin videosta iPhonella](/fi/guides/save-music-from-video-iphone/)
+- [Näin leikkaat osan äänestä videosta iPhonella](/fi/guides/trim-audio-from-video-iphone/)
+- [Ääni näyttötallenteesta iPhonella](/fi/guides/screen-recording-to-audio-iphone/)
+- [Luentovideo ääneksi iPhonella](/fi/guides/lecture-video-to-audio-iphone/)
+- [Soittoääni videosta iPhonella](/fi/guides/video-to-ringtone-iphone/)
+
+## Mga gabay sa Filipino
+
+- [Home (FIL)](/fil/): Extract Audio from Video⁺ — bersyong Filipino.
+- [Lahat ng gabay](/fil/guides/)
+- [Paano kunin ang audio sa video sa iPhone](/fil/guides/extract-audio-from-video-iphone/)
+- [Paano gawing MP3 ang video sa iPhone](/fil/guides/convert-video-to-mp3-iphone/)
+- [MP4 to MP3 sa iPhone](/fil/guides/mp4-to-mp3-iphone/)
+- [MOV to MP3 sa iPhone](/fil/guides/mov-to-mp3-iphone/)
+- [Video to M4A sa iPhone](/fil/guides/video-to-m4a-iphone/)
+- [Kunin ang audio sa video sa iPhone nang walang app](/fil/guides/extract-audio-without-app-iphone/)
+- [Kunin ang audio sa video: online o app?](/fil/guides/extract-audio-online-vs-app/)
+- [Paano kunin ang music sa video sa iPhone](/fil/guides/save-music-from-video-iphone/)
+- [Paano kunin ang bahagi lang ng audio ng video sa iPhone](/fil/guides/trim-audio-from-video-iphone/)
+- [Audio ng screen recording sa iPhone](/fil/guides/screen-recording-to-audio-iphone/)
+- [Gawing audio ang video lecture sa iPhone](/fil/guides/lecture-video-to-audio-iphone/)
+- [Ringtone mula sa video sa iPhone](/fil/guides/video-to-ringtone-iphone/)
+
+## מדריכים בעברית
+
+- [דף הבית (HE)](/he/): חילוץ אודיו מווידאו⁺ — גרסה בעברית (RTL).
+- [כל המדריכים](/he/guides/)
+- [איך להוציא סאונד מסרטון באייפון](/he/guides/extract-audio-from-video-iphone/)
+- [איך להמיר סרטון ל‑MP3 באייפון](/he/guides/convert-video-to-mp3-iphone/)
+- [MP4 ל‑MP3 באייפון](/he/guides/mp4-to-mp3-iphone/)
+- [MOV ל‑MP3 באייפון](/he/guides/mov-to-mp3-iphone/)
+- [סרטון ל‑M4A באייפון](/he/guides/video-to-m4a-iphone/)
+- [להוציא סאונד מסרטון באייפון בלי אפליקציה](/he/guides/extract-audio-without-app-iphone/)
+- [חילוץ אודיו מסרטון: אונליין או אפליקציה?](/he/guides/extract-audio-online-vs-app/)
+- [איך להוציא שיר מסרטון באייפון](/he/guides/save-music-from-video-iphone/)
+- [איך לחתוך חלק מהסאונד של סרטון באייפון](/he/guides/trim-audio-from-video-iphone/)
+- [סאונד מהקלטת מסך באייפון](/he/guides/screen-recording-to-audio-iphone/)
+- [הרצאה מצולמת לאודיו באייפון](/he/guides/lecture-video-to-audio-iphone/)
+- [רינגטון מסרטון באייפון](/he/guides/video-to-ringtone-iphone/)
+
+## Hrvatski vodiči
+
+- [Početna (HR)](/hr/): Izdvoji zvuk iz videa⁺ — hrvatska verzija.
+- [Svi vodiči](/hr/guides/)
+- [Kako izdvojiti zvuk iz videa na iPhoneu](/hr/guides/extract-audio-from-video-iphone/)
+- [Kako pretvoriti video u MP3 na iPhoneu](/hr/guides/convert-video-to-mp3-iphone/)
+- [MP4 u MP3 na iPhoneu](/hr/guides/mp4-to-mp3-iphone/)
+- [MOV u MP3 na iPhoneu](/hr/guides/mov-to-mp3-iphone/)
+- [Video u M4A na iPhoneu](/hr/guides/video-to-m4a-iphone/)
+- [Izdvajanje zvuka iz videa na iPhoneu bez aplikacije](/hr/guides/extract-audio-without-app-iphone/)
+- [Izdvojiti zvuk iz videa: online ili aplikacija?](/hr/guides/extract-audio-online-vs-app/)
+- [Kako izvući pjesmu iz videa na iPhoneu](/hr/guides/save-music-from-video-iphone/)
+- [Kako izrezati dio zvuka iz videa na iPhoneu](/hr/guides/trim-audio-from-video-iphone/)
+- [Zvuk iz snimke zaslona na iPhoneu](/hr/guides/screen-recording-to-audio-iphone/)
+- [Video predavanje u zvuk na iPhoneu](/hr/guides/lecture-video-to-audio-iphone/)
+- [Melodija zvona iz videa na iPhoneu](/hr/guides/video-to-ringtone-iphone/)
+
+## Magyar útmutatók
+
+- [Kezdőlap (HU)](/hu/): Hang kinyerése videóból⁺ — magyar változat.
+- [Összes útmutató](/hu/guides/)
+- [Hang kinyerése videóból iPhone-on](/hu/guides/extract-audio-from-video-iphone/)
+- [Videó konvertálása MP3-ba iPhone-on](/hu/guides/convert-video-to-mp3-iphone/)
+- [MP4 MP3-ba iPhone-on](/hu/guides/mp4-to-mp3-iphone/)
+- [MOV MP3-ba iPhone-on](/hu/guides/mov-to-mp3-iphone/)
+- [Videó M4A-ba iPhone-on](/hu/guides/video-to-m4a-iphone/)
+- [Hang kinyerése videóból iPhone-on alkalmazás nélkül](/hu/guides/extract-audio-without-app-iphone/)
+- [Hang kinyerése videóból: online vagy alkalmazás?](/hu/guides/extract-audio-online-vs-app/)
+- [Zene kinyerése videóból iPhone-on](/hu/guides/save-music-from-video-iphone/)
+- [A videó hangjának egy része iPhone-on](/hu/guides/trim-audio-from-video-iphone/)
+- [Képernyőfelvétel hangja iPhone-on](/hu/guides/screen-recording-to-audio-iphone/)
+- [Videós előadás hanggá iPhone-on](/hu/guides/lecture-video-to-audio-iphone/)
+- [Csengőhang videóból iPhone-on](/hu/guides/video-to-ringtone-iphone/)
+
+## Panduan bahasa Indonesia
+
+- [Beranda (ID)](/id/): Ekstrak Audio dari Video⁺ — versi bahasa Indonesia.
+- [Semua panduan](/id/guides/)
+- [Cara mengambil audio dari video di iPhone](/id/guides/extract-audio-from-video-iphone/)
+- [Cara mengubah video ke MP3 di iPhone](/id/guides/convert-video-to-mp3-iphone/)
+- [MP4 ke MP3 di iPhone](/id/guides/mp4-to-mp3-iphone/)
+- [MOV ke MP3 di iPhone](/id/guides/mov-to-mp3-iphone/)
+- [Video ke M4A di iPhone](/id/guides/video-to-m4a-iphone/)
+- [Mengambil audio dari video di iPhone tanpa aplikasi](/id/guides/extract-audio-without-app-iphone/)
+- [Ekstrak audio dari video: online atau aplikasi?](/id/guides/extract-audio-online-vs-app/)
+- [Cara mengambil lagu dari video di iPhone](/id/guides/save-music-from-video-iphone/)
+- [Cara memotong sebagian audio dari video di iPhone](/id/guides/trim-audio-from-video-iphone/)
+- [Suara dari rekaman layar iPhone](/id/guides/screen-recording-to-audio-iphone/)
+- [Video kuliah jadi audio di iPhone](/id/guides/lecture-video-to-audio-iphone/)
+- [Nada dering dari video di iPhone](/id/guides/video-to-ringtone-iphone/)
+
+## Panduan Bahasa Melayu
+
+- [Utama (MS)](/ms/): Ekstrak Audio daripada Video⁺ — versi Bahasa Melayu.
+- [Semua panduan](/ms/guides/)
+- [Cara ekstrak audio daripada video di iPhone](/ms/guides/extract-audio-from-video-iphone/)
+- [Cara tukar video ke MP3 di iPhone](/ms/guides/convert-video-to-mp3-iphone/)
+- [MP4 ke MP3 di iPhone](/ms/guides/mp4-to-mp3-iphone/)
+- [MOV ke MP3 di iPhone](/ms/guides/mov-to-mp3-iphone/)
+- [Video ke M4A di iPhone](/ms/guides/video-to-m4a-iphone/)
+- [Ekstrak audio daripada video di iPhone tanpa apl](/ms/guides/extract-audio-without-app-iphone/)
+- [Ekstrak audio video: online atau apl?](/ms/guides/extract-audio-online-vs-app/)
+- [Cara ambil lagu dari video di iPhone](/ms/guides/save-music-from-video-iphone/)
+- [Cara potong sebahagian audio daripada video di iPhone](/ms/guides/trim-audio-from-video-iphone/)
+- [Bunyi daripada rakaman skrin iPhone](/ms/guides/screen-recording-to-audio-iphone/)
+- [Video kuliah kepada audio di iPhone](/ms/guides/lecture-video-to-audio-iphone/)
+- [Nada dering daripada video di iPhone](/ms/guides/video-to-ringtone-iphone/)
+
+## Norske guider
+
+- [Forside (NO)](/no/): Trekk ut lyd fra video⁺ — norsk versjon (bokmål).
+- [Alle guider](/no/guides/)
+- [Slik trekker du ut lyd fra video på iPhone](/no/guides/extract-audio-from-video-iphone/)
+- [Slik konverterer du video til MP3 på iPhone](/no/guides/convert-video-to-mp3-iphone/)
+- [MP4 til MP3 på iPhone](/no/guides/mp4-to-mp3-iphone/)
+- [MOV til MP3 på iPhone](/no/guides/mov-to-mp3-iphone/)
+- [Video til M4A på iPhone](/no/guides/video-to-m4a-iphone/)
+- [Trekk ut lyd fra video på iPhone uten app](/no/guides/extract-audio-without-app-iphone/)
+- [Trekk ut lyd fra video: på nett eller app?](/no/guides/extract-audio-online-vs-app/)
+- [Slik henter du musikk fra en video på iPhone](/no/guides/save-music-from-video-iphone/)
+- [Slik klipper du ut en del av lyden fra en video](/no/guides/trim-audio-from-video-iphone/)
+- [Lyd fra skjermopptak på iPhone](/no/guides/screen-recording-to-audio-iphone/)
+- [Videoforelesning til lyd på iPhone](/no/guides/lecture-video-to-audio-iphone/)
+- [Ringetone fra video på iPhone](/no/guides/video-to-ringtone-iphone/)
+
+## Slovenské návody
+
+- [Domov (SK)](/sk/): Extrahovať zvuk z videa⁺ — slovenská verzia.
+- [Všetky návody](/sk/guides/)
+- [Ako vytiahnuť zvuk z videa na iPhone](/sk/guides/extract-audio-from-video-iphone/)
+- [Ako previesť video na MP3 na iPhone](/sk/guides/convert-video-to-mp3-iphone/)
+- [MP4 na MP3 na iPhone](/sk/guides/mp4-to-mp3-iphone/)
+- [MOV na MP3 na iPhone](/sk/guides/mov-to-mp3-iphone/)
+- [Video na M4A na iPhone](/sk/guides/video-to-m4a-iphone/)
+- [Ako vytiahnuť zvuk z videa na iPhone bez aplikácie](/sk/guides/extract-audio-without-app-iphone/)
+- [Extrahovať zvuk z videa: online, alebo aplikácia?](/sk/guides/extract-audio-online-vs-app/)
+- [Ako vytiahnuť hudbu z videa na iPhone](/sk/guides/save-music-from-video-iphone/)
+- [Ako vystrihnúť časť zvuku z videa na iPhone](/sk/guides/trim-audio-from-video-iphone/)
+- [Zvuk zo záznamu obrazovky na iPhone](/sk/guides/screen-recording-to-audio-iphone/)
+- [Videoprednáška na zvuk na iPhone](/sk/guides/lecture-video-to-audio-iphone/)
+- [Zvonenie z videa na iPhone](/sk/guides/video-to-ringtone-iphone/)
+
 ## Key Facts
 
 - Platform: iOS

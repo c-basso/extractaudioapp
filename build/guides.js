@@ -245,6 +245,7 @@ async function buildGuidesForLang(lang, template, slugsByLang) {
     const guides = require(`./guides/${lang}`);
     const data = JSON.parse(fs.readFileSync(path.join(__dirname, `${lang}.json`), 'utf8'));
     const gui = data.guide_ui;
+    gui.dir = gui.dir || (lang === 'he' ? 'rtl' : 'ltr');
     const base = guidesPathFor(lang);
     const home = homePathFor(lang);
 

@@ -663,3 +663,445 @@ Thuật ngữ iOS tiếng Việt: “Chia sẻ”, “Ảnh”, “Tệp”, “
 | 12 | jak udělat vyzvánění z videa na iphonu | `/cs/guides/video-to-ringtone-iphone/` |
 
 České termíny iOS: „Sdílet“, „Fotky“, „Soubory“, „Uložit do Souborů“, „Zkratky“, „Kódovat média“, „Pouze zvuk“, „Použít jako vyzvánění“, „Ovládací centrum“, „Nahrávání obrazovky“.
+
+---
+
+# 简体中文（ZH）— /zh/ 和 /zh/guides/
+
+> 来源：当前 Google/百度搜索结果、`zh.json` 中原有关键词、中国区 App Store 页面（名称已本地化为「从视频提取音频」，5★ / 4 个评分）。没有 zh 的 Google Trends CSV，优先级为估算；请用 Search Console / 百度站长平台核实。中国大陆用户常用“苹果手机”代替“iPhone”，两者都已覆盖。
+
+## 首页（/zh/）
+
+| 搜索词 | 优先级 | 位置 |
+|---|---|---|
+| iphone视频提取音频 / 苹果手机视频提取音频 | 最高 | **title, H1** |
+| 视频提取音频 / 视频转音频 | 高 | meta keywords, 正文 |
+| 视频转mp3 | 高 | meta description, FAQ, 教程 2 |
+| mp4转mp3 | 高 | FAQ, 教程 3 |
+| 视频提取音频在线 | 中 | FAQ, 教程 7 |
+| 提取视频中的音乐 | 中 | FAQ, 教程 8 |
+| 苹果手机视频做铃声 | 中 | FAQ, 教程 12 |
+
+## 教程（slug = EN → hreflang en/…/cs/zh）
+
+| # | 主关键词 | 页面 |
+|---|---|---|
+| 1 | iphone视频提取音频 | `/zh/guides/extract-audio-from-video-iphone/` |
+| 2 | 苹果手机视频转mp3 | `/zh/guides/convert-video-to-mp3-iphone/` |
+| 3 | iphone mp4转mp3 | `/zh/guides/mp4-to-mp3-iphone/` |
+| 4 | iphone mov转mp3 | `/zh/guides/mov-to-mp3-iphone/` |
+| 5 | iphone视频转m4a | `/zh/guides/video-to-m4a-iphone/` |
+| 6 | iphone不用app提取视频音频（快捷指令） | `/zh/guides/extract-audio-without-app-iphone/` |
+| 7 | 视频提取音频在线 | `/zh/guides/extract-audio-online-vs-app/` |
+| 8 | iphone提取视频中的音乐 | `/zh/guides/save-music-from-video-iphone/` |
+| 9 | iphone截取视频中的一段声音 | `/zh/guides/trim-audio-from-video-iphone/` |
+| 10 | iphone屏幕录制提取声音 | `/zh/guides/screen-recording-to-audio-iphone/` |
+| 11 | 网课视频转音频 | `/zh/guides/lecture-video-to-audio-iphone/` |
+| 12 | 苹果手机视频做铃声 | `/zh/guides/video-to-ringtone-iphone/` |
+
+iOS 简体中文术语：“共享”、“照片”、“文件”、“存储到‘文件’”、“快捷指令”、“编码媒体”、“仅音频”、“用作铃声”、“控制中心”、“屏幕录制”、“库乐队”、“隔空投送”。
+
+---
+
+# Dansk (DA) — /da/ og /da/guides/
+
+> Kilder: aktuelle Google-resultater, eksisterende søgeord i `da.json`, den danske App Store-side (5★ / 1 bedømmelse). **Bemærk: den danske App Store-side er på engelsk** («Extract Audio from Video⁺») — titel og undertitel indekseres i App Store-søgning, så de bør lokaliseres (fx «Udtræk lyd fra video – MP3, M4A»). Ingen Google Trends-CSV for da — prioriteterne er skøn; bekræft i Search Console.
+
+## Forside (/da/)
+
+| Søgning | Prioritet | Placering |
+|---|---|---|
+| udtræk lyd fra video (iphone) | højest | **title, H1** |
+| lyd fra video | høj | meta keywords, brødtekst |
+| video til mp3 / konverter video til mp3 | høj | meta description, FAQ, guide 2 |
+| mp4 til mp3 | høj | FAQ, guide 3 |
+| udtræk lyd fra video online | middel | FAQ, guide 7 |
+| udtræk musik fra video | middel | FAQ, guide 8 |
+| ringetone fra video iphone | middel | FAQ, guide 12 |
+
+## Guides (slugs = EN → hreflang en/…/zh/da)
+
+| # | Primært søgeord | Side |
+|---|---|---|
+| 1 | udtræk lyd fra video iphone | `/da/guides/extract-audio-from-video-iphone/` |
+| 2 | konverter video til mp3 iphone | `/da/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 til mp3 iphone | `/da/guides/mp4-to-mp3-iphone/` |
+| 4 | mov til mp3 iphone | `/da/guides/mov-to-mp3-iphone/` |
+| 5 | video til m4a iphone | `/da/guides/video-to-m4a-iphone/` |
+| 6 | udtræk lyd fra video uden app (Genveje) | `/da/guides/extract-audio-without-app-iphone/` |
+| 7 | udtræk lyd fra video online | `/da/guides/extract-audio-online-vs-app/` |
+| 8 | udtræk musik fra video iphone | `/da/guides/save-music-from-video-iphone/` |
+| 9 | klip lyd fra video iphone | `/da/guides/trim-audio-from-video-iphone/` |
+| 10 | lyd fra skærmoptagelse iphone | `/da/guides/screen-recording-to-audio-iphone/` |
+| 11 | forelæsning video til lyd | `/da/guides/lecture-video-to-audio-iphone/` |
+| 12 | lav ringetone fra video iphone | `/da/guides/video-to-ringtone-iphone/` |
+
+Danske iOS-termer: »Del«, »Fotos«, »Filer«, »Gem i Filer«, »Genveje«, »Indkod medie«, »Kun lyd«, »Brug som ringetone«, »Kontrolcenter«, »Skærmoptagelse«.
+
+---
+
+# Ελληνικά (EL) — /el/ και /el/guides/
+
+> Πηγές: τρέχοντα αποτελέσματα Google, υπάρχουσες λέξεις-κλειδιά στο `el.json`, η ελληνική σελίδα App Store (4★ / 3 αξιολογήσεις). **Σημείωση: η ελληνική σελίδα App Store είναι στα αγγλικά** («Extract Audio from Video⁺») — ο τίτλος και ο υπότιτλος ευρετηριάζονται στην αναζήτηση του App Store, οπότε προτείνεται τοπικοποίηση (π.χ. «Εξαγωγή ήχου από βίντεο – MP3, M4A»). Δεν υπάρχει CSV Google Trends για el — οι προτεραιότητες είναι εκτιμήσεις· επιβεβαιώστε στο Search Console.
+
+## Αρχική (/el/)
+
+| Αναζήτηση | Προτεραιότητα | Θέση |
+|---|---|---|
+| εξαγωγή ήχου από βίντεο (iphone) | υψηλότατη | **title, H1** |
+| ήχος από βίντεο | υψηλή | meta keywords, κείμενο |
+| μετατροπή βίντεο σε mp3 / βίντεο σε mp3 | υψηλή | meta description, FAQ, οδηγός 2 |
+| mp4 σε mp3 | υψηλή | FAQ, οδηγός 3 |
+| εξαγωγή ήχου από βίντεο online | μέτρια | FAQ, οδηγός 7 |
+| εξαγωγή μουσικής από βίντεο | μέτρια | FAQ, οδηγός 8 |
+| ήχος κλήσης από βίντεο iphone | μέτρια | FAQ, οδηγός 12 |
+
+## Οδηγοί (slugs = EN → hreflang en/…/da/el)
+
+| # | Κύρια λέξη-κλειδί | Σελίδα |
+|---|---|---|
+| 1 | εξαγωγή ήχου από βίντεο iphone | `/el/guides/extract-audio-from-video-iphone/` |
+| 2 | μετατροπή βίντεο σε mp3 iphone | `/el/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 σε mp3 iphone | `/el/guides/mp4-to-mp3-iphone/` |
+| 4 | mov σε mp3 iphone | `/el/guides/mov-to-mp3-iphone/` |
+| 5 | βίντεο σε m4a iphone | `/el/guides/video-to-m4a-iphone/` |
+| 6 | εξαγωγή ήχου χωρίς εφαρμογή (Συντομεύσεις) | `/el/guides/extract-audio-without-app-iphone/` |
+| 7 | εξαγωγή ήχου από βίντεο online | `/el/guides/extract-audio-online-vs-app/` |
+| 8 | εξαγωγή μουσικής από βίντεο iphone | `/el/guides/save-music-from-video-iphone/` |
+| 9 | περικοπή ήχου από βίντεο iphone | `/el/guides/trim-audio-from-video-iphone/` |
+| 10 | ήχος από εγγραφή οθόνης iphone | `/el/guides/screen-recording-to-audio-iphone/` |
+| 11 | βιντεοδιάλεξη σε ήχο | `/el/guides/lecture-video-to-audio-iphone/` |
+| 12 | ήχος κλήσης από βίντεο iphone | `/el/guides/video-to-ringtone-iphone/` |
+
+Ελληνικοί όροι iOS: «Κοινή χρήση», «Φωτογραφίες», «Αρχεία», «Αποθήκευση στα Αρχεία», «Συντομεύσεις», «Κωδικοποίηση πολυμέσων», «Μόνο ήχος», «Χρήση ως ήχος κλήσης», «Κέντρο ελέγχου», «Εγγραφή οθόνης».
+
+---
+
+# Suomi (FI) — /fi/ ja /fi/guides/
+
+> Lähteet: nykyiset Google-tulokset, `fi.json`-tiedoston aiemmat avainsanat, Suomen App Store -sivu (4★ / 1 arvio). **Huom: Suomen App Store -sivu on englanniksi** («Extract Audio from Video⁺») — nimi ja alaotsikko indeksoidaan App Storen haussa, joten ne kannattaa lokalisoida (esim. «Irrota ääni videosta – MP3, M4A»). fi:lle ei ole Google Trends -CSV:tä — prioriteetit ovat arvioita; tarkista Search Consolessa.
+
+## Etusivu (/fi/)
+
+| Haku | Prioriteetti | Sijainti |
+|---|---|---|
+| irrota ääni videosta (iphone) | korkein | **title, H1** |
+| ääni videosta | korkea | meta keywords, leipäteksti |
+| video mp3:ksi / muunna video mp3 | korkea | meta description, UKK, opas 2 |
+| mp4 mp3 | korkea | UKK, opas 3 |
+| irrota ääni videosta netissä | keskitaso | UKK, opas 7 |
+| musiikki videosta | keskitaso | UKK, opas 8 |
+| soittoääni videosta iphone | keskitaso | UKK, opas 12 |
+
+## Oppaat (slugit = EN → hreflang en/…/el/fi)
+
+| # | Pääavainsana | Sivu |
+|---|---|---|
+| 1 | irrota ääni videosta iphone | `/fi/guides/extract-audio-from-video-iphone/` |
+| 2 | video mp3:ksi iphone | `/fi/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 mp3 iphone | `/fi/guides/mp4-to-mp3-iphone/` |
+| 4 | mov mp3 iphone | `/fi/guides/mov-to-mp3-iphone/` |
+| 5 | video m4a iphone | `/fi/guides/video-to-m4a-iphone/` |
+| 6 | irrota ääni ilman sovellusta (Pikakomennot) | `/fi/guides/extract-audio-without-app-iphone/` |
+| 7 | irrota ääni videosta netissä | `/fi/guides/extract-audio-online-vs-app/` |
+| 8 | musiikki videosta iphone | `/fi/guides/save-music-from-video-iphone/` |
+| 9 | leikkaa ääni videosta iphone | `/fi/guides/trim-audio-from-video-iphone/` |
+| 10 | ääni näyttötallenteesta iphone | `/fi/guides/screen-recording-to-audio-iphone/` |
+| 11 | luentovideo ääneksi | `/fi/guides/lecture-video-to-audio-iphone/` |
+| 12 | soittoääni videosta iphone | `/fi/guides/video-to-ringtone-iphone/` |
+
+Suomenkieliset iOS-termit: ”Jaa”, ”Kuvat”, ”Tiedostot”, ”Tallenna Tiedostoihin”, ”Pikakomennot”, ”Koodaa media”, ”Vain ääni”, ”Käytä soittoäänenä”, ”Ohjauskeskus”, ”Näytön tallennus”.
+
+---
+
+# Filipino (FIL) — /fil/ at /fil/guides/
+
+> Sources: current Google results, existing keywords in `fil.json`, the Philippines App Store page (no ratings yet; the listing is in English — and the app itself has no Filipino UI). Filipino searchers mix Tagalog and English (“Taglish”), so English phrases like “video to mp3”, “mp4 to mp3”, “extract audio from video online” are kept alongside Tagalog ones. iOS has no Filipino system language, so button/menu names stay in English (Share, Photos, Files, Save to Files, Shortcuts, Encode Media, Audio Only, Use as Ringtone). No Google Trends CSV for fil — priorities are estimates.
+
+## Home (/fil/)
+
+| Query | Priority | Where |
+|---|---|---|
+| paano kunin ang audio sa video (iphone) | highest | **title, H1** |
+| audio mula sa video | high | meta keywords, body |
+| video to mp3 / paano gawing mp3 ang video | high | meta description, FAQ, guide 2 |
+| mp4 to mp3 | high | FAQ, guide 3 |
+| extract audio from video online | medium | FAQ, guide 7 |
+| kunin ang music sa video | medium | FAQ, guide 8 |
+| ringtone mula sa video iphone | medium | FAQ, guide 12 |
+
+## Guides (slugs = EN → hreflang en/…/fi/fil)
+
+| # | Primary keyword | Page |
+|---|---|---|
+| 1 | paano kunin ang audio sa video iphone | `/fil/guides/extract-audio-from-video-iphone/` |
+| 2 | paano gawing mp3 ang video sa iphone | `/fil/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 to mp3 iphone | `/fil/guides/mp4-to-mp3-iphone/` |
+| 4 | mov to mp3 iphone | `/fil/guides/mov-to-mp3-iphone/` |
+| 5 | video to m4a iphone | `/fil/guides/video-to-m4a-iphone/` |
+| 6 | kunin ang audio nang walang app (Shortcuts) | `/fil/guides/extract-audio-without-app-iphone/` |
+| 7 | extract audio from video online | `/fil/guides/extract-audio-online-vs-app/` |
+| 8 | paano kunin ang music sa video iphone | `/fil/guides/save-music-from-video-iphone/` |
+| 9 | paano i-trim ang audio ng video sa iphone | `/fil/guides/trim-audio-from-video-iphone/` |
+| 10 | audio ng screen recording iphone | `/fil/guides/screen-recording-to-audio-iphone/` |
+| 11 | gawing audio ang video lecture | `/fil/guides/lecture-video-to-audio-iphone/` |
+| 12 | paano gumawa ng ringtone mula sa video iphone | `/fil/guides/video-to-ringtone-iphone/` |
+
+---
+
+# עברית (HE) — /he/ ו‑/he/guides/ (RTL)
+
+> Sources: current Google results, existing keywords in `he.json`, the Israel App Store page (no ratings yet; listing in English — the app itself supports Hebrew). Israeli searchers say “סאונד”/“להוציא” more than “אודיו”/“לחלץ”, so the H1/title use «איך להוציא סאונד מסרטון באייפון» and “חילוץ אודיו” is kept as the secondary term. No Google Trends CSV for he — priorities are estimates. Suggested localized store name: «חילוץ אודיו מסרטון – MP3, M4A».
+
+## Home (/he/)
+
+| Query | Priority | Where |
+|---|---|---|
+| איך להוציא סאונד מסרטון באייפון | highest | **title, H1** |
+| חילוץ אודיו מסרטון / מווידאו | high | meta keywords, body, og |
+| המרת סרטון ל‑mp3 / וידאו ל‑mp3 | high | meta description, FAQ, guide 2 |
+| mp4 ל‑mp3 | high | FAQ, guide 3 |
+| חילוץ אודיו מסרטון אונליין | medium | FAQ, guide 7 |
+| להוציא שיר מסרטון | medium | FAQ, guide 8 |
+| רינגטון מסרטון אייפון | medium | FAQ, guide 12 |
+
+## Guides (slugs = EN → hreflang en/…/fil/he)
+
+| # | Primary keyword | Page |
+|---|---|---|
+| 1 | איך להוציא סאונד מסרטון באייפון | `/he/guides/extract-audio-from-video-iphone/` |
+| 2 | המרת סרטון ל‑mp3 באייפון | `/he/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 ל‑mp3 באייפון | `/he/guides/mp4-to-mp3-iphone/` |
+| 4 | mov ל‑mp3 באייפון | `/he/guides/mov-to-mp3-iphone/` |
+| 5 | סרטון ל‑m4a באייפון | `/he/guides/video-to-m4a-iphone/` |
+| 6 | להוציא סאונד בלי אפליקציה (קיצורים) | `/he/guides/extract-audio-without-app-iphone/` |
+| 7 | חילוץ אודיו מסרטון אונליין | `/he/guides/extract-audio-online-vs-app/` |
+| 8 | איך להוציא שיר מסרטון באייפון | `/he/guides/save-music-from-video-iphone/` |
+| 9 | איך לחתוך סאונד מסרטון באייפון | `/he/guides/trim-audio-from-video-iphone/` |
+| 10 | סאונד מהקלטת מסך באייפון | `/he/guides/screen-recording-to-audio-iphone/` |
+| 11 | הרצאה מצולמת לאודיו | `/he/guides/lecture-video-to-audio-iphone/` |
+| 12 | איך להכין רינגטון מסרטון לאייפון | `/he/guides/video-to-ringtone-iphone/` |
+
+מונחי iOS בעברית: שיתוף, ״תמונות״, ״קבצים״, שמירה ב״קבצים״, ״קיצורים״, “קידוד מדיה”, “שמע בלבד”, “שימוש כרינגטון”, מרכז הבקרה, הקלטת מסך.
+
+---
+
+# Hrvatski (HR) — /hr/ i /hr/guides/
+
+> Izvori: trenutačni Google rezultati, postojeće ključne riječi u `hr.json`, hrvatska stranica App Storea (još bez ocjena; stranica je na engleskom, a aplikacija podržava hrvatski). Preporuka za lokalizirani naziv u trgovini: «Izdvoji zvuk iz videa – MP3, M4A». Nema Google Trends CSV-a za hr — prioriteti su procjene; provjerite u Search Consoleu.
+
+## Početna (/hr/)
+
+| Upit | Prioritet | Mjesto |
+|---|---|---|
+| kako izdvojiti zvuk iz videa (iphone) | najviši | **title, H1** |
+| zvuk iz videa | visok | meta keywords, tekst |
+| video u mp3 / pretvoriti video u mp3 | visok | meta description, FAQ, vodič 2 |
+| mp4 u mp3 | visok | FAQ, vodič 3 |
+| izdvojiti zvuk iz videa online | srednji | FAQ, vodič 7 |
+| izvući pjesmu iz videa | srednji | FAQ, vodič 8 |
+| melodija zvona iz videa iphone | srednji | FAQ, vodič 12 |
+
+## Vodiči (slugovi = EN → hreflang en/…/he/hr)
+
+| # | Glavna ključna riječ | Stranica |
+|---|---|---|
+| 1 | kako izdvojiti zvuk iz videa na iphoneu | `/hr/guides/extract-audio-from-video-iphone/` |
+| 2 | pretvoriti video u mp3 iphone | `/hr/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 u mp3 iphone | `/hr/guides/mp4-to-mp3-iphone/` |
+| 4 | mov u mp3 iphone | `/hr/guides/mov-to-mp3-iphone/` |
+| 5 | video u m4a iphone | `/hr/guides/video-to-m4a-iphone/` |
+| 6 | izdvojiti zvuk bez aplikacije (Prečaci) | `/hr/guides/extract-audio-without-app-iphone/` |
+| 7 | izdvojiti zvuk iz videa online | `/hr/guides/extract-audio-online-vs-app/` |
+| 8 | izvući pjesmu iz videa iphone | `/hr/guides/save-music-from-video-iphone/` |
+| 9 | izrezati zvuk iz videa iphone | `/hr/guides/trim-audio-from-video-iphone/` |
+| 10 | zvuk iz snimke zaslona iphone | `/hr/guides/screen-recording-to-audio-iphone/` |
+| 11 | video predavanje u zvuk | `/hr/guides/lecture-video-to-audio-iphone/` |
+| 12 | melodija zvona iz videa iphone | `/hr/guides/video-to-ringtone-iphone/` |
+
+Hrvatski iOS pojmovi: „Dijeli”, „Foto”, „Datoteke”, „Spremi u Datoteke”, „Prečaci”, „Kodiraj medij”, „Samo zvuk”, „Koristi kao melodiju zvona”, „Kontrolni centar”, „Snimanje zaslona”.
+
+---
+
+# Magyar (HU) — /hu/ és /hu/guides/
+
+> Források: aktuális Google-találatok, a `hu.json` korábbi kulcsszavai, a magyar App Store-oldal (5★ / 1 értékelés; az oldal angol nyelvű, az alkalmazás támogatja a magyart). Javasolt lokalizált áruházi név: «Hang kinyerése videóból – MP3, M4A». Nincs Google Trends CSV a hu-hoz — a prioritások becslések; ellenőrizze a Search Console-ban.
+
+## Kezdőlap (/hu/)
+
+| Keresés | Prioritás | Hely |
+|---|---|---|
+| hang kinyerése videóból (iphone) | legmagasabb | **title, H1** |
+| hang leválasztása videóról / videó hangja | magas | meta keywords, szöveg |
+| videó mp3-ba / videó mp3 konvertálás | magas | meta description, GYIK, 2. útmutató |
+| mp4 mp3 | magas | GYIK, 3. útmutató |
+| hang kinyerése videóból online | közepes | GYIK, 7. útmutató |
+| zene kinyerése videóból | közepes | GYIK, 8. útmutató |
+| csengőhang videóból iphone | közepes | GYIK, 12. útmutató |
+
+## Útmutatók (slugok = EN → hreflang en/…/hr/hu)
+
+| # | Fő kulcsszó | Oldal |
+|---|---|---|
+| 1 | hang kinyerése videóból iphone | `/hu/guides/extract-audio-from-video-iphone/` |
+| 2 | videó mp3 konvertálás iphone | `/hu/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 mp3 iphone | `/hu/guides/mp4-to-mp3-iphone/` |
+| 4 | mov mp3 iphone | `/hu/guides/mov-to-mp3-iphone/` |
+| 5 | videó m4a iphone | `/hu/guides/video-to-m4a-iphone/` |
+| 6 | hang kinyerése alkalmazás nélkül (Parancsok) | `/hu/guides/extract-audio-without-app-iphone/` |
+| 7 | hang kinyerése videóból online | `/hu/guides/extract-audio-online-vs-app/` |
+| 8 | zene kinyerése videóból iphone | `/hu/guides/save-music-from-video-iphone/` |
+| 9 | hang vágása videóból iphone | `/hu/guides/trim-audio-from-video-iphone/` |
+| 10 | képernyőfelvétel hangja iphone | `/hu/guides/screen-recording-to-audio-iphone/` |
+| 11 | videós előadás hanggá alakítása | `/hu/guides/lecture-video-to-audio-iphone/` |
+| 12 | csengőhang videóból iphone | `/hu/guides/video-to-ringtone-iphone/` |
+
+Magyar iOS-kifejezések: „Megosztás”, „Fotók”, „Fájlok”, „Mentés a Fájlokba”, „Parancsok”, „Média kódolása”, „Csak hang”, „Használat csengőhangként”, „Vezérlőközpont”, „Képernyőfelvétel”.
+
+---
+
+# Bahasa Indonesia (ID) — /id/ dan /id/guides/
+
+> Sumber: hasil Google saat ini, kata kunci lama di `id.json`, halaman App Store Indonesia (2★ / 1 penilaian; halaman berbahasa Inggris, padahal aplikasi mendukung bahasa Indonesia). Saran nama toko yang dilokalkan: «Ekstrak Audio dari Video – MP3, M4A». Tidak ada CSV Google Trends untuk id — prioritas adalah perkiraan; cek di Search Console.
+
+## Beranda (/id/)
+
+| Kueri | Prioritas | Lokasi |
+|---|---|---|
+| cara mengambil audio dari video di iphone | tertinggi | **title, H1** |
+| ekstrak audio dari video / memisahkan suara dari video | tinggi | meta keywords, isi, og |
+| video ke mp3 / cara mengubah video ke mp3 | tinggi | meta description, FAQ, panduan 2 |
+| mp4 ke mp3 | tinggi | FAQ, panduan 3 |
+| ekstrak audio dari video online | sedang | FAQ, panduan 7 |
+| ambil lagu dari video | sedang | FAQ, panduan 8 |
+| nada dering dari video iphone | sedang | FAQ, panduan 12 |
+
+## Panduan (slug = EN → hreflang en/…/hu/id)
+
+| # | Kata kunci utama | Halaman |
+|---|---|---|
+| 1 | cara mengambil audio dari video di iphone | `/id/guides/extract-audio-from-video-iphone/` |
+| 2 | cara mengubah video ke mp3 di iphone | `/id/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 ke mp3 iphone | `/id/guides/mp4-to-mp3-iphone/` |
+| 4 | mov ke mp3 iphone | `/id/guides/mov-to-mp3-iphone/` |
+| 5 | video ke m4a iphone | `/id/guides/video-to-m4a-iphone/` |
+| 6 | ambil audio tanpa aplikasi (Pintasan) | `/id/guides/extract-audio-without-app-iphone/` |
+| 7 | ekstrak audio dari video online | `/id/guides/extract-audio-online-vs-app/` |
+| 8 | cara mengambil lagu dari video di iphone | `/id/guides/save-music-from-video-iphone/` |
+| 9 | cara memotong audio dari video di iphone | `/id/guides/trim-audio-from-video-iphone/` |
+| 10 | suara dari rekaman layar iphone | `/id/guides/screen-recording-to-audio-iphone/` |
+| 11 | mengubah video kuliah jadi audio | `/id/guides/lecture-video-to-audio-iphone/` |
+| 12 | cara membuat nada dering dari video di iphone | `/id/guides/video-to-ringtone-iphone/` |
+
+Istilah iOS bahasa Indonesia: “Bagikan”, “Foto”, “File”, “Simpan ke File”, “Pintasan”, “Enkode Media”, “Hanya Audio”, “Gunakan sebagai Nada Dering”, “Pusat Kontrol”, “Perekaman Layar”.
+
+---
+
+# Bahasa Melayu (MS) — /ms/ dan /ms/guides/
+
+> Sumber: keputusan Google semasa, kata kunci sedia ada dalam `ms.json`, halaman App Store Malaysia (tiada penilaian lagi; halaman dalam bahasa Inggeris, walaupun apl menyokong Bahasa Melayu). Cadangan nama kedai yang disetempatkan: «Ekstrak Audio daripada Video – MP3, M4A». Istilah Malaysia digunakan (Kongsi, Fail, percuma, muat turun, peranti), bukan istilah Indonesia. Tiada CSV Google Trends untuk ms — keutamaan ialah anggaran; semak dalam Search Console.
+
+## Utama (/ms/)
+
+| Carian | Keutamaan | Lokasi |
+|---|---|---|
+| cara ekstrak audio daripada video (iphone) | tertinggi | **title, H1** |
+| ambil audio dari video / asingkan suara daripada video | tinggi | meta keywords, kandungan |
+| video ke mp3 / tukar video ke mp3 | tinggi | meta description, FAQ, panduan 2 |
+| mp4 ke mp3 | tinggi | FAQ, panduan 3 |
+| ekstrak audio video online | sederhana | FAQ, panduan 7 |
+| ambil lagu dari video | sederhana | FAQ, panduan 8 |
+| nada dering daripada video iphone | sederhana | FAQ, panduan 12 |
+
+## Panduan (slug = EN → hreflang en/…/id/ms)
+
+| # | Kata kunci utama | Halaman |
+|---|---|---|
+| 1 | cara ekstrak audio daripada video di iphone | `/ms/guides/extract-audio-from-video-iphone/` |
+| 2 | cara tukar video ke mp3 di iphone | `/ms/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 ke mp3 iphone | `/ms/guides/mp4-to-mp3-iphone/` |
+| 4 | mov ke mp3 iphone | `/ms/guides/mov-to-mp3-iphone/` |
+| 5 | video ke m4a iphone | `/ms/guides/video-to-m4a-iphone/` |
+| 6 | ekstrak audio tanpa apl (Pintasan) | `/ms/guides/extract-audio-without-app-iphone/` |
+| 7 | ekstrak audio video online | `/ms/guides/extract-audio-online-vs-app/` |
+| 8 | cara ambil lagu dari video di iphone | `/ms/guides/save-music-from-video-iphone/` |
+| 9 | cara potong audio daripada video di iphone | `/ms/guides/trim-audio-from-video-iphone/` |
+| 10 | ambil bunyi daripada rakaman skrin iphone | `/ms/guides/screen-recording-to-audio-iphone/` |
+| 11 | tukar video kuliah kepada audio | `/ms/guides/lecture-video-to-audio-iphone/` |
+| 12 | cara buat nada dering daripada video di iphone | `/ms/guides/video-to-ringtone-iphone/` |
+
+Istilah iOS Bahasa Melayu: “Kongsi”, “Foto”, “Fail”, “Simpan ke Fail”, “Pintasan”, “Kodkan Media”, “Audio Sahaja”, “Guna sebagai Nada Dering”, “Pusat Kawalan”, “Rakaman Skrin”.
+
+---
+
+# Norsk (NO, bokmål) — /no/ og /no/guides/
+
+> Kilder: nåværende Google-resultater, eksisterende søkeord i `no.json`, den norske App Store-siden (ingen vurderinger ennå; siden er på engelsk, selv om appen støtter norsk). Forslag til lokalisert butikknavn: «Trekk ut lyd fra video – MP3, M4A». Ingen Google Trends-CSV for no — prioriteringene er anslag; bekreft i Search Console.
+
+## Forside (/no/)
+
+| Søk | Prioritet | Plassering |
+|---|---|---|
+| trekk ut lyd fra video (iphone) | høyest | **title, H1** |
+| hente lyd fra video / lyd fra video | høy | meta keywords, brødtekst |
+| video til mp3 / konverter video til mp3 | høy | meta description, FAQ, guide 2 |
+| mp4 til mp3 | høy | FAQ, guide 3 |
+| trekk ut lyd fra video online | middels | FAQ, guide 7 |
+| hente musikk fra video | middels | FAQ, guide 8 |
+| ringetone fra video iphone | middels | FAQ, guide 12 |
+
+## Guider (slugs = EN → hreflang en/…/ms/no)
+
+| # | Primært søkeord | Side |
+|---|---|---|
+| 1 | trekk ut lyd fra video iphone | `/no/guides/extract-audio-from-video-iphone/` |
+| 2 | konverter video til mp3 iphone | `/no/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 til mp3 iphone | `/no/guides/mp4-to-mp3-iphone/` |
+| 4 | mov til mp3 iphone | `/no/guides/mov-to-mp3-iphone/` |
+| 5 | video til m4a iphone | `/no/guides/video-to-m4a-iphone/` |
+| 6 | trekk ut lyd uten app (Snarveier) | `/no/guides/extract-audio-without-app-iphone/` |
+| 7 | trekk ut lyd fra video online | `/no/guides/extract-audio-online-vs-app/` |
+| 8 | hente musikk fra video iphone | `/no/guides/save-music-from-video-iphone/` |
+| 9 | klippe lyd fra video iphone | `/no/guides/trim-audio-from-video-iphone/` |
+| 10 | lyd fra skjermopptak iphone | `/no/guides/screen-recording-to-audio-iphone/` |
+| 11 | forelesning video til lyd | `/no/guides/lecture-video-to-audio-iphone/` |
+| 12 | ringetone fra video iphone | `/no/guides/video-to-ringtone-iphone/` |
+
+Norske iOS-termer: «Del», «Bilder», «Filer», «Arkiver i Filer», «Snarveier», «Kod medier», «Kun lyd», «Bruk som ringetone», «Kontrollsenter», «Skjermopptak».
+
+---
+
+# Slovenčina (SK) — /sk/ a /sk/guides/
+
+> Zdroje: aktuálne výsledky Google, pôvodné kľúčové slová v `sk.json`, slovenská stránka App Store (5★ / 1 hodnotenie; stránka je v angličtine, hoci aplikácia podporuje slovenčinu). Návrh lokalizovaného názvu v obchode: «Extrahovať zvuk z videa – MP3, M4A». Pre sk nie je CSV z Google Trends — priority sú odhad; overte v Search Console. Slovenskí používatelia často hľadajú aj po česky – české výrazy pokrýva /cs/.
+
+## Domov (/sk/)
+
+| Dopyt | Priorita | Umiestnenie |
+|---|---|---|
+| ako vytiahnuť zvuk z videa (iphone) | najvyššia | **title, H1** |
+| extrahovať zvuk z videa / zvuk z videa | vysoká | meta keywords, text |
+| video na mp3 / previesť video na mp3 | vysoká | meta description, FAQ, návod 2 |
+| mp4 na mp3 | vysoká | FAQ, návod 3 |
+| extrahovať zvuk z videa online | stredná | FAQ, návod 7 |
+| vytiahnuť hudbu z videa | stredná | FAQ, návod 8 |
+| zvonenie z videa iphone | stredná | FAQ, návod 12 |
+
+## Návody (slugy = EN → hreflang en/…/no/sk)
+
+| # | Hlavné kľúčové slovo | Stránka |
+|---|---|---|
+| 1 | ako vytiahnuť zvuk z videa na iphone | `/sk/guides/extract-audio-from-video-iphone/` |
+| 2 | ako previesť video na mp3 na iphone | `/sk/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 na mp3 iphone | `/sk/guides/mp4-to-mp3-iphone/` |
+| 4 | mov na mp3 iphone | `/sk/guides/mov-to-mp3-iphone/` |
+| 5 | video na m4a iphone | `/sk/guides/video-to-m4a-iphone/` |
+| 6 | vytiahnuť zvuk bez aplikácie (Skratky) | `/sk/guides/extract-audio-without-app-iphone/` |
+| 7 | extrahovať zvuk z videa online | `/sk/guides/extract-audio-online-vs-app/` |
+| 8 | ako vytiahnuť hudbu z videa na iphone | `/sk/guides/save-music-from-video-iphone/` |
+| 9 | ako vystrihnúť časť zvuku z videa | `/sk/guides/trim-audio-from-video-iphone/` |
+| 10 | zvuk zo záznamu obrazovky iphone | `/sk/guides/screen-recording-to-audio-iphone/` |
+| 11 | previesť videoprednášku na zvuk | `/sk/guides/lecture-video-to-audio-iphone/` |
+| 12 | zvonenie z videa iphone | `/sk/guides/video-to-ringtone-iphone/` |
+
+Slovenské výrazy v iOS: „Zdieľať“, „Fotky“, „Súbory“, „Uložiť do Súborov“, „Skratky“, „Kódovať médiá“, „Iba zvuk“, „Použiť ako zvonenie“, „Ovládacie centrum“, „Nahrávanie obrazovky“.

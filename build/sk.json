@@ -1,254 +1,293 @@
 {
   "meta": {
     "lang": "sk",
-    "title": "Extrahujte zvuk z videa na iPhone | Bezplatná MP3 app (2026)",
-    "description": "Zvuk z iPhone videa do MP3 za chvíľu: MP4 a MOV v zariadení, súkromne a bez nahrávania do cloudu. Orežte úsek z Fotiek alebo zo Zdieľania. Začnite zadarmo.",
-    "keywords": "extrahovať zvuk z videa, zvuk z videa iphone, video na mp3, mp4 na mp3 iphone, previesť video na zvuk, bezplatná aplikácia, ios, iphone, app store, lokálne spracovanie, súkromie",
+    "title": "Ako vytiahnuť zvuk z videa na iPhone – MP3 a M4A zadarmo",
+    "description": "Vytiahnite zvuk alebo hudbu z akéhokoľvek videa na iPhone: MP4 a MOV do MP3 či M4A za pár sekúnd. Orezanie, uloženie do Súborov, bez cloudu. Zadarmo.",
+    "keywords": "ako vytiahnuť zvuk z videa na iphone, extrahovať zvuk z videa, vytiahnuť zvuk z videa, zvuk z videa, video na mp3, previesť video na mp3, prevodník video na mp3, mp4 na mp3, mov na mp3, video na m4a, orezať zvuk z videa, vytiahnuť hudbu z videa, extrahovať zvuk z videa online, zvonenie z videa iphone",
     "author": "Vladimir Ivakhnenko",
     "og_url": "https://extractaudioapp.com/sk/",
-    "og_title": "Extrahovať zvuk z videa na iPhone – bezplatný konvertor MP3",
-    "og_description": "Prevod videa z iPhone na MP3 v zariadení bez nahrávania na servery. Začnite z Fotiek alebo Zdieľania, pred exportom orežte — základné funkcie zadarmo.",
+    "og_title": "Vytiahnite zvuk z videa na iPhone – MP3 a M4A za pár sekúnd",
+    "og_description": "Bezplatná aplikácia pre iPhone: premeňte akékoľvek video na MP3 alebo M4A priamo v zariadení. Orezanie, ponuka Zdieľať, nič sa neodosiela na servery.",
     "og_image": "https://extractaudioapp.com/sk/site_preview.png",
-    "site_name": "Zvuk z videa⁺",
+    "site_name": "Extrahovať zvuk z videa⁺",
     "og_locale": "sk_SK",
     "twitter_url": "https://extractaudioapp.com/sk/",
-    "twitter_title": "Extrahovať zvuk z videa na iPhone – bezplatná aplikácia",
-    "twitter_description": "Video na MP3 na iPhone so spracovaním v zariadení — bez nahrávania. Základ zadarmo; ďalšie nástroje cez voliteľné nákupy v aplikácii.",
+    "twitter_title": "Ako vytiahnuť zvuk z videa na iPhone – zadarmo",
+    "twitter_description": "Akékoľvek video do MP3 alebo M4A na iPhone za pár sekúnd. Všetko v zariadení, bez cloudu. Základné funkcie zadarmo.",
     "twitter_image": "https://extractaudioapp.com/sk/site_preview.png",
     "app_store_id": "6744582065",
     "canonical": "https://extractaudioapp.com/sk/",
     "geo_region": "SK",
     "geo_placename": "Slovakia"
   },
-  "hero": {
-    "logo_alt": "Logo Zvuk z videa⁺",
-    "title": "Extrahujte zvuk z videa na iPhone",
-    "subtitle": "Preveďte video na MP3 za pár sekúnd – bezplatná aplikácia pre iPhone",
-    "entity_definition": "Zvuk z videa⁺ je aplikácia pre iOS, ktorá na vašom iPhone prevádza videá (MP4/MOV) na súbory MP3 vysokej kvality priamo v zariadení.",
-    "subheadline": "Uložte si hudbu z klipov, zvuk z prednášok alebo krátke podcastové výstrihy. Rýchlo a súkromne — základné funkcie zadarmo a voliteľné nákupy v aplikácii.",
-    "download_alt": "Stiahnuť v App Store",
-    "phone_text": "Klepnite na konverziu videa na zvuk",
-    "qr_alt": "QR kód na stiahnutie aplikácie",
-    "qr_text": "Naskenujte telefónom a stiahnite si aplikáciu"
+  "app_info": {
+    "name": "Extrahovať zvuk z videa⁺",
+    "alternate_name": "Extract Audio from Video⁺",
+    "application_category": "MultimediaApplication",
+    "application_sub_category": "Audio"
   },
-  "features": {
-    "title": "Prečo používatelia volia tento extraktor zvuku na iPhone",
-    "items": [
+  "nav": {
+    "how": "Ako to funguje",
+    "guides": "Návody",
+    "faq": "Otázky",
+    "download": "Stiahnuť"
+  },
+  "ui": {
+    "skip": "Prejsť na obsah",
+    "home": "domov",
+    "primary_nav": "Hlavná navigácia",
+    "key_features": "Hlavné funkcie",
+    "out_of_5": "z 5 hviezdičiek",
+    "ratings": "hodnotení",
+    "trim_alt": "Orezanie zvuku videa pred extrakciou",
+    "screenshots_label": "Snímky obrazovky aplikácie",
+    "step": "Krok",
+    "iphone_app": "aplikácia pre iPhone",
+    "features": [
+      "Extrakcia zvuku z videa do MP3 alebo M4A",
+      "Orezanie videa pred extrakciou zvuku",
+      "Rozšírenie Zdieľať pre Fotky a Súbory",
+      "Prevod v zariadení, bez nahrávania",
+      "Knižnica extrahovaných zvukových súborov"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Bezplatný extraktor zvuku pre iPhone",
+    "title_lead": "Vytiahnite zvuk z akéhokoľvek videa",
+    "title_accent": "na iPhone",
+    "subtitle": "MP4 a MOV do MP3 alebo M4A za pár sekúnd. Orežte potrebný úsek, uložte do Súborov a pošlite kamkoľvek – všetko priamo v zariadení.",
+    "bullets": [
+      "MP3 a M4A",
+      "Orezanie pred exportom",
+      "Funguje z ponuky Zdieľať",
+      "Bez nahrávania a účtu"
+    ],
+    "logo_alt": "Ikona aplikácie Extrahovať zvuk z videa⁺",
+    "download_alt": "Stiahnite si Extrahovať zvuk z videa⁺ v App Store",
+    "qr_alt": "QR kód na stiahnutie Extrahovať zvuk z videa⁺ z App Store",
+    "qr_text": "Naskenujte fotoaparátom iPhonu a stiahnite",
+    "rating_label": "Hodnotenie v App Store",
+    "shot_alt": "Aplikácia Extrahovať zvuk z videa: obrazovka extrakcie zvuku s tlačidlami orezania a extrakcie"
+  },
+  "download": {
+    "eyebrow": "Stiahnuť",
+    "title": "Bezplatná aplikácia na vytiahnutie zvuku z videa",
+    "subtitle": "Stiahnutie je zadarmo a základná extrakcia zvuku funguje hneď. Ďalšie funkcie cez nákupy v aplikácii – začať môžete bez platenia.",
+    "facts": [
       {
-        "title": "Začnite zadarmo",
-        "description": "Bezplatné stiahnutie a používanie. Základná extrakcia zvuku je súčasťou aplikácie; ďalšie funkcie cez nákupy v aplikácii.",
-        "icon": "⚡"
+        "value": "Zadarmo",
+        "label": "stiahnutie"
       },
       {
-        "title": "Rýchla konverzia na MP3",
-        "description": "Prevádzajte videá na MP3 rýchlo a v dobrej kvalite. Podporuje MP4, MOV a ďalšie bežné formáty videa na iPhone.",
-        "icon": "🎵"
+        "value": "MP3 · M4A",
+        "label": "formáty"
       },
       {
-        "title": "Presné orezávanie",
-        "description": "Vyberte presne tú časť, ktorú potrebujete pred exportom. Uložíte len úsek, ktorý chcete ako zvuk.",
-        "icon": "✂️"
+        "value": "23,1 MB",
+        "label": "veľkosť"
       },
       {
-        "title": "Funguje zo Zdieľania",
-        "description": "Použite tlačidlo Zdieľať vo Fotkách alebo Súboroch — bez zložitého nastavenia.",
-        "icon": "🔗"
+        "value": "iOS 18.6+",
+        "label": "iPhone"
+      }
+    ],
+    "points": [
+      {
+        "title": "Súkromne",
+        "text": "Video sa prevádza vo vašom iPhone. Nič sa neodosiela na server."
       },
       {
-        "title": "Jednoduché rozhranie pre iPhone",
-        "description": "Čisté a intuitívne rozhranie. Ľahké použitie aj pri prvom spustení.",
-        "icon": "🎨"
+        "title": "Sekundy, nie minúty",
+        "text": "Žiadne nahrávanie, poradie ani sťahovanie výsledku. Funguje aj offline."
       },
       {
-        "title": "Vysoká kvalita zvuku",
-        "description": "Čistý výstup pre hudbu, podcasty, prednášky a hlasové nahrávky.",
-        "icon": "🎵"
+        "title": "Zabudované v iOS",
+        "text": "Pošlite akékoľvek video z Fotiek alebo Súborov cez Zdieľať."
       }
     ]
   },
-  "by_the_numbers": {
-    "title": "Zvuk z videa⁺ v číslach",
+  "screenshots": {
+    "eyebrow": "Snímky obrazovky",
+    "title": "Aplikácia v akcii",
+    "subtitle": "Päť obrazoviek – jedna úloha: dostať zvuk z videa.",
     "items": [
-      "4,5 z 5 hviezd podľa viac ako 290 hodnotení v App Store",
-      "Bezplatné stiahnutie a používanie – voliteľné nákupy v aplikácii",
-      "Podporuje MP4, MOV a ďalšie bežné formáty videa na iPhone",
-      "Veľkosť aplikácie pre iOS približne 50 MB",
-      "Spracovanie videa priamo na iPhone kvôli súkromiu a rýchlosti"
-    ],
-    "stats": [
       {
-        "number": "4,5",
-        "label": "Hodnotenie hviezdami",
-        "detail": "Na základe viac ako 290 recenzií v App Store"
+        "src": "/screenshots/1.webp",
+        "alt": "Extrahovať zvuk z videa – extraktor zvuku pre iPhone",
+        "caption": "Vytiahnite zvuk z videa"
       },
       {
-        "number": "cca 50 MB",
-        "label": "Veľkosť aplikácie",
-        "detail": "Nenáročná a rýchla"
+        "src": "/screenshots/2.webp",
+        "alt": "Obrazovka extrakcie: prevod videa na zvuk na iPhone",
+        "caption": "Video na zvuk"
       },
       {
-        "number": "100 %",
-        "label": "Základná funkcia zadarmo",
-        "detail": "Voliteľné nákupy v aplikácii"
+        "src": "/screenshots/3.webp",
+        "alt": "Orezanie zvuku videa značkami začiatku a konca pred extrakciou",
+        "caption": "Orezanie správneho úseku"
       },
       {
-        "number": "V zariadení",
-        "label": "Spracovanie",
-        "detail": "Vaše videá neopúšťajú iPhone"
+        "src": "/screenshots/4.webp",
+        "alt": "Ponuka Zdieľať s hotovým zvukovým súborom",
+        "caption": "Uložiť alebo poslať"
+      },
+      {
+        "src": "/screenshots/5.webp",
+        "alt": "Knižnica extrahovaných MP3 súborov v aplikácii",
+        "caption": "Všetky súbory v jednej knižnici"
       }
     ]
   },
   "demo": {
-    "title": "Ako extrahovať zvuk z videa na iPhone – krok za krokom",
-    "subtitle": "Postupujte podľa týchto jednoduchých krokov pre kvalitný zvuk na iPhone",
-    "placeholder_line1": "📱 Ukážkové video čoskoro",
-    "placeholder_line2": "Krok 1: Otvorte aplikáciu > Krok 2: Vyberte video > Krok 3: V prípade potreby orežte > Krok 4: Extrahujte zvuk a uložte ako MP3"
+    "eyebrow": "Ako to funguje",
+    "title": "Ako vytiahnuť zvuk z videa na iPhone",
+    "subtitle": "Štyri ťuknutia a máte MP3 alebo M4A. Začnite v aplikácii alebo cez Zdieľať vo Fotkách."
   },
   "howto_steps": {
     "items": [
       {
-        "name": "Otvorte aplikáciu",
-        "text": "Na iPhone otvorte aplikáciu {{app_info.name}}. Aplikáciu si stiahnete zadarmo z App Store."
-      },
-      {
         "name": "Vyberte video",
-        "text": "Vyberte video z knižnice. Môžete použiť MP4, MOV alebo iné bežné formáty."
+        "text": "Otvorte aplikáciu a vyberte video z Fotiek alebo Súborov – alebo pri akomkoľvek videu ťuknite na Zdieľať a zvoľte „Extrahovať zvuk“.",
+        "image": "/screenshots/2.webp"
       },
       {
-        "name": "V prípade potreby orežte",
-        "text": "Pomocou nástrojov na orez vyberte presne tú časť videa, z ktorej chcete získať zvuk. Tento krok je voliteľný."
+        "name": "Podľa potreby orežte",
+        "text": "Ťuknite na „Orezať video“ a posuňte žlté značky tak, aby zostala len potrebná časť. Nepovinné.",
+        "image": "/screenshots/3.webp"
       },
       {
-        "name": "Extrahujte a uložte zvuk",
-        "text": "Klepnite na Uložiť ako zvuk a extrahujte zvuk z videa ako súbor MP3. Zvuk sa uloží do vášho iPhone."
+        "name": "Ťuknite na „Extrahovať zvuk“",
+        "text": "Zvuková stopa sa prevedie do MP3 alebo M4A priamo v iPhone za pár sekúnd.",
+        "image": "/screenshots/2.webp"
+      },
+      {
+        "name": "Uložte alebo pošlite",
+        "text": "Uložte zvuk do Súborov, pošlite cez AirDrop alebo do ľubovoľnej aplikácie. Všetky súbory zostávajú v knižnici.",
+        "image": "/screenshots/4.webp"
       }
     ]
   },
-  "testimonials": {
-    "rating_text": "hodnotenie 4,5 od používateľov App Store",
-    "items": [
-      {
-        "text": "\"Ideálne na uloženie hudby a hlasových úryvkov z videí. Orezávanie je jednoduché a export rýchly.\"",
-        "author": "Sarah M., používateľka iPhonu",
-        "rating": "5 hviezd",
-        "verified": true
-      },
-      {
-        "text": "\"Skvelé na záznamy z prednášok. Prehľadné rozhranie, rýchla konverzia a žiadna náročná náuka.\"",
-        "author": "Michael T., študent",
-        "rating": "5 hviezd",
-        "verified": true
-      },
-      {
-        "text": "\"Najviac oceňujem spustenie zo Zdieľania vo Fotkách. Stačí pár klepnutí a mám zvuk, ktorý potrebujem.\"",
-        "author": "Jessica L., tvorkyňa obsahu",
-        "rating": "5 hviezd",
-        "verified": true
-      }
-    ]
+  "guides": {
+    "eyebrow": "Návody",
+    "title": "Návody na každú úlohu „video na zvuk“",
+    "subtitle": "Odpovede krok za krokom na najčastejšie otázky – so snímkami obrazovky.",
+    "all_label": "Všetky návody",
+    "read_label": "Čítať"
   },
   "faq": {
-    "title": "Často kladené otázky: video na zvuk na iPhone",
+    "eyebrow": "Otázky",
+    "title": "Časté otázky o zvuku z videa",
+    "learn_more": "Viac informácií",
     "items": [
       {
-        "question": "Ako extrahovať zvuk z videa na iPhone?",
-        "answer": "Otvorte Zvuk z videa⁺, vyberte klip z knižnice, v prípade potreby orežte a klepnite na Uložiť ako zvuk (MP3). Aplikáciu môžete spustiť aj priamo z ponuky Zdieľať vo Fotkách alebo Súboroch."
+        "question": "Ako vytiahnuť zvuk z videa na iPhone?",
+        "answer": "Otvorte Extrahovať zvuk z videa⁺, vyberte video, podľa potreby orežte a ťuknite na „Extrahovať zvuk“. Zvuk sa uloží ako MP3 alebo M4A do iPhonu. Začať môžete aj tlačidlom Zdieľať vo Fotkách.",
+        "url": "/sk/guides/extract-audio-from-video-iphone/"
       },
       {
-        "question": "Existuje bezplatná aplikácia na iPhone na prevod videa na zvuk?",
-        "answer": "Áno. Zvuk z videa⁺ je na stiahnutie zadarmo a základná konverzia je bez poplatku. Ďalšie nástroje odomknete cez nákupy v aplikácii."
+        "question": "Ako previesť video na MP3 na iPhone?",
+        "answer": "Pošlite video do aplikácie cez Zdieľať, ťuknite na „Extrahovať zvuk“ a zvoľte MP3. Súbor sa uloží v zariadení a môžete ho poslať do Súborov, cez AirDrop alebo do ľubovoľnej aplikácie.",
+        "url": "/sk/guides/convert-video-to-mp3-iphone/"
       },
       {
-        "question": "Ako rýchlo vybrať zvuk z videa?",
-        "answer": "Štyri kroky: otvorte aplikáciu, vyberte video, orežte požadovaný úsek, uložte ako zvuk. Rýchlejší prístup ponúka tlačidlo Zdieľať vo Fotkách."
+        "question": "Dá sa na iPhone zadarmo previesť MP4 na MP3?",
+        "answer": "Áno. Otvorte MP4 v Súboroch alebo Fotkách, pošlite do aplikácie a uložte ako MP3. Základný prevod je zadarmo.",
+        "url": "/sk/guides/mp4-to-mp3-iphone/"
       },
       {
-        "question": "Môžem na iPhone previesť MP4 alebo MOV na MP3?",
-        "answer": "Áno. Aplikácia podporuje bežné formáty ako MP4 a MOV a exportuje zvuk ako MP3 po niekoľkých klepnutiach."
+        "question": "Ako získať zvuk z videa MOV z fotoaparátu iPhonu?",
+        "answer": "Fotoaparát iPhonu nahráva vo formáte MOV. Pošlite video z Fotiek do aplikácie a uložte zvuk ako MP3 alebo M4A.",
+        "url": "/sk/guides/mov-to-mp3-iphone/"
       },
       {
-        "question": "Môžem ju používať zadarmo?",
-        "answer": "Áno. Základná extrakcia zvuku je zadarmo. Ďalšie funkcie sú dostupné ako voliteľné nákupy v aplikácii."
+        "question": "Dá sa zvuk z videa uložiť ako M4A?",
+        "answer": "Áno, pri extrakcii zvoľte M4A. Je to vlastný formát Apple – menší ako MP3 a vhodný na zvonenia a GarageBand.",
+        "url": "/sk/guides/video-to-m4a-iphone/"
       },
       {
-        "question": "Je Zvuk z videa⁺ lepší ako online konvertory?",
-        "answer": "Pre používateľov iPhonu áno. Zvuk z videa⁺ spracováva videá priamo v zariadení, takže súbory neopúšťajú váš iPhone. Online konvertory vyžadujú nahrávanie na servery, čo môže byť pomalšie a menej súkromné. Aplikáciu si stiahnete a používate zadarmo; ďalšie funkcie voliteľne cez nákupy v aplikácii."
+        "question": "Dá sa vytiahnuť zvuk z videa na iPhone bez aplikácie?",
+        "answer": "Áno, cez Skratky s akciou „Kódovať médiá“ a voľbou „Iba zvuk“. Výsledok je však len M4A a bez orezania – aplikácia je rýchlejšia pre MP3 a krátke úseky.",
+        "url": "/sk/guides/extract-audio-without-app-iphone/"
       },
       {
-        "question": "Je Zvuk z videa⁺ bezpečnejší ako online konvertory?",
-        "answer": "Áno, bezpečnejší. Zvuk z videa⁺ spracováva videá výhradne na vašom iPhone — bez nahrávania na cudzie servery. Vaše videá zostávajú súkromné v zariadení. Online konvertory vyžadujú nahrávanie súborov, čo môže znamenať riziká pre súkromie."
+        "question": "Je bezpečné extrahovať zvuk z videa online?",
+        "answer": "Online služby vyžadujú nahrať video na cudzí server. Extrahovať zvuk z videa⁺ prevádza v iPhone, takže video nikdy neopustí zariadenie.",
+        "url": "/sk/guides/extract-audio-online-vs-app/"
+      },
+      {
+        "question": "Ako vytiahnuť hudbu z videa na iPhone?",
+        "answer": "Pošlite video do aplikácie, orežte okolo skladby a ťuknite na „Extrahovať zvuk“. Ukladajte hudbu len z vlastných videí alebo z tých, ku ktorým máte práva.",
+        "url": "/sk/guides/save-music-from-video-iphone/"
+      },
+      {
+        "question": "Dá sa vystrihnúť len časť zvuku z videa?",
+        "answer": "Áno. Ťuknite na „Orezať video“, značkami vyberte požadovaný úsek a extrahujte – uloží sa len ten.",
+        "url": "/sk/guides/trim-audio-from-video-iphone/"
+      },
+      {
+        "question": "Ako získať zvuk zo záznamu obrazovky?",
+        "answer": "Záznamy obrazovky sa ukladajú do Fotiek ako bežné videá. Pošlite záznam do aplikácie a extrahujte zvuk. Ak súbor nemá zvuk, mikrofón bol počas nahrávania vypnutý.",
+        "url": "/sk/guides/screen-recording-to-audio-iphone/"
+      },
+      {
+        "question": "Ako počúvať videoprednášku ako zvuk?",
+        "answer": "Preveďte video prednášky na MP3 a uložte do Súborov. Počúvajte offline so zhasnutou obrazovkou – súbor zaberie oveľa menej miesta.",
+        "url": "/sk/guides/lecture-video-to-audio-iphone/"
+      },
+      {
+        "question": "Dá sa na iPhone urobiť zvonenie z videa?",
+        "answer": "Áno. Orežte zvuk na najviac 30 sekúnd, uložte do Súborov a v iOS 26 ťuknite na Zdieľať → „Použiť ako zvonenie“. V starších verziách iOS cez GarageBand.",
+        "url": "/sk/guides/video-to-ringtone-iphone/"
       }
     ]
   },
-  "app_info": {
-    "name": "Zvuk z videa⁺",
-    "alternate_name": "Extrahovať zvuk z videa",
-    "application_category": "MultimediaApplication",
-    "application_sub_category": "Audio"
+  "cta": {
+    "title": "Zvuk, ktorý potrebujete, už vo videu je.",
+    "subtitle": "Dostaňte ho von štyrmi ťuknutiami – zadarmo a súkromne, priamo v iPhone.",
+    "button": "Stiahnuť v App Store"
   },
   "footer": {
-    "cta_text": "📱 Stiahnite si bezplatný extraktor zvuku pre iPhone",
-    "privacy_text": "Zásady ochrany osobných údajov",
-    "terms_text": "Podmienky použitia",
+    "tagline": "Jednoduchý spôsob, ako vytiahnuť zvuk z videa na iPhone.",
+    "guides_title": "Návody",
+    "app_title": "Aplikácia",
+    "legal_title": "Právne informácie",
+    "cta_text": "Stiahnuť v App Store",
+    "privacy_text": "Zásady ochrany súkromia",
+    "terms_text": "Podmienky používania",
     "support_text": "Podpora",
+    "languages_title": "Jazyky",
     "developer_info": "Vyvinul Vladimir Ivakhnenko (c-basso)",
     "copyright": "© {year} c-basso. Všetky práva vyhradené."
   },
   "floating_cta": {
-    "text": "📱 Preveďte video na MP3 na iPhone – zadarmo"
+    "text": "Stiahnuť zadarmo"
   },
-  "seo_chapter": {
-    "title": "Ako previesť video na MP3 na iPhone (sprievodca 2026)",
-    "subtitle": "Rýchla a súkromná extrakcia zvuku s bezplatnou aplikáciou pre iPhone",
-    "intro": "Zvuk z videa⁺ je multimediálna aplikácia pre iOS, ktorá prevádza súbory videa (MP4/MOV) na zvukové súbory MP3. Aplikácia spracováva videá priamo v zariadení a na samotnú extrakciu nepotrebuje internet. Spracovanie je lokálne — súbory videa zostávajú na iPhone používateľa a nenahrávajú sa na externé servery. Podporuje bežné formáty videa na iPhone a výstup je vo formáte MP3. Základná extrakcia zvuku je zadarmo; ďalšie funkcie cez voliteľné nákupy v aplikácii.",
-    "sections": [
-      {
-        "heading": "Krok za krokom: extrahovať zvuk na iPhone",
-        "body": "S aplikáciou Zvuk z videa⁺: 1) Otvorte aplikáciu, 2) Vyberte video z knižnice, 3) V prípade potreby orežte úsek, 4) Klepnite na Uložiť ako zvuk a exportujte MP3. Môžete tiež začať tlačidlom Zdieľať vo Fotkách alebo Súboroch bez predchádzajúceho otvorenia aplikácie."
-      },
-      {
-        "heading": "Funkcie a možnosti",
-        "body": "Zvuk z videa⁺ spracováva súbory videa v zariadení namiesto nahrávania na vzdialené servery. To prináša výhody pre súkromie a na extrakciu nepotrebujete internet. Obsahuje orezávanie na výber konkrétnych úsekov. Výstup je MP3. Slúži ako konvertor videa na MP3 a podporuje vstupy MP4 a MOV bežné na iOS."
-      }
-    ],
-    "bullets_title": "Typické použitie",
-    "bullets": [
-      "Extrahovanie zvukových stôp z videí pre hudobnú zbierku",
-      "Prevod záznamov z prednášok alebo stretnutí na zvuk na neskoršie počúvanie",
-      "Tvorba zvukových klipov z videí pre podcast alebo hlasové poznámky",
-      "Extrahovanie zvuku z videí na remix alebo úpravu v audio workflow"
-    ],
-    "conclusion": "Zvuk z videa⁺ je aplikácia pre iOS, ktorá umožňuje extrahovať zvuk zo súborov videa na iPhone. Extrakcia prebieha lokálne v zariadení. Hlavná funkcia extrakcie je bezplatná; ďalšie funkcie cez voliteľné nákupy v aplikácii."
-  },
-  "comparison": {
-    "title": "Zvuk z videa⁺ vs. online konvertory",
-    "intro": "Porovnanie s online konvertormi videa na zvuk:",
-    "table": {
-      "feature": "Vlastnosť",
-      "online_converters": "Online konvertory",
-      "this_app": "Zvuk z videa⁺",
-      "rows": [
-        {
-          "feature": "Súkromie",
-          "online": "Videá sa nahrávajú na servery",
-          "app": "Spracovanie na vašom iPhone"
-        },
-        {
-          "feature": "Jednoduchosť",
-          "online": "Vyžaduje nahrávanie a čakanie",
-          "app": "Tlačidlo Zdieľať alebo priame otvorenie aplikácie"
-        },
-        {
-          "feature": "Cena",
-          "online": "Často predplatné alebo limity",
-          "app": "Základ zadarmo, voliteľné nákupy v aplikácii"
-        },
-        {
-          "feature": "Rýchlosť",
-          "online": "Závisí od rýchlosti nahrávania a sťahovania",
-          "app": "Okamžité spracovanie v zariadení"
-        }
-      ]
-    }
+  "guide_ui": {
+    "lang": "sk",
+    "og_locale": "sk_SK",
+    "locale": "sk-SK",
+    "home": "Domov",
+    "guides": "Návody",
+    "guide": "Návod",
+    "updated": "Aktualizované:",
+    "min_read": "min čítania",
+    "by": "autor:",
+    "quick_answer": "Stručne",
+    "step_by_step": "Krok za krokom",
+    "faq_title": "Časté otázky",
+    "related": "Súvisiace návody",
+    "read_guide": "Čítať",
+    "inline_cta_sub": "Zadarmo v App Store · MP3 a M4A · v zariadení",
+    "aside_label": "Stiahnuť aplikáciu",
+    "aside_shot_alt": "obrazovka extrakcie zvuku",
+    "ratings": "hodnotení",
+    "free": "Zadarmo",
+    "iphone_app": "aplikácia pre iPhone",
+    "step": "Krok",
+    "hub_title": "Návody: ako vytiahnuť zvuk z videa na iPhone (MP3, M4A)",
+    "hub_description": "Návody krok za krokom pre iPhone: zvuk z videa, MP4 a MOV do MP3 či M4A, orezanie zvuku, hudba z videa, zvonenie z videa. Zadarmo a bez cloudu.",
+    "hub_h1": "Ako vytiahnuť zvuk z videa na iPhone: všetky návody",
+    "hub_sub": "Vyberte úlohu. Každý návod má stručnú odpoveď, presné kroky so snímkami obrazovky a riešenia častých problémov.",
+    "published": "2026-09-28"
   }
 }

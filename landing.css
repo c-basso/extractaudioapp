@@ -272,3 +272,26 @@ html:lang(th) h1, html:lang(th) h2, html:lang(th) h3 { font-family: 'Sukhumvit S
 html:lang(th) .accent { font-style: normal; }
 html:lang(th) .hero h1 { font-size: clamp(2.1rem, 5vw, 3.6rem); }
 html:lang(th) .eyebrow { letter-spacing: .04em; }
+/* Simplified Chinese: Fraunces has no Han glyphs — use PingFang SC / Noto Sans SC, no faux italics, keep punctuation tight. */
+html:lang(zh) body { font-family: 'Manrope', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft YaHei', sans-serif; line-height: 1.75; }
+html:lang(zh) h1, html:lang(zh) h2, html:lang(zh) h3 { font-family: 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft YaHei', sans-serif; font-weight: 700; letter-spacing: 0; line-height: 1.3; }
+html:lang(zh) .accent { font-style: normal; }
+html:lang(zh) .hero h1 { font-size: clamp(2.1rem, 5vw, 3.8rem); }
+html:lang(zh) .eyebrow { letter-spacing: .06em; }
+/* Hebrew: no Hebrew glyphs in Fraunces/Manrope — use a native Hebrew sans; no faux italics. */
+html:lang(he) body { font-family: 'Manrope', 'SF Hebrew', 'Arial Hebrew', 'Noto Sans Hebrew', 'Segoe UI', Arial, sans-serif; line-height: 1.7; }
+html:lang(he) h1, html:lang(he) h2, html:lang(he) h3 { font-family: 'SF Hebrew', 'Arial Hebrew', 'Noto Sans Hebrew', 'Segoe UI', Arial, sans-serif; font-weight: 700; letter-spacing: 0; line-height: 1.3; }
+html:lang(he) .accent { font-style: normal; }
+/* RTL mirroring for asymmetric bits (dir="rtl" is set on <html> for he). */
+[dir="rtl"] .accent { padding-right: 0; padding-left: .08em; }
+[dir="rtl"] .chips li::before { margin-right: 0; margin-left: 6px; }
+[dir="rtl"] .step-num { left: auto; right: 20px; }
+[dir="rtl"] .faq-answer { padding: 0 0 24px 50px; }
+[dir="rtl"] .floating-cta { padding: 10px 10px 10px 22px; }
+[dir="rtl"] .breadcrumbs li + li::before { content: "‹"; margin-right: 0; margin-left: 6px; }
+[dir="rtl"] .answer-box { border-left: 1px solid var(--line); border-right: 5px solid var(--magenta); }
+[dir="rtl"] .guide-content ul, [dir="rtl"] .guide-content ol { padding-left: 0; padding-right: 1.2em; }
+[dir="rtl"] .guide-step h3 span { margin-right: 0; margin-left: 6px; }
+[dir="rtl"] .guide-table th, [dir="rtl"] .guide-table td { text-align: right; }
+[dir="rtl"] a span[aria-hidden="true"] { display: inline-block; transform: scaleX(-1); }
+@media (max-width: 600px) { [dir="rtl"] .faq-answer { padding-left: 0; } }

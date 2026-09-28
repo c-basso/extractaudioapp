@@ -25,7 +25,7 @@
 
 ## Landing v2 (English) and guides
 
-- English, Russian, German, Spanish, French, Italian, Portuguese (pt-BR), Japanese, Korean, Dutch, Polish, Romanian, Thai, Turkish, Ukrainian, Vietnamese and Czech homepages are rendered from `build/landing-template.html` + `build/<lang>.json` (UI strings in `ui` / `guide_ui`) (see `LANDING_V2_LANGUAGES` in `build/constants.js`). Other locales still use `build/template.html`.
-- Keyword guides live in `build/guides/<lang>.js` (en, ru, de, es, fr, it, pt, ja, ko, nl, pl, ro, th, tr, uk, vi, cs — see `GUIDES_LANGUAGES`) and render to `/guides/…` and `/<lang>/guides/…` via `build/guides.js` and `build/guide-template.html` (run automatically by `npm run build`). Do not edit files in `/guides/` by hand.
+- English, Russian, German, Spanish, French, Italian, Portuguese (pt-BR), Japanese, Korean, Dutch, Polish, Romanian, Thai, Turkish, Ukrainian, Vietnamese, Czech, Simplified Chinese, Danish, Greek, Finnish, Filipino, Hebrew (RTL), Croatian, Hungarian, Indonesian, Malay, Norwegian and Slovak homepages are rendered from `build/landing-template.html` + `build/<lang>.json` (UI strings in `ui` / `guide_ui`) (see `LANDING_V2_LANGUAGES` in `build/constants.js`). Other locales still use `build/template.html`.
+- Keyword guides live in `build/guides/<lang>.js` (en, ru, de, es, fr, it, pt, ja, ko, nl, pl, ro, th, tr, uk, vi, cs, zh, da, el, fi, fil, he, hr, hu, id, ms, no, sk — see `GUIDES_LANGUAGES`) and render to `/guides/…` and `/<lang>/guides/…` via `build/guides.js` and `build/guide-template.html` (run automatically by `npm run build`). Do not edit files in `/guides/` by hand.
 - Styles for landing v2 and guides: `landing.css` (has `:lang(ja)`, `:lang(ko)`, `:lang(th)` blocks — CJK/Hangul/Thai headings use a native sans instead of Fraunces). Classic locales: `style.css`.
 - Keyword research: `keywords.md`. App Store listing data: `app.md`.
