@@ -99,11 +99,11 @@ const APP_RATING_US_VALUE = 4.7;
 const APP_RATING_US_COUNT = 40;
 
 /** Locales that render the new landing page (`build/landing-template.html`). Others use `build/template.html`. */
-const LANDING_V2_LANGUAGES = [DEFAULT_LANGUAGE, 'ru', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ko', 'nl', 'pl', 'ro', 'th', 'tr', 'uk', 'vi', 'cs', 'zh', 'da', 'el', 'fi', 'fil', 'he', 'hr', 'hu', 'id', 'ms', 'no', 'sk'];
+const LANDING_V2_LANGUAGES = [DEFAULT_LANGUAGE, 'ru', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ko', 'nl', 'pl', 'ro', 'th', 'tr', 'uk', 'vi', 'cs', 'zh', 'da', 'el', 'fi', 'fil', 'he', 'hr', 'hu', 'id', 'ms', 'no', 'sk', 'sv', 'bg', 'sl', 'ca', 'hi', 'bn', 'ta', 'te', 'ml'];
 
 /** Keyword guides. Content lives in `build/guides/<lang>.js`; pages are written to /guides/<slug>/ (en) and /<lang>/guides/<slug>/. */
 const GUIDES_PATH = 'guides/';
-const GUIDES_LANGUAGES = [DEFAULT_LANGUAGE, 'ru', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ko', 'nl', 'pl', 'ro', 'th', 'tr', 'uk', 'vi', 'cs', 'zh', 'da', 'el', 'fi', 'fil', 'he', 'hr', 'hu', 'id', 'ms', 'no', 'sk'];
+const GUIDES_LANGUAGES = [DEFAULT_LANGUAGE, 'ru', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ko', 'nl', 'pl', 'ro', 'th', 'tr', 'uk', 'vi', 'cs', 'zh', 'da', 'el', 'fi', 'fil', 'he', 'hr', 'hu', 'id', 'ms', 'no', 'sk', 'sv', 'bg', 'sl', 'ca', 'hi', 'bn', 'ta', 'te', 'ml'];
 /** Site-relative guides hub path for a language, e.g. `guides/` or `ru/guides/` (no leading slash). */
 const guidesPathFor = (lang) => (lang === DEFAULT_LANGUAGE ? GUIDES_PATH : `${lang}/${GUIDES_PATH}`);
 
@@ -156,7 +156,7 @@ const PRICE_CURRENCY_BY_LANG = {
     no: 'NOK',
     sk: 'EUR',
     sv: 'SEK',
-    bg: 'BGN',
+    bg: 'EUR',
     sl: 'EUR',
     ca: 'EUR',
     hi: 'INR',

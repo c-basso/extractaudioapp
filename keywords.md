@@ -1105,3 +1105,336 @@ Norske iOS-termer: «Del», «Bilder», «Filer», «Arkiver i Filer», «Snarve
 | 12 | zvonenie z videa iphone | `/sk/guides/video-to-ringtone-iphone/` |
 
 Slovenské výrazy v iOS: „Zdieľať“, „Fotky“, „Súbory“, „Uložiť do Súborov“, „Skratky“, „Kódovať médiá“, „Iba zvuk“, „Použiť ako zvonenie“, „Ovládacie centrum“, „Nahrávanie obrazovky“.
+
+---
+
+# Svenska (SV) — /sv/ och /sv/guides/
+
+> Källor: aktuella Google-resultat, befintliga sökord i `sv.json`, den svenska App Store-sidan (inga betyg än; appnamnet är redan lokaliserat: «Extrahera ljud från video⁺»). Ingen Google Trends-CSV för sv — prioriteringarna är uppskattningar; bekräfta i Search Console.
+
+## Startsida (/sv/)
+
+| Sökning | Prioritet | Placering |
+|---|---|---|
+| extrahera ljud från video (iphone) | högst | **title, H1** |
+| ta ljud från video / ljud från video | hög | meta keywords, brödtext |
+| video till mp3 / konvertera video till mp3 | hög | meta description, FAQ, guide 2 |
+| mp4 till mp3 | hög | FAQ, guide 3 |
+| extrahera ljud från video online | medel | FAQ, guide 7 |
+| ta musik från video | medel | FAQ, guide 8 |
+| ringsignal från video iphone | medel | FAQ, guide 12 |
+
+## Guider (sluggar = EN → hreflang en/…/sk/sv)
+
+| # | Primärt sökord | Sida |
+|---|---|---|
+| 1 | extrahera ljud från video iphone | `/sv/guides/extract-audio-from-video-iphone/` |
+| 2 | konvertera video till mp3 iphone | `/sv/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 till mp3 iphone | `/sv/guides/mp4-to-mp3-iphone/` |
+| 4 | mov till mp3 iphone | `/sv/guides/mov-to-mp3-iphone/` |
+| 5 | video till m4a iphone | `/sv/guides/video-to-m4a-iphone/` |
+| 6 | extrahera ljud utan app (Genvägar) | `/sv/guides/extract-audio-without-app-iphone/` |
+| 7 | extrahera ljud från video online | `/sv/guides/extract-audio-online-vs-app/` |
+| 8 | ta musik från video iphone | `/sv/guides/save-music-from-video-iphone/` |
+| 9 | klippa ljud från video iphone | `/sv/guides/trim-audio-from-video-iphone/` |
+| 10 | ljud från skärminspelning iphone | `/sv/guides/screen-recording-to-audio-iphone/` |
+| 11 | föreläsning video till ljud | `/sv/guides/lecture-video-to-audio-iphone/` |
+| 12 | ringsignal från video iphone | `/sv/guides/video-to-ringtone-iphone/` |
+
+Svenska iOS-termer: ”Dela”, ”Bilder”, ”Filer”, ”Spara i Filer”, ”Genvägar”, ”Koda media”, ”Endast ljud”, ”Använd som ringsignal”, ”Kontrollcenter”, ”Skärminspelning”.
+
+---
+
+# Български (BG) — /bg/ и /bg/guides/
+
+> Sources: current Google results, existing keywords in `bg.json`, the Bulgarian App Store page (5★ / 2 ratings; prices now in EUR — `PRICE_CURRENCY_BY_LANG.bg` switched from BGN to EUR). **The app itself has no Bulgarian UI**, so in-app button names stay in English (“Extract Audio”, “Trim Video”) and the app name stays «Extract Audio from Video⁺» (alternate name «Извличане на звук от видео»); iOS menu names are the Bulgarian system ones. No Google Trends CSV for bg — priorities are estimates.
+
+## Начало (/bg/)
+
+| Заявка | Приоритет | Място |
+|---|---|---|
+| как да извадя звука от видео (iphone) | най-висок | **title, H1** |
+| извличане на звук от видео / звук от видео | висок | meta keywords, текст |
+| видео в mp3 / конвертиране на видео в mp3 | висок | meta description, FAQ, ръководство 2 |
+| mp4 в mp3 | висок | FAQ, ръководство 3 |
+| извличане на звук от видео онлайн | среден | FAQ, ръководство 7 |
+| извличане на музика от видео | среден | FAQ, ръководство 8 |
+| мелодия от видео iphone | среден | FAQ, ръководство 12 |
+
+## Ръководства (slug = EN → hreflang en/…/sv/bg)
+
+| # | Основна ключова дума | Страница |
+|---|---|---|
+| 1 | как да извадя звука от видео на iphone | `/bg/guides/extract-audio-from-video-iphone/` |
+| 2 | конвертиране на видео в mp3 iphone | `/bg/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 в mp3 iphone | `/bg/guides/mp4-to-mp3-iphone/` |
+| 4 | mov в mp3 iphone | `/bg/guides/mov-to-mp3-iphone/` |
+| 5 | видео в m4a iphone | `/bg/guides/video-to-m4a-iphone/` |
+| 6 | звук от видео без приложение (Бързи команди) | `/bg/guides/extract-audio-without-app-iphone/` |
+| 7 | извличане на звук от видео онлайн | `/bg/guides/extract-audio-online-vs-app/` |
+| 8 | как да извадя музика от видео на iphone | `/bg/guides/save-music-from-video-iphone/` |
+| 9 | как да изрежа звук от видео на iphone | `/bg/guides/trim-audio-from-video-iphone/` |
+| 10 | звук от запис на екрана iphone | `/bg/guides/screen-recording-to-audio-iphone/` |
+| 11 | видеолекция в аудио | `/bg/guides/lecture-video-to-audio-iphone/` |
+| 12 | мелодия от видео iphone | `/bg/guides/video-to-ringtone-iphone/` |
+
+iOS термини на български: „Споделяне“, „Снимки“, „Файлове“, „Запис във Файлове“, „Бързи команди“, „Кодиране на медия“, „Само аудио“, „Използване като мелодия“, „Контролен център“, „Запис на екрана“.
+
+---
+
+# Slovenščina (SL) — /sl/ in /sl/guides/
+
+> Sources: current Google results and the Slovenian App Store page (listing in English, no ratings yet; prices in EUR). **The app itself has no Slovenian UI**, so in-app button names stay in English (“Extract Audio”, “Trim Video”, “Save”) and the app name stays «Extract Audio from Video⁺» (alternate name «Izvleči zvok iz videa»); iOS menu names are the Slovenian system ones. No Google Trends CSV for sl — priorities are estimates.
+
+## Domača stran (/sl/)
+
+| Poizvedba | Prednost | Mesto |
+|---|---|---|
+| kako izvleči zvok iz videa (iphone) | najvišja | **title, H1** |
+| izvleči zvok iz videa / zvok iz videa | visoka | meta keywords, besedilo |
+| video v mp3 / pretvorba videa v mp3 | visoka | meta description, FAQ, vodič 2 |
+| mp4 v mp3 | visoka | FAQ, vodič 3 |
+| izvleči zvok iz videa na spletu | srednja | FAQ, vodič 7 |
+| izvleči glasbo iz videa | srednja | FAQ, vodič 8 |
+| zvonjenje iz videa iphone | srednja | FAQ, vodič 12 |
+
+## Vodiči (slug = EN → hreflang en/…/bg/sl)
+
+| # | Glavna ključna beseda | Stran |
+|---|---|---|
+| 1 | kako izvleči zvok iz videa na iphonu | `/sl/guides/extract-audio-from-video-iphone/` |
+| 2 | pretvorba videa v mp3 iphone | `/sl/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 v mp3 iphone | `/sl/guides/mp4-to-mp3-iphone/` |
+| 4 | mov v mp3 iphone | `/sl/guides/mov-to-mp3-iphone/` |
+| 5 | video v m4a iphone | `/sl/guides/video-to-m4a-iphone/` |
+| 6 | zvok iz videa brez aplikacije (Bližnjice) | `/sl/guides/extract-audio-without-app-iphone/` |
+| 7 | izvleči zvok iz videa na spletu | `/sl/guides/extract-audio-online-vs-app/` |
+| 8 | izvleči glasbo iz videa iphone | `/sl/guides/save-music-from-video-iphone/` |
+| 9 | kako izrezati zvok iz videa iphone | `/sl/guides/trim-audio-from-video-iphone/` |
+| 10 | zvok iz posnetka zaslona iphone | `/sl/guides/screen-recording-to-audio-iphone/` |
+| 11 | video predavanje v zvok | `/sl/guides/lecture-video-to-audio-iphone/` |
+| 12 | zvonjenje iz videa iphone | `/sl/guides/video-to-ringtone-iphone/` |
+
+Slovenski izrazi iOS: „Deli“, „Fotografije“, „Datoteke“, „Shrani v Datoteke“, „Bližnjice“, „Uporabi kot zvonjenje“, „Nadzorno središče“, „Snemanje zaslona“, „Zvoki in haptika“ (predpostavljeni — preverite na napravi s slovenskim iOS).
+
+---
+
+# Català (CA) — /ca/ i /ca/guides/
+
+> Sources: current Google results, existing keywords in `ca.json`, the Spanish App Store storefront (listing «Extraer Audio de Video», 5★ / 5 ratings, EUR). **The app itself has no Catalan UI**, so in-app button names stay in English (“Extract Audio”, “Trim Video”, “Save”) and the app name stays «Extract Audio from Video⁺» (alternate name «Extreure àudio de vídeo»); iOS menu names are the Catalan system ones. Note: Catalan users whose iPhone lists Spanish as a secondary language may see the app in Spanish. No Google Trends CSV for ca — priorities are estimates.
+
+## Inici (/ca/)
+
+| Cerca | Prioritat | Ubicació |
+|---|---|---|
+| com extreure l’àudio d’un vídeo (iphone) | màxima | **title, H1** |
+| extreure àudio de vídeo / àudio d’un vídeo | alta | meta keywords, text |
+| vídeo a mp3 / convertir vídeo a mp3 | alta | meta description, FAQ, guia 2 |
+| mp4 a mp3 | alta | FAQ, guia 3 |
+| extreure àudio de vídeo en línia | mitjana | FAQ, guia 7 |
+| extreure música de vídeo | mitjana | FAQ, guia 8 |
+| to de trucada d’un vídeo iphone | mitjana | FAQ, guia 12 |
+
+## Guies (slug = EN → hreflang en/…/sl/ca)
+
+| # | Paraula clau principal | Pàgina |
+|---|---|---|
+| 1 | com extreure l’àudio d’un vídeo a l’iphone | `/ca/guides/extract-audio-from-video-iphone/` |
+| 2 | convertir vídeo a mp3 iphone | `/ca/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 a mp3 iphone | `/ca/guides/mp4-to-mp3-iphone/` |
+| 4 | mov a mp3 iphone | `/ca/guides/mov-to-mp3-iphone/` |
+| 5 | vídeo a m4a iphone | `/ca/guides/video-to-m4a-iphone/` |
+| 6 | extreure àudio de vídeo sense app (Dreceres) | `/ca/guides/extract-audio-without-app-iphone/` |
+| 7 | extreure àudio de vídeo en línia | `/ca/guides/extract-audio-online-vs-app/` |
+| 8 | extreure música de vídeo iphone | `/ca/guides/save-music-from-video-iphone/` |
+| 9 | retallar àudio de vídeo iphone | `/ca/guides/trim-audio-from-video-iphone/` |
+| 10 | àudio de gravació de pantalla iphone | `/ca/guides/screen-recording-to-audio-iphone/` |
+| 11 | classe en vídeo a àudio | `/ca/guides/lecture-video-to-audio-iphone/` |
+| 12 | to de trucada d’un vídeo iphone | `/ca/guides/video-to-ringtone-iphone/` |
+
+Termes d’iOS en català: «Compartir», «Fotos», «Arxius», «Desar a Arxius», «Dreceres», «Codificar multimèdia», «Només àudio», «Utilitzar com a to de trucada», «Centre de control», «Gravació de pantalla», «Sons i vibracions» (suposats — verifiqueu-los en un iPhone en català).
+
+---
+
+# हिंदी (HI) — /hi/ और /hi/guides/
+
+> Sources: current Google results, existing keywords in `hi.json`, the Indian App Store page (listing in English, 4.2★ / 10 ratings, INR). **The app itself has no Hindi UI**, so in-app button names stay in English (“Extract Audio”, “Trim Video”, “Save”) and the app name stays «Extract Audio from Video⁺» (alternate name «वीडियो से ऑडियो निकालें»); iOS menu names are the Hindi system ones. Many Indian users search in Hinglish/English (“video se audio kaise nikale”, “video to mp3”) — the Hinglish variant is in meta keywords; English queries are covered by the /en/ pages. Devanagari font block added to `landing.css` (`html:lang(hi)`). No Google Trends CSV for hi — priorities are estimates.
+
+## होम (/hi/)
+
+| क्वेरी | प्राथमिकता | जगह |
+|---|---|---|
+| iphone पर वीडियो से ऑडियो कैसे निकालें | सबसे ऊँची | **title, H1** |
+| वीडियो से ऑडियो निकालें / video se audio kaise nikale | ऊँची | meta keywords, टेक्स्ट |
+| वीडियो को mp3 में बदलें / वीडियो से mp3 | ऊँची | meta description, FAQ, गाइड 2 |
+| mp4 से mp3 | ऊँची | FAQ, गाइड 3 |
+| ऑनलाइन वीडियो से ऑडियो | मध्यम | FAQ, गाइड 7 |
+| वीडियो से गाना निकालें | मध्यम | FAQ, गाइड 8 |
+| वीडियो से रिंगटोन iphone | मध्यम | FAQ, गाइड 12 |
+
+## गाइड (slug = EN → hreflang en/…/ca/hi)
+
+| # | मुख्य कीवर्ड | पेज |
+|---|---|---|
+| 1 | iphone पर वीडियो से ऑडियो कैसे निकालें | `/hi/guides/extract-audio-from-video-iphone/` |
+| 2 | वीडियो को mp3 में बदलें iphone | `/hi/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 से mp3 iphone | `/hi/guides/mp4-to-mp3-iphone/` |
+| 4 | mov से mp3 iphone | `/hi/guides/mov-to-mp3-iphone/` |
+| 5 | वीडियो से m4a iphone | `/hi/guides/video-to-m4a-iphone/` |
+| 6 | बिना ऐप वीडियो से ऑडियो (शॉर्टकट) | `/hi/guides/extract-audio-without-app-iphone/` |
+| 7 | ऑनलाइन वीडियो से ऑडियो निकालें | `/hi/guides/extract-audio-online-vs-app/` |
+| 8 | वीडियो से गाना निकालें iphone | `/hi/guides/save-music-from-video-iphone/` |
+| 9 | वीडियो से ऑडियो काटें iphone | `/hi/guides/trim-audio-from-video-iphone/` |
+| 10 | स्क्रीन रिकॉर्डिंग से ऑडियो iphone | `/hi/guides/screen-recording-to-audio-iphone/` |
+| 11 | वीडियो लेक्चर को ऑडियो में बदलें | `/hi/guides/lecture-video-to-audio-iphone/` |
+| 12 | वीडियो से रिंगटोन iphone | `/hi/guides/video-to-ringtone-iphone/` |
+
+हिंदी iOS शब्द: “शेयर करें”, “तस्वीरें”, “फ़ाइल्स”, “फ़ाइल्स में सेव करें”, “शॉर्टकट”, “मीडिया एन्कोड करें”, “केवल ऑडियो”, “रिंगटोन के रूप में उपयोग करें”, “कंट्रोल सेंटर”, “स्क्रीन रिकॉर्डिंग”, “सेटिंग्ज़ → ध्वनि और हैप्टिक्स” (अनुमानित — हिंदी iOS वाले iPhone पर जाँचें)।
+
+---
+
+# বাংলা (BN) — /bn/ ও /bn/guides/
+
+> Sources: current Google results, existing keywords in `bn.json`, the Indian App Store page (listing in English, 4.2★ / 10 ratings, INR). **The app is not available in the Bangladesh App Store** (lookup `country=bd` returns nothing), so the page targets bn-IN (West Bengal); enabling the BD storefront in App Store Connect would open the larger Bengali market. **The app has no Bengali UI** — in-app button names stay in English (“Extract Audio”, “Trim Video”, “Save”), app name «Extract Audio from Video⁺» (alternate «ভিডিও থেকে অডিও বের করুন»); iOS menu names are the Bengali system ones. Bengali font block added to `landing.css` (`html:lang(bn)`). No Google Trends CSV for bn — priorities are estimates.
+
+## হোম (/bn/)
+
+| কোয়েরি | অগ্রাধিকার | জায়গা |
+|---|---|---|
+| iphone-এ ভিডিও থেকে অডিও কীভাবে বের করবেন | সর্বোচ্চ | **title, H1** |
+| ভিডিও থেকে অডিও বের করা | উচ্চ | meta keywords, টেক্সট |
+| ভিডিওকে mp3 করুন / ভিডিও থেকে mp3 | উচ্চ | meta description, FAQ, গাইড 2 |
+| mp4 থেকে mp3 | উচ্চ | FAQ, গাইড 3 |
+| অনলাইনে ভিডিও থেকে অডিও | মাঝারি | FAQ, গাইড 7 |
+| ভিডিও থেকে গান বের করা | মাঝারি | FAQ, গাইড 8 |
+| ভিডিও থেকে রিংটোন iphone | মাঝারি | FAQ, গাইড 12 |
+
+## গাইড (slug = EN → hreflang en/…/hi/bn)
+
+| # | প্রধান কীওয়ার্ড | পেজ |
+|---|---|---|
+| 1 | iphone-এ ভিডিও থেকে অডিও কীভাবে বের করবেন | `/bn/guides/extract-audio-from-video-iphone/` |
+| 2 | ভিডিওকে mp3 করুন iphone | `/bn/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 থেকে mp3 iphone | `/bn/guides/mp4-to-mp3-iphone/` |
+| 4 | mov থেকে mp3 iphone | `/bn/guides/mov-to-mp3-iphone/` |
+| 5 | ভিডিও থেকে m4a iphone | `/bn/guides/video-to-m4a-iphone/` |
+| 6 | অ্যাপ ছাড়া ভিডিও থেকে অডিও (শর্টকাট) | `/bn/guides/extract-audio-without-app-iphone/` |
+| 7 | অনলাইনে ভিডিও থেকে অডিও বের করা | `/bn/guides/extract-audio-online-vs-app/` |
+| 8 | ভিডিও থেকে গান বের করা iphone | `/bn/guides/save-music-from-video-iphone/` |
+| 9 | ভিডিও থেকে অডিও কাটা iphone | `/bn/guides/trim-audio-from-video-iphone/` |
+| 10 | স্ক্রিন রেকর্ডিং থেকে অডিও iphone | `/bn/guides/screen-recording-to-audio-iphone/` |
+| 11 | ভিডিও লেকচারকে অডিও করা | `/bn/guides/lecture-video-to-audio-iphone/` |
+| 12 | ভিডিও থেকে রিংটোন iphone | `/bn/guides/video-to-ringtone-iphone/` |
+
+বাংলা iOS শব্দ: “শেয়ার করুন”, “ফটো”, “ফাইল”, “ফাইলে সেভ করুন”, “শর্টকাট”, “মিডিয়া এনকোড করুন”, “শুধু অডিও”, “রিংটোন হিসেবে ব্যবহার করুন”, “কন্ট্রোল সেন্টার”, “স্ক্রিন রেকর্ডিং”, “সেটিংস → শব্দ ও হ্যাপটিক্স” (অনুমান — বাংলা iOS-এর iPhone-এ যাচাই করুন)।
+
+---
+
+# தமிழ் (TA) — /ta/, /ta/guides/
+
+> Sources: current Google results, existing keywords in `ta.json`, the Indian App Store page (listing in English, 4.2★ / 10 ratings, INR). Page targets ta-IN (Tamil Nadu); Tamil speakers in Sri Lanka, Singapore and Malaysia see the same page via hreflang `ta`. **The app has no Tamil UI** — in-app button names stay in English (“Extract Audio”, “Trim Video”, “Save”), app name «Extract Audio from Video⁺» (alternate «வீடியோவிலிருந்து ஆடியோ பிரித்தெடு»); iOS menu names are the Tamil system ones. Tamil searches often mix English format words (“mp4 to mp3”, “வீடியோ to mp3”) — kept as-is in keywords and guide titles. Tamil font block added to `landing.css` (`html:lang(ta)`, smaller hero h1 because Tamil words are long). No Google Trends CSV for ta — priorities are estimates.
+
+## முகப்பு (/ta/)
+
+| தேடல் | முன்னுரிமை | இடம் |
+|---|---|---|
+| iphone-ல் வீடியோவிலிருந்து ஆடியோ எடுப்பது எப்படி | மிக உயர் | **title, H1** |
+| வீடியோவிலிருந்து ஆடியோ பிரித்தெடுப்பது | உயர் | meta keywords, உரை |
+| வீடியோவை mp3 ஆக மாற்று / வீடியோ to mp3 | உயர் | meta description, FAQ, வழிகாட்டி 2 |
+| mp4 to mp3 | உயர் | FAQ, வழிகாட்டி 3 |
+| ஆன்லைனில் வீடியோவிலிருந்து ஆடியோ | நடுத்தர | FAQ, வழிகாட்டி 7 |
+| வீடியோவிலிருந்து பாடல் எடுப்பது | நடுத்தர | FAQ, வழிகாட்டி 8 |
+| வீடியோவிலிருந்து ரிங்டோன் iphone | நடுத்தர | FAQ, வழிகாட்டி 12 |
+
+## வழிகாட்டிகள் (slug = EN → hreflang en/…/bn/ta)
+
+| # | முதன்மைச் சொல் | பக்கம் |
+|---|---|---|
+| 1 | iphone-ல் வீடியோவிலிருந்து ஆடியோ பிரித்தெடுப்பது எப்படி | `/ta/guides/extract-audio-from-video-iphone/` |
+| 2 | வீடியோவை mp3 ஆக மாற்று iphone | `/ta/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 to mp3 iphone | `/ta/guides/mp4-to-mp3-iphone/` |
+| 4 | mov to mp3 iphone | `/ta/guides/mov-to-mp3-iphone/` |
+| 5 | வீடியோ to m4a iphone | `/ta/guides/video-to-m4a-iphone/` |
+| 6 | ஆப் இல்லாமல் வீடியோவிலிருந்து ஆடியோ (குறுக்குவழிகள்) | `/ta/guides/extract-audio-without-app-iphone/` |
+| 7 | ஆன்லைனில் வீடியோவிலிருந்து ஆடியோ | `/ta/guides/extract-audio-online-vs-app/` |
+| 8 | வீடியோவிலிருந்து பாடல் எடுப்பது iphone | `/ta/guides/save-music-from-video-iphone/` |
+| 9 | வீடியோவிலிருந்து ஆடியோ வெட்டுவது iphone | `/ta/guides/trim-audio-from-video-iphone/` |
+| 10 | திரைப் பதிவிலிருந்து ஆடியோ iphone | `/ta/guides/screen-recording-to-audio-iphone/` |
+| 11 | வீடியோ விரிவுரையை ஆடியோவாக மாற்று | `/ta/guides/lecture-video-to-audio-iphone/` |
+| 12 | வீடியோவிலிருந்து ரிங்டோன் iphone | `/ta/guides/video-to-ringtone-iphone/` |
+
+தமிழ் iOS சொற்கள்: “பகிர்”, “படங்கள்”, “கோப்புகள்”, “கோப்புகளில் சேமி”, “குறுக்குவழிகள்”, “மீடியாவை என்கோட் செய்”, “ஆடியோ மட்டும்”, “ரிங்டோனாகப் பயன்படுத்து”, “கட்டுப்பாட்டு மையம்”, “திரைப் பதிவு”, “அமைப்புகள் → ஒலிகள் & ஹேப்டிக்ஸ்” (ஊகம் — தமிழ் iOS உள்ள iPhone-ல் சரிபாருங்கள்).
+
+---
+
+# తెలుగు (TE) — /te/, /te/guides/
+
+> Sources: current Google results, existing keywords in `te.json`, the Indian App Store page (listing in English, 4.2★ / 10 ratings, INR). Page targets te-IN (Andhra Pradesh, Telangana). **The app has no Telugu UI** — in-app button names stay in English (“Extract Audio”, “Trim Video”, “Save”), app name «Extract Audio from Video⁺» (alternate «వీడియో నుండి ఆడియో తీయండి»); iOS menu names are the Telugu system ones. Telugu searches often mix English (“mp4 to mp3”, “video nundi audio”) — the transliterated variant is in meta keywords. Telugu font block added to `landing.css` (`html:lang(te)`, taller line-height and smaller hero h1). No Google Trends CSV for te — priorities are estimates.
+
+## హోమ్ (/te/)
+
+| శోధన | ప్రాధాన్యత | స్థానం |
+|---|---|---|
+| iphoneలో వీడియో నుండి ఆడియో ఎలా తీయాలి | అత్యధికం | **title, H1** |
+| వీడియో నుండి ఆడియో / video nundi audio | ఎక్కువ | meta keywords, టెక్స్ట్ |
+| వీడియోను mp3గా మార్చండి / వీడియో to mp3 | ఎక్కువ | meta description, FAQ, గైడ్ 2 |
+| mp4 to mp3 | ఎక్కువ | FAQ, గైడ్ 3 |
+| ఆన్‌లైన్‌లో వీడియో నుండి ఆడియో | మధ్యస్థం | FAQ, గైడ్ 7 |
+| వీడియో నుండి పాట తీయడం | మధ్యస్థం | FAQ, గైడ్ 8 |
+| వీడియో నుండి రింగ్‌టోన్ iphone | మధ్యస్థం | FAQ, గైడ్ 12 |
+
+## గైడ్‌లు (slug = EN → hreflang en/…/ta/te)
+
+| # | ప్రధాన కీవర్డ్ | పేజీ |
+|---|---|---|
+| 1 | iphoneలో వీడియో నుండి ఆడియో ఎలా తీయాలి | `/te/guides/extract-audio-from-video-iphone/` |
+| 2 | వీడియోను mp3గా మార్చండి iphone | `/te/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 to mp3 iphone | `/te/guides/mp4-to-mp3-iphone/` |
+| 4 | mov to mp3 iphone | `/te/guides/mov-to-mp3-iphone/` |
+| 5 | వీడియో to m4a iphone | `/te/guides/video-to-m4a-iphone/` |
+| 6 | యాప్ లేకుండా వీడియో నుండి ఆడియో (షార్ట్‌కట్‌లు) | `/te/guides/extract-audio-without-app-iphone/` |
+| 7 | ఆన్‌లైన్‌లో వీడియో నుండి ఆడియో | `/te/guides/extract-audio-online-vs-app/` |
+| 8 | వీడియో నుండి పాట తీయడం iphone | `/te/guides/save-music-from-video-iphone/` |
+| 9 | వీడియో నుండి ఆడియో కత్తిరించడం iphone | `/te/guides/trim-audio-from-video-iphone/` |
+| 10 | స్క్రీన్ రికార్డింగ్ నుండి ఆడియో iphone | `/te/guides/screen-recording-to-audio-iphone/` |
+| 11 | వీడియో లెక్చర్‌ను ఆడియోగా మార్చండి | `/te/guides/lecture-video-to-audio-iphone/` |
+| 12 | వీడియో నుండి రింగ్‌టోన్ iphone | `/te/guides/video-to-ringtone-iphone/` |
+
+తెలుగు iOS పదాలు: “షేర్”, “ఫోటోలు”, “ఫైల్స్”, “ఫైల్స్‌లో సేవ్ చేయి”, “షార్ట్‌కట్‌లు”, “మీడియాను ఎన్‌కోడ్ చేయి”, “ఆడియో మాత్రమే”, “రింగ్‌టోన్‌గా ఉపయోగించు”, “కంట్రోల్ సెంటర్”, “స్క్రీన్ రికార్డింగ్”, “సెట్టింగ్‌లు → ధ్వనులు & హాప్టిక్స్” (అంచనా — తెలుగు iOS ఉన్న iPhoneలో ధృవీకరించండి).
+
+---
+
+# മലയാളം (ML) — /ml/, /ml/guides/
+
+> Sources: current Google results, existing keywords in `ml.json`, the Indian App Store page (listing in English, 4.2★ / 10 ratings, INR). Page targets ml-IN (Kerala). **The app has no Malayalam UI** — in-app button names stay in English (“Extract Audio”, “Trim Video”, “Save”), app name «Extract Audio from Video⁺» (alternate «വീഡിയോയിൽ നിന്ന് ഓഡിയോ എടുക്കുക»); iOS menu names are the Malayalam system ones. Malayalam searches often mix English (“mp4 to mp3”, “video il ninnu audio”) — the transliterated variant is in meta keywords. “Lecture” is rendered as ക്ലാസ് (the common spoken term). Malayalam font block added to `landing.css` (`html:lang(ml)`, smallest hero h1 + overflow-wrap on headings for very long words). No Google Trends CSV for ml — priorities are estimates.
+
+## ഹോം (/ml/)
+
+| തിരയൽ | മുൻഗണന | സ്ഥാനം |
+|---|---|---|
+| iphone-ൽ വീഡിയോയിൽ നിന്ന് ഓഡിയോ എങ്ങനെ എടുക്കാം | ഏറ്റവും ഉയർന്നത് | **title, H1** |
+| വീഡിയോയിൽ നിന്ന് ഓഡിയോ / video il ninnu audio | ഉയർന്നത് | meta keywords, ടെക്സ്റ്റ് |
+| വീഡിയോ mp3 ആക്കുക / വീഡിയോ to mp3 | ഉയർന്നത് | meta description, FAQ, ഗൈഡ് 2 |
+| mp4 to mp3 | ഉയർന്നത് | FAQ, ഗൈഡ് 3 |
+| ഓൺലൈനായി വീഡിയോയിൽ നിന്ന് ഓഡിയോ | ഇടത്തരം | FAQ, ഗൈഡ് 7 |
+| വീഡിയോയിൽ നിന്ന് പാട്ട് എടുക്കുക | ഇടത്തരം | FAQ, ഗൈഡ് 8 |
+| വീഡിയോയിൽ നിന്ന് റിംഗ്‌ടോൺ iphone | ഇടത്തരം | FAQ, ഗൈഡ് 12 |
+
+## ഗൈഡുകൾ (slug = EN → hreflang en/…/te/ml)
+
+| # | പ്രധാന കീവേഡ് | പേജ് |
+|---|---|---|
+| 1 | iphone-ൽ വീഡിയോയിൽ നിന്ന് ഓഡിയോ എങ്ങനെ എടുക്കാം | `/ml/guides/extract-audio-from-video-iphone/` |
+| 2 | വീഡിയോ mp3 ആക്കുക iphone | `/ml/guides/convert-video-to-mp3-iphone/` |
+| 3 | mp4 to mp3 iphone | `/ml/guides/mp4-to-mp3-iphone/` |
+| 4 | mov to mp3 iphone | `/ml/guides/mov-to-mp3-iphone/` |
+| 5 | വീഡിയോ to m4a iphone | `/ml/guides/video-to-m4a-iphone/` |
+| 6 | ആപ്പ് ഇല്ലാതെ വീഡിയോയിൽ നിന്ന് ഓഡിയോ (കുറുക്കുവഴികൾ) | `/ml/guides/extract-audio-without-app-iphone/` |
+| 7 | ഓൺലൈനായി വീഡിയോയിൽ നിന്ന് ഓഡിയോ | `/ml/guides/extract-audio-online-vs-app/` |
+| 8 | വീഡിയോയിൽ നിന്ന് പാട്ട് എടുക്കുക iphone | `/ml/guides/save-music-from-video-iphone/` |
+| 9 | വീഡിയോയിൽ നിന്ന് ഓഡിയോ മുറിക്കുക iphone | `/ml/guides/trim-audio-from-video-iphone/` |
+| 10 | സ്‌ക്രീൻ റെക്കോർഡിംഗിൽ നിന്ന് ഓഡിയോ iphone | `/ml/guides/screen-recording-to-audio-iphone/` |
+| 11 | വീഡിയോ ക്ലാസ് ഓഡിയോ ആക്കുക | `/ml/guides/lecture-video-to-audio-iphone/` |
+| 12 | വീഡിയോയിൽ നിന്ന് റിംഗ്‌ടോൺ iphone | `/ml/guides/video-to-ringtone-iphone/` |
+
+മലയാളം iOS പദങ്ങൾ: “പങ്കിടുക”, “ഫോട്ടോകൾ”, “ഫയലുകൾ”, “ഫയലുകളിൽ സേവ് ചെയ്യുക”, “കുറുക്കുവഴികൾ”, “മീഡിയ എൻകോഡ് ചെയ്യുക”, “ഓഡിയോ മാത്രം”, “റിംഗ്‌ടോണായി ഉപയോഗിക്കുക”, “നിയന്ത്രണ കേന്ദ്രം”, “സ്‌ക്രീൻ റെക്കോർഡിംഗ്”, “ക്രമീകരണങ്ങൾ → ശബ്‌ദങ്ങളും ഹാപ്റ്റിക്‌സും” (അനുമാനം — മലയാളം iOS ഉള്ള iPhone-ൽ പരിശോധിക്കൂ).
