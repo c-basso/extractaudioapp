@@ -59,6 +59,7 @@
 - [guides/screen-recording-to-audio-iphone/](https://extractaudioapp.com/guides/screen-recording-to-audio-iphone/)
 - [guides/lecture-video-to-audio-iphone/](https://extractaudioapp.com/guides/lecture-video-to-audio-iphone/)
 - [guides/video-to-ringtone-iphone/](https://extractaudioapp.com/guides/video-to-ringtone-iphone/)
+- [guides/best-free-apps-extract-audio-from-video-iphone/](https://extractaudioapp.com/guides/best-free-apps-extract-audio-from-video-iphone/)
 - [ru/guides/](https://extractaudioapp.com/ru/guides/)
 - [ru/guides/extract-audio-from-video-iphone/](https://extractaudioapp.com/ru/guides/extract-audio-from-video-iphone/)
 - [ru/guides/convert-video-to-mp3-iphone/](https://extractaudioapp.com/ru/guides/convert-video-to-mp3-iphone/)

@@ -159,12 +159,14 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
                 // Guide cards for the homepage grid + footer (content: build/guides/en.js).
                 data.guides = data.guides || {};
                 data.guides.hub_url = `/${guidesPathFor(lang)}`;
-                data.guides_list = require(`./guides/${lang}`).map((g) => ({
+                data.guides_footer = require(`./guides/${lang}`).map((g) => ({
                     url: `/${guidesPathFor(lang)}${g.slug}/`,
                     title: g.card.title,
                     text: g.card.text,
                     eyebrow: g.eyebrow
                 }));
+                // The homepage grid has 3 columns: show the first 12 cards; the footer and the hub list every guide.
+                data.guides_list = data.guides_footer.slice(0, 12);
             }
 
             // Add build timestamp for cache busting

@@ -526,3 +526,62 @@ guides.push(
         card: { title: 'Video to ringtone', text: 'iOS 26 Use as Ringtone — in 4 steps.' }
     }
 );
+
+// GSC (Jul–Oct 2026): 14 “best free apps to extract audio from video iphone 2026” variants at pos ~8.6 on the homepage.
+// English-only guide (no translations yet), so it has no hreflang alternates.
+guides.push(
+    {
+        slug: 'best-free-apps-extract-audio-from-video-iphone',
+        keyword: 'best free apps to extract audio from video iphone 2026',
+        eyebrow: 'Comparison',
+        title: 'Best Free Apps to Extract Audio from Video on iPhone (2026)',
+        description: 'Free ways to extract audio from video on iPhone in 2026 compared: a dedicated app, Apple Shortcuts, online converters and video editors: formats, trim, privacy.',
+        h1: 'Best Free Apps to Extract Audio from Video on iPhone (2026)',
+        answer: `The best free options in 2026 are a dedicated on-device app such as ${APP} (MP3 or M4A, trimming, works from the Share button), Apple’s free Shortcuts app (M4A only, no trimming) and online converters (any device, but you upload the video). Video editors can sometimes export audio, but it is rarely their main feature.`,
+        intro: `<p>There is no built-in “save audio only” button in Photos, so every method needs some tool. Below are the free options that actually work on an iPhone today, what each one is good at, and where it falls short. Full disclosure: we make ${APP}, so we list exactly what it does and does not do, next to the alternatives.</p>`,
+        steps: [STEP.share, STEP.trim, STEP.extract, STEP.save],
+        sections: [
+            {
+                h2: 'The options at a glance',
+                html: `<table class="guide-table"><thead><tr><th></th><th>Output</th><th>Trim</th><th>Upload needed</th><th>Cost</th></tr></thead><tbody>
+<tr><td>${APP}</td><td>MP3, M4A</td><td>Yes</td><td>No</td><td>Free core, optional upgrades</td></tr>
+<tr><td>Apple Shortcuts (“Encode Media”)</td><td>M4A</td><td>No</td><td>No</td><td>Free</td></tr>
+<tr><td>Online converters in Safari</td><td>Usually MP3</td><td>Sometimes</td><td>Yes</td><td>Free with limits</td></tr>
+<tr><td>Video editors</td><td>Varies</td><td>Yes</td><td>Usually no</td><td>Varies</td></tr>
+</tbody></table>`
+            },
+            {
+                h2: `1. ${APP} — best for MP3 and quick clips`,
+                html: `<p>A single-purpose app: share a video from Photos or Files, optionally trim it, tap Extract Audio and get an MP3 or M4A in seconds. Everything is processed on the iPhone, it works offline, and every file stays in a library inside the app. Core extraction is free; extra features are optional in-app purchases. Requires iOS 18.6 or later. See the <a href="/guides/extract-audio-from-video-iphone/">step-by-step guide</a>.</p>`
+            },
+            {
+                h2: '2. Apple Shortcuts — free and built by Apple',
+                html: '<p>Apple’s free Shortcuts app can strip the audio from a video with the Encode Media action set to Audio Only. It costs nothing and needs no third-party app, but the result is always M4A, you cannot trim, and you have to build the shortcut yourself. Recipe: <a href="/guides/extract-audio-without-app-iphone/">extract audio without an app</a>.</p>'
+            },
+            {
+                h2: '3. Online converters — any device, but you upload',
+                html: '<p>Web converters work in Safari without installing anything and usually output MP3. The catch on a phone: the whole video has to upload over mobile data, free tiers often limit file size, and your video sits on someone else’s server. Fine for public clips on a computer; avoid them for personal recordings. Details: <a href="/guides/extract-audio-online-vs-app/">online vs app</a>.</p>'
+            },
+            {
+                h2: '4. Video editors — if you are editing anyway',
+                html: '<p>Some video editing apps can detach or export a soundtrack, but it is usually buried in an editing workflow and export formats vary. Apple’s free iMovie for iPhone exports video, not a separate audio file. If audio is all you need, a dedicated tool is faster.</p>'
+            },
+            {
+                h2: 'How to choose',
+                html: `<ul>
+<li><strong>Need MP3</strong> (car, Windows, Android, web): a dedicated app or an online converter — Shortcuts only makes M4A.</li>
+<li><strong>Need just one part</strong> of the video: pick a tool with trimming, e.g. <a href="/guides/trim-audio-from-video-iphone/">trim audio from a video</a>.</li>
+<li><strong>Private video</strong> (family, meetings, lectures): stay on-device — an app or Shortcuts.</li>
+<li><strong>Making a ringtone</strong>: M4A under 30 seconds — see <a href="/guides/video-to-ringtone-iphone/">video to ringtone</a>.</li>
+</ul>`
+            }
+        ],
+        faq: [
+            { q: 'What is the best free app to extract audio from video on iPhone?', a: `For most people a dedicated on-device app such as ${APP}: it is free to start, saves MP3 or M4A, trims, and works from the Share button. If you only need M4A and do not want to install anything, Apple’s Shortcuts app also works.` },
+            { q: 'Can I extract audio from a video on iPhone without installing an app?', a: 'Yes, with the Shortcuts app (Encode Media → Audio Only), which saves M4A, or with an online converter in Safari, which requires uploading the video.' },
+            { q: 'Do these apps work offline?', a: 'On-device options — a dedicated app or Shortcuts — work offline. Online converters need an internet connection for the upload and the download.' }
+        ],
+        related: ['extract-audio-from-video-iphone', 'extract-audio-without-app-iphone', 'extract-audio-online-vs-app'],
+        card: { title: 'Best free apps (2026)', text: 'App, Shortcuts, online tools and editors compared.' }
+    }
+);

@@ -85,7 +85,7 @@ guides.push(
             { q: 'Posso estrarre l’audio da un video lungo?', a: 'Sì. Lezioni, concerti e riunioni funzionano allo stesso modo, solo un po’ più lentamente. Se ti serve una parte, taglia prima.' }
         ],
         related: ['convert-video-to-mp3-iphone', 'trim-audio-from-video-iphone', 'extract-audio-without-app-iphone'],
-        card: { title: 'Estrarre l’audio da un video su iPhone', text: 'Il metodo in 4 tocchi, da Foto o da Condividi.' }
+        card: { title: 'Come estrarre l’audio da un video su iPhone', text: 'La guida passo passo: 4 tocchi, da Foto o da Condividi.' }
     },
     {
         slug: 'convert-video-to-mp3-iphone',

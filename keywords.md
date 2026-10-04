@@ -37,6 +37,14 @@ Scoring: **Intent** (how likely the searcher installs an iPhone app) × **Trend*
 | 11 | convert lecture video to audio | lecture video to mp3, listen to video as audio | long tail; student segment | High | `/guides/lecture-video-to-audio-iphone/` |
 | 12 | make a ringtone from a video on iphone | video to ringtone iphone, turn video into ringtone | large evergreen query family | Medium–High | `/guides/video-to-ringtone-iphone/` |
 
+### Added from Search Console (2026-10)
+
+| Keyword | Page | Evidence |
+|---|---|---|
+| best free apps to extract audio from video iphone 2026 | `/guides/best-free-apps-extract-audio-from-video-iphone/` | 14 query variants, 48 impressions, pos ~8.6 on the homepage (GSC 2026-07-05 → 10-02). English only. |
+
+GSC-driven homepage title/description changes (same date): nl → “geluid … opslaan” (106 impressions, pos 6, 0 clicks), de → “Video in Audio umwandeln / als Audio speichern / Ton aus Video extrahieren”, fr → “son” + “audio”, vi → “chuyển video thành MP3”. it: homepage card for guide 1 now reads “Come estrarre l’audio da un video su iPhone” (335 impressions for “come estrarre…”, CTR 0.6%).
+
 ## FAQ questions (each links to its guide)
 
 Picked from Google "People also ask" patterns for these queries:
