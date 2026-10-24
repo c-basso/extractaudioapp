@@ -39,8 +39,8 @@
     {{/each}}
     <link rel="alternate" hreflang="x-default" href="{{meta.alternate_default}}" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
 
     <script type="application/ld+json">
@@ -160,7 +160,7 @@
     <link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" as="image" href="/screenshots/2.webp" fetchpriority="high">
     <link rel="stylesheet" href="/fonts/fonts.css?v={{meta.version}}">
-    <link rel="stylesheet" href="/landing.css?v={{meta.version}}">
+    <link rel="stylesheet" href="/css/landing.css?v={{meta.version}}">
 </head>
 <body class="lp">
     <a class="skip-link" href="#main">{{ui.skip}}</a>
@@ -168,7 +168,7 @@
     <header class="site-header">
         <div class="wrap header-inner">
             <a class="brand" href="{{meta.canonical}}" aria-label="{{app_info.name}} — {{ui.home}}">
-                <img src="/logo.webp" alt="" width="36" height="36">
+                <img src="/images/logo.webp" alt="" width="36" height="36">
                 <span>{{app_info.name}}</span>
             </a>
             <nav class="nav" aria-label="{{ui.primary_nav}}">
@@ -195,7 +195,7 @@
                 </ul>
                 <div class="hero-actions">
                     <a class="store-badge" href="{{hero.cta_url}}" data-cta="hero">
-                        <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60">
+                        <img src="/images/download.svg" alt="{{hero.download_alt}}" width="180" height="60">
                     </a>
                     <div class="rating" aria-label="{{schema_rating.rating_value}} {{ui.out_of_5}}, {{schema_rating.rating_count}}+ {{ui.ratings}}">
                         <span class="stars" aria-hidden="true">★★★★★</span>
@@ -203,7 +203,7 @@
                     </div>
                 </div>
                 <div class="qr-inline">
-                    <img src="/qr.gif" alt="{{hero.qr_alt}}" width="84" height="84" loading="lazy">
+                    <img src="/images/qr.gif" alt="{{hero.qr_alt}}" width="84" height="84" loading="lazy">
                     <span>{{hero.qr_text}}</span>
                 </div>
             </div>
@@ -242,10 +242,10 @@
                 </div>
                 <div class="download-actions">
                     <a class="store-badge" href="{{hero.cta_url}}" data-cta="download">
-                        <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60" loading="lazy">
+                        <img src="/images/download.svg" alt="{{hero.download_alt}}" width="180" height="60" loading="lazy">
                     </a>
                     <div class="qr-inline qr-light">
-                        <img src="/qr.gif" alt="{{hero.qr_alt}}" width="84" height="84" loading="lazy">
+                        <img src="/images/qr.gif" alt="{{hero.qr_alt}}" width="84" height="84" loading="lazy">
                         <span>{{hero.qr_text}}</span>
                     </div>
                 </div>
@@ -343,7 +343,7 @@
                 <h2 id="cta-title">{{cta.title}}</h2>
                 <p>{{cta.subtitle}}</p>
                 <a class="store-badge" href="{{hero.cta_url}}" data-cta="final">
-                    <img src="/download.svg" alt="{{hero.download_alt}}" width="180" height="60" loading="lazy">
+                    <img src="/images/download.svg" alt="{{hero.download_alt}}" width="180" height="60" loading="lazy">
                 </a>
             </div>
         </div>
@@ -353,9 +353,9 @@
     <footer class="site-footer">
         <div class="wrap footer-grid">
             <div class="footer-brand">
-                <a class="brand" href="{{meta.canonical}}"><img src="/logo.webp" alt="" width="36" height="36" loading="lazy"><span>{{app_info.name}}</span></a>
+                <a class="brand" href="{{meta.canonical}}"><img src="/images/logo.webp" alt="" width="36" height="36" loading="lazy"><span>{{app_info.name}}</span></a>
                 <p>{{footer.tagline}}</p>
-                <a class="store-badge" href="{{footer.cta_url}}" data-cta="footer"><img src="/download.svg" alt="{{hero.download_alt}}" width="150" height="50" loading="lazy"></a>
+                <a class="store-badge" href="{{footer.cta_url}}" data-cta="footer"><img src="/images/download.svg" alt="{{hero.download_alt}}" width="150" height="50" loading="lazy"></a>
             </div>
             <nav aria-label="{{footer.guides_title}}">
                 <h2>{{footer.guides_title}}</h2>
@@ -396,7 +396,7 @@
     </footer>
 
     <a class="floating-cta" href="{{floating_cta.url}}" data-cta="floating">
-        <img src="/logo.webp" alt="" width="28" height="28"> {{floating_cta.text}}
+        <img src="/images/logo.webp" alt="" width="28" height="28"> {{floating_cta.text}}
     </a>
 
     <script>

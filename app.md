@@ -110,8 +110,8 @@ App Store screenshots (460 px wide WebP, same files as the store renders at that
 Icon:
 
 - `store/app-icon-512.webp` — 512×512 App Store icon (downloaded 2026-09-27)
-- `logo.webp` — 300×300 icon already used on the site
-- `apple-touch-icon.png`, `android-chrome-*.png`, `favicon*` — existing site icons
+- `images/logo.webp` — 300×300 icon already used on the site
+- `images/apple-touch-icon.png`, `images/android-chrome-*.png`, `images/favicon-*.png` (+ `favicon.ico` in root) — existing site icons
 
 Original store URLs (append a size like `/460x0w.webp` or `/1290x0w.png`):
 

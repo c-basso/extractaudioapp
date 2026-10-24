@@ -126,7 +126,7 @@ function guideCardsHtml(list, base, gui) {
 }
 
 function storeBadge(place, alt, h = 48) {
-    return `<a class="store-badge" href="${APP_STORE_APP_URL}" data-cta="${place}"><img src="/download.svg" alt="${esc(alt)}" width="${Math.round(h * 3)}" height="${h}" loading="lazy"></a>`;
+    return `<a class="store-badge" href="${APP_STORE_APP_URL}" data-cta="${place}"><img src="/images/download.svg" alt="${esc(alt)}" width="${Math.round(h * 3)}" height="${h}" loading="lazy"></a>`;
 }
 
 function guideBody(g, all, site, gui, base) {
@@ -169,7 +169,7 @@ function guideBody(g, all, site, gui, base) {
                 ${steps}
                 </ol>
                 <div class="inline-cta">
-                    <img class="icon" src="/logo.webp" alt="" width="56" height="56" loading="lazy">
+                    <img class="icon" src="/images/logo.webp" alt="" width="56" height="56" loading="lazy">
                     <p>${esc(site.app_name)}<span>${gui.inline_cta_sub}</span></p>
                     ${storeBadge('inline', site.download_alt)}
                 </div>

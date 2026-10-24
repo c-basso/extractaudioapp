@@ -55,10 +55,10 @@
     {{/each}}
     <link rel="alternate" hreflang="x-default" href="{{meta.alternate_default}}" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="mask-icon" href="/logo.webp" color="#667eea">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="mask-icon" href="/images/logo.webp" color="#667eea">
     <link rel="manifest" href="/site.webmanifest">
     
     <!-- WebPage Structured Data -->
@@ -246,11 +246,11 @@
 
     <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" as="image" href="/bg.webp" fetchpriority="high">
-    <link rel="preload" as="image" href="/logo.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="/images/bg.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="/images/logo.webp" fetchpriority="high">
 
     <link rel="stylesheet" href="/fonts/fonts.css?v={{meta.version}}">
-    <link rel="stylesheet" href="/style.css?v={{meta.version}}">
+    <link rel="stylesheet" href="/css/style.css?v={{meta.version}}">
 </head>
 <body>
     <main role="main">
@@ -261,7 +261,7 @@
                 <div class="hero-main">
                     <a href="{{hero.cta_url}}" class="logo-link">
                         <div class="logo">
-                            <img src="/logo.webp" alt="{{hero.logo_alt}}" width="300" height="300">
+                            <img src="/images/logo.webp" alt="{{hero.logo_alt}}" width="300" height="300">
                         </div>
                     </a>
                     <h1>{{hero.title}}</h1>
@@ -270,12 +270,12 @@
                     <p class="subheadline">{{hero.subheadline}}</p>
                     <p class="last-updated-hero">{{last_updated.text}}</p>
                     <a href="{{hero.cta_url}}" class="app-store-btn app-store-btn-mobile">
-                        <img src="/download.svg" alt="{{hero.download_alt}}" width="120" height="40">
+                        <img src="/images/download.svg" alt="{{hero.download_alt}}" width="120" height="40">
                     </a>
                 </div>
                 <div class="hero-side">
                     <div class="app-store-btn-desktop">
-                        <img src="/qr.gif" alt="{{hero.qr_alt}}" class="qr-code">
+                        <img src="/images/qr.gif" alt="{{hero.qr_alt}}" class="qr-code">
                         <p class="qr-text">{{hero.qr_text}}</p>
                     </div>
                     <div class="phone-mockup" style="display: none;">

@@ -115,7 +115,7 @@ async function buildAbout() {
                     <img class="shot" src="/screenshots/2.webp" alt="${esc(`${appName} — ${gui.aside_shot_alt}`)}" width="460" height="995" loading="lazy">
                     <h2>${esc(appName)}</h2>
                     <p>${esc(gui.free)} · iOS ${esc(APP_MIN_IOS)}+</p>
-                    <a class="store-badge" href="${APP_STORE_APP_URL}" data-cta="aside"><img src="/download.svg" alt="${esc(site.download_alt)}" width="144" height="48" loading="lazy"></a>
+                    <a class="store-badge" href="${APP_STORE_APP_URL}" data-cta="aside"><img src="/images/download.svg" alt="${esc(site.download_alt)}" width="144" height="48" loading="lazy"></a>
                 </div>
             </aside>
         </div>`;

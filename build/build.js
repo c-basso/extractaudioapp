@@ -289,7 +289,7 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
             };
 
             if (!data.meta.og_logo) {
-                data.meta.og_logo = `${SITE_URL}logo.webp`;
+                data.meta.og_logo = `${SITE_URL}images/logo.webp`;
             }
 
             const ogImagePath = resolveSiteImageUrlToLocalPath(data.meta.og_image);
