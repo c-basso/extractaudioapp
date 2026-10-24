@@ -228,6 +228,8 @@ p { margin: 0 0 1em; }
 .aside-card .store-badge img { height: 48px; margin: 0 auto; }
 .related { margin-top: 56px; }
 .related .guide-grid { grid-template-columns: repeat(3, 1fr); }
+.guide-content .guide-grid, [dir="rtl"] .guide-content .guide-grid { padding: 0; }
+.guide-content .guide-grid li { margin-bottom: 0; }
 .guide-content .faq-list { margin-top: 12px; }
 .hub-hero { padding: 24px 0 24px; }
 
