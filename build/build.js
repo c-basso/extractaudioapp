@@ -23,8 +23,13 @@ const {
     APP_MIN_IOS,
     APP_RATING_US_VALUE,
     APP_RATING_US_COUNT,
+    SITE_ABOUT_URL,
+    ORGANIZATION_LD,
+    ABOUT_LABEL_BY_LANG,
     guidesPathFor
 } = require('./constants');
+const { lastModified } = require('./lib/lastModified');
+const { buildAbout } = require('./about');
 const { readImageDimensions } = require('./lib/imageDimensions');
 const { renderTemplate } = require('./lib/templateEngine');
 const { buildGuides } = require('./guides');
@@ -86,6 +91,11 @@ function injectAppDefaults(data, lang) {
     data.footer.privacy_url = SITE_PRIVACY_URL;
     data.footer.terms_url = SITE_TERMS_URL;
     data.footer.support_url = SUPPORT_MAILTO_URL;
+    data.footer.about_url = SITE_ABOUT_URL;
+    data.footer.about_text = ABOUT_LABEL_BY_LANG[lang] || ABOUT_LABEL_BY_LANG[DEFAULT_LANGUAGE];
+
+    // Shared Organization entity (constants.js) — same JSON-LD on every page.
+    data.schema_organization = JSON.stringify({ '@context': 'https://schema.org', ...ORGANIZATION_LD }, null, 4);
 
     data.floating_cta = data.floating_cta || {};
     data.floating_cta.url = APP_STORE_APP_URL;
@@ -225,10 +235,13 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
                 te: 'te-IN',
                 ml: 'ml-IN'
             };
+            // Real content date: last commit of this locale's copy (build/<lang>.json), not the build time.
+            const modifiedIso = lastModified([`build/${lang}.json`]);
             const monthYear = new Intl.DateTimeFormat(localeByLang[lang] || 'en-US', {
                 month: 'long',
-                year: 'numeric'
-            }).format(new Date());
+                year: 'numeric',
+                timeZone: 'UTC'
+            }).format(new Date(`${modifiedIso}T12:00:00Z`));
             const lastUpdatedPrefixByLang = {
                 en: 'Last updated:',
                 ru: 'Последнее обновление:',
@@ -271,7 +284,8 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
             };
             const lastUpdatedPrefix = lastUpdatedPrefixByLang[lang] || lastUpdatedPrefixByLang.en;
             data.last_updated = {
-                text: `${lastUpdatedPrefix} ${monthYear}`
+                text: `${lastUpdatedPrefix} ${monthYear}`,
+                iso: modifiedIso
             };
 
             if (!data.meta.og_logo) {
@@ -304,6 +318,7 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
     }
 
     await buildGuides();
+    await buildAbout();
 })().catch((err) => {
     console.error('❌ Build failed:', err);
     process.exit(1);

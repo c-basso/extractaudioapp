@@ -52,6 +52,8 @@
         "url": "{{meta.canonical}}",
         "inLanguage": "{{meta.lang}}",
         "isPartOf": { "@type": "WebSite", "name": "{{app_info.name}}", "url": "{{meta.canonical}}" },
+        "dateModified": "{{last_updated.iso}}",
+        "publisher": { "@id": "https://extractaudioapp.com/#organization" },
         "primaryImageOfPage": "https://extractaudioapp.com/screenshots/2.webp",
         "about": { "@type": "SoftwareApplication", "name": "{{app_info.name}}", "applicationCategory": "{{app_info.application_category}}" }
     }
@@ -61,18 +63,13 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "{{app_info.name}}",
-        "url": "{{meta.canonical}}"
+        "url": "{{meta.canonical}}",
+        "inLanguage": "{{meta.lang}}",
+        "publisher": { "@id": "https://extractaudioapp.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "{{app_info.publisher}}",
-        "url": "{{meta.canonical}}",
-        "logo": "https://extractaudioapp.com/store/app-icon-512.webp",
-        "sameAs": ["{{hero.cta_url}}"]
-    }
+{{schema_organization}}
     </script>
     <script type="application/ld+json">
     {
@@ -95,7 +92,7 @@
             "worstRating": {{schema_rating.worst_rating}}
         },
         "author": { "@type": "Person", "name": "{{meta.author}}" },
-        "publisher": { "@type": "Organization", "name": "{{app_info.publisher}}" },
+        "publisher": { "@id": "https://extractaudioapp.com/#organization" },
         "screenshot": [
             {{#each screenshots.items as |shot|}}
             "https://extractaudioapp.com{{shot.src}}",
@@ -380,6 +377,7 @@
                 <ul>
                     <li><a href="{{footer.privacy_url}}">{{footer.privacy_text}}</a></li>
                     <li><a href="{{footer.terms_url}}">{{footer.terms_text}}</a></li>
+                    <li><a href="{{footer.about_url}}">{{footer.about_text}}</a></li>
                     <li><a href="{{footer.support_url}}">{{footer.support_text}}</a></li>
                 </ul>
             </nav>
@@ -393,7 +391,7 @@
             </p>
         </div>
         <div class="wrap footer-bottom">
-            <p>{{footer.developer_info}} · {{footer.copyright}} · {{last_updated.text}}</p>
+            <p><a href="{{footer.about_url}}">{{footer.developer_info}}</a> · {{footer.copyright}} · <time datetime="{{last_updated.iso}}">{{last_updated.text}}</time></p>
         </div>
     </footer>
 

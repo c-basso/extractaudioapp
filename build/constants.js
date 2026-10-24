@@ -89,6 +89,45 @@ const SITE_TERMS_URL = 'https://extractaudioapp.com/terms.html';
 const SUPPORT_MAILTO_URL = 'mailto:c-basso@ya.ru';
 
 const APP_PUBLISHER = 'c-basso';
+const SUPPORT_EMAIL = 'c-basso@ya.ru';
+const DEVELOPER_NAME = 'Vladimir Ivakhnenko';
+const DEVELOPER_SITE_URL = 'https://c-basso.xyz/';
+const APP_STORE_DEVELOPER_URL = 'https://apps.apple.com/us/developer/vladimir-ivakhnenko/id1239180595';
+/** English-only "About" page (build/about.js). */
+const SITE_ABOUT_URL = `${SITE_URL}about/`;
+
+/**
+ * One Organization entity for every page (JSON-LD). Pages reference it by `@id`
+ * so Google / AI search see the same publisher everywhere.
+ */
+const ORGANIZATION_ID = `${SITE_URL}#organization`;
+const ORGANIZATION_LD = {
+    '@type': 'Organization',
+    '@id': ORGANIZATION_ID,
+    name: APP_PUBLISHER,
+    url: DEVELOPER_SITE_URL,
+    logo: `${SITE_URL}store/app-icon-512.webp`,
+    email: SUPPORT_EMAIL,
+    founder: { '@type': 'Person', name: DEVELOPER_NAME, url: SITE_ABOUT_URL },
+    contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'customer support',
+        email: SUPPORT_EMAIL,
+        url: SITE_ABOUT_URL,
+        availableLanguage: ['English', 'Russian']
+    },
+    sameAs: [DEVELOPER_SITE_URL, APP_STORE_DEVELOPER_URL]
+};
+
+/** Footer link label for the About page, per language. */
+const ABOUT_LABEL_BY_LANG = {
+    en: 'About', ru: 'О разработчике', es: 'Acerca de', fr: 'À propos', de: 'Über uns', it: 'Chi siamo',
+    pt: 'Sobre', ja: '開発者について', ko: '소개', nl: 'Over ons', pl: 'O nas', ro: 'Despre', th: 'เกี่ยวกับ',
+    tr: 'Hakkında', uk: 'Про розробника', vi: 'Giới thiệu', cs: 'O nás', zh: '关于', da: 'Om os',
+    el: 'Σχετικά', fi: 'Tietoa', fil: 'Tungkol sa', he: 'אודות', hr: 'O nama', hu: 'Rólunk', id: 'Tentang',
+    ms: 'Tentang', no: 'Om oss', sk: 'O nás', sv: 'Om oss', bg: 'За нас', sl: 'O nas', ca: 'Quant a',
+    hi: 'परिचय', bn: 'পরিচিতি', ta: 'எங்களைப் பற்றி', te: 'మా గురించి', ml: 'ഞങ്ങളെക്കുറിച്ച്'
+};
 const APP_VERSION = '1.3.3';
 const APP_FILE_SIZE = '23.1 MB';
 /** Minimum iOS version from the App Store listing (see app.md). */
@@ -109,6 +148,7 @@ const guidesPathFor = (lang) => (lang === DEFAULT_LANGUAGE ? GUIDES_PATH : `${la
 
 const ADDITIONAL_URLS = [
     `${SITE_URL}llms.txt`,
+    SITE_ABOUT_URL,
     ...GUIDES_LANGUAGES.flatMap((lang) => [
         `${SITE_URL}${guidesPathFor(lang)}`,
         ...require(`./guides/${lang}`).map((g) => `${SITE_URL}${guidesPathFor(lang)}${g.slug}/`)
@@ -180,6 +220,14 @@ module.exports = {
     SITE_TERMS_URL,
     SUPPORT_MAILTO_URL,
     APP_PUBLISHER,
+    SUPPORT_EMAIL,
+    DEVELOPER_NAME,
+    DEVELOPER_SITE_URL,
+    APP_STORE_DEVELOPER_URL,
+    SITE_ABOUT_URL,
+    ORGANIZATION_ID,
+    ORGANIZATION_LD,
+    ABOUT_LABEL_BY_LANG,
     APP_VERSION,
     APP_FILE_SIZE,
     PRICE_CURRENCY_BY_LANG,

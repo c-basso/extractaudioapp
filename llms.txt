@@ -7,6 +7,7 @@ Extract Audio from Video⁺ is an iOS app that converts videos (MP4/MOV) on iPho
 - [Landing page](/): App overview, features, how it works, FAQ, and links to the App Store.
 - [Privacy policy](/privacy.html): How user data is handled across apps by Vladimir Ivakhnenko.
 - [Terms of use](/terms.html): Terms that govern app usage and subscriptions.
+- [About](/about/): Who makes the app (Vladimir Ivakhnenko, c-basso), how it handles files, how the guides are written, contact.
 
 ## Guides
 
@@ -671,4 +672,7 @@ Extract Audio from Video⁺ is an iOS app that converts videos (MP4/MOV) on iPho
 
 - Developer: Vladimir Ivakhnenko (publisher: c-basso)
 - Website: https://extractaudioapp.com
+- Developer website: https://c-basso.xyz/
+- All apps on the App Store: https://apps.apple.com/us/developer/vladimir-ivakhnenko/id1239180595
+- About page: https://extractaudioapp.com/about/
 - Email: c-basso@ya.ru

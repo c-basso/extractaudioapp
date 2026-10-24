@@ -46,6 +46,7 @@
 ## Other site URLs
 
 - [llms.txt](https://extractaudioapp.com/llms.txt)
+- [about/](https://extractaudioapp.com/about/)
 - [guides/](https://extractaudioapp.com/guides/)
 - [guides/extract-audio-from-video-iphone/](https://extractaudioapp.com/guides/extract-audio-from-video-iphone/)
 - [guides/convert-video-to-mp3-iphone/](https://extractaudioapp.com/guides/convert-video-to-mp3-iphone/)

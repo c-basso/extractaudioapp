@@ -13,7 +13,6 @@ const {
     SITE_URL,
     DEFAULT_LANGUAGE,
     APP_STORE_APP_URL,
-    APP_PUBLISHER,
     APP_VERSION,
     APP_FILE_SIZE,
     APP_MIN_IOS,
@@ -23,8 +22,13 @@ const {
     SCHEMA_AGGREGATE_BEST_RATING,
     SCHEMA_AGGREGATE_WORST_RATING,
     GUIDES_LANGUAGES,
+    SITE_ABOUT_URL,
+    ORGANIZATION_ID,
+    ORGANIZATION_LD,
+    ABOUT_LABEL_BY_LANG,
     guidesPathFor
 } = require('./constants');
+const { lastModified } = require('./lib/lastModified');
 const { renderTemplate } = require('./lib/templateEngine');
 const { readImageDimensions } = require('./lib/imageDimensions');
 
@@ -109,7 +113,7 @@ function appLd(appName, description, lang) {
             bestRating: SCHEMA_AGGREGATE_BEST_RATING,
             worstRating: SCHEMA_AGGREGATE_WORST_RATING
         },
-        publisher: { '@type': 'Organization', name: APP_PUBLISHER }
+        publisher: { '@id': ORGANIZATION_ID }
     };
 }
 
@@ -153,7 +157,7 @@ function guideBody(g, all, site, gui, base) {
             <div class="wrap">
                 <p class="eyebrow"><span class="dot" aria-hidden="true"></span>${esc(g.eyebrow)} · ${esc(gui.guide)}</p>
                 <h1>${esc(g.h1)}</h1>
-                <p class="guide-meta">${esc(site.last_updated)} · ${minutes} ${esc(gui.min_read)} · ${esc(gui.by)} ${esc(site.author)}</p>
+                <p class="guide-meta"><time datetime="${site.today}">${esc(site.last_updated)}</time> · ${minutes} ${esc(gui.min_read)} · ${esc(gui.by)} ${esc(site.author)}</p>
                 <div class="answer-box"><strong>${esc(gui.quick_answer)}</strong>${esc(g.answer)}</div>
             </div>
         </section>
@@ -205,8 +209,8 @@ function guideJsonLd(g, site, gui, crumbs, url, lang) {
             inLanguage: lang,
             datePublished: gui.published,
             dateModified: site.today,
-            author: { '@type': 'Person', name: site.author },
-            publisher: { '@type': 'Organization', name: APP_PUBLISHER, logo: { '@type': 'ImageObject', url: ABS('/store/app-icon-512.webp') } },
+            author: { '@type': 'Person', name: site.author, url: SITE_ABOUT_URL },
+            publisher: { '@id': ORGANIZATION_ID },
             about: { '@type': 'SoftwareApplication', name: site.app_name },
             keywords: g.keyword
         },
@@ -237,7 +241,8 @@ function guideJsonLd(g, site, gui, crumbs, url, lang) {
             }))
         },
         breadcrumbLd(crumbs),
-        appLd(site.app_name, g.description, lang)
+        appLd(site.app_name, g.description, lang),
+        { '@context': 'https://schema.org', ...ORGANIZATION_LD }
     ];
 }
 
@@ -252,6 +257,9 @@ async function buildGuidesForLang(lang, template, slugsByLang) {
     const ogImage = data.meta.og_image;
     const { width, height } = await readImageDimensions(path.join(ROOT, ogImage.replace(SITE_URL, '')));
     const now = new Date();
+    // Real content date: last commit of this language's guide copy (build/guides/<lang>.js), not the build time.
+    const modified = lastModified([`build/guides/${lang}.js`]);
+    const modifiedDate = new Date(`${modified}T12:00:00Z`);
     const site = {
         app_name: data.app_info.name,
         author: data.meta.author,
@@ -262,10 +270,12 @@ async function buildGuidesForLang(lang, template, slugsByLang) {
         og_image_width: String(width),
         og_image_height: String(height),
         version: Date.now(),
-        today: now.toISOString().slice(0, 10),
+        today: modified,
+        about_url: SITE_ABOUT_URL,
+        about_text: ABOUT_LABEL_BY_LANG[lang] || ABOUT_LABEL_BY_LANG[DEFAULT_LANGUAGE],
         home_url: home,
         hub_url: `/${base}`,
-        last_updated: `${gui.updated} ${new Intl.DateTimeFormat(gui.locale, { month: 'long', year: 'numeric' }).format(now)}`,
+        last_updated: `${gui.updated} ${new Intl.DateTimeFormat(gui.locale, { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(modifiedDate)}`,
         copyright: data.footer.copyright.replace(/\{year\}/g, String(now.getFullYear())),
         footer_guides: guides.map((g) => `<li><a href="/${base}${g.slug}/">${esc(g.card.title)}</a></li>`).join('')
     };
@@ -312,6 +322,8 @@ async function buildGuidesForLang(lang, template, slugsByLang) {
             description: gui.hub_description,
             url: ABS(`/${base}`),
             inLanguage: lang,
+            dateModified: modified,
+            publisher: { '@id': ORGANIZATION_ID },
             mainEntity: {
                 '@type': 'ItemList',
                 itemListElement: guides.map((g, i) => ({
@@ -322,7 +334,8 @@ async function buildGuidesForLang(lang, template, slugsByLang) {
                 }))
             }
         },
-        breadcrumbLd(hubCrumbs)
+        breadcrumbLd(hubCrumbs),
+        { '@context': 'https://schema.org', ...ORGANIZATION_LD }
     ];
     const hubBody = `
         <section class="hub-hero guides">
@@ -363,7 +376,7 @@ async function buildGuides() {
     }
 }
 
-module.exports = { buildGuides };
+module.exports = { buildGuides, esc, jsonLdScripts, breadcrumbsHtml, breadcrumbLd };
 
 if (require.main === module) {
     buildGuides().catch((e) => {

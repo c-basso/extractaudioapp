@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const { SITE_URL, URLS, DEFAULT_LANGUAGE, GUIDES_LANGUAGES, guidesPathFor } = require('./constants');
+const { SITE_URL, URLS, DEFAULT_LANGUAGE, GUIDES_LANGUAGES, SITE_ABOUT_URL, guidesPathFor } = require('./constants');
+const { lastModified } = require('./lib/lastModified');
 
 (function main() {
   const sitemapPath = path.join(__dirname, '..', 'sitemap.xml');
@@ -13,8 +14,9 @@ const { SITE_URL, URLS, DEFAULT_LANGUAGE, GUIDES_LANGUAGES, guidesPathFor } = re
   lines.push('  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"');
   lines.push('  xmlns:xhtml="http://www.w3.org/1999/xhtml">');
   lines.push('  ');
-  const lastmod = new Date().toISOString().split('T')[0];
-  for (const { url } of URLS) {
+  // lastmod = last real change of the page's source (git), so Google can trust it.
+  for (const { url, lang } of URLS) {
+    const lastmod = lastModified([`build/${lang}.json`]);
     lines.push('  <url>');
     lines.push(`    <loc>${url}</loc>`);
     for (const alt of URLS) {
@@ -43,6 +45,7 @@ const { SITE_URL, URLS, DEFAULT_LANGUAGE, GUIDES_LANGUAGES, guidesPathFor } = re
     const langs = GUIDES_LANGUAGES.filter((lang) => slug === null || slugsByLang[lang].has(slug));
     const urlFor = (lang) => `${SITE_URL}${guidesPathFor(lang)}${slug ? `${slug}/` : ''}`;
     for (const lang of langs) {
+      const lastmod = lastModified([`build/guides/${lang}.js`]);
       lines.push('  <url>');
       lines.push(`    <loc>${urlFor(lang)}</loc>`);
       if (langs.length > 1) {
@@ -59,6 +62,12 @@ const { SITE_URL, URLS, DEFAULT_LANGUAGE, GUIDES_LANGUAGES, guidesPathFor } = re
       lines.push('');
     }
   }
+  lines.push('  <url>');
+  lines.push(`    <loc>${SITE_ABOUT_URL}</loc>`);
+  lines.push(`    <lastmod>${lastModified(['build/about.js'])}</lastmod>`);
+  lines.push('    <priority>0.5</priority>');
+  lines.push('  </url>');
+  lines.push('');
   lines.push('</urlset>');
 
   fs.writeFileSync(sitemapPath, lines.join('\n') + '\n', 'utf8');

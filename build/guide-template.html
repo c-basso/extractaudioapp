@@ -96,12 +96,13 @@
                 <ul>
                     <li><a href="/privacy.html">{{footer.privacy_text}}</a></li>
                     <li><a href="/terms.html">{{footer.terms_text}}</a></li>
+                    <li><a href="{{site.about_url}}">{{site.about_text}}</a></li>
                     <li><a href="mailto:c-basso@ya.ru">{{footer.support_text}}</a></li>
                 </ul>
             </nav>
         </div>
         <div class="wrap footer-bottom">
-            <p>{{footer.developer_info}} · {{site.copyright}} · {{site.last_updated}}</p>
+            <p><a href="{{site.about_url}}">{{footer.developer_info}}</a> · {{site.copyright}} · <time datetime="{{site.today}}">{{site.last_updated}}</time></p>
         </div>
     </footer>
 
