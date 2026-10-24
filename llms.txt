@@ -1,5 +1,7 @@
 # Extract Audio from Video⁺
 
+> Extract Audio from Video⁺ is a free iPhone app (with in-app purchases) by Vladimir Ivakhnenko (c-basso) that converts MP4 and MOV videos into MP3 or M4A audio on the device — nothing is uploaded. This site has the app landing page in 38 languages and step-by-step iPhone guides.
+
 Extract Audio from Video⁺ is an iOS app that converts videos (MP4/MOV) on iPhone into high-quality MP3 or M4A audio files directly on the device.
 
 ## Main Sections

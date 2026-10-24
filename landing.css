@@ -180,6 +180,13 @@ p { margin: 0 0 1em; }
 .footer-langs p { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0; }
 .footer-bottom { margin-top: 24px; font-size: .85rem; opacity: .7; }
 
+/* Touch targets on phones/tablets: footer links >= 44px tall */
+@media (pointer: coarse) {
+  .site-footer ul { gap: 0; }
+  .site-footer li a, .footer-langs a, .footer-bottom a { display: inline-flex; align-items: center; min-height: 44px; }
+  .footer-langs p { gap: 0 18px; }
+}
+
 /* Floating CTA (mobile) */
 .floating-cta { position: fixed; left: 50%; bottom: max(16px, env(safe-area-inset-bottom)); transform: translate(-50%, 140%); z-index: 60; display: none; align-items: center; gap: 10px; background: var(--ink); color: #fff; font-weight: 800; text-decoration: none; padding: 10px 22px 10px 10px; border-radius: 999px; box-shadow: 0 16px 40px -10px rgba(26,18,32,.6); transition: transform .35s cubic-bezier(.2,.8,.2,1); white-space: nowrap; }
 .floating-cta img { border-radius: 8px; }

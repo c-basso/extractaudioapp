@@ -77,6 +77,7 @@ const { lastModified } = require('./lib/lastModified');
 
   const robots = `
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 Sitemap: ${SITE_URL}sitemap.xml 

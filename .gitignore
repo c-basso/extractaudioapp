@@ -10,3 +10,4 @@ gsc/
 # Google Indexing API daily rotation progress (build/gindexnow.js)
 .index-google-state.json
 .index-google-state.json.tmp
+seo-audit
