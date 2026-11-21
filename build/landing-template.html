@@ -142,7 +142,7 @@
             {
                 "@type": "Question",
                 "name": "{{item.question}}",
-                "acceptedAnswer": { "@type": "Answer", "text": "{{item.answer}}", "url": "https://extractaudioapp.com{{item.url}}" }
+                "acceptedAnswer": { "@type": "Answer", "text": "{{item.answer}}"{{#if item.url}}, "url": "https://extractaudioapp.com{{item.url}}"{{/if}} }
             },
             {{/each}}
         ]
@@ -173,7 +173,7 @@
             </a>
             <nav class="nav" aria-label="{{ui.primary_nav}}">
                 <a href="#how-it-works">{{nav.how}}</a>
-                <a href="#guides">{{nav.guides}}</a>
+                {{#if guides_enabled}}<a href="#guides">{{nav.guides}}</a>{{/if}}
                 <a href="#faq">{{nav.faq}}</a>
             </nav>
             <a class="btn btn-small" href="{{hero.cta_url}}" data-cta="header">{{nav.download}}</a>
@@ -295,6 +295,7 @@
     </section>
 
     <!-- GUIDES -->
+    {{#if guides_enabled}}
     <section class="guides" id="guides" aria-labelledby="guides-title">
         <div class="wrap">
             <p class="eyebrow">{{guides.eyebrow}}</p>
@@ -315,6 +316,7 @@
             <div class="center"><a class="btn btn-ghost" href="{{guides.hub_url}}">{{guides.all_label}} <span aria-hidden="true">→</span></a></div>
         </div>
     </section>
+    {{/if}}
 
     <!-- FAQ -->
     <section class="faq" id="faq" aria-labelledby="faq-title">
@@ -327,7 +329,7 @@
                     <summary><h3>{{item.question}}</h3><span class="faq-icon" aria-hidden="true"></span></summary>
                     <div class="faq-answer">
                         <p>{{item.answer}}</p>
-                        <a class="learn-more" href="{{item.url}}">{{faq.learn_more}} <span aria-hidden="true">→</span></a>
+                        {{#if item.url}}<a class="learn-more" href="{{item.url}}">{{faq.learn_more}} <span aria-hidden="true">→</span></a>{{/if}}
                     </div>
                 </details>
                 {{/each}}
@@ -357,6 +359,7 @@
                 <p>{{footer.tagline}}</p>
                 <a class="store-badge" href="{{footer.cta_url}}" data-cta="footer"><img src="/images/download.svg" alt="{{hero.download_alt}}" width="150" height="50" loading="lazy"></a>
             </div>
+            {{#if guides_enabled}}
             <nav aria-label="{{footer.guides_title}}">
                 <h2>{{footer.guides_title}}</h2>
                 <ul>
@@ -365,12 +368,13 @@
                     {{/each}}
                 </ul>
             </nav>
+            {{/if}}
             <nav aria-label="{{footer.app_title}}">
                 <h2>{{footer.app_title}}</h2>
                 <ul>
                     <li><a href="#how-it-works">{{nav.how}}</a></li>
                     <li><a href="#faq">{{nav.faq}}</a></li>
-                    <li><a href="{{guides.hub_url}}">{{guides.all_label}}</a></li>
+                    {{#if guides_enabled}}<li><a href="{{guides.hub_url}}">{{guides.all_label}}</a></li>{{/if}}
                     <li><a href="{{footer.cta_url}}">App Store</a></li>
                 </ul>
                 <h2>{{footer.legal_title}}</h2>

@@ -11,3 +11,4 @@ gsc/
 .index-google-state.json
 .index-google-state.json.tmp
 seo-audit
+.DS_Store

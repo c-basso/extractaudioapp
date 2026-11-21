@@ -26,7 +26,8 @@ const {
     SITE_ABOUT_URL,
     ORGANIZATION_LD,
     ABOUT_LABEL_BY_LANG,
-    guidesPathFor
+    guidesPathFor,
+    isGuidesIndexed
 } = require('./constants');
 const { lastModified } = require('./lib/lastModified');
 const { buildAbout } = require('./about');
@@ -165,7 +166,15 @@ function resolveSiteImageUrlToLocalPath(imageUrl) {
 
             injectAppDefaults(data, lang);
 
-            if (LANDING_V2_LANGUAGES.includes(lang)) {
+            // Only languages whose guides are indexed show the guides section/links (see GUIDES_INDEXED_LANGUAGES).
+            data.guides_enabled = LANDING_V2_LANGUAGES.includes(lang) && isGuidesIndexed(lang);
+            data.guides_list = [];
+            data.guides_footer = [];
+            if (!data.guides_enabled && data.faq && Array.isArray(data.faq.items)) {
+                // FAQ "learn more" links point to guides: drop them where the guides are noindex.
+                data.faq.items = data.faq.items.map(({ url, ...item }) => (url && url.includes('/guides/') ? item : { url, ...item }));
+            }
+            if (data.guides_enabled) {
                 // Guide cards for the homepage grid + footer (content: build/guides/en.js).
                 data.guides = data.guides || {};
                 data.guides.hub_url = `/${guidesPathFor(lang)}`;

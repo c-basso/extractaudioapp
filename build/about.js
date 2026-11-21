@@ -23,7 +23,8 @@ const {
     ORGANIZATION_ID,
     ORGANIZATION_LD,
     ABOUT_LABEL_BY_LANG,
-    guidesPathFor
+    guidesPathFor,
+    ROBOTS_INDEX
 } = require('./constants');
 const { renderTemplate } = require('./lib/templateEngine');
 const { readImageDimensions } = require('./lib/imageDimensions');
@@ -160,6 +161,7 @@ async function buildAbout() {
             title: esc(title),
             description: esc(description),
             canonical: SITE_ABOUT_URL,
+            robots: ROBOTS_INDEX,
             alternates: '',
             og_type: 'website',
             jsonld: jsonLdScripts(jsonld),

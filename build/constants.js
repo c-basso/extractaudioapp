@@ -143,13 +143,23 @@ const LANDING_V2_LANGUAGES = [DEFAULT_LANGUAGE, 'ru', 'de', 'es', 'fr', 'it', 'p
 /** Keyword guides. Content lives in `build/guides/<lang>.js`; pages are written to /guides/<slug>/ (en) and /<lang>/guides/<slug>/. */
 const GUIDES_PATH = 'guides/';
 const GUIDES_LANGUAGES = [DEFAULT_LANGUAGE, 'ru', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ko', 'nl', 'pl', 'ro', 'th', 'tr', 'uk', 'vi', 'cs', 'zh', 'da', 'el', 'fi', 'fil', 'he', 'hr', 'hu', 'id', 'ms', 'no', 'sk', 'sv', 'bg', 'sl', 'ca', 'hi', 'bn', 'ta', 'te', 'ml'];
+/**
+ * Guide languages Google is asked to index: sitemap, hreflang, homepage grid/footer links, ADDITIONAL_URLS.
+ * Picked 2026-11-21 from GSC: homepage ≥ 1k impressions / 90 days. Google crawls this site ~10 URLs/day
+ * (Discovery 2%), so ~480 guide URLs sat in "Discovered – currently not indexed".
+ * The other GUIDES_LANGUAGES are still built, but `noindex, follow`, unlinked from their homepage and not in the sitemap.
+ */
+const GUIDES_INDEXED_LANGUAGES = [DEFAULT_LANGUAGE, 'ru', 'it', 'fr', 'de', 'ja', 'vi', 'nl', 'es', 'pl', 'tr'];
+const isGuidesIndexed = (lang) => GUIDES_INDEXED_LANGUAGES.includes(lang);
+const ROBOTS_INDEX = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+const ROBOTS_NOINDEX = 'noindex, follow';
 /** Site-relative guides hub path for a language, e.g. `guides/` or `ru/guides/` (no leading slash). */
 const guidesPathFor = (lang) => (lang === DEFAULT_LANGUAGE ? GUIDES_PATH : `${lang}/${GUIDES_PATH}`);
 
 const ADDITIONAL_URLS = [
     `${SITE_URL}llms.txt`,
     SITE_ABOUT_URL,
-    ...GUIDES_LANGUAGES.flatMap((lang) => [
+    ...GUIDES_INDEXED_LANGUAGES.flatMap((lang) => [
         `${SITE_URL}${guidesPathFor(lang)}`,
         ...require(`./guides/${lang}`).map((g) => `${SITE_URL}${guidesPathFor(lang)}${g.slug}/`)
     ])
@@ -241,5 +251,9 @@ module.exports = {
     LANDING_V2_LANGUAGES,
     GUIDES_PATH,
     GUIDES_LANGUAGES,
+    GUIDES_INDEXED_LANGUAGES,
+    isGuidesIndexed,
+    ROBOTS_INDEX,
+    ROBOTS_NOINDEX,
     guidesPathFor
 };

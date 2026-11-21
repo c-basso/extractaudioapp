@@ -22,6 +22,10 @@ const {
     SCHEMA_AGGREGATE_BEST_RATING,
     SCHEMA_AGGREGATE_WORST_RATING,
     GUIDES_LANGUAGES,
+    GUIDES_INDEXED_LANGUAGES,
+    isGuidesIndexed,
+    ROBOTS_INDEX,
+    ROBOTS_NOINDEX,
     SITE_ABOUT_URL,
     ORGANIZATION_ID,
     ORGANIZATION_LD,
@@ -79,10 +83,10 @@ function breadcrumbLd(items) {
     };
 }
 
-/** hreflang <link>s for a page that exists in several languages. `pathForLang(lang)` returns a site path or null. */
+/** hreflang <link>s between the indexed language versions of a page. `pathForLang(lang)` returns a site path or null. */
 function alternatesHtml(pathForLang) {
     const links = [];
-    for (const lang of GUIDES_LANGUAGES) {
+    for (const lang of GUIDES_INDEXED_LANGUAGES) {
         const p = pathForLang(lang);
         if (p) links.push(`    <link rel="alternate" hreflang="${lang}" href="${ABS(p)}" />`);
     }
@@ -253,6 +257,8 @@ async function buildGuidesForLang(lang, template, slugsByLang) {
     gui.dir = gui.dir || (lang === 'he' ? 'rtl' : 'ltr');
     const base = guidesPathFor(lang);
     const home = homePathFor(lang);
+    const indexed = isGuidesIndexed(lang);
+    const robots = indexed ? ROBOTS_INDEX : ROBOTS_NOINDEX;
 
     const ogImage = data.meta.og_image;
     const { width, height } = await readImageDimensions(path.join(ROOT, ogImage.replace(SITE_URL, '')));
@@ -296,7 +302,8 @@ async function buildGuidesForLang(lang, template, slugsByLang) {
             title: esc(g.title),
             description: esc(g.description),
             canonical: url,
-            alternates: alternatesHtml((l) => (slugsByLang[l] && slugsByLang[l].has(g.slug) ? `/${guidesPathFor(l)}${g.slug}/` : null)),
+            robots,
+            alternates: indexed ? alternatesHtml((l) => (slugsByLang[l] && slugsByLang[l].has(g.slug) ? `/${guidesPathFor(l)}${g.slug}/` : null)) : '',
             og_type: 'article',
             jsonld: jsonLdScripts(guideJsonLd(g, site, gui, crumbs, url, lang)),
             breadcrumbs: breadcrumbsHtml(crumbs),
@@ -354,7 +361,8 @@ async function buildGuidesForLang(lang, template, slugsByLang) {
             title: esc(gui.hub_title),
             description: esc(gui.hub_description),
             canonical: ABS(`/${base}`),
-            alternates: alternatesHtml((l) => (slugsByLang[l] ? `/${guidesPathFor(l)}` : null)),
+            robots,
+            alternates: indexed ? alternatesHtml((l) => (slugsByLang[l] ? `/${guidesPathFor(l)}` : null)) : '',
             og_type: 'website',
             jsonld: jsonLdScripts(hubLd),
             breadcrumbs: breadcrumbsHtml(hubCrumbs),

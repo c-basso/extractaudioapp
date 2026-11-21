@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { SITE_URL, URLS, DEFAULT_LANGUAGE, GUIDES_LANGUAGES, SITE_ABOUT_URL, guidesPathFor } = require('./constants');
+const { SITE_URL, URLS, DEFAULT_LANGUAGE, GUIDES_INDEXED_LANGUAGES, SITE_ABOUT_URL, guidesPathFor } = require('./constants');
 const { lastModified } = require('./lib/lastModified');
 
 (function main() {
@@ -35,14 +35,14 @@ const { lastModified } = require('./lib/lastModified');
     lines.push('  </url>');
     lines.push('');
   }
-  // Keyword guides: hub + one page per slug per language, with hreflang between languages sharing a slug.
+  // Keyword guides (indexed languages only, see GUIDES_INDEXED_LANGUAGES): hub + one page per slug per language, with hreflang between languages sharing a slug.
   const slugsByLang = Object.fromEntries(
-    GUIDES_LANGUAGES.map((lang) => [lang, new Set(require(`./guides/${lang}`).map((g) => g.slug))])
+    GUIDES_INDEXED_LANGUAGES.map((lang) => [lang, new Set(require(`./guides/${lang}`).map((g) => g.slug))])
   );
-  const allSlugs = [...new Set(GUIDES_LANGUAGES.flatMap((lang) => [...slugsByLang[lang]]))];
+  const allSlugs = [...new Set(GUIDES_INDEXED_LANGUAGES.flatMap((lang) => [...slugsByLang[lang]]))];
   const pages = [{ slug: null }, ...allSlugs.map((slug) => ({ slug }))];
   for (const { slug } of pages) {
-    const langs = GUIDES_LANGUAGES.filter((lang) => slug === null || slugsByLang[lang].has(slug));
+    const langs = GUIDES_INDEXED_LANGUAGES.filter((lang) => slug === null || slugsByLang[lang].has(slug));
     const urlFor = (lang) => `${SITE_URL}${guidesPathFor(lang)}${slug ? `${slug}/` : ''}`;
     for (const lang of langs) {
       const lastmod = lastModified([`build/guides/${lang}.js`]);
